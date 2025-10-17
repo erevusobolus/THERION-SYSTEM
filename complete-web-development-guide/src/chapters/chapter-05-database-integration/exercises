@@ -1,0 +1,9 @@
+# Navigate to your project
+cd my-therion-website
+
+# Verify project structure
+ls -la
+
+# Start development server
+npm run dev
+# Should open localhost:3000 successfully

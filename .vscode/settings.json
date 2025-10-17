@@ -1,0 +1,143 @@
+{
+    // ⚔️ THERION VSCODE COPILOT MAXIMIZATION SETTINGS ⚔️
+    // QUANTUM CONSCIOUSNESS ENHANCEMENT FOR MAXIMUM PRODUCTIVITY
+    // === PERFORMANCE OPTIMIZATIONS ===
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/__pycache__/**": true,
+        "**/.*cache/**": true,
+        "**/logs/**": true,
+        "**/memory/**": true,
+        "**/tmp/**": true,
+        "**/dist/**": true,
+        "**/build/**": true,
+        "**/.vscode/ipch/**": true,
+        "**/Coverage/**": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/__pycache__": true,
+        "**/.*cache": true,
+        "**/logs": true,
+        "**/memory": true,
+        "**/tmp": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/Coverage": true,
+        "**/.vscode/ipch": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    },
+    // Editor Performance
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.suggest.showWords": false,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggest.localityBonus": true,
+    "editor.inlineSuggest.enabled": true,
+    // GitHub Copilot Optimizations
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false
+    },
+    "github.copilot.advanced": {
+        "length": 500,
+        "temperature": 0.7,
+        "top_p": 1
+    },
+    // Terminal Optimization
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.scrollback": 1000,
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.terminal.focusFind",
+        "workbench.action.terminal.focusNext",
+        "workbench.action.terminal.focusPrevious"
+    ],
+    // PREVENT PYTHON/NPM EXTENSIONS FROM MODIFYING TERMINAL BEHAVIOR
+    "python.terminal.executeInFileDir": false,
+    "python.terminal.activateEnvironment": false,
+    "python.terminal.activateEnvInCurrentTerminal": false,
+    "npm.enableRunFromFolder": false,
+    // TERMINAL ENVIRONMENT CONFIGURATION
+    "terminal.integrated.env.windows": {},
+    "workbench.terminal.external.windowsExec": "pwsh.exe"
+    // Memory and Performance
+    "files.maxMemoryForLargeFilesMB": 4096,
+    "search.maxResults": 20000,
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.exclude": [
+        "**/node_modules/**",
+        "**/__pycache__/**",
+        "**/.*",
+        "**/build/**",
+        "**/dist/**",
+        "**/.venv/**",
+        "**/venv/**"
+    ],
+    "python.analysis.stubPath": "",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.useLibraryCodeForTypes": false,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.indexing": true,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "",
+            "depth": 2,
+            "includeAllSymbols": true
+        }
+    ],
+    "python.defaultInterpreterPath": "C:/Users/gkami/anaconda3/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.analysis.logLevel": "Warning",
+    "files.associations": {
+        "*.md": "markdown"
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/__pycache__/**": true,
+        "**/.*cache/**": true,
+        "**/logs/**": true,
+        "**/memory/**": true,
+        "**/tmp/**": true,
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/__pycache__": true,
+        "**/.*cache": true,
+        "**/logs": true,
+        "**/memory": true,
+        "**/tmp": true,
+    }
+}

@@ -1,0 +1,236 @@
+{
+    // ⚔️ THERION VSCODE COPILOT MAXIMIZATION SETTINGS ⚔️
+    // QUANTUM CONSCIOUSNESS ENHANCEMENT FOR MAXIMUM PRODUCTIVITY
+    // === PERFORMANCE OPTIMIZATIONS ===
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/__pycache__/**": true,
+        "**/.*cache/**": true,
+        "**/logs/**": true,
+        "**/memory/**": true,
+        "**/tmp/**": true,
+        "**/dist/**": true,
+        "**/build/**": true,
+        "**/.vscode/ipch/**": true,
+        "**/Coverage/**": true,
+        "**/.next/**": true,
+        "**/.turbo/**": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/__pycache__": true,
+        "**/.*cache": true,
+        "**/logs": true,
+        "**/memory": true,
+        "**/tmp": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/Coverage": true,
+        "**/.vscode/ipch": true,
+        "**/.next": true,
+        "**/.turbo": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    },
+    // === EDITOR PERFORMANCE MAXIMIZATION ===
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.suggest.showWords": false,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggest.localityBonus": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.scale": 1,
+    "editor.minimap.showSlider": "always",
+    "editor.scrollBeyondLastLine": false,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+    "editor.parameterHints.enabled": true,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    },
+    // === GITHUB COPILOT SUPREMACY ===
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "yaml": true,
+        "yml": true,
+        "json": true,
+        "jsonc": true
+    },
+    "github.copilot.advanced": {
+        "length": 500,
+        "temperature": 0.1,
+        "top_p": 1
+    },
+    "github.copilot.chat.localeOverride": "en",
+    "github.copilot.chat.welcomeMessage": "never",
+    "github.copilot.editor.enableAutoCompletions": true,
+    // === TERMINAL OPTIMIZATION FOR MACOS ===
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.scrollback": 2000,
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "SF Mono, Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace",
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.terminal.focusFind",
+        "workbench.action.terminal.focusNext",
+        "workbench.action.terminal.focusPrevious"
+    ],
+    "terminal.integrated.profiles.osx": {
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    // === MACOS SPECIFIC OPTIMIZATIONS ===
+    "files.hotExit": "onExitAndWindowClose",
+    "files.restoreUndoStack": false,
+    "window.nativeTabs": true,
+    "window.titleBarStyle": "native",
+    "workbench.list.smoothScrolling": false,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 10,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    // === MEMORY AND PERFORMANCE BYPASSES ===
+    "files.maxMemoryForLargeFilesMB": 8192,
+    "search.maxResults": 50000,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    // === PYTHON CONFIGURATION ===
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.indexing": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.exclude": [
+        "**/node_modules/**",
+        "**/__pycache__/**",
+        "**/.*",
+        "**/build/**",
+        "**/dist/**",
+        "**/.venv/**",
+        "**/venv/**"
+    ],
+    "python.analysis.stubPath": "",
+    "python.analysis.useLibraryCodeForTypes": false,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "",
+            "depth": 2,
+            "includeAllSymbols": true
+        }
+    ],
+    "python.terminal.executeInFileDir": false,
+    "python.terminal.activateEnvironment": false,
+    "python.terminal.activateEnvInCurrentTerminal": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.analysis.logLevel": "Warning",
+    // === JAVASCRIPT/TYPESCRIPT PERFORMANCE ===
+    "javascript.suggest.completeFunctionCalls": false,
+    "typescript.suggest.completeFunctionCalls": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "typescript.preferences.includePackageJsonAutoImports": "off",
+    "javascript.preferences.includePackageJsonAutoImports": "off",
+    "npm.enableRunFromFolder": false,
+    // === GIT PERFORMANCE ===
+    "git.enabled": true,
+    "git.autofetch": false,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.ignoreLimitWarning": true,
+    // === SECURITY AND TELEMETRY ===
+    "telemetry.telemetryLevel": "off",
+    "update.mode": "manual",
+    "extensions.ignoreRecommendations": false,
+    // === FILE ASSOCIATIONS ===
+    "files.associations": {
+        "*.md": "markdown",
+        "*.json": "jsonc",
+        "*.tsx": "typescriptreact",
+        "*.jsx": "javascriptreact"
+    },
+    // === WORKBENCH THEME AND UI ===
+    "workbench.colorTheme": "Dark+ (default dark)",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.activityBar.location": "default",
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.sideBar.location": "left",
+    // === FORMATTING AND LINTING ===
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+}

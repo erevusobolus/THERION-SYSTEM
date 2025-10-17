@@ -1,0 +1,123 @@
+{
+    // Performance Optimizations
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/__pycache__/**": true,
+        "**/.*cache/**": true,
+        "**/logs/**": true,
+        "**/memory/**": true,
+        "**/tmp/**": true,
+        "**/dist/**": true,
+        "**/build/**": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/__pycache__": true,
+        "**/.*cache": true,
+        "**/logs": true,
+        "**/memory": true,
+        "**/tmp": true,
+        "**/dist": true,
+        "**/build": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.pyc": true
+    },
+    // Editor Performance
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.suggest.showWords": false,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggest.localityBonus": true,
+    "editor.inlineSuggest.enabled": true,
+    // GitHub Copilot Optimizations
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false
+    },
+    "github.copilot.advanced": {
+        "length": 500,
+        "temperature": 0.7,
+        "top_p": 1
+    },
+    // Workbench Performance
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 8,
+    "workbench.list.smoothScrolling": false,
+    // Terminal Optimization
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.scrollback": 1000,
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.terminal.focusFind",
+        "workbench.action.terminal.focusNext",
+        "workbench.action.terminal.focusPrevious"
+    ],
+    // MacOS Specific
+    "files.hotExit": "onExitAndWindowClose",
+    "files.restoreUndoStack": false,
+    "window.nativeTabs": true,
+    "window.titleBarStyle": "native",
+    // TypeScript/JavaScript Performance
+    "javascript.suggest.completeFunctionCalls": false,
+    "typescript.suggest.completeFunctionCalls": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    // Git Performance
+    "git.enabled": true,
+    "git.autofetch": false,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    // Python Settings
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.indexing": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.exclude": [
+        "**/node_modules/**",
+        "**/__pycache__/**",
+        "**/.*",
+        "**/build/**",
+        "**/dist/**",
+        "**/.venv/**",
+        "**/venv/**"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.terminal.activateEnvironment": false,
+    "python.terminal.executeInFileDir": false,
+    // Memory Management
+    "files.maxMemoryForLargeFilesMB": 4096,
+    "search.maxResults": 20000,
+    // Telemetry and Updates
+    "telemetry.telemetryLevel": "off",
+    "update.mode": "manual",
+    // File Associations
+    "files.associations": {
+        "*.md": "markdown"
+    }
+}

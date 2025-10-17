@@ -1,0 +1,2280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinesisNow - Professional Leadership Development | Danai Leventakou</title>
+    <meta name="description"
+        content="Transform your team through emotional intelligence, decision-making, and communication excellence. Professional workshops and coaching by Danai Leventakou at KinesisNow.">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+            color: #ffffff;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, #3b82f6, #06b6d4, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .btn-hover {
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-hover:hover {
+            transform: translateY(-2px) scale(1.05);
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-pulse-slow {
+            animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        .animate-bounce-slow {
+            animation: bounce 3s infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .delay-1 {
+            animation-delay: 0.2s;
+        }
+
+        .delay-2 {
+            animation-delay: 0.4s;
+        }
+
+        .delay-3 {
+            animation-delay: 0.6s;
+        }
+
+        .delay-4 {
+            animation-delay: 0.8s;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgb(30, 41, 59);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgb(71, 85, 105);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(100, 116, 139);
+        }
+
+        /* Mobile menu transition */
+        .mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .mobile-menu.open {
+            transform: translateX(0);
+        }
+
+        /* Particle animation */
+        .particle {
+            position: absolute;
+            background: rgba(148, 163, 184, 0.3);
+            border-radius: 50%;
+            pointer-events: none;
+            animation: particle-float 8s linear infinite;
+        }
+
+        @keyframes particle-float {
+            0% {
+                transform: translateY(100vh) translateX(0);
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 1;
+            }
+
+            90% {
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(-100vh) translateX(100px);
+                opacity: 0;
+            }
+        }
+
+        /* Professional hover effects */
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .card-hover:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Section spacing */
+        .section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 5rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                min-height: 80vh;
+                padding: 3rem 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Animated Background Particles -->
+    <div id="particles-container" class="fixed inset-0 pointer-events-none z-0"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 transition-all duration-500" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+
+                <!-- Logo -->
+                <div class="flex items-center space-x-3 group cursor-pointer">
+                    <div class="relative">
+                        <div
+                            class="w-12 h-12 bg-gradient-to-r from-blue-500 via-cyan-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300">
+                            <span class="text-white font-black text-xl">K</span>
+                        </div>
+                        <div
+                            class="absolute -top-1 -right-1 w-4 h-4 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full flex items-center justify-center">
+                            <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+                        </div>
+                    </div>
+                    <div class="hidden sm:block">
+                        <h1 class="text-2xl font-black text-white group-hover:text-blue-300 transition-colors">
+                            KINESISNOW
+                        </h1>
+                        <p class="text-xs text-slate-400 font-medium tracking-wide">
+                            LEADERSHIP DEVELOPMENT
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex items-center space-x-1">
+                    <a href="#home"
+                        class="nav-link px-4 py-2 rounded-xl font-semibold text-sm text-blue-300 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 shadow-lg">Home</a>
+                    <a href="#workshops"
+                        class="nav-link px-4 py-2 rounded-xl font-semibold text-sm text-slate-300 hover:text-white hover:bg-slate-800/50">Workshops</a>
+                    <a href="#coaching"
+                        class="nav-link px-4 py-2 rounded-xl font-semibold text-sm text-slate-300 hover:text-white hover:bg-slate-800/50">Coaching</a>
+                    <a href="#testimonials"
+                        class="nav-link px-4 py-2 rounded-xl font-semibold text-sm text-slate-300 hover:text-white hover:bg-slate-800/50">Success</a>
+                    <a href="#about"
+                        class="nav-link px-4 py-2 rounded-xl font-semibold text-sm text-slate-300 hover:text-white hover:bg-slate-800/50">About</a>
+                    <a href="#contact"
+                        class="nav-link px-4 py-2 rounded-xl font-semibold text-sm text-slate-300 hover:text-white hover:bg-slate-800/50">Contact</a>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="hidden lg:flex items-center space-x-3">
+                    <button
+                        class="bg-gradient-to-r from-slate-600 via-slate-500 to-slate-600 hover:from-slate-500 hover:via-slate-400 hover:to-slate-500 text-white px-6 py-2.5 rounded-xl font-bold text-sm transition-all duration-300 btn-hover shadow-lg">
+                        BOOK SESSION
+                    </button>
+
+                    <div
+                        class="flex items-center space-x-2 glass rounded-xl px-3 py-2.5 transition-all duration-300 cursor-pointer hover:bg-slate-700/50">
+                        <div class="w-4 h-4 text-slate-400">🌐</div>
+                        <span class="text-slate-300 text-sm font-medium">EN</span>
+                        <div class="w-3 h-3 text-slate-400">▼</div>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button
+                    class="lg:hidden relative w-10 h-10 glass rounded-xl flex items-center justify-center transition-all duration-300"
+                    id="mobile-menu-button">
+                    <div class="w-5 h-5 text-white" id="menu-icon">☰</div>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="fixed inset-0 z-40 lg:hidden mobile-menu" id="mobile-menu">
+        <div class="absolute inset-0 bg-slate-950/90 backdrop-blur-md"></div>
+        <div
+            class="absolute right-0 top-0 h-full w-80 max-w-sm bg-gradient-to-b from-slate-900/95 to-slate-950/95 backdrop-blur-xl border-l border-slate-800/50 shadow-2xl">
+            <div class="flex flex-col h-full">
+                <div class="flex items-center justify-between p-6 border-b border-slate-800/50">
+                    <div class="flex items-center space-x-3">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-r from-blue-500 via-cyan-500 to-purple-600 rounded-xl flex items-center justify-center">
+                            <span class="text-white font-black text-lg">K</span>
+                        </div>
+                        <div>
+                            <h2 class="text-lg font-bold text-white">KINESISNOW</h2>
+                            <p class="text-xs text-slate-400">LEADERSHIP DEVELOPMENT</p>
+                        </div>
+                    </div>
+                    <button class="w-8 h-8 glass rounded-lg flex items-center justify-center" id="mobile-close">
+                        ✕
+                    </button>
+                </div>
+
+                <div class="flex-1 px-6 py-6 space-y-2">
+                    <a href="#home"
+                        class="mobile-nav-link w-full flex items-center space-x-3 p-4 rounded-xl font-semibold transition-all duration-300 text-blue-300 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 border border-blue-500/30">
+                        <div
+                            class="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center">
+                            <span class="text-white text-sm">🏠</span>
+                        </div>
+                        <span class="text-lg">Home</span>
+                    </a>
+                    <a href="#workshops"
+                        class="mobile-nav-link w-full flex items-center space-x-3 p-4 rounded-xl font-semibold transition-all duration-300 text-slate-300 hover:text-white hover:bg-slate-800/50">
+                        <div class="w-8 h-8 bg-slate-700/50 rounded-lg flex items-center justify-center">
+                            <span class="text-white text-sm">📚</span>
+                        </div>
+                        <span class="text-lg">Workshops</span>
+                    </a>
+                    <a href="#coaching"
+                        class="mobile-nav-link w-full flex items-center space-x-3 p-4 rounded-xl font-semibold transition-all duration-300 text-slate-300 hover:text-white hover:bg-slate-800/50">
+                        <div class="w-8 h-8 bg-slate-700/50 rounded-lg flex items-center justify-center">
+                            <span class="text-white text-sm">👥</span>
+                        </div>
+                        <span class="text-lg">Coaching</span>
+                    </a>
+                    <a href="#testimonials"
+                        class="mobile-nav-link w-full flex items-center space-x-3 p-4 rounded-xl font-semibold transition-all duration-300 text-slate-300 hover:text-white hover:bg-slate-800/50">
+                        <div class="w-8 h-8 bg-slate-700/50 rounded-lg flex items-center justify-center">
+                            <span class="text-white text-sm">⭐</span>
+                        </div>
+                        <span class="text-lg">Success Stories</span>
+                    </a>
+                    <a href="#about"
+                        class="mobile-nav-link w-full flex items-center space-x-3 p-4 rounded-xl font-semibold transition-all duration-300 text-slate-300 hover:text-white hover:bg-slate-800/50">
+                        <div class="w-8 h-8 bg-slate-700/50 rounded-lg flex items-center justify-center">
+                            <span class="text-white text-sm">👤</span>
+                        </div>
+                        <span class="text-lg">About</span>
+                    </a>
+                    <a href="#contact"
+                        class="mobile-nav-link w-full flex items-center space-x-3 p-4 rounded-xl font-semibold transition-all duration-300 text-slate-300 hover:text-white hover:bg-slate-800/50">
+                        <div class="w-8 h-8 bg-slate-700/50 rounded-lg flex items-center justify-center">
+                            <span class="text-white text-sm">📧</span>
+                        </div>
+                        <span class="text-lg">Contact</span>
+                    </a>
+                </div>
+
+                <div class="p-6 border-t border-slate-800/50 space-y-4">
+                    <button
+                        class="w-full bg-gradient-to-r from-slate-600 via-slate-500 to-slate-600 hover:from-slate-500 hover:via-slate-400 hover:to-slate-500 text-white px-6 py-3 rounded-xl font-bold transition-all duration-300 btn-hover">
+                        BOOK A SESSION
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="section relative overflow-hidden">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 opacity-40">
+            <div
+                class="absolute top-20 left-20 w-96 h-96 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 rounded-full blur-3xl animate-pulse-slow">
+            </div>
+            <div class="absolute bottom-20 right-20 w-80 h-80 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-full blur-3xl animate-pulse-slow"
+                style="animation-delay: 2s;"></div>
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-r from-purple-500/20 to-blue-500/20 rounded-full blur-3xl animate-pulse-slow"
+                style="animation-delay: 4s;"></div>
+        </div>
+
+        <!-- Grid Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0"
+                style="background-image: radial-gradient(circle at 2px 2px, rgba(148,163,184,0.4) 1px, transparent 0); background-size: 50px 50px;">
+            </div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+            <div class="grid lg:grid-cols-2 gap-16 items-center min-h-[90vh]">
+
+                <!-- Left Column - Content -->
+                <div class="space-y-8 text-center lg:text-left">
+
+                    <!-- Professional Badge -->
+                    <div class="flex justify-center lg:justify-start fade-in-up">
+                        <div class="inline-flex items-center space-x-3 glass rounded-full px-6 py-3 shadow-xl">
+                            <div class="w-5 h-5 text-slate-400 animate-pulse">👥</div>
+                            <span class="text-slate-200 font-bold text-sm sm:text-base tracking-wide">
+                                LEADERSHIP DEVELOPMENT SPECIALIST
+                            </span>
+                            <div class="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
+                        </div>
+                    </div>
+
+                    <!-- Main Headlines -->
+                    <div class="space-y-4 fade-in-up delay-1">
+                        <h1
+                            class="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black leading-tight tracking-tight">
+                            <span class="block text-gradient">SOFT SKILLS</span>
+                            <span class="block text-slate-300 text-4xl sm:text-5xl lg:text-6xl font-bold">&</span>
+                            <span
+                                class="block bg-gradient-to-r from-blue-400 via-cyan-500 to-blue-600 bg-clip-text text-transparent">LEADERSHIP</span>
+                            <span
+                                class="block text-slate-300 text-3xl sm:text-4xl lg:text-5xl font-bold mt-2">DEVELOPMENT</span>
+                        </h1>
+                    </div>
+
+                    <!-- Value Proposition -->
+                    <div class="space-y-6 fade-in-up delay-2">
+                        <div class="text-center lg:text-left">
+                            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">
+                                Clear communication. Better decisions. Stronger teams. Confidence.
+                            </h2>
+                        </div>
+                        <p
+                            class="text-lg sm:text-xl lg:text-2xl text-slate-300 leading-relaxed font-medium max-w-2xl mx-auto lg:mx-0">
+                            <span class="text-blue-400 font-semibold">Practical workshops</span> rooted in emotional
+                            intelligence,
+                            <span class="text-cyan-400 font-semibold">shared reflection</span>, and collaborative action
+                        </p>
+
+                        <div
+                            class="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-6 text-sm">
+                            <div class="flex items-center space-x-2 glass rounded-full px-4 py-2">
+                                <span class="text-slate-400">📍</span>
+                                <span class="text-slate-300 font-medium">Based in France</span>
+                            </div>
+                            <div class="flex items-center space-x-2 glass rounded-full px-4 py-2">
+                                <span class="text-slate-400">🌎</span>
+                                <span class="text-slate-300 font-medium">In person & Online</span>
+                            </div>
+                            <div class="flex items-center space-x-2 glass rounded-full px-4 py-2">
+                                <span class="text-slate-400">�</span>
+                                <span class="text-slate-300 font-medium">EN / FR</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Professional Value Statement -->
+                    <div class="glass rounded-2xl p-6 shadow-xl fade-in-up delay-3">
+                        <div class="flex items-start space-x-4">
+                            <div
+                                class="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <span class="text-white text-xl">🏆</span>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-semibold text-lg mb-2">Expert-Led Development</h3>
+                                <p class="text-slate-300 text-sm leading-relaxed">
+                                    Clear communication. Better decisions. Stronger teams. Guided by
+                                    <span class="text-blue-400 font-medium">Danai Leventakou</span>, specialist in
+                                    learning sciences,
+                                    psychology, and somatics with <span class="text-cyan-400 font-medium">10+
+                                        years</span> of experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4 fade-in-up delay-4">
+                        <button
+                            class="group bg-gradient-to-r from-slate-600 via-slate-500 to-slate-600 hover:from-slate-500 hover:via-slate-400 hover:to-slate-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-500 flex items-center justify-center space-x-3 shadow-2xl btn-hover">
+                            <span>📅</span>
+                            <span>BOOK A SESSION</span>
+                            <span class="group-hover:translate-x-1 transition-transform">→</span>
+                        </button>
+
+                        <button
+                            class="group border-2 border-slate-500 hover:bg-slate-500/10 hover:border-slate-400 text-slate-300 hover:text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 flex items-center justify-center space-x-3">
+                            <span>📚</span>
+                            <span>EXPLORE WORKSHOPS</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right Column - Interactive Visual -->
+                <div class="relative flex items-center justify-center mt-12 lg:mt-0 fade-in-up delay-2">
+                    <div class="relative w-full max-w-lg">
+
+                        <!-- Central Professional Hub -->
+                        <div class="relative z-10 card-hover">
+                            <div
+                                class="w-full aspect-square glass rounded-3xl shadow-2xl p-8 transform rotate-2 hover:rotate-0 transition-all duration-1000">
+
+                                <!-- Inner Content -->
+                                <div class="h-full flex flex-col items-center justify-center space-y-6 text-center">
+
+                                    <!-- Professional Avatar -->
+                                    <div class="relative">
+                                        <div
+                                            class="w-20 h-20 bg-gradient-to-r from-slate-600 via-slate-500 to-slate-700 rounded-2xl flex items-center justify-center shadow-lg">
+                                            <span class="text-white font-black text-2xl">D</span>
+                                        </div>
+                                        <div
+                                            class="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full flex items-center justify-center">
+                                            <div class="w-3 h-3 bg-white rounded-full animate-pulse"></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Professional Identity -->
+                                    <div class="space-y-2">
+                                        <h3 class="text-xl font-bold text-white">Danai Leventakou</h3>
+                                        <p class="text-slate-400 text-sm">Learning & Skills Development</p>
+                                        <p class="text-slate-300 text-xs">Psychology • Somatics • Coaching</p>
+                                    </div>
+
+                                    <!-- Service Icons Grid -->
+                                    <div class="grid grid-cols-3 gap-4 w-full">
+                                        <div
+                                            class="bg-gradient-to-r from-blue-500 to-cyan-500 p-4 rounded-xl shadow-lg cursor-pointer group hover:scale-110 transition-transform">
+                                            <div class="text-2xl text-white mx-auto mb-2">🧠</div>
+                                            <p class="text-white text-xs font-medium">Emotional Intelligence</p>
+                                        </div>
+                                        <div
+                                            class="bg-gradient-to-r from-cyan-500 to-blue-600 p-4 rounded-xl shadow-lg cursor-pointer group hover:scale-110 transition-transform">
+                                            <div class="text-2xl text-white mx-auto mb-2">🎯</div>
+                                            <p class="text-white text-xs font-medium">Decision Making</p>
+                                        </div>
+                                        <div
+                                            class="bg-gradient-to-r from-blue-600 to-purple-600 p-4 rounded-xl shadow-lg cursor-pointer group hover:scale-110 transition-transform">
+                                            <div class="text-2xl text-white mx-auto mb-2">💬</div>
+                                            <p class="text-white text-xs font-medium">Communication</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Professional Quote -->
+                                    <blockquote class="text-slate-300 text-sm italic text-center leading-relaxed">
+                                        "Creating personalised learning experiences that focus on reflection, growth,
+                                        and clarity."
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Skill Badges -->
+                        <div class="absolute -top-6 -left-6 glass rounded-xl p-3 shadow-lg animate-float">
+                            <div class="text-2xl text-blue-400">🧠</div>
+                        </div>
+
+                        <div class="absolute -bottom-6 -right-6 glass rounded-xl p-3 shadow-lg animate-float"
+                            style="animation-delay: 2s;">
+                            <div class="text-2xl text-cyan-400">🎯</div>
+                        </div>
+
+                        <div class="absolute top-1/2 -left-8 glass rounded-full p-2 shadow-lg animate-bounce-slow">
+                            <div class="text-lg text-purple-400">❤️</div>
+                        </div>
+
+                        <div class="absolute top-1/2 -right-8 glass rounded-full p-2 shadow-lg animate-bounce-slow"
+                            style="animation-delay: 1.5s;">
+                            <div class="text-lg text-cyan-400">👁️</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Stats Section -->
+            <div class="mt-20 pt-12 border-t border-slate-800/50 fade-in-up">
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="text-center group cursor-pointer card-hover">
+                        <div class="flex items-center justify-center mb-3">
+                            <div
+                                class="w-12 h-12 glass rounded-xl flex items-center justify-center group-hover:border-slate-500/50 transition-all duration-300">
+                                <span class="text-2xl">👥</span>
+                            </div>
+                        </div>
+                        <div class="text-2xl lg:text-3xl font-bold text-white mb-1">500+</div>
+                        <div class="text-slate-400 text-sm font-medium">Professionals Trained</div>
+                    </div>
+
+                    <div class="text-center group cursor-pointer card-hover">
+                        <div class="flex items-center justify-center mb-3">
+                            <div
+                                class="w-12 h-12 glass rounded-xl flex items-center justify-center group-hover:border-slate-500/50 transition-all duration-300">
+                                <span class="text-2xl">🏆</span>
+                            </div>
+                        </div>
+                        <div class="text-2xl lg:text-3xl font-bold text-white mb-1">50+</div>
+                        <div class="text-slate-400 text-sm font-medium">Organizations Served</div>
+                    </div>
+
+                    <div class="text-center group cursor-pointer card-hover">
+                        <div class="flex items-center justify-center mb-3">
+                            <div
+                                class="w-12 h-12 glass rounded-xl flex items-center justify-center group-hover:border-slate-500/50 transition-all duration-300">
+                                <span class="text-2xl">📈</span>
+                            </div>
+                        </div>
+                        <div class="text-2xl lg:text-3xl font-bold text-white mb-1">10+</div>
+                        <div class="text-slate-400 text-sm font-medium">Years Experience</div>
+                    </div>
+
+                    <div class="text-center group cursor-pointer card-hover">
+                        <div class="flex items-center justify-center mb-3">
+                            <div
+                                class="w-12 h-12 glass rounded-xl flex items-center justify-center group-hover:border-slate-500/50 transition-all duration-300">
+                                <span class="text-2xl">⭐</span>
+                            </div>
+                        </div>
+                        <div class="text-2xl lg:text-3xl font-bold text-white mb-1">90%</div>
+                        <div class="text-slate-400 text-sm font-medium">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Gradient Fade -->
+        <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-slate-950 to-transparent"></div>
+    </section>
+
+    <!-- Workshops Section -->
+    <section id="workshops" class="section relative overflow-hidden">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 opacity-20">
+            <div
+                class="absolute top-10 right-20 w-72 h-72 bg-gradient-to-r from-blue-500/30 to-cyan-500/30 rounded-full blur-3xl animate-pulse-slow">
+            </div>
+            <div class="absolute bottom-20 left-20 w-96 h-96 bg-gradient-to-r from-cyan-500/30 to-purple-500/30 rounded-full blur-3xl animate-pulse-slow"
+                style="animation-delay: 3s;"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Section Header -->
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-5xl sm:text-6xl lg:text-7xl font-black mb-6">
+                    <span class="text-gradient">WORKSHOPS</span>
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">For professionals working in teams</h3>
+                    <p class="text-xl text-slate-300 leading-relaxed">
+                        Soft skills aren't optional. They build trust, boost confidence, and drive collaboration,
+                        fueling growth at every level.
+                    </p>
+                    <p class="text-lg text-slate-400">
+                        <span class="text-blue-400 font-semibold">Clear, practical and interactive.</span>
+                        Half-day or full-day sessions focused on communication under pressure, team decision-making, and
+                        emotional intelligence.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Workshop Features -->
+            <div class="grid md:grid-cols-3 gap-6 mb-16 fade-in-up delay-1">
+                <div class="glass rounded-2xl p-6 card-hover text-center">
+                    <div class="text-4xl mb-4">🕒</div>
+                    <h4 class="text-lg font-semibold text-white mb-2">Flexible Timing</h4>
+                    <p class="text-slate-400 text-sm">Half-day (3-4 hours) or full-day sessions</p>
+                </div>
+                <div class="glass rounded-2xl p-6 card-hover text-center">
+                    <div class="text-4xl mb-4">👥</div>
+                    <h4 class="text-lg font-semibold text-white mb-2">Tailored Format</h4>
+                    <p class="text-slate-400 text-sm">Built around your goals, format, and group size</p>
+                </div>
+                <div class="glass rounded-2xl p-6 card-hover text-center">
+                    <div class="text-4xl mb-4">🌍</div>
+                    <h4 class="text-lg font-semibold text-white mb-2">Global Delivery</h4>
+                    <p class="text-slate-400 text-sm">In-person or online • EN / FR</p>
+                </div>
+            </div>
+
+            <!-- Workshop Cards -->
+            <div class="grid lg:grid-cols-3 gap-8 fade-in-up delay-2">
+
+                <!-- Emotional Intelligence Workshop -->
+                <div class="glass rounded-3xl overflow-hidden shadow-2xl card-hover">
+                    <div class="relative">
+                        <div class="bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-700 p-8 text-center">
+                            <div class="text-6xl mb-4">🧠</div>
+                            <h3 class="text-2xl font-bold text-white mb-2">Emotional Intelligence</h3>
+                            <p class="text-blue-100 font-medium">Training Workshop for Teams & Leaders</p>
+                        </div>
+                    </div>
+
+                    <div class="p-8 space-y-6">
+                        <p class="text-slate-300 leading-relaxed">
+                            A high-impact, half-day training designed to strengthen emotional intelligence in the
+                            workplace —
+                            helping teams communicate under pressure, lead with empathy, and foster real human
+                            connection.
+                        </p>
+
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <span class="text-blue-400">⏱</span>
+                                <span class="text-slate-300 font-medium">Duration: Half-day (3-4 hours)</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <span class="text-cyan-400">🌍</span>
+                                <span class="text-slate-300 font-medium">Languages: English • French support</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <span class="text-purple-400">📋</span>
+                                <span class="text-slate-300 font-medium">Format: Interactive activities &
+                                    coaching</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 border-t border-slate-700/50">
+                            <div class="flex flex-col sm:flex-row gap-3">
+                                <a href="https://www.kinesisnow.com/_files/ugd/c648a4_b39938123f4949dfa08ef5c078f50bfa.pdf"
+                                    target="_blank" rel="noopener"
+                                    class="flex-1 bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg font-semibold text-sm text-center transition-all duration-300">
+                                    📄 Brochure - EN
+                                </a>
+                                <a href="https://www.kinesisnow.com/_files/ugd/c648a4_3315e650bc9b4a99862bd7e3229f9902.pdf"
+                                    target="_blank" rel="noopener"
+                                    class="flex-1 border border-blue-500 hover:bg-blue-500/10 text-blue-300 hover:text-white px-4 py-2 rounded-lg font-semibold text-sm text-center transition-all duration-300">
+                                    📄 Brochure - FR
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Decision Making Workshop -->
+                <div class="glass rounded-3xl overflow-hidden shadow-2xl card-hover">
+                    <div class="relative">
+                        <div class="bg-gradient-to-br from-cyan-600 via-blue-500 to-cyan-700 p-8 text-center">
+                            <div class="text-6xl mb-4">🎯</div>
+                            <h3 class="text-2xl font-bold text-white mb-2">Decision Making</h3>
+                            <p class="text-cyan-100 font-medium">Training Workshop for Teams & Leaders</p>
+                        </div>
+                    </div>
+
+                    <div class="p-8 space-y-6">
+                        <p class="text-slate-300 leading-relaxed">
+                            A hands-on, half-day workshop designed to help professionals make clear decisions,
+                            set boundaries, and act with intention — even under pressure.
+                        </p>
+
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <span class="text-cyan-400">⏱</span>
+                                <span class="text-slate-300 font-medium">Duration: Half-day (3-4 hours)</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <span class="text-blue-400">🌍</span>
+                                <span class="text-slate-300 font-medium">Languages: English • French support</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <span class="text-purple-400">📋</span>
+                                <span class="text-slate-300 font-medium">Format: Reflective tools & active
+                                    learning</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 border-t border-slate-700/50">
+                            <div class="flex flex-col sm:flex-row gap-3">
+                                <a href="https://www.kinesisnow.com/_files/ugd/c648a4_93ae44047f9246bb9169272718c5b188.pdf"
+                                    target="_blank" rel="noopener"
+                                    class="flex-1 bg-cyan-600 hover:bg-cyan-500 text-white px-4 py-2 rounded-lg font-semibold text-sm text-center transition-all duration-300">
+                                    📄 Brochure - EN
+                                </a>
+                                <a href="https://www.kinesisnow.com/_files/ugd/c648a4_bd08db6af2984b63b7ef92a8e706833b.pdf"
+                                    target="_blank" rel="noopener"
+                                    class="flex-1 border border-cyan-500 hover:bg-cyan-500/10 text-cyan-300 hover:text-white px-4 py-2 rounded-lg font-semibold text-sm text-center transition-all duration-300">
+                                    📄 Brochure - FR
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Communication Under Pressure Workshop -->
+                <div class="glass rounded-3xl overflow-hidden shadow-2xl card-hover">
+                    <div class="relative">
+                        <div class="bg-gradient-to-br from-purple-600 via-blue-500 to-purple-700 p-8 text-center">
+                            <div class="text-6xl mb-4">💬</div>
+                            <h3 class="text-2xl font-bold text-white mb-2">Communication</h3>
+                            <p class="text-purple-100 font-medium">Under Pressure Training</p>
+                        </div>
+                    </div>
+
+                    <div class="p-8 space-y-6">
+                        <p class="text-slate-300 leading-relaxed">
+                            A practical, half-day workshop designed to help professionals speak clearly, calmly,
+                            and confidently — even in high-pressure situations.
+                        </p>
+
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <span class="text-purple-400">⏱</span>
+                                <span class="text-slate-300 font-medium">Duration: Half-day (3-4 hours)</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <span class="text-blue-400">🌍</span>
+                                <span class="text-slate-300 font-medium">Languages: English • French support</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <span class="text-cyan-400">📋</span>
+                                <span class="text-slate-300 font-medium">Format: Interactive activities &
+                                    simulations</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 border-t border-slate-700/50">
+                            <div class="flex flex-col sm:flex-row gap-3">
+                                <a href="https://www.kinesisnow.com/_files/ugd/c648a4_6c8f7a0b335e4047a2a62370c1fd0228.pdf"
+                                    target="_blank" rel="noopener"
+                                    class="flex-1 bg-purple-600 hover:bg-purple-500 text-white px-4 py-2 rounded-lg font-semibold text-sm text-center transition-all duration-300">
+                                    📄 Brochure - EN
+                                </a>
+                                <a href="https://www.kinesisnow.com/_files/ugd/c648a4_02eaf5a053f341b89033bd63c924223f.pdf"
+                                    target="_blank" rel="noopener"
+                                    class="flex-1 border border-purple-500 hover:bg-purple-500/10 text-purple-300 hover:text-white px-4 py-2 rounded-lg font-semibold text-sm text-center transition-all duration-300">
+                                    📄 Brochure - FR
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Workshop Features List -->
+            <div class="mt-16 glass rounded-3xl p-8 fade-in-up delay-3">
+                <h4 class="text-2xl font-bold text-white mb-6 text-center">Workshop Methodology</h4>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl mb-3">⚙️</div>
+                        <h5 class="text-white font-semibold mb-2">Reflective Tools</h5>
+                        <p class="text-slate-400 text-sm">Evidence-based methods for self-awareness</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl mb-3">🎯</div>
+                        <h5 class="text-white font-semibold mb-2">Active Learning</h5>
+                        <p class="text-slate-400 text-sm">Interactive methods and group activities</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl mb-3">👥</div>
+                        <h5 class="text-white font-semibold mb-2">Coaching-Style</h5>
+                        <p class="text-slate-400 text-sm">Human-centered facilitation approach</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl mb-3">💡</div>
+                        <h5 class="text-white font-semibold mb-2">Learning Strategies</h5>
+                        <p class="text-slate-400 text-sm">Engaging, experiential learning design</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="text-center mt-16 fade-in-up delay-4">
+                <h3 class="text-3xl font-bold text-white mb-6">Ready to Transform Your Team?</h3>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button
+                        class="bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 hover:from-blue-500 hover:via-cyan-400 hover:to-blue-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 btn-hover shadow-2xl">
+                        📅 BOOK A WORKSHOP
+                    </button>
+                    <button
+                        class="border-2 border-cyan-500 hover:bg-cyan-500/10 hover:border-cyan-400 text-cyan-300 hover:text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300">
+                        💬 DISCUSS CUSTOM SOLUTIONS
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Coaching Section -->
+    <section id="coaching" class="section relative overflow-hidden">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 opacity-20">
+            <div
+                class="absolute top-20 left-10 w-80 h-80 bg-gradient-to-r from-purple-500/30 to-cyan-500/30 rounded-full blur-3xl animate-pulse-slow">
+            </div>
+            <div class="absolute bottom-10 right-10 w-96 h-96 bg-gradient-to-r from-blue-500/30 to-purple-500/30 rounded-full blur-3xl animate-pulse-slow"
+                style="animation-delay: 2s;"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Section Header -->
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-5xl sm:text-6xl lg:text-7xl font-black mb-6">
+                    <span class="text-gradient">TEAM COACHING</span>
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">Space to reflect, realign, and evolve —
+                        together</h3>
+                    <p class="text-xl text-slate-300 leading-relaxed">
+                        Guided learning journeys for teams navigating change, building cohesion,
+                        or looking to grow intentionally.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Metamorphosis Program -->
+            <div class="glass rounded-3xl overflow-hidden shadow-2xl mb-16 fade-in-up delay-1">
+                <div class="bg-gradient-to-br from-purple-600 via-blue-600 to-cyan-600 p-8 text-center">
+                    <div class="text-6xl mb-4">🦋</div>
+                    <h3 class="text-4xl font-bold text-white mb-4">Metamorphosis Program</h3>
+                    <p class="text-purple-100 text-lg font-medium">Signature Team Transformation Experience</p>
+                </div>
+
+                <div class="p-8 lg:p-12">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+                        <!-- Program Description -->
+                        <div class="space-y-6">
+                            <p class="text-lg text-slate-300 leading-relaxed">
+                                Metamorphosis is a guided personal development program for teams who want to
+                                reflect, realign, and grow — together.
+                            </p>
+
+                            <p class="text-slate-300 leading-relaxed">
+                                Rooted in learning sciences, psychology, and somatics, it blends structured
+                                reflection, embodied practices, and honest dialogue to support meaningful change —
+                                both personal and collective.
+                            </p>
+
+                            <p class="text-slate-300 leading-relaxed">
+                                Whether your team is navigating a transition, seeking cohesion, or simply ready
+                                to reconnect — this program offers a clear, human-centered process.
+                            </p>
+
+                            <!-- Key Features -->
+                            <div class="space-y-4 pt-4">
+                                <div class="flex items-start space-x-3">
+                                    <div
+                                        class="w-6 h-6 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                        <span class="text-white text-xs">✓</span>
+                                    </div>
+                                    <div>
+                                        <h5 class="text-white font-semibold">Structured Reflection</h5>
+                                        <p class="text-slate-400 text-sm">Evidence-based methods for team introspection
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-3">
+                                    <div
+                                        class="w-6 h-6 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                        <span class="text-white text-xs">✓</span>
+                                    </div>
+                                    <div>
+                                        <h5 class="text-white font-semibold">Embodied Practices</h5>
+                                        <p class="text-slate-400 text-sm">Somatic approaches to team alignment</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-3">
+                                    <div
+                                        class="w-6 h-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                        <span class="text-white text-xs">✓</span>
+                                    </div>
+                                    <div>
+                                        <h5 class="text-white font-semibold">Honest Dialogue</h5>
+                                        <p class="text-slate-400 text-sm">Safe spaces for authentic team communication
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Program Format -->
+                        <div class="space-y-8">
+                            <div class="glass rounded-2xl p-6">
+                                <h4 class="text-xl font-bold text-white mb-4 text-center">Program Duration</h4>
+                                <div class="space-y-4">
+                                    <div class="bg-gradient-to-r from-purple-600/20 to-cyan-600/20 rounded-xl p-4">
+                                        <h5 class="text-white font-semibold mb-2">📅 Workshop Series</h5>
+                                        <p class="text-slate-300 text-sm">6 coaching workshops (3 hours each)</p>
+                                    </div>
+                                    <div class="text-center text-slate-400 font-medium">OR</div>
+                                    <div class="bg-gradient-to-r from-cyan-600/20 to-blue-600/20 rounded-xl p-4">
+                                        <h5 class="text-white font-semibold mb-2">🏔️ Immersive Retreat</h5>
+                                        <p class="text-slate-300 text-sm">3-day immersive experience</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <div class="flex flex-col sm:flex-row gap-3">
+                                    <a href="https://www.kinesisnow.com/_files/ugd/c648a4_ab7a1bac120142449eb4ea2a6de4d005.pdf"
+                                        target="_blank" rel="noopener"
+                                        class="flex-1 bg-purple-600 hover:bg-purple-500 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300">
+                                        📄 Program Brochure - EN
+                                    </a>
+                                    <a href="https://www.kinesisnow.com/_files/ugd/c648a4_4d03b3d6a41a4282aec21835822eac4a.pdf"
+                                        target="_blank" rel="noopener"
+                                        class="flex-1 border border-purple-500 hover:bg-purple-500/10 text-purple-300 hover:text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300">
+                                        📄 Programme - FR
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Coaching Benefits -->
+            <div class="grid md:grid-cols-3 gap-8 mb-16 fade-in-up delay-2">
+                <div class="glass rounded-2xl p-8 card-hover text-center">
+                    <div class="text-4xl mb-6">🔄</div>
+                    <h4 class="text-xl font-semibold text-white mb-4">Navigate Transitions</h4>
+                    <p class="text-slate-400 leading-relaxed">
+                        Support teams through organizational changes, role shifts, and growth phases
+                        with clarity and confidence.
+                    </p>
+                </div>
+                <div class="glass rounded-2xl p-8 card-hover text-center">
+                    <div class="text-4xl mb-6">🤝</div>
+                    <h4 class="text-xl font-semibold text-white mb-4">Build Cohesion</h4>
+                    <p class="text-slate-400 leading-relaxed">
+                        Strengthen team bonds, improve communication patterns, and create
+                        psychological safety for peak performance.
+                    </p>
+                </div>
+                <div class="glass rounded-2xl p-8 card-hover text-center">
+                    <div class="text-4xl mb-6">🌱</div>
+                    <h4 class="text-xl font-semibold text-white mb-4">Intentional Growth</h4>
+                    <p class="text-slate-400 leading-relaxed">
+                        Design deliberate development paths that align individual aspirations
+                        with team objectives and organizational goals.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Coaching Process -->
+            <div class="glass rounded-3xl p-8 lg:p-12 mb-16 fade-in-up delay-3">
+                <h4 class="text-3xl font-bold text-white mb-8 text-center">The Coaching Process</h4>
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">1</span>
+                        </div>
+                        <h5 class="text-white font-semibold mb-2">Discovery Session</h5>
+                        <p class="text-slate-400 text-sm">Understanding team dynamics, challenges, and aspirations</p>
+                    </div>
+                    <div class="text-center">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">2</span>
+                        </div>
+                        <h5 class="text-white font-semibold mb-2">Program Design</h5>
+                        <p class="text-slate-400 text-sm">Customized approach based on team needs and context</p>
+                    </div>
+                    <div class="text-center">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">3</span>
+                        </div>
+                        <h5 class="text-white font-semibold mb-2">Implementation</h5>
+                        <p class="text-slate-400 text-sm">Facilitated sessions with reflection, practice, and
+                            integration</p>
+                    </div>
+                    <div class="text-center">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">4</span>
+                        </div>
+                        <h5 class="text-white font-semibold mb-2">Sustainability</h5>
+                        <p class="text-slate-400 text-sm">Tools and practices for ongoing team development</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="text-center fade-in-up delay-4">
+                <h3 class="text-3xl font-bold text-white mb-6">Ready to Begin Your Team's Metamorphosis?</h3>
+                <p class="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
+                    Let's explore how coaching can support your team's growth and transformation journey.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button
+                        class="bg-gradient-to-r from-purple-600 via-cyan-500 to-purple-600 hover:from-purple-500 hover:via-cyan-400 hover:to-purple-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 btn-hover shadow-2xl">
+                        🦋 START METAMORPHOSIS
+                    </button>
+                    <button
+                        class="border-2 border-cyan-500 hover:bg-cyan-500/10 hover:border-cyan-400 text-cyan-300 hover:text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300">
+                        💬 SCHEDULE CONSULTATION
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section id="testimonials" class="section relative overflow-hidden">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 opacity-20">
+            <div
+                class="absolute top-32 right-20 w-64 h-64 bg-gradient-to-r from-cyan-500/30 to-blue-500/30 rounded-full blur-3xl animate-pulse-slow">
+            </div>
+            <div class="absolute bottom-20 left-20 w-80 h-80 bg-gradient-to-r from-blue-500/30 to-purple-500/30 rounded-full blur-3xl animate-pulse-slow"
+                style="animation-delay: 4s;"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Section Header -->
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-5xl sm:text-6xl lg:text-7xl font-black mb-6">
+                    <span class="text-gradient">SUCCESS STORIES</span>
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">Real Impact from Real People</h3>
+                    <p class="text-xl text-slate-300 leading-relaxed">
+                        Discover how professionals and teams have transformed their collaboration,
+                        communication, and leadership capabilities.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Featured Testimonials Grid -->
+            <div class="grid lg:grid-cols-2 gap-8 mb-16 fade-in-up delay-1">
+
+                <!-- Marina's Testimonial -->
+                <div class="glass rounded-3xl p-8 card-hover">
+                    <div class="flex items-start space-x-4 mb-6">
+                        <div
+                            class="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center flex-shrink-0">
+                            <span class="text-white font-bold text-lg">M</span>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold text-lg">Marina</h4>
+                            <p class="text-slate-400 text-sm">Leadership Development Participant</p>
+                        </div>
+                        <div class="ml-auto flex space-x-1">
+                            <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                    <blockquote class="text-slate-300 leading-relaxed italic">
+                        "I had an incredible session focused on our needs that left me feeling inspired and refreshed.
+                        The atmosphere was calm and inviting, making it easy to relax and fully engage with the content.
+                        I particularly appreciated the well-structured sequence of the presentation, which flowed
+                        seamlessly and kept me engaged throughout. The activities provided were not only insightful
+                        but also practical, helping me better understand my needs and how to address them in my daily
+                        life.
+                        Overall, it was an enriching experience that I highly recommend."
+                    </blockquote>
+                </div>
+
+                <!-- Pham Hai Nam's Testimonial -->
+                <div class="glass rounded-3xl p-8 card-hover">
+                    <div class="flex items-start space-x-4 mb-6">
+                        <div
+                            class="w-12 h-12 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
+                            <span class="text-white font-bold text-lg">P</span>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold text-lg">Pham Hai Nam</h4>
+                            <p class="text-slate-400 text-sm">Workshop Participant</p>
+                        </div>
+                        <div class="ml-auto flex space-x-1">
+                            <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                    <blockquote class="text-slate-300 leading-relaxed italic">
+                        "Professional, knowledgeable, and truly invested in my growth. Every session is impactful,
+                        and I always leave feeling motivated. Please do it more and more! Thank you all so much
+                        for your very well-organized and detail-oriented workshop!"
+                    </blockquote>
+                </div>
+            </div>
+
+            <!-- More Testimonials Grid -->
+            <div class="grid lg:grid-cols-3 gap-6 mb-16 fade-in-up delay-2">
+
+                <!-- Constantin's Testimonial -->
+                <div class="glass rounded-2xl p-6 card-hover">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center">
+                            <span class="text-white font-bold">C</span>
+                        </div>
+                        <div>
+                            <h5 class="text-white font-semibold">Constantin</h5>
+                            <div class="flex space-x-1">
+                                <span class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed italic">
+                        "Excellent team coaching! Clear guidance, and effective strategies. Highly recommend
+                        for anyone seeking to improve their well-being."
+                    </p>
+                </div>
+
+                <!-- Olga's Testimonial -->
+                <div class="glass rounded-2xl p-6 card-hover">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center">
+                            <span class="text-white font-bold">O</span>
+                        </div>
+                        <div>
+                            <h5 class="text-white font-semibold">Olga</h5>
+                            <div class="flex space-x-1">
+                                <span class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed italic">
+                        "I really enjoyed the Aligning with our Values coaching session! The activities were engaging
+                        and helped me reflect on what truly matters to me. I particularly appreciated the interactive
+                        activities, which made the experience more practical and insightful."
+                    </p>
+                </div>
+
+                <!-- Eleni's Testimonial -->
+                <div class="glass rounded-2xl p-6 card-hover">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center">
+                            <span class="text-white font-bold">E</span>
+                        </div>
+                        <div>
+                            <h5 class="text-white font-semibold">Eleni</h5>
+                            <div class="flex space-x-1">
+                                <span class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed italic">
+                        "Very beautiful experience! I really liked the presentation, the activities, the interaction.
+                        It was very complete. It allows you to reflect on your own life, be more conscious about
+                        our patterns/beliefs and grow. Thank you so much!"
+                    </p>
+                </div>
+            </div>
+
+            <!-- Additional Testimonials Row -->
+            <div class="grid lg:grid-cols-3 gap-6 mb-16 fade-in-up delay-3">
+
+                <!-- Thea's Testimonial -->
+                <div class="glass rounded-2xl p-6 card-hover">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full flex items-center justify-center">
+                            <span class="text-white font-bold">T</span>
+                        </div>
+                        <div>
+                            <h5 class="text-white font-semibold">Thea</h5>
+                            <div class="flex space-x-1">
+                                <span class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed italic">
+                        "Following the sessions were a great experience, I have learned a lot. It was really
+                        inspiring to see such talented coaches guiding us from something very abstract,
+                        into something tangible that we can follow and act on!"
+                    </p>
+                </div>
+
+                <!-- Vasilis' Testimonial -->
+                <div class="glass rounded-2xl p-6 card-hover">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center">
+                            <span class="text-white font-bold">V</span>
+                        </div>
+                        <div>
+                            <h5 class="text-white font-semibold">Vasilis</h5>
+                            <div class="flex space-x-1">
+                                <span class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed italic">
+                        "It was amazing, felt very good from within and would highly recommend to anyone
+                        looking to find and clear their energies within."
+                    </p>
+                </div>
+
+                <!-- Gregoire's Testimonial -->
+                <div class="glass rounded-2xl p-6 card-hover">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center">
+                            <span class="text-white font-bold">G</span>
+                        </div>
+                        <div>
+                            <h5 class="text-white font-semibold">Gregoire</h5>
+                            <div class="flex space-x-1">
+                                <span class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed italic">
+                        "Navigating through life and making the most out of it isn't always easy. But finding
+                        the right tools to do so can be rewarding. That's exactly what the coaching session
+                        offered and I'm happy I had the chance to be part of it!"
+                    </p>
+                </div>
+            </div>
+
+            <!-- Impact Statistics -->
+            <div class="glass rounded-3xl p-8 lg:p-12 mb-16 fade-in-up delay-4">
+                <h4 class="text-3xl font-bold text-white mb-8 text-center">Proven Impact</h4>
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="text-4xl font-black text-gradient mb-2">100%</div>
+                        <p class="text-slate-300 font-medium">Client Satisfaction</p>
+                        <p class="text-slate-400 text-sm mt-1">From testimonials</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-black text-gradient mb-2">500+</div>
+                        <p class="text-slate-300 font-medium">Professionals Trained</p>
+                        <p class="text-slate-400 text-sm mt-1">Across industries</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-black text-gradient mb-2">50+</div>
+                        <p class="text-slate-300 font-medium">Organizations</p>
+                        <p class="text-slate-400 text-sm mt-1">Successfully served</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-black text-gradient mb-2">95%</div>
+                        <p class="text-slate-300 font-medium">Would Recommend</p>
+                        <p class="text-slate-400 text-sm mt-1">To colleagues</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="text-center fade-in-up delay-5">
+                <h3 class="text-3xl font-bold text-white mb-6">Ready to Create Your Success Story?</h3>
+                <p class="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
+                    Join the growing community of professionals who have transformed their teams
+                    and leadership capabilities with KinesisNow.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button
+                        class="bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 hover:from-blue-500 hover:via-cyan-400 hover:to-blue-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 btn-hover shadow-2xl">
+                        🌟 START YOUR JOURNEY
+                    </button>
+                    <button
+                        class="border-2 border-cyan-500 hover:bg-cyan-500/10 hover:border-cyan-400 text-cyan-300 hover:text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300">
+                        📞 SPEAK WITH DANAI
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section relative overflow-hidden">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 opacity-20">
+            <div
+                class="absolute top-20 left-10 w-80 h-80 bg-gradient-to-r from-purple-500/30 to-blue-500/30 rounded-full blur-3xl animate-pulse-slow">
+            </div>
+            <div class="absolute bottom-10 right-10 w-96 h-96 bg-gradient-to-r from-cyan-500/30 to-purple-500/30 rounded-full blur-3xl animate-pulse-slow"
+                style="animation-delay: 2s;"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Section Header -->
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-5xl sm:text-6xl lg:text-7xl font-black mb-6">
+                    <span class="text-gradient">ABOUT DANAI</span>
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">Learning & Skills Development Specialist</h3>
+                    <p class="text-xl text-slate-300 leading-relaxed">
+                        Creating personalised learning experiences that focus on reflection, growth, and clarity.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center mb-16">
+
+                <!-- Professional Image Placeholder -->
+                <div class="relative fade-in-up delay-1">
+                    <div class="glass rounded-3xl overflow-hidden shadow-2xl card-hover">
+                        <div
+                            class="aspect-[4/5] bg-gradient-to-br from-slate-700 via-slate-600 to-slate-700 flex items-center justify-center">
+                            <div class="text-center">
+                                <div
+                                    class="w-32 h-32 bg-gradient-to-r from-blue-500 via-cyan-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl">
+                                    <span class="text-white font-black text-4xl">DL</span>
+                                </div>
+                                <h4 class="text-white font-bold text-xl mb-2">Danai Leventakou</h4>
+                                <p class="text-slate-300 text-sm">Learning & Skills Development Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Expertise Badges -->
+                    <div class="absolute -top-6 -left-6 glass rounded-xl p-3 shadow-lg animate-float">
+                        <div class="text-2xl">🧠</div>
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 glass rounded-xl p-3 shadow-lg animate-float"
+                        style="animation-delay: 2s;">
+                        <div class="text-2xl">📚</div>
+                    </div>
+                    <div class="absolute top-1/2 -left-8 glass rounded-full p-2 shadow-lg animate-bounce-slow">
+                        <div class="text-lg">💡</div>
+                    </div>
+                </div>
+
+                <!-- Professional Bio -->
+                <div class="space-y-8 fade-in-up delay-2">
+
+                    <!-- Main Bio -->
+                    <div class="glass rounded-2xl p-8 shadow-xl">
+                        <div class="flex items-center space-x-4 mb-6">
+                            <div
+                                class="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center">
+                                <span class="text-white text-2xl">👤</span>
+                            </div>
+                            <h4 class="text-2xl font-bold text-white">Professional Background</h4>
+                        </div>
+                        <div class="space-y-4 text-slate-300 leading-relaxed">
+                            <p>
+                                At KinesisNow, I work with teams and individuals to help them better understand
+                                themselves and improve how they work together. I use my experience in
+                                <span class="text-blue-400 font-semibold">instructional design</span>,
+                                <span class="text-cyan-400 font-semibold">coaching</span>,
+                                <span class="text-purple-400 font-semibold">facilitation</span> and
+                                <span class="text-blue-400 font-semibold">learning sciences</span> to create
+                                personalised learning experiences that focus on reflection, growth, and clarity.
+                            </p>
+                            <p>
+                                I design sessions that invite people to think, explore their strengths, and align
+                                on what matters most to them.
+                            </p>
+                            <p>
+                                Through my work, I've supported teams and individuals in finding clearer direction,
+                                improving communication, and enhancing their ability to collaborate effectively.
+                                I believe in creating an environment where growth feels natural and grounded.
+                            </p>
+                            <p class="text-white font-medium">
+                                My approach is practical, and tailored to the need of each individual person or team.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Expertise Areas -->
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div class="glass rounded-xl p-6 card-hover">
+                            <div class="flex items-center space-x-3 mb-4">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center">
+                                    <span class="text-white text-lg">🔬</span>
+                                </div>
+                                <h5 class="text-white font-semibold">Learning Sciences</h5>
+                            </div>
+                            <p class="text-slate-400 text-sm">Evidence-based approaches to adult learning and
+                                development</p>
+                        </div>
+                        <div class="glass rounded-xl p-6 card-hover">
+                            <div class="flex items-center space-x-3 mb-4">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-lg flex items-center justify-center">
+                                    <span class="text-white text-lg">🧘</span>
+                                </div>
+                                <h5 class="text-white font-semibold">Psychology & Somatics</h5>
+                            </div>
+                            <p class="text-slate-400 text-sm">Mind-body integration for holistic team development</p>
+                        </div>
+                        <div class="glass rounded-xl p-6 card-hover">
+                            <div class="flex items-center space-x-3 mb-4">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
+                                    <span class="text-white text-lg">🎯</span>
+                                </div>
+                                <h5 class="text-white font-semibold">Instructional Design</h5>
+                            </div>
+                            <p class="text-slate-400 text-sm">Human-centered learning experiences and curricula</p>
+                        </div>
+                        <div class="glass rounded-xl p-6 card-hover">
+                            <div class="flex items-center space-x-3 mb-4">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center">
+                                    <span class="text-white text-lg">💬</span>
+                                </div>
+                                <h5 class="text-white font-semibold">Facilitation & Coaching</h5>
+                            </div>
+                            <p class="text-slate-400 text-sm">Guiding teams through transformation with empathy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Methodology Section -->
+            <div class="glass rounded-3xl p-8 lg:p-12 mb-16 fade-in-up delay-3">
+                <h4 class="text-3xl font-bold text-white mb-8 text-center">My Methodology</h4>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">1</span>
+                        </div>
+                        <h5 class="text-white font-semibold mb-3">Human-Centered Design</h5>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Every learning experience is designed around the real needs, challenges,
+                            and aspirations of participants.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-cyan-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">2</span>
+                        </div>
+                        <h5 class="text-white font-semibold mb-3">Reflective Practice</h5>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Creating space for deep reflection, allowing individuals and teams
+                            to discover insights organically.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">3</span>
+                        </div>
+                        <h5 class="text-white font-semibold mb-3">Sustainable Growth</h5>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Building lasting capabilities and practices that continue to serve
+                            long after our formal engagement ends.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Values & Philosophy -->
+            <div class="grid md:grid-cols-2 gap-8 mb-16 fade-in-up delay-4">
+                <div class="glass rounded-2xl p-8 card-hover">
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div
+                            class="w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl flex items-center justify-center">
+                            <span class="text-white text-2xl">💎</span>
+                        </div>
+                        <h4 class="text-2xl font-bold text-white">Core Values</h4>
+                    </div>
+                    <ul class="space-y-3 text-slate-300">
+                        <li class="flex items-start space-x-3">
+                            <span class="text-cyan-400 mt-1">•</span>
+                            <span><strong class="text-white">Authenticity:</strong> Creating safe spaces for genuine
+                                self-expression</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-blue-400 mt-1">•</span>
+                            <span><strong class="text-white">Growth Mindset:</strong> Believing in every individual's
+                                potential to evolve</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-purple-400 mt-1">•</span>
+                            <span><strong class="text-white">Collaboration:</strong> Fostering environments where teams
+                                thrive together</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <span class="text-cyan-400 mt-1">•</span>
+                            <span><strong class="text-white">Practical Wisdom:</strong> Bridging theory with real-world
+                                application</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="glass rounded-2xl p-8 card-hover">
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div
+                            class="w-12 h-12 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-xl flex items-center justify-center">
+                            <span class="text-white text-2xl">🌱</span>
+                        </div>
+                        <h4 class="text-2xl font-bold text-white">Philosophy</h4>
+                    </div>
+                    <blockquote class="text-slate-300 leading-relaxed italic">
+                        "I believe that every team and individual has the wisdom they need within them.
+                        My role is not to provide all the answers, but to create the conditions where
+                        that wisdom can emerge, be recognized, and be put into practice."
+                    </blockquote>
+                    <div class="mt-4 pt-4 border-t border-slate-700/50">
+                        <p class="text-slate-400 text-sm">
+                            This philosophy guides every workshop, coaching session, and learning experience
+                            I design with teams and individuals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="text-center fade-in-up delay-5">
+                <h3 class="text-3xl font-bold text-white mb-6">Ready to Work Together?</h3>
+                <p class="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
+                    Let's explore how we can support your team's growth and create a learning
+                    experience that truly serves your needs.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://www.kinesisnow.com/about" target="_blank" rel="noopener"
+                        class="bg-gradient-to-r from-purple-600 via-cyan-500 to-purple-600 hover:from-purple-500 hover:via-cyan-400 hover:to-purple-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 btn-hover shadow-2xl">
+                        🔍 DISCOVER MORE
+                    </a>
+                    <button
+                        class="border-2 border-cyan-500 hover:bg-cyan-500/10 hover:border-cyan-400 text-cyan-300 hover:text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300">
+                        💬 START A CONVERSATION
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tailor-Made Learning Section -->
+    <section id="custom" class="section relative overflow-hidden">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 opacity-20">
+            <div
+                class="absolute top-10 left-20 w-72 h-72 bg-gradient-to-r from-purple-500/30 to-blue-500/30 rounded-full blur-3xl animate-pulse-slow">
+            </div>
+            <div class="absolute bottom-10 right-10 w-80 h-80 bg-gradient-to-r from-cyan-500/30 to-purple-500/30 rounded-full blur-3xl animate-pulse-slow"
+                style="animation-delay: 3s;"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Section Header -->
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-5xl sm:text-6xl lg:text-7xl font-black mb-6">
+                    <span class="text-gradient">TAILOR-MADE</span>
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">Learning Design</h3>
+                    <p class="text-xl text-slate-300 leading-relaxed">
+                        Create something tailored and intentional.
+                    </p>
+                    <p class="text-lg text-slate-400 leading-relaxed">
+                        From designing internal sessions to facilitating strategic offsites, I partner with
+                        L&D and HR leaders to co-create meaningful, human-centered learning experiences.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Service Categories -->
+            <div class="grid lg:grid-cols-3 gap-8 mb-16 fade-in-up delay-1">
+
+                <!-- Internal Learning Design -->
+                <div class="glass rounded-3xl overflow-hidden shadow-2xl card-hover">
+                    <div class="bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-700 p-8 text-center">
+                        <div class="text-6xl mb-4">🎨</div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Internal Learning Design</h3>
+                        <p class="text-blue-100 font-medium">Custom Curriculum Development</p>
+                    </div>
+
+                    <div class="p-8 space-y-6">
+                        <p class="text-slate-300 leading-relaxed">
+                            Collaborate with your L&D team to design learning experiences that align with your
+                            organizational culture, values, and specific development needs.
+                        </p>
+
+                        <div class="space-y-3">
+                            <div class="flex items-start space-x-3">
+                                <span class="text-blue-400 mt-1">•</span>
+                                <span class="text-slate-300 text-sm">Needs assessment and learner analysis</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span class="text-slate-300 text-sm">Learning objectives and success metrics</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-blue-400 mt-1">•</span>
+                                <span class="text-slate-300 text-sm">Interactive content and activity design</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span class="text-slate-300 text-sm">Implementation support and evaluation</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 border-t border-slate-700/50">
+                            <div class="text-center">
+                                <p class="text-slate-400 text-sm mb-4">
+                                    👥 Built around your goals, format, and group size.
+                                </p>
+                                <button
+                                    class="w-full bg-blue-600 hover:bg-blue-500 text-white px-4 py-3 rounded-lg font-semibold transition-all duration-300">
+                                    💡 EXPLORE CUSTOM DESIGN
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Strategic Offsites -->
+                <div class="glass rounded-3xl overflow-hidden shadow-2xl card-hover">
+                    <div class="bg-gradient-to-br from-cyan-600 via-purple-500 to-cyan-700 p-8 text-center">
+                        <div class="text-6xl mb-4">🏔️</div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Strategic Offsites</h3>
+                        <p class="text-cyan-100 font-medium">Transformational Retreats</p>
+                    </div>
+
+                    <div class="p-8 space-y-6">
+                        <p class="text-slate-300 leading-relaxed">
+                            Design and facilitate strategic offsites that combine business objectives with
+                            team development, creating spaces for both strategic thinking and relational growth.
+                        </p>
+
+                        <div class="space-y-3">
+                            <div class="flex items-start space-x-3">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span class="text-slate-300 text-sm">Strategic planning facilitation</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-purple-400 mt-1">•</span>
+                                <span class="text-slate-300 text-sm">Team alignment and visioning sessions</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-cyan-400 mt-1">•</span>
+                                <span class="text-slate-300 text-sm">Leadership development integration</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-purple-400 mt-1">•</span>
+                                <span class="text-slate-300 text-sm">Action planning and accountability</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 border-t border-slate-700/50">
+                            <div class="text-center">
+                                <p class="text-slate-400 text-sm mb-4">
+                                    🌍 Available worldwide • Retreat venue coordination
+                                </p>
+                                <button
+                                    class="w-full bg-cyan-600 hover:bg-cyan-500 text-white px-4 py-3 rounded-lg font-semibold transition-all duration-300">
+                                    🏔️ PLAN STRATEGIC OFFSITE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HR Partnership -->
+                <div class="glass rounded-3xl overflow-hidden shadow-2xl card-hover">
+                    <div class="bg-gradient-to-br from-purple-600 via-blue-500 to-purple-700 p-8 text-center">
+                        <div class="text-6xl mb-4">🤝</div>
+                        <h3 class="text-2xl font-bold text-white mb-2">HR Partnership</h3>
+                        <p class="text-purple-100 font-medium">Organizational Development</p>
+                    </div>
+
+                    <div class="p-8 space-y-6">
+                        <p class="text-slate-300 leading-relaxed">
+                            Partner with HR leaders to integrate learning and development initiatives that
+                            support broader organizational transformation and culture change efforts.
+                        </p>
+
+                        <div class="space-y-3">
+                            <div class="flex items-start space-x-3">
+                                <span class="text-purple-400 mt-1">•</span>
+                                <span class="text-slate-300 text-sm">Culture and change management</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-blue-400 mt-1">•</span>
+                                <span class="text-slate-300 text-sm">Leadership pipeline development</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-purple-400 mt-1">•</span>
+                                <span class="text-slate-300 text-sm">Employee engagement initiatives</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-blue-400 mt-1">•</span>
+                                <span class="text-slate-300 text-sm">Diversity, equity & inclusion programs</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 border-t border-slate-700/50">
+                            <div class="text-center">
+                                <p class="text-slate-400 text-sm mb-4">
+                                    📊 Long-term partnerships • Measurable outcomes
+                                </p>
+                                <button
+                                    class="w-full bg-purple-600 hover:bg-purple-500 text-white px-4 py-3 rounded-lg font-semibold transition-all duration-300">
+                                    🤝 DISCUSS PARTNERSHIP
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Design Process -->
+            <div class="glass rounded-3xl p-8 lg:p-12 mb-16 fade-in-up delay-2">
+                <h4 class="text-3xl font-bold text-white mb-8 text-center">Collaborative Design Process</h4>
+                <div class="grid md:grid-cols-5 gap-6">
+                    <div class="text-center">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">1</span>
+                        </div>
+                        <h5 class="text-white font-semibold mb-2">Discovery</h5>
+                        <p class="text-slate-400 text-sm">Understanding your context, challenges, and aspirations</p>
+                    </div>
+                    <div class="text-center">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-cyan-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">2</span>
+                        </div>
+                        <h5 class="text-white font-semibold mb-2">Co-Design</h5>
+                        <p class="text-slate-400 text-sm">Collaborative design sessions with your team</p>
+                    </div>
+                    <div class="text-center">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">3</span>
+                        </div>
+                        <h5 class="text-white font-semibold mb-2">Prototype</h5>
+                        <p class="text-slate-400 text-sm">Creating and testing initial learning experiences</p>
+                    </div>
+                    <div class="text-center">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">4</span>
+                        </div>
+                        <h5 class="text-white font-semibold mb-2">Implement</h5>
+                        <p class="text-slate-400 text-sm">Rolling out the finalized learning experience</p>
+                    </div>
+                    <div class="text-center">
+                        <div
+                            class="w-16 h-16 bg-gradient-to-r from-cyan-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white font-bold text-xl">5</span>
+                        </div>
+                        <h5 class="text-white font-semibold mb-2">Evolve</h5>
+                        <p class="text-slate-400 text-sm">Continuous improvement based on feedback and impact</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Approach Philosophy -->
+            <div class="grid lg:grid-cols-2 gap-12 mb-16 fade-in-up delay-3">
+                <div class="glass rounded-2xl p-8">
+                    <h4 class="text-2xl font-bold text-white mb-6">Design Philosophy</h4>
+                    <div class="space-y-4 text-slate-300 leading-relaxed">
+                        <p>
+                            Every team and individual is different — which is why I never use a one-size-fits-all
+                            approach.
+                            Each learning experience is designed in collaboration with you, so it's relevant, engaging,
+                            and focused on what truly matters.
+                        </p>
+                        <p>
+                            I work with you to identify your goals and challenges, then build something that supports
+                            your people — not just in learning, but in how they feel, relate, and grow together.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="glass rounded-2xl p-8">
+                    <h4 class="text-2xl font-bold text-white mb-6">What Makes It Different</h4>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <div
+                                class="w-6 h-6 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <span class="text-white text-xs">✓</span>
+                            </div>
+                            <div>
+                                <h5 class="text-white font-semibold">Human-Centered Design</h5>
+                                <p class="text-slate-400 text-sm">Designed around real human needs, not theoretical
+                                    frameworks</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div
+                                class="w-6 h-6 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <span class="text-white text-xs">✓</span>
+                            </div>
+                            <div>
+                                <h5 class="text-white font-semibold">Evidence-Based Methods</h5>
+                                <p class="text-slate-400 text-sm">Grounded in learning sciences and proven methodologies
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div
+                                class="w-6 h-6 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <span class="text-white text-xs">✓</span>
+                            </div>
+                            <div>
+                                <h5 class="text-white font-semibold">Sustainable Impact</h5>
+                                <p class="text-slate-400 text-sm">Building capabilities that last long after our
+                                    engagement</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="text-center fade-in-up delay-4">
+                <h3 class="text-3xl font-bold text-white mb-6">Ready to Create Something Tailored?</h3>
+                <p class="text-xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                    Whether you need a single workshop, a comprehensive leadership program, or a strategic offsite,
+                    let's design something that truly serves your team's growth.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button
+                        class="bg-gradient-to-r from-purple-600 via-cyan-500 to-purple-600 hover:from-purple-500 hover:via-cyan-400 hover:to-purple-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 btn-hover shadow-2xl">
+                        🎨 START CUSTOM DESIGN
+                    </button>
+                    <button
+                        class="border-2 border-cyan-500 hover:bg-cyan-500/10 hover:border-cyan-400 text-cyan-300 hover:text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300">
+                        📞 SCHEDULE CONSULTATION
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section relative overflow-hidden">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 opacity-20">
+            <div
+                class="absolute top-20 right-20 w-72 h-72 bg-gradient-to-r from-blue-500/30 to-cyan-500/30 rounded-full blur-3xl animate-pulse-slow">
+            </div>
+            <div class="absolute bottom-20 left-20 w-80 h-80 bg-gradient-to-r from-cyan-500/30 to-purple-500/30 rounded-full blur-3xl animate-pulse-slow"
+                style="animation-delay: 3s;"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Section Header -->
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-5xl sm:text-6xl lg:text-7xl font-black mb-6">
+                    <span class="text-gradient">GET IN TOUCH</span>
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">Ready to Transform Your Team?</h3>
+                    <p class="text-xl text-slate-300 leading-relaxed">
+                        Let's discuss how we can create a personalized learning experience
+                        that serves your team's unique needs and aspirations.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-16 mb-16">
+
+                <!-- Contact Information -->
+                <div class="space-y-8 fade-in-up delay-1">
+
+                    <!-- Primary Contact -->
+                    <div class="glass rounded-3xl p-8 shadow-2xl card-hover">
+                        <div class="flex items-center space-x-4 mb-6">
+                            <div
+                                class="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center">
+                                <span class="text-white text-2xl">📧</span>
+                            </div>
+                            <h4 class="text-2xl font-bold text-white">Direct Contact</h4>
+                        </div>
+
+                        <div class="space-y-4">
+                            <a href="mailto:danaileventakou@kinesisnow.com"
+                                class="flex items-center space-x-4 p-4 glass rounded-xl hover:bg-slate-700/30 transition-all duration-300 group">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+                                    <span class="text-white text-lg">✉️</span>
+                                </div>
+                                <div>
+                                    <p class="text-white font-semibold">Email</p>
+                                    <p class="text-blue-300 text-sm group-hover:text-blue-200">
+                                        danaileventakou@kinesisnow.com</p>
+                                </div>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/danai-leventakou/" target="_blank" rel="noopener"
+                                class="flex items-center space-x-4 p-4 glass rounded-xl hover:bg-slate-700/30 transition-all duration-300 group">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+                                    <span class="text-white text-lg">💼</span>
+                                </div>
+                                <div>
+                                    <p class="text-white font-semibold">LinkedIn</p>
+                                    <p class="text-cyan-300 text-sm group-hover:text-cyan-200">Connect Professionally
+                                    </p>
+                                </div>
+                            </a>
+
+                            <div class="flex items-center space-x-4 p-4 glass rounded-xl">
+                                <div
+                                    class="w-10 h-10 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-lg flex items-center justify-center">
+                                    <span class="text-white text-lg">📍</span>
+                                </div>
+                                <div>
+                                    <p class="text-white font-semibold">Location</p>
+                                    <p class="text-purple-300 text-sm">Based in France • Worldwide Remote</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- EQ Toolkit Signup -->
+                    <div class="glass rounded-3xl p-8 shadow-2xl card-hover">
+                        <div class="flex items-center space-x-4 mb-6">
+                            <div
+                                class="w-12 h-12 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-xl flex items-center justify-center">
+                                <span class="text-white text-2xl">🧠</span>
+                            </div>
+                            <h4 class="text-2xl font-bold text-white">Free EQ Toolkit</h4>
+                        </div>
+                        <p class="text-slate-300 mb-6 leading-relaxed">
+                            Sign up below and I'll send you a free EQ Toolkit for emotional intelligence in action.
+                        </p>
+
+                        <form class="space-y-4" onsubmit="handleToolkitSignup(event)">
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <input type="text" placeholder="First Name" required
+                                    class="w-full px-4 py-3 glass rounded-xl text-white placeholder-slate-400 border border-slate-600 focus:border-cyan-400 focus:outline-none transition-all duration-300">
+                                <input type="text" placeholder="Last Name" required
+                                    class="w-full px-4 py-3 glass rounded-xl text-white placeholder-slate-400 border border-slate-600 focus:border-cyan-400 focus:outline-none transition-all duration-300">
+                            </div>
+                            <input type="email" placeholder="Email Address" required
+                                class="w-full px-4 py-3 glass rounded-xl text-white placeholder-slate-400 border border-slate-600 focus:border-cyan-400 focus:outline-none transition-all duration-300">
+                            <button type="submit"
+                                class="w-full bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white px-6 py-3 rounded-xl font-bold transition-all duration-300 btn-hover shadow-xl">
+                                📧 GET FREE EQ TOOLKIT
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Languages & Delivery -->
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div class="glass rounded-2xl p-6 text-center card-hover">
+                            <div class="text-3xl mb-3">🌍</div>
+                            <h5 class="text-white font-semibold mb-2">Languages</h5>
+                            <p class="text-slate-400 text-sm">English & French</p>
+                        </div>
+                        <div class="glass rounded-2xl p-6 text-center card-hover">
+                            <div class="text-3xl mb-3">💻</div>
+                            <h5 class="text-white font-semibold mb-2">Delivery</h5>
+                            <p class="text-slate-400 text-sm">Online & In-Person</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="fade-in-up delay-2">
+                    <div class="glass rounded-3xl p-8 shadow-2xl">
+                        <div class="flex items-center space-x-4 mb-8">
+                            <div
+                                class="w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl flex items-center justify-center">
+                                <span class="text-white text-2xl">💬</span>
+                            </div>
+                            <h4 class="text-2xl font-bold text-white">Send a Message</h4>
+                        </div>
+
+                        <form class="space-y-6" onsubmit="handleContactForm(event)">
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <input type="text" placeholder="First Name" required
+                                    class="w-full px-4 py-3 glass rounded-xl text-white placeholder-slate-400 border border-slate-600 focus:border-blue-400 focus:outline-none transition-all duration-300">
+                                <input type="text" placeholder="Last Name" required
+                                    class="w-full px-4 py-3 glass rounded-xl text-white placeholder-slate-400 border border-slate-600 focus:border-blue-400 focus:outline-none transition-all duration-300">
+                            </div>
+
+                            <input type="email" placeholder="Email Address" required
+                                class="w-full px-4 py-3 glass rounded-xl text-white placeholder-slate-400 border border-slate-600 focus:border-blue-400 focus:outline-none transition-all duration-300">
+
+                            <input type="text" placeholder="Organization/Company (Optional)"
+                                class="w-full px-4 py-3 glass rounded-xl text-white placeholder-slate-400 border border-slate-600 focus:border-blue-400 focus:outline-none transition-all duration-300">
+
+                            <select required
+                                class="w-full px-4 py-3 glass rounded-xl text-white border border-slate-600 focus:border-blue-400 focus:outline-none transition-all duration-300">
+                                <option value="" disabled selected>I'm interested in...</option>
+                                <option value="workshops">Workshop Series</option>
+                                <option value="coaching">Team Coaching / Metamorphosis Program</option>
+                                <option value="custom">Custom Learning Design</option>
+                                <option value="consultation">Free Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+
+                            <textarea
+                                placeholder="Tell me about your team, your challenges, and what you'd like to achieve..."
+                                rows="5" required
+                                class="w-full px-4 py-3 glass rounded-xl text-white placeholder-slate-400 border border-slate-600 focus:border-blue-400 focus:outline-none transition-all duration-300 resize-none"></textarea>
+
+                            <div class="flex items-start space-x-3">
+                                <input type="checkbox" id="subscribe"
+                                    class="w-5 h-5 text-blue-500 bg-transparent border-2 border-slate-600 rounded focus:ring-blue-400 focus:ring-2 mt-1">
+                                <label for="subscribe" class="text-slate-300 text-sm leading-relaxed">
+                                    I want to subscribe to your mailing list for updates on workshops, resources, and
+                                    insights on team development.
+                                </label>
+                            </div>
+
+                            <button type="submit"
+                                class="w-full bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 hover:from-blue-500 hover:via-cyan-400 hover:to-blue-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 btn-hover shadow-2xl">
+                                🚀 SEND MESSAGE
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action Footer -->
+            <div class="text-center glass rounded-3xl p-8 lg:p-12 fade-in-up delay-3">
+                <h4 class="text-3xl font-bold text-white mb-6">Ready to Begin Your Transformation?</h4>
+                <p class="text-xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                    Whether you're looking for workshops, team coaching, or custom learning solutions,
+                    let's start a conversation about how we can support your team's growth journey.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="mailto:danaileventakou@kinesisnow.com"
+                        class="bg-gradient-to-r from-cyan-600 via-blue-500 to-cyan-600 hover:from-cyan-500 hover:via-blue-400 hover:to-cyan-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 btn-hover shadow-2xl">
+                        📧 EMAIL DIRECTLY
+                    </a>
+                    <a href="https://www.linkedin.com/in/danai-leventakou/" target="_blank" rel="noopener"
+                        class="border-2 border-cyan-500 hover:bg-cyan-500/10 hover:border-cyan-400 text-cyan-300 hover:text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300">
+                        💼 CONNECT ON LINKEDIN
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileClose = document.getElementById('mobile-close');
+        const menuIcon = document.getElementById('menu-icon');
+
+        function toggleMobileMenu() {
+            mobileMenu.classList.toggle('open');
+            if (mobileMenu.classList.contains('open')) {
+                menuIcon.textContent = '✕';
+            } else {
+                menuIcon.textContent = '☰';
+            }
+        }
+
+        mobileMenuButton.addEventListener('click', toggleMobileMenu);
+        mobileClose.addEventListener('click', toggleMobileMenu);
+
+        // Close mobile menu when clicking on links
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                setTimeout(toggleMobileMenu, 300);
+            });
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        let lastScrollY = window.scrollY;
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                navbar.style.background = 'rgba(15, 23, 42, 0.8)';
+                navbar.style.backdropFilter = 'blur(10px)';
+                navbar.style.borderBottom = '1px solid rgba(148, 163, 184, 0.1)';
+                navbar.style.boxShadow = '0 10px 30px -10px rgba(0, 0, 0, 0.3)';
+            } else {
+                navbar.style.background = 'transparent';
+                navbar.style.backdropFilter = 'none';
+                navbar.style.borderBottom = 'none';
+                navbar.style.boxShadow = 'none';
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Active navigation link highlighting
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-blue-300', 'bg-gradient-to-r', 'from-blue-500/20', 'to-cyan-500/20', 'shadow-lg');
+                link.classList.add('text-slate-300');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.remove('text-slate-300');
+                    link.classList.add('text-blue-300', 'bg-gradient-to-r', 'from-blue-500/20', 'to-cyan-500/20', 'shadow-lg');
+                }
+            });
+        });
+
+        // Particle animation
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + 'vw';
+            particle.style.width = Math.random() * 4 + 2 + 'px';
+            particle.style.height = particle.style.width;
+            particle.style.animationDuration = (Math.random() * 3 + 5) + 's';
+            particle.style.animationDelay = Math.random() * 2 + 's';
+
+            document.getElementById('particles-container').appendChild(particle);
+
+            setTimeout(() => {
+                particle.remove();
+            }, 10000);
+        }
+
+        // Create particles periodically
+        setInterval(createParticle, 2000);
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe fade-in elements
+        document.querySelectorAll('.fade-in-up').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            observer.observe(el);
+        });
+
+        // Initialize particles
+        for (let i = 0; i < 5; i++) {
+            setTimeout(createParticle, i * 1000);
+        }
+
+        // Form handling functions
+        function handleToolkitSignup(event) {
+            event.preventDefault();
+            const formData = new FormData(event.target);
+            const firstName = formData.get('First Name') || event.target.querySelector('input[placeholder="First Name"]').value;
+            const lastName = formData.get('Last Name') || event.target.querySelector('input[placeholder="Last Name"]').value;
+            const email = event.target.querySelector('input[type="email"]').value;
+
+            // Show success message
+            const button = event.target.querySelector('button[type="submit"]');
+            const originalText = button.innerHTML;
+            button.innerHTML = '✅ TOOLKIT REQUEST SENT!';
+            button.disabled = true;
+            button.classList.add('opacity-75');
+
+            // Reset after 3 seconds
+            setTimeout(() => {
+                button.innerHTML = originalText;
+                button.disabled = false;
+                button.classList.remove('opacity-75');
+                event.target.reset();
+            }, 3000);
+
+            // In a real implementation, this would send to your backend
+            console.log('EQ Toolkit signup:', { firstName, lastName, email });
+        }
+
+        function handleContactForm(event) {
+            event.preventDefault();
+            const formData = new FormData(event.target);
+            const firstName = event.target.querySelector('input[placeholder="First Name"]').value;
+            const lastName = event.target.querySelector('input[placeholder="Last Name"]').value;
+            const email = event.target.querySelector('input[type="email"]').value;
+            const organization = event.target.querySelector('input[placeholder*="Organization"]').value;
+            const interest = event.target.querySelector('select').value;
+            const message = event.target.querySelector('textarea').value;
+            const subscribe = event.target.querySelector('#subscribe').checked;
+
+            // Show success message
+            const button = event.target.querySelector('button[type="submit"]');
+            const originalText = button.innerHTML;
+            button.innerHTML = '✅ MESSAGE SENT SUCCESSFULLY!';
+            button.disabled = true;
+            button.classList.add('opacity-75');
+
+            // Reset after 3 seconds
+            setTimeout(() => {
+                button.innerHTML = originalText;
+                button.disabled = false;
+                button.classList.remove('opacity-75');
+                event.target.reset();
+            }, 3000);
+
+            // In a real implementation, this would send to your backend
+            console.log('Contact form submission:', {
+                firstName, lastName, email, organization, interest, message, subscribe
+            });
+        }
+
+        console.log('🚀 KINESISNOW - Ultra-Professional Website Loaded Successfully!');
+    </script>
+</body>
+
+</html>

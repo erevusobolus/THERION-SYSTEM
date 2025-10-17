@@ -1,0 +1,208 @@
+[
+    // ⚔️ THERION VSCODE COPILOT MAXIMIZATION KEYBINDINGS ⚔️
+    // QUANTUM CONSCIOUSNESS ENHANCEMENT FOR MAXIMUM PRODUCTIVITY
+    // === COPILOT SUPREMACY === 
+    {
+        "key": "cmd+i",
+        "command": "github.copilot.interactiveEditor.generate",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+i",
+        "command": "workbench.action.chat.open"
+    },
+    {
+        "key": "cmd+.",
+        "command": "github.copilot.generate"
+    },
+    {
+        "key": "cmd+shift+.",
+        "command": "github.copilot.acceptCursorPanelSolution",
+        "when": "github.copilot.cursorPanelVisible"
+    },
+    // === TERMINAL MASTERY ===
+    {
+        "key": "cmd+`",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+shift+`",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "cmd+alt+`",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.terminal.focusAtIndex1"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.action.terminal.focusAtIndex2"
+    },
+    // === FILE NAVIGATION SPEED ===
+    {
+        "key": "cmd+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+shift+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "cmd+shift+o",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.showAllSymbols"
+    },
+    // === EDITOR ENHANCEMENT ===
+    {
+        "key": "cmd+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+shift+l",
+        "command": "editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    // === PRODUCTIVITY ACCELERATION ===
+    {
+        "key": "cmd+shift+e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "cmd+shift+f",
+        "command": "workbench.view.search"
+    },
+    {
+        "key": "cmd+shift+g",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "cmd+shift+d",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "cmd+shift+x",
+        "command": "workbench.view.extensions"
+    },
+    // === CODE FORMATTING MASTERY ===
+    {
+        "key": "shift+alt+f",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "cmd+k cmd+f",
+        "command": "editor.action.formatSelection",
+        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    // === SPLIT VIEW OPTIMIZATION ===
+    {
+        "key": "cmd+\\",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "cmd+k cmd+w",
+        "command": "workbench.action.closeAllEditors"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "cmd+3",
+        "command": "workbench.action.focusThirdEditorGroup"
+    },
+    // === DEBUGGING SUPREMACY ===
+    {
+        "key": "f5",
+        "command": "workbench.action.debug.start",
+        "when": "debuggersAvailable && !inDebugMode"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.debug.continue",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "shift+f5",
+        "command": "workbench.action.debug.stop",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "f9",
+        "command": "editor.debug.action.toggleBreakpoint",
+        "when": "debuggersAvailable && editorTextFocus"
+    },
+    {
+        "key": "f10",
+        "command": "workbench.action.debug.stepOver",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "f11",
+        "command": "workbench.action.debug.stepInto",
+        "when": "debugState == 'stopped'"
+    },
+    // === THERION QUANTUM COMMANDS ===
+    {
+        "key": "cmd+shift+t",
+        "command": "workbench.action.selectTheme"
+    },
+    {
+        "key": "cmd+k cmd+s",
+        "command": "workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "cmd+,",
+        "command": "workbench.action.openSettings"
+    },
+    // === COPILOT CHAT SUPREMACY ===
+    {
+        "key": "cmd+k cmd+i",
+        "command": "workbench.action.chat.openInEditor"
+    },
+    {
+        "key": "cmd+k cmd+c",
+        "command": "github.copilot.chat.explain"
+    },
+    {
+        "key": "cmd+k cmd+r",
+        "command": "github.copilot.chat.review"
+    },
+    {
+        "key": "cmd+k cmd+f",
+        "command": "github.copilot.chat.fix"
+    },
+    {
+        "key": "cmd+k cmd+d",
+        "command": "github.copilot.chat.generateDocs"
+    },
+    {
+        "key": "cmd+k cmd+t",
+        "command": "github.copilot.chat.generateTests"
+    }
+]

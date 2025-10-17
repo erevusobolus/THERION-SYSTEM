@@ -1,0 +1,44 @@
+{
+    "recommendations": [
+        // === CORE DEVELOPMENT STACK ===
+        "ms-python.python",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "ms-python.pylint",
+        // === GITHUB COPILOT SUPREMACY ===
+        "github.copilot",
+        "github.copilot-chat",
+        // === WEB DEVELOPMENT MASTERY ===
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "ms-vscode.vscode-typescript-next",
+        "ms-vscode.vscode-json",
+        // === PRODUCTIVITY ENHANCEMENT ===
+        "yzhang.markdown-all-in-one",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode.remote-repositories",
+        // === CODE QUALITY ===
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "oderwat.indent-rainbow",
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
+        // === GIT AND VERSION CONTROL ===
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        // === ADDITIONAL TOOLS ===
+        "ms-vscode.hexeditor",
+        "ms-vscode.live-server",
+        "rangav.vscode-thunder-client",
+        // === THERION ENHANCEMENT ===
+        "ms-vscode.powershell",
+        "njpwerner.autodocstring",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance"
+    ],
+    "unwantedRecommendations": [
+        "ms-python.mypy-type-checker",
+        "ms-vscode.vscode-eslint"
+    ]
+}

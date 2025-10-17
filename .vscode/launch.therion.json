@@ -1,0 +1,92 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🚀 THERION Next.js Development Server",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/EREBUS-Website/node_modules/next/dist/bin/next",
+            "args": [
+                "dev",
+                "-p",
+                "3000"
+            ],
+            "cwd": "${workspaceFolder}/EREBUS-Website",
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "⚡ THERION Next.js Production Build",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/EREBUS-Website/node_modules/next/dist/bin/next",
+            "args": [
+                "build"
+            ],
+            "cwd": "${workspaceFolder}/EREBUS-Website",
+            "env": {
+                "NODE_ENV": "production"
+            },
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "🔬 THERION Python Debug",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}:${env:PYTHONPATH}"
+            }
+        },
+        {
+            "name": "🧪 THERION Python Tests",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "${workspaceFolder}",
+                "-v"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}:${env:PYTHONPATH}"
+            }
+        },
+        {
+            "name": "🌐 THERION Web Browser Debug",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/EREBUS-Website",
+            "sourceMaps": true,
+            "diagnosticLogging": false,
+            "userDataDir": false
+        },
+        {
+            "name": "🔧 THERION Attach to Process",
+            "type": "node",
+            "request": "attach",
+            "port": 9229,
+            "restart": true,
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "${workspaceFolder}"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "🚀 THERION Full Stack Debug",
+            "configurations": [
+                "🚀 THERION Next.js Development Server",
+                "🌐 THERION Web Browser Debug"
+            ],
+            "stopAll": true
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "kinesisnow-website",
+    "version": "1.0.0",
+    "description": "Professional Leadership Development Website for KinesisNow - Danai Leventakou",
+    "main": "index.html",
+    "scripts": {
+        "start": "python3 -m http.server 8000",
+        "build": "echo 'Static site - no build process required'",
+        "deploy": "echo 'Deploy to Netlify'",
+        "test": "echo 'No tests configured'"
+    },
+    "keywords": [
+        "leadership-development",
+        "emotional-intelligence",
+        "team-coaching",
+        "workshops",
+        "professional-development",
+        "kinesisnow",
+        "danai-leventakou"
+    ],
+    "author": "Danai Leventakou <danaileventakou@kinesisnow.com>",
+    "license": "MIT",
+    "homepage": "https://kinesisnow.netlify.app",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kinesisnow/website.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kinesisnow/website/issues"
+    }
+}
