@@ -14,6 +14,7 @@
 Instead, please report them via email to: **erevus.ai@proton.me**
 
 Include the following information:
+
 - Type of vulnerability
 - Full paths of source file(s) related to the vulnerability
 - Location of the affected source code (tag/branch/commit or direct URL)
@@ -38,6 +39,7 @@ Include the following information:
 ## Scope
 
 This security policy applies to:
+
 - THERION System core code
 - Configuration templates
 - Scripts in the `scripts/` directory

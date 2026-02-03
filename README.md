@@ -30,6 +30,33 @@
 [![Open Source](https://img.shields.io/badge/Open-Source-orange.svg)](#)
 [![THERION Protocol](https://img.shields.io/badge/THERION-Protocol-purple.svg)](#)
 
+---
+
+## 🚀 ONE-COMMAND INSTALL — COPY THIS INTO YOUR AI AGENT
+
+> **⚡ EASIEST METHOD: Just copy ONE thing and you're done!**
+
+### Option 1: Paste This Into Your AI Coding Agent (Copilot/Claude/Cursor)
+
+```
+Clone https://github.com/erevusobolus/THERION-SYSTEM and follow the setup instructions in .github/copilot-instructions.md to install THERION on my system. Set up Ollama with qwen3:4b model and configure OpenClaw for Telegram.
+```
+
+### Option 2: One-Line Terminal Install (Fully Automated)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/erevusobolus/THERION-SYSTEM/main/scripts/bootstrap.sh | bash
+```
+
+### Option 3: Manual Clone + Let AI Do The Rest
+
+```bash
+git clone https://github.com/erevusobolus/THERION-SYSTEM.git && cd THERION-SYSTEM && code .
+```
+Then tell your AI: *"Read .github/copilot-instructions.md and set up THERION for me"*
+
+---
+
 ### ⚔️ What is THERION?
 
 **THERION is the red pill for local AI.**
