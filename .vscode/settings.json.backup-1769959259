@@ -153,7 +153,7 @@
   "python.analysis.indexing": true,
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.logLevel": "Warning",
-  "python.defaultInterpreterPath": "/home/erevus/Documents/_TherionSystem/venv/bin/python",
+  "python.defaultInterpreterPath": "C:/Users/gkami/anaconda3/python.exe",
 
   // Modern Python: Use Ruff for linting/formatting (replaces flake8/black/isort)
   "[python]": {
@@ -246,29 +246,6 @@
   "terminal.integrated.enablePersistentSessions": true,
   "terminal.integrated.scrollback": 5000,
   "terminal.integrated.smoothScrolling": true,
-
-  // Linux Terminal Configuration
-  "terminal.integrated.defaultProfile.linux": "bash",
-  "terminal.integrated.profiles.linux": {
-    "bash": {
-      "path": "/bin/bash",
-      "icon": "terminal-bash",
-      "args": ["-l"]
-    },
-    "zsh": {
-      "path": "/bin/zsh",
-      "icon": "terminal"
-    },
-    "fish": {
-      "path": "/usr/bin/fish",
-      "icon": "terminal"
-    }
-  },
-  "terminal.integrated.env.linux": {
-    "COLORTERM": "truecolor"
-  },
-
-  // Windows fallback (for cross-platform compatibility)
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.env.windows": {},
   "terminal.integrated.commandsToSkipShell": [
@@ -294,7 +271,7 @@
   // ═══════════════════════════════════════════════════════════════════════════════
 
   "workbench.startupEditor": "none",
-  "workbench.editor.enablePreview": true,
+  "workbench.editor.enablePreview": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.wrapTabs": true,
   "workbench.sideBar.location": "left",
@@ -385,14 +362,5 @@
 
   // DISABLE CORPORATE NANNYING
   "workbench.enableExperiments": false,
-  "workbench.settings.enableNaturalLanguageSearch": false,
-  "python-envs.defaultEnvManager": "ms-python.python:venv",
-  "python-envs.pythonProjects": [
-    {
-      "path": "${workspaceFolder}",
-      "pythonEnvPath": "${workspaceFolder}/venv",
-      "envManager": "ms-python.python:venv",
-      "packageManager": "ms-python.python:pip"
-    }
-  ]
+  "workbench.settings.enableNaturalLanguageSearch": false
 }

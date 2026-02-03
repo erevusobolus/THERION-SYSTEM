@@ -1,3 +1,0 @@
-cd my-therion-website
-ls -la
-npm run dev

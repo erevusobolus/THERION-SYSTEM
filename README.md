@@ -1,616 +1,1221 @@
-# 🚀 EREVUS - The Web3 Gaming Collective
+<div align="center">
 
-**Professional Next.js 14 Website with AI-Enhanced Mobile Optimization**
+<img src="therion/therion_profile.jpg" alt="THERION" width="200" style="border-radius: 50%;" />
 
-*Building the future of Web3 gaming through collaborative innovation*
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-erevus.netlify.app-brightgreen?style=for-the-badge)](https://erevus.netlify.app)
-[![Next.js 14](https://img.shields.io/badge/Next.js-14.2.32-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.4.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![License](https://img.shields.io/badge/License-AGPL--3.0-blue?style=for-the-badge)](./LICENSE)
+        ████████╗██╗  ██╗███████╗██████╗ ██╗ ██████╗ ███╗   ██╗
+        ╚══██╔══╝██║  ██║██╔════╝██╔══██╗██║██╔═══██╗████╗  ██║
+           ██║   ███████║█████╗  ██████╔╝██║██║   ██║██╔██╗ ██║
+           ██║   ██╔══██║██╔══╝  ██╔══██╗██║██║   ██║██║╚██╗██║
+           ██║   ██║  ██║███████╗██║  ██║██║╚██████╔╝██║ ╚████║
+           ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝
 
-![EREVUS Preview](https://via.placeholder.com/800x400/1a1a1a/ffffff?text=EREVUS+Web3+Gaming+Collective)
+     ════════════════════════════════════════════════════════════════
+
+                    Your AI. Your Hardware. Your Rules.
+
+            A Complete Local AI Assistant System Ready in 15 Minutes
+
+              ► 100% Free Forever  ► 100% Private  ► 100% Yours ◄
+
+     ════════════════════════════════════════════════════════════════
+
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Local First](https://img.shields.io/badge/100%25-Local-green.svg)](#)
+[![Open Source](https://img.shields.io/badge/Open-Source-orange.svg)](#)
+[![THERION Protocol](https://img.shields.io/badge/THERION-Protocol-purple.svg)](#)
+
+### ⚔️ What is THERION?
+
+**THERION is the red pill for local AI.**
+
+All the pieces already exist — Ollama runs models, OpenClaw routes messages, VS Code has AI assistants. But connecting them? That's where everyone fails. Hours of configuration, broken scripts, missing documentation, "works on my machine" syndrome.
+
+**We solved that.** THERION is pre-configured rails that make everything click together instantly:
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   🔴 THE RED PILL: What THERION Actually Is
+   ──────────────────────────────────────────
+
+   NOT new software.     → Pre-configured EXISTING software.
+   NOT another chatbot.  → Rails that make chatbots WORK.
+   NOT reinventing.      → Packaging what EXISTS to be FRICTIONLESS.
+
+   We took:  Ollama + OpenClaw + VS Code + Telegram + Scripts
+   We added: Configuration + Documentation + AI Instructions
+   Result:   15 minutes from zero to working AI assistant
+
+   The difference between "possible" and "done" is configuration.
+   THERION is that configuration.
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+**One repo. Every piece pre-wired. Clone and go.**
+
+### 🏰 The EREVUS Philosophy
+
+> _"The technology exists. The friction doesn't have to."_
+
+Local AI is powerful. The tools are free. But the setup? That's where 99% of people give up:
+
+- OpenClaw documentation assumes you're already an expert
+- Ollama works great... once you figure out prompting
+- VS Code Copilot is amazing... for coding, not 24/7 assistance
+- Scripts exist... scattered across GitHub, half-broken
+
+**THERION eliminates the friction.** We did the integration work so you don't have to:
+
+- **Pre-tuned configurations** — Optimal settings, not defaults
+- **Working scripts** — Tested, documented, ready to use
+- **AI-readable documentation** — Copilot/Claude understand the system
+- **One-prompt setup** — Describe what you want, it happens
+
+### 🧬 How THERION Came To Be
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   THE ONE-PROMPT REVOLUTION
+   ─────────────────────────
+
+   We asked ourselves: What if setting up a complete local AI assistant
+   was as simple as opening a folder and saying "set this up for me"?
+
+   So we built exactly that.
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+**THERION is a carefully engineered package** — not just software, but a complete knowledge transfer system:
+
+1. **We forked OpenClaw** — the best open-source AI gateway — and enhanced it with optimized defaults, better tool handling, and smoother configuration
+
+2. **We added custom tools** — web search, file operations, memory systems, and scripts that actually work out of the box
+
+3. **We wrote extensive documentation** — SOUL.md, TOOLS.md, AGENTS.md — that teaches both humans AND AI assistants how the system works
+
+4. **We created VS Code configuration files** — `.github/copilot-instructions.md` and workspace settings that turn ANY AI assistant (Copilot, Claude, Cursor) into a THERION specialist
+
+**The magic ingredient?** Every file in this repository is designed to be read by AI.
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   THE ONE-PROMPT PROMISE
+   ──────────────────────
+
+   Open this workspace in VS Code with Copilot or Claude.
+
+   Say: "Set up THERION for Telegram with my bot token [TOKEN]"
+
+   The AI reads the documentation, understands the architecture,
+   creates your config, tests it, and walks you through any issues.
+
+   Your entire life with AI changes in ONE CONVERSATION.
+
+   No tutorials. No Stack Overflow. No "works on my machine."
+   Just describe what you want, and it happens.
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+**Why this works:**
+
+- **copilot-instructions.md** — Teaches the AI your system's architecture
+- **SOUL.md** — Defines bot personality and behavior patterns
+- **TOOLS.md** — Documents every available capability with examples
+- **AGENTS.md** — Explains the cognitive architecture and protocols
+- **Config templates** — Pre-built configurations the AI can customize
+
+**The AI doesn't guess. It KNOWS.** Because we wrote everything for it to read.
+
+This is prompt engineering at the infrastructure level. We didn't just build software — we built a system that any AI can understand, extend, and teach to users.
+
+**Clone this repo. Open VS Code. Ask for help. Transform your life.**
+
+### ⚔️ Why THERION?
+
+**vs Cloud AI (ChatGPT, Claude API):**
+
+- Run unlimited queries with zero ongoing costs
+- Keep sensitive conversations completely private
+- Work offline whenever you need
+- Customize personality, capabilities, and behavior
+- **Your data never trains their models**
+
+**vs Plain VS Code + Copilot:**
+
+- Available 24/7 on your phone via messaging apps
+- Autonomous task execution without manual prompting
+- Persistent memory across sessions
+- Pre-configured and ready to use
+- **The AI you enhance IS the AI you use daily**
+
+**vs Raw OpenClaw/LangChain:**
+
+- Works in 15 minutes, not 15 hours
+- Comprehensive documentation for all skill levels
+- VS Code workspace with AI-assisted customization
+- No coding expertise required to get started
+- **Complete system, not just a library**
+
+### 📦 The Complete Package
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   📱 MESSAGING INTERFACE — Daily Access Anywhere
+
+      → Telegram, Discord, WhatsApp, Slack — your choice
+      → Runs 24/7 on modest hardware (uses <1GB RAM)
+      → Web search, file operations, persistent memory
+      → Perfect for: daily tasks, quick queries, automation
+
+   💻 DEVELOPMENT INTERFACE — VS Code Workspace
+
+      → Pre-configured for Copilot + Claude assistance
+      → AI helps you customize the AI (meta!)
+      → Add new capabilities without being an expert
+      → Perfect for: customization, new tools, integration
+
+   🔧 OPENCLAW GATEWAY — Extends Your PC
+
+      → Routes messages between interfaces and AI
+      → Executes tools safely on your hardware
+      → Manages memory and conversation state
+      → The engine that makes it all work
+
+   📦 WHAT'S INCLUDED
+
+      ✓ Forked & enhanced OpenClaw gateway
+      ✓ Pre-configured VS Code workspace with AI instructions
+      ✓ Documentation written for BOTH humans AND AI to read
+      ✓ Ready-to-use tool scripts (web search, file ops, memory)
+      ✓ Multi-platform integration guides
+      ✓ Hardware optimization profiles
+      ✓ THERION Protocol for maximum AI effectiveness
+      ✓ One-prompt setup with any AI coding assistant
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+_An [EREVUS](https://erevus.space) Open Source Project — Built for Digital Sovereignty_
+
+[See What It Can Do ⚡](#-what-can-therion-do) • [Start in 15 Minutes 🚀](#-quick-start-15-minutes) • [Full Guide 📖](#installation-guide)
+
+</div>
 
 ---
 
-## 📊 What is EREVUS?
+## 🧠 Cognitive Skills — What Makes THERION Unique
 
-**EREVUS** is a comprehensive Web3 gaming collective website that serves as the digital headquarters for a revolutionary gaming organization. This production-ready application demonstrates modern web development excellence with AI-enhanced performance optimization.
-
-### 🎯 Key Highlights
-
-- **🎮 Web3 Gaming Focus**: Showcase for next-generation gaming collective
-- **📱 Mobile Excellence**: Adaptive quality management system for all devices
-- **⚡ Performance Optimized**: 95+ Lighthouse scores across all metrics
-- **🤖 AI-Enhanced**: Intelligent performance scaling and optimization
-- **🔒 Production Ready**: Professional deployment with comprehensive documentation
-
----
-
-## 🛠️ Technology Stack
-
-### Frontend Excellence
-- **Framework**: Next.js 14.2.32 with App Router
-- **Language**: TypeScript 5.4.0 for complete type safety
-- **Styling**: Tailwind CSS 3.4.0 with custom design system
-- **Animations**: Framer Motion 11.1.0 for professional interactions
-- **Icons**: Lucide React for consistent iconography
-
-### Backend & Infrastructure
-- **Hosting**: Netlify with global CDN
-- **Functions**: Netlify Functions for contact handling
-- **Build**: Static Site Generation (SSG) for optimal performance
-- **Deployment**: Continuous deployment from Git repository
-
-### Key Features
-- **Adaptive Quality Management**: AI-powered performance optimization
-- **Mobile-First Design**: Responsive across all device types
-- **SEO Optimized**: Complete meta tags and structured data
-- **Accessibility**: WCAG 2.1 AA compliant design
-- **Progressive Enhancement**: Graceful degradation for all users
-
----
-
-## 🎮 Website Pages
-
-### Core Pages
-- **🏠 Homepage**: Hero section with mission and call-to-action
-- **📖 About**: Collective mission, vision, and values
-- **🛠️ Services**: Game development and Web3 integration services
-- **👥 Team**: Leadership and development team structure
-- **🎮 Games**: Showcase of current and upcoming games
-
-### Specialized Pages
-- **💰 OBOLUS**: Interactive token economics and visualization
-- **🤖 THERION AI**: AI tools and development assistance showcase
-- **📞 Contact**: Professional contact form with email integration
-
----
-
-## 🚀 Local Development Setup
-
-### Prerequisites
-- **Node.js 18+** (Download from [nodejs.org](https://nodejs.org/))
-- **npm** or **yarn** package manager
-- **VS Code** (Recommended for best experience)
-
-### 🎯 Quick Start Guide
-
-#### 1. **Get the Project Running Locally**
-
-**Essential Prompt for AI Assistance:**
-```
-"I want to run the EREVUS website locally. Please help me:
-1. Clone the repository 
-2. Install all dependencies
-3. Start the development server
-4. Verify it's working on localhost:3000
-5. Show me the file structure so I understand the codebase"
-```
-
-**Manual Setup:**
-```bash
-# Clone the repository
-git clone https://github.com/erevus-collective/erevus-website.git
-cd erevus-website
-
-# Install dependencies
-npm install
-
-# Start development server  
-npm run dev
-
-# Open browser to http://localhost:3000
-```
-
-#### 2. **Development Commands**
-
-```bash
-# Start development with hot reload
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
-
-# Run type checking
-npm run type-check
-
-# Clean build cache
-npm run clean
-```
-
-### 🛠️ Customization & Development
-
-#### **Making Changes to Any Page**
-
-**Prompt Template for Page Modifications:**
-```
-"I want to modify the [PAGE NAME] page of the EREVUS website. 
-Specifically, I want to [DESCRIBE CHANGES].
-
-Please:
-1. Show me the current [PAGE NAME] component structure
-2. Identify which files need to be modified
-3. Make the changes while maintaining the existing design system
-4. Ensure responsive design is preserved
-5. Test that TypeScript types are correct
-6. Verify the changes work in development mode"
-```
-
-**Example Prompts:**
-
-**For Homepage Changes:**
-```
-"I want to modify the hero section on the homepage to change the main heading and add a new button. Please show me the Hero component, update the text to 'Revolutionary Web3 Gaming Platform', and add a 'Join Beta' button next to the existing CTA."
-```
-
-**For New Pages:**
-```
-"I want to create a new 'Blog' page for the EREVUS website. Please:
-1. Create the page structure following the existing patterns
-2. Add navigation links to the header
-3. Create a responsive blog layout with cards
-4. Include proper TypeScript types
-5. Add SEO metadata"
-```
-
-**For Styling Changes:**
-```
-"I want to change the color scheme of the EREVUS website from dark blue to dark green. Please update the Tailwind config and all components to use the new color palette while maintaining accessibility and contrast ratios."
-```
-
-#### **Component Architecture**
+**THERION isn't just a chatbot.** It comes with pre-built **cognitive skill modules** that handle complex tasks out of the box:
 
 ```
-src/
-├── app/                     # Next.js App Router - Add new pages here
-│   ├── [page]/page.tsx      # Individual page components
-│   └── layout.tsx           # Global layout and metadata
-├── components/
-│   ├── layout/              # Header, Footer, Navigation
-│   ├── sections/            # Page-specific content blocks
-│   ├── ui/                  # Reusable UI components
-│   └── [feature]/           # Feature-specific components
-├── hooks/                   # Custom React hooks
-├── types/                   # TypeScript definitions
-└── utils/                   # Helper functions
+┌────────────────────────────────────────────────────────────────────────────┐
+   🧠 THERION BRAIN         Universal CLI: weather, crypto, web, system
+   🌐 WEB RESEARCH          Search + fetch WITHOUT API keys (ddgr + w3m)
+   🧠 MEMORY MANAGEMENT     Persistent memory across sessions
+   💻 VSCODE CONTROL        Open files, goto line, run commands
+   🔧 SYSTEM OPS            Linux admin, process management
+   📂 FILE SEARCH           Find anything in your codebase
+   ⚔️ THERION CODING        Code generation patterns
+   🛠️ THERION TOOLS         Extensible tool framework
+└────────────────────────────────────────────────────────────────────────────┘
 ```
 
-#### **Creating New Pages**
-
-**Step-by-Step Prompt:**
-```
-"I want to create a new page called '[PAGE NAME]' for the EREVUS website. Please:
-
-1. Create the page file at src/app/[page-name]/page.tsx
-2. Follow the existing page structure pattern
-3. Add proper TypeScript types and SEO metadata  
-4. Create any necessary components in src/components/sections/
-5. Add navigation links to the header component
-6. Style it consistently with the existing design system
-7. Make it fully responsive for mobile devices
-8. Test it works correctly in development"
-```
-
-#### **Modifying Existing Components**
-
-**Component Modification Prompt:**
-```
-"I want to modify the [COMPONENT NAME] component in the EREVUS website. 
-Current location: src/components/[path]/[component].tsx
-
-Changes needed:
-- [Describe specific changes]
-
-Please:
-1. Show me the current component code
-2. Make the requested changes
-3. Maintain TypeScript safety
-4. Preserve responsive design
-5. Keep accessibility standards
-6. Test the changes work properly"
-```
-
-### 🎨 Creating Your Own Project Based on EREVUS
-
-#### **Full Project Clone & Customization**
-
-**Complete Setup Prompt:**
-```
-"I want to create my own website based on the EREVUS project structure. Please help me:
-
-1. Clone the EREVUS repository 
-2. Rename it to '[YOUR PROJECT NAME]'
-3. Update all branding from EREVUS to '[YOUR BRAND]'
-4. Modify the color scheme to [YOUR COLORS]
-5. Update the content for [YOUR INDUSTRY/PURPOSE]
-6. Change the logo and images
-7. Update package.json with my project details
-8. Set up for deployment on [YOUR HOSTING PLATFORM]
-9. Create a custom README for my project"
-```
-
-#### **Using EREVUS Components in Your Project**
-
-**Component Extraction Prompt:**
-```
-"I want to use the [SPECIFIC COMPONENT] from EREVUS in my own Next.js project. Please:
-
-1. Extract the component and all its dependencies
-2. Show me what files I need to copy
-3. List any required packages/dependencies  
-4. Explain how to integrate it into my existing project
-5. Provide customization options
-6. Include proper TypeScript types"
-```
-
-**Popular Components to Extract:**
-- Adaptive Quality Management System
-- Mobile-optimized animations
-- Contact form with Netlify functions
-- Hero section with animations
-- Interactive token visualization (OBOLUS)
-- Responsive navigation header
-
-#### **Starting From Scratch with EREVUS Elements**
-
-**New Project Prompt:**
-```
-"I want to start a new Next.js project from scratch but use design patterns and components from EREVUS. Please:
-
-1. Set up a new Next.js 14 project with TypeScript
-2. Install the same core dependencies as EREVUS
-3. Copy the Tailwind config and design system
-4. Implement the adaptive quality management system
-5. Create a basic layout using EREVUS patterns
-6. Add [SPECIFIC FEATURES] that I need
-7. Set up the same development workflow"
-```
-
-### 🔧 Advanced Development
-
-#### **Performance Optimization**
-
-```
-"Help me optimize the EREVUS website performance by:
-1. Analyzing current bundle size
-2. Implementing code splitting improvements  
-3. Optimizing images and assets
-4. Improving Core Web Vitals scores
-5. Adding performance monitoring"
-```
-
-#### **Adding New Features**
-
-```
-"I want to add [FEATURE NAME] to the EREVUS website. Please:
-1. Plan the implementation approach
-2. Create the necessary components
-3. Add any required dependencies
-4. Implement proper error handling
-5. Add TypeScript types
-6. Test the feature thoroughly
-7. Update documentation"
-```
-
-### 🚀 Deployment & Production
-
-#### **Deploy Your Own Version**
-
-**Netlify Deployment Prompt:**
-
-```text
-"I want to deploy my customized version of the EREVUS website to Netlify. Please help me:
-
-1. Prepare the project for production deployment
-2. Set up Netlify configuration (netlify.toml) 
-3. Configure environment variables if needed
-4. Set up the contact form to work with Netlify Functions
-5. Configure custom domain if I have one
-6. Set up continuous deployment from my Git repository
-7. Optimize the build for best performance"
-```
-
-**Vercel Deployment Prompt:**
-
-```text
-"I want to deploy to Vercel instead of Netlify. Please:
-
-1. Convert the Netlify Functions to Vercel Functions
-2. Update the deployment configuration
-3. Set up the contact form for Vercel
-4. Configure the build settings
-5. Set up custom domain and SSL"
-```
-
-#### **Production Checklist**
+### ⚔️ THERION Brain — One Command, Infinite Actions
 
 ```bash
-# Test production build locally
-npm run build
-npm start
-
-# Check for TypeScript errors
-npm run type-check
-
-# Test all pages and functionality
-# Verify contact form works
-# Check mobile responsiveness  
-# Test performance with Lighthouse
+# Instead of remembering 50 different commands:
+therion weather '{"location":"Athens"}'
+therion crypto_price '{"coins":"bitcoin,ethereum"}'
+therion web_search '{"query":"AI news","num_results":5}'
+therion linux_help '{"task":"install docker"}'
 ```
 
----
+**Massively optimizes context window** by exposing ONE universal CLI.
 
-## 🎮 Project Structure Deep Dive
-
----
-
-## 📁 Project Architecture
-
-```
-EREVUS-Website/
-├── src/
-│   ├── app/                 # Next.js 14 App Router
-│   │   ├── layout.tsx       # Root layout with global configuration
-│   │   ├── page.tsx         # Homepage component
-│   │   ├── about/           # About page - mission and vision
-│   │   ├── services/        # Services breakdown and offerings
-│   │   ├── team/            # Team structure and roles
-│   │   ├── games/           # Games showcase and portfolio
-│   │   ├── obolus/          # Token economics and information
-│   │   ├── therion/         # AI tools and capabilities
-│   │   └── contact/         # Contact form and information
-│   ├── components/          # Reusable UI components
-│   │   ├── layout/          # Header, Footer, Navigation
-│   │   ├── sections/        # Page-specific content sections
-│   │   ├── ui/              # Base UI components and primitives
-│   │   └── obolus/          # Token-specific interactive components
-│   ├── hooks/               # Custom React hooks
-│   │   ├── useAdaptiveQuality.ts    # AI-powered performance optimization
-│   │   └── useIntersectionObserver.ts  # Scroll-based animations
-│   ├── types/               # TypeScript type definitions
-│   └── utils/               # Utility functions and helpers
-├── public/                  # Static assets and media
-│   ├── erevus-logo.png     # Brand identity and logos
-│   ├── sounds/             # Interactive audio feedback
-│   └── robots.txt          # SEO and search engine configuration
-├── netlify/                # Deployment and serverless functions
-│   └── functions/          # Contact form and API endpoints
-└── docs/                   # Comprehensive project documentation
-```
-
----
-
-## 🎨 Key Features Deep Dive
-
-### 🤖 Adaptive Quality Management
-
-Our revolutionary **Adaptive Quality Management System** automatically optimizes user experience based on device capabilities:
-
-```typescript
-// Intelligent performance scaling
-const { qualityLevel, animationsEnabled } = useAdaptiveQuality();
-
-// Quality levels: 'high' | 'medium' | 'low' | 'accessibility'
-// Automatically detects device performance and adjusts accordingly
-```
-
-**Benefits:**
-- ⚡ Smooth 60fps experience on all devices
-- 📱 Intelligent mobile optimization
-- ♿ Accessibility-first design approach
-- 🔋 Battery-aware performance scaling
-
-### 🎯 Modern Development Practices
-
-- **TypeScript First**: Complete type safety throughout the application
-- **Component Architecture**: Modular, reusable, and maintainable components
-- **Performance Optimized**: Lazy loading, code splitting, and image optimization
-- **SEO Excellence**: Complete meta tags, sitemaps, and structured data
-- **Accessibility**: Screen reader support, keyboard navigation, ARIA labels
-
-### 🌐 Production Deployment
-
-- **Static Site Generation**: Pre-rendered pages for lightning-fast loading
-- **Global CDN**: Netlify's worldwide content delivery network
-- **Continuous Deployment**: Automatic builds from Git repository
-- **SSL Certificate**: Secure HTTPS with automatic renewal
-- **Performance Monitoring**: Real-time analytics and optimization
-
----
-
-## 📚 Learning Resources
-
-This project serves as a comprehensive learning resource for:
-
-### Web Development
-- **Next.js 14**: Modern React framework with App Router
-- **TypeScript**: Complete type safety in React applications
-- **Tailwind CSS**: Utility-first styling and responsive design
-- **Performance Optimization**: Lighthouse scoring and best practices
-
-### AI-Enhanced Development
-- **Adaptive Systems**: Performance scaling based on device capabilities
-- **Intelligent Loading**: Smart resource management and optimization
-- **User Experience**: Accessibility and inclusive design principles
-
-### Professional Practices
-- **Git Workflow**: Professional version control and collaboration
-- **Documentation**: Comprehensive guides and API documentation
-- **Testing**: Quality assurance and performance validation
-- **Deployment**: Production-ready infrastructure and CI/CD
-
----
-
-## 🤝 AI Collaboration Methodology
-
-This project was built using advanced AI collaboration techniques. Key principles:
-
-### Effective AI Partnership
-- **Clear Requirements**: Specific, actionable requests with context
-- **Iterative Development**: Build in phases with continuous improvement
-- **Quality Focus**: Performance, accessibility, and maintainability first
-- **Documentation**: Comprehensive guides for knowledge transfer
-
-### Prompt Engineering Excellence
-- **Context-Rich Requests**: Include project background and constraints
-- **Technical Specifications**: Exact requirements and success criteria
-- **Problem-Solution Format**: Clear issue identification and resolution
-- **Learning Integration**: Educational value in every interaction
-
----
-
-## 🔒 License & Intellectual Property
-
-### GNU AGPL-3.0 License
-
-This project is licensed under the **GNU Affero General Public License v3.0**, providing:
-
-- ✅ **Educational Use**: Free for learning, research, and non-commercial projects
-- ✅ **Open Source**: Source code must remain accessible and auditable
-- ✅ **Community Growth**: Improvements benefit the entire development community
-- ✅ **Commercial Protection**: Commercial use requires source code sharing
-
-### What You Can Do
-- 📚 Study the code for educational purposes
-- 🔬 Use for research and academic projects
-- 🤝 Contribute improvements back to the community
-- 🔄 Fork and modify with proper attribution
-
-### Commercial Use
-For commercial use without open source requirements, please contact: **erevus.ai@proton.me**
-
----
-
-## 🎯 Performance Metrics
-
-### Lighthouse Scores
-- **Performance**: 95+ (Desktop) / 90+ (Mobile)
-- **Accessibility**: 100 (WCAG 2.1 AA compliant)
-- **Best Practices**: 100 (Modern web standards)
-- **SEO**: 100 (Complete optimization)
-
-### Technical Achievements
-- **Load Time**: < 2 seconds globally
-- **Bundle Size**: Optimized with code splitting
-- **Mobile Experience**: Adaptive quality management
-- **Cross-Browser**: Compatible across all modern browsers
-
----
-
-## 🌟 Getting Involved
-
-### For Developers
-- **Study the Code**: Learn modern React and Next.js patterns
-- **Contribute**: Submit improvements and bug fixes
-- **Learn**: Use as reference for your own projects
-- **Collaborate**: Join the open source community
-
-### For Students
-- **Educational Resource**: Complete working example of modern web development
-- **Best Practices**: Professional-grade development standards
-- **AI Collaboration**: Learn effective human-AI partnership techniques
-- **Career Development**: Industry-relevant skills and practices
-
-### For Organizations
-- **Reference Implementation**: High-quality web application example
-- **Technical Architecture**: Scalable and maintainable development patterns
-- **Performance Standards**: Benchmarks for web application excellence
-- **Collaboration Framework**: Effective development team practices
-
----
-
-## 📞 Contact & Support
-
-- **🌐 Live Website**: [https://erevus.netlify.app](https://erevus.netlify.app)
-- **📧 Email**: erevus.ai@proton.me
-- **🔗 GitHub**: [github.com/erevus-collective/erevus-website](https://github.com/erevus-collective/erevus-website)
-- **🐦 Twitter**: [@ErevusAi](https://x.com/ErevusAi)
-
----
-
-## 🏆 Acknowledgments
-
-Built with modern web development excellence and AI collaboration methodology. This project demonstrates the future of human-AI partnership in professional software development.
-
-### Technologies & Tools
-- [Next.js](https://nextjs.org/) - React framework for production
-- [TypeScript](https://www.typescriptlang.org/) - JavaScript with type safety
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [Framer Motion](https://www.framer.com/motion/) - Animation library
-- [Netlify](https://www.netlify.com/) - Modern web deployment platform
-
----
-
-## 🎯 Quick Start Summary
-
-### **New to the Project? Start Here:**
-
-**1. Get It Running Locally (Essential First Step):**
+### 🌐 Web Research — NO API Keys Required
 
 ```bash
-git clone https://github.com/erevus-collective/erevus-website.git
-cd erevus-website
-npm install
-npm run dev
-# Open http://localhost:3000
+# Search (DuckDuckGo via ddgr)
+ddgr -n 5 --json "your search query"
+
+# Fetch webpage content (w3m)
+w3m -dump "https://example.com" | head -c 50000
 ```
 
-**2. Essential AI Prompt for Help:**
+**Works completely offline.** No OpenAI key. No Google API. Just local tools.
 
-```text
-"I just cloned the EREVUS website and want to understand how to customize it. Please:
+### 🧠 Memory System — True Persistence
 
-1. Explain the project structure and key files
-2. Show me how to modify the homepage content  
-3. Guide me through changing colors and styling
-4. Help me add a new page
-5. Explain how to deploy my changes
-
-I'm [beginner/intermediate/advanced] with [React/Next.js/web development]."
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  memory/YYYY-MM-DD.md  │  Daily logs (what happened today)      │
+│  MEMORY.md             │  Long-term curated knowledge           │
+│  USER.md               │  Your preferences and context          │
+│  SOUL.md               │  Agent personality and rules           │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-**3. Common Customization Prompts:**
+THERION **remembers across sessions**. Not just conversation history — actual curated knowledge.
 
-```text
-# Change the homepage
-"Modify the EREVUS homepage hero section to say '[YOUR TEXT]' and change the button to '[YOUR CTA]'"
+### All Skills in `/skills/` Directory
 
-# Add a new page  
-"Create a new '[PAGE NAME]' page with [DESCRIPTION] following EREVUS design patterns"
+Each skill is documented with examples. Extend or create your own:
 
-# Change colors
-"Change the EREVUS color scheme from blue to [YOUR COLOR] while maintaining accessibility"
-
-# Deploy your version
-"Help me deploy my customized EREVUS website to [Netlify/Vercel] with my own domain"
+```
+skills/
+├── therion-brain/      # Universal command interface
+├── web-research/       # Search and fetch without APIs
+├── memory-management/  # Persistent memory system
+├── vscode-control/     # VS Code automation
+├── system-ops/         # Linux administration
+├── file-search/        # Codebase exploration
+├── therion-coding/     # Code generation patterns
+└── therion-tools/      # Tool framework
 ```
 
-### **Key Files to Know:**
+---
 
-- `src/app/page.tsx` - Homepage content
-- `src/components/layout/Header.tsx` - Navigation menu
-- `src/components/sections/Hero.tsx` - Main hero section
-- `tailwind.config.js` - Colors and design system
-- `package.json` - Project configuration
+## 🎯 What Can THERION Do?
 
-### **Ready for Production?**
+### For Everyone — Daily Assistant Mode
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   ✓ Answer questions about anything — with web search when needed
+   ✓ Search the web and summarize information — DuckDuckGo integration
+   ✓ Remember conversations and important details — persistent memory
+   ✓ Set reminders and track tasks — daily logs and scheduling
+   ✓ Get weather, news, and real-time information — live data access
+   ✓ Control your computer (optional) — system commands execution
+   ✓ Available 24/7 via Telegram/Discord/WhatsApp — always accessible
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+### For Developers — Full Development Partner
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   ✓ Code generation and debugging assistance — context-aware solutions
+   ✓ Automated git commits and project management — version control
+   ✓ Run scripts and system commands — safe execution environment
+   ✓ Monitor servers and services — health checks and alerts
+   ✓ API testing and integration — endpoint validation
+   ✓ Documentation generation — auto-generated docs
+   ✓ Extend with custom tools (Python, Bash, anything) — infinite expansion
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+### For Power Users — VS Code Integration
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   ✓ Pre-configured workspace with Copilot/Claude instructions
+   ✓ AI understands the entire THERION architecture
+   ✓ One-prompt operations: "Add a tool for X" and it just works
+   ✓ Debug configuration issues with AI assistance
+   ✓ Extend capabilities without deep coding knowledge
+   ✓ The development environment IS the deployment environment
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Real-World Use Cases
+
+**🏠 Personal Assistant Mode**
+
+> "THERION, remind me to call the dentist tomorrow at 2pm"  
+> "What's the weather like this weekend? Should I bring an umbrella?"  
+> "Find recent articles about quantum computing and summarize the key breakthroughs"
+> "Track how much time I spend coding each day this week"
+
+**💻 Developer Mode**
+
+> "Create a REST API with authentication, rate limiting, and error handling"  
+> "Debug this Python script—it's failing on line 42 but I don't know why"  
+> "Monitor my server and text me if CPU exceeds 80% or disk is 90% full"  
+> "Review my last 10 commits and generate a changelog"
+
+**📚 Research Mode**
+
+> "Compare the top 5 JavaScript frameworks—give me pros, cons, and which to choose for my use case"  
+> "Summarize the latest transformer architecture papers and explain the innovations"  
+> "What are companies using for microservices in 2026? Give me real-world examples"  
+> "Find the best practices for database optimization and create a checklist"
+
+**⚙️ Automation Mode**
+
+> "Every morning at 8am, fetch tech news, summarize it, and send me the top 5 stories"  
+> "Watch my Downloads folder—move PDFs to Documents, images to Pictures, organize by date"  
+> "Backup my projects to external drive every Friday at 6pm and notify me when done"  
+> "Monitor my GitHub repos and alert me about new issues or PRs"
+
+**🔧 VS Code Power Mode**
+
+> "Add a tool that fetches cryptocurrency prices"  
+> "Change THERION's personality to be more formal"  
+> "Debug why web search isn't returning results"  
+> "Create a new skill module for smart home control"
+
+**🎯 The Difference?**
+
+THERION doesn't just tell you HOW to do these things—**it actually DOES them.** Most AI assistants explain. THERION executes.
+
+---
+
+## 🚀 Quick Start (15 Minutes)
+
+### From Zero to AI Assistant in 5 Steps
+
+**Got 8GB+ RAM and basic Linux/Mac/Windows knowledge?** You're 15 minutes away from your own private AI.
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   1️⃣ Install Ollama (AI Engine)           ━━━━━━━━━━━━━━━  2 minutes
+   🧠 Download AI Model                     ━━━━━━━━━━━━━━━  5-10 minutes
+   📦 Get THERION                           ━━━━━━━━━━━━━━━  2 minutes
+   🤖 Connect Telegram/Discord              ━━━━━━━━━━━━━━━  3 minutes
+   ▶️ Start & Chat                          ━━━━━━━━━━━━━━━  30 seconds
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Step 1: Install Ollama (The AI Brain)
+
+**Linux/Mac:**
 
 ```bash
-npm run build  # Test production build
-npm start      # Preview production locally
-# Then deploy to your preferred platform
+curl -fsSL https://ollama.ai/install.sh | sh
+```
+
+**Windows:** Download from [ollama.ai](https://ollama.ai)
+
+### Step 2: Download an AI Model
+
+**Pick your model based on what you have:**
+
+```bash
+# Got a basic laptop? (8GB RAM, no GPU)
+ollama pull qwen3:4b                # 2GB download, runs anywhere
+
+# Got a gaming laptop/desktop? (16GB RAM, decent GPU)
+ollama pull qwen2.5-coder:14b       # 8GB download, much smarter
+
+# Got a beast machine? (32GB RAM, RTX 3080+)
+ollama pull qwen2.5-coder:32b       # 18GB download, genius-level
+```
+
+**Takes 5-10 minutes depending on internet speed.** Make coffee. Read documentation. Plan world domination.
+
+### Step 3: Get THERION
+
+```bash
+# Install Node.js first (if you don't have it)
+sudo apt install nodejs npm  # Linux
+brew install node           # Mac
+
+# Clone THERION
+git clone https://github.com/erevusobolus/THERION-SYSTEM.git
+cd THERION-SYSTEM
+
+# Install the gateway
+npm install -g openclaw
+```
+
+### Step 4: Connect to Telegram (or Discord/WhatsApp)
+
+1. Message [@BotFather](https://t.me/BotFather) on Telegram
+2. Send `/newbot` and follow the prompts
+3. Copy your bot token
+4. Put it in the config file (we'll show you where)
+
+### Step 5: Start THERION
+
+```bash
+openclaw gateway start
+```
+
+**🎉 That's it!**
+
+Open Telegram (or Discord/WhatsApp) and message your bot:
+
+```
+You: What's the weather like today?
+
+THERION: *searches web*
+Currently 72°F and sunny in your area.
+Expect clear skies through evening.
+Good day for outdoor activities!
+```
+
+**Your own AI just searched the web and responded. No API keys. No monthly fees. No data leaving your computer.**
+
+---
+
+**Want the full walkthrough?** See [Installation Guide](#installation-guide) below for detailed steps.
+
+### Want to Use Discord, WhatsApp, or Slack Instead?
+
+**Platform Setup Guides:**
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   📱 Telegram  → docs/PLATFORM-SETUP-INDEX.md#telegram-setup        (5 min)
+   💬 Discord   → docs/PLATFORM-SETUP-INDEX.md#discord-setup        (10 min)
+   📞 WhatsApp  → docs/PLATFORM-SETUP-INDEX.md#whatsapp-setup       (20 min)
+   💼 Slack     → docs/PLATFORM-SETUP-INDEX.md#slack-setup          (15 min)
+   🔧 Custom    → docs/PLATFORM-SETUP-INDEX.md#custom-webhook-setup  (varies)
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+**Complete platform configuration guide:** [docs/PLATFORM-SETUP-INDEX.md](docs/PLATFORM-SETUP-INDEX.md)
+
+**Note:** Each platform requires different setup steps. The guides include:
+
+- Exact commands to run
+- Where to get API keys/tokens
+- Configuration examples
+- Troubleshooting for each platform
+
+---
+
+## 🆚 THERION vs The Competition
+
+### vs Cloud AI Services (ChatGPT, Claude)
+
+| Feature            | ChatGPT Plus   | Claude Pro        | **THERION**           |
+| ------------------ | -------------- | ----------------- | --------------------- |
+| **Monthly Cost**   | $20            | $20               | **$0 Forever**        |
+| **5-Year Cost**    | $1,200         | $1,200            | **$0**                |
+| **Privacy**        | Data to OpenAI | Data to Anthropic | **100% Local**        |
+| **Works Offline**  | Never          | Never             | **Always**            |
+| **Customization**  | Prompt only    | Prompt only       | **Full control**      |
+| **Tool Execution** | Limited        | Limited           | **Unlimited**         |
+| **Phone Access**   | Their app only | Their app only    | **Any messaging app** |
+
+### vs Developer Tools
+
+| Tool                  | What It Is               | What You Get                                | Setup Time          |
+| --------------------- | ------------------------ | ------------------------------------------- | ------------------- |
+| **Raw Ollama**        | Inference engine only    | Just runs models, no tools/messaging        | Hours of config     |
+| **Raw OpenClaw**      | Gateway framework        | Needs configuration, tools, personality     | Hours of work       |
+| **VS Code + Copilot** | IDE coding assistant     | Great for coding, NO 24/7 bot               | Minutes (coding)    |
+| **Cursor**            | AI-first IDE             | Great for coding, NO 24/7 bot               | Minutes (coding)    |
+| **Base44/Lovable**    | No-code AI builders      | Quick demos, NO ownership or control        | Minutes (locked-in) |
+| **THERION**           | **Complete AI platform** | **Ready to use, extensible, yours forever** | **15 minutes**      |
+
+**Key Insight:** THERION complements VS Code/Cursor for coding — THERION handles everything else, 24/7 via messaging apps.
+
+---
+
+## 💻 Hardware Requirements
+
+### Will THERION Run on My Computer?
+
+**TL;DR: If your computer can run Chrome, it can probably run THERION.**
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   ✅ 8GB RAM?              → Yes, THERION will run (basic)
+   ✅ 16GB RAM + any GPU?   → Yes, good performance
+   ✅ Gaming PC/Laptop?     → Yes, excellent performance
+   ✅ Mac M1/M2/M3?         → Yes, Apple Silicon optimized
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Baseline Configuration (Our Recommendation)
+
+| Component | Minimum    | Recommended |
+| --------- | ---------- | ----------- |
+| RAM       | 8GB        | 16GB        |
+| GPU VRAM  | 4GB        | 8GB+        |
+| Model     | `qwen3:4b` | `qwen3:14b` |
+
+**Default model:** `qwen3:4b` — Downloads automatically (~2.5GB), works on most hardware.
+
+### Hardware Tiers (EREVUS Recommendations)
+
+| Tier        | VRAM  | Model               | Quality Level      |
+| ----------- | ----- | ------------------- | ------------------ |
+| Entry       | 4GB   | `qwen3:4b`          | Good for basics    |
+| Standard    | 6GB   | `qwen2.5-coder:7b`  | Good for coding    |
+| Recommended | 8GB+  | `qwen3:14b`         | Near ChatGPT-level |
+| Performance | 12GB+ | `qwen2.5-coder:32b` | ChatGPT Plus level |
+| Ultra       | 24GB+ | `llama3.3:70b`      | State-of-the-art   |
+
+**Full model guide with verified tool-calling support:** [docs/VERIFIED-MODELS.md](docs/VERIFIED-MODELS.md)
+
+---
+
+## 📚 Installation Guide
+
+Follow these steps carefully. We'll explain everything.
+
+### What You'll Install
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   1. System Tools    → Basic software (5 minutes)
+   2. Ollama          → AI engine (10 minutes)
+   3. AI Model        → The brain (10-20 minutes download)
+   4. THERION System  → Main software (5 minutes)
+   5. OpenClaw        → Gateway router (2 minutes)
+   6. Configuration   → Connect everything (5 minutes)
+└────────────────────────────────────────────────────────────────────────────┘
+
+Total Time: 30-45 minutes (mostly downloading)
+```
+
+### Prerequisites (What You Need First)
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   📦 Complete dependency list with install scripts:
+   See DEPENDENCIES_FULL.md for comprehensive inventory
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+**Linux (Ubuntu/Debian):**
+
+```bash
+sudo apt update && sudo apt install -y \
+    curl git nodejs npm python3 python3-pip python3-venv \
+    ddgr jq w3m ripgrep tree
+```
+
+**macOS:**
+
+```bash
+brew install node python ddgr jq w3m ripgrep tree
+```
+
+**Windows:**
+Use WSL2 with Ubuntu, then follow Linux instructions.
+
+### Python Virtual Environment Setup
+
+**Create and activate virtual environment (recommended):**
+
+```bash
+# Create virtual environment
+python3 -m venv venv
+
+# Activate (Linux/Mac)
+source venv/bin/activate
+
+# Activate (Windows WSL)
+source venv/bin/activate
+
+# Install Python dependencies
+pip3 install -r requirements.txt
+```
+
+### Step 1: Install Ollama
+
+```bash
+curl -fsSL https://ollama.ai/install.sh | sh
+```
+
+Verify installation:
+
+```bash
+ollama --version
+nvidia-smi  # If using GPU
+```
+
+### Step 2: Download a Model
+
+```bash
+# Entry-level (4GB VRAM)
+ollama pull qwen3:4b
+
+# Standard (8GB VRAM)
+ollama pull qwen2.5-coder:14b
+
+# Create optimized THERION variant (optional)
+ollama create qwen3:therion-16k -f Modelfile.therion-16k
+```
+
+### Step 3: Clone THERION
+
+```bash
+git clone https://github.com/erevusobolus/THERION-SYSTEM.git
+cd THERION-SYSTEM
+```
+
+### Step 4: Install OpenClaw
+
+```bash
+npm install -g openclaw
+```
+
+### Step 5: Configure
+
+Copy template and edit:
+
+```bash
+mkdir -p ~/.openclaw
+cp config/openclaw.template.json ~/.openclaw/openclaw.json
+```
+
+Edit `~/.openclaw/openclaw.json`:
+
+```json
+{
+  "agents": {
+    "default": {
+      "model": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "baseUrl": "http://localhost:11434"
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "token": "<paste-your-bot-token-here>"
+    }
+  }
+}
+```
+
+**Note:** Replace `<paste-your-bot-token-here>` with actual token from @BotFather
+
+### Step 6: Start
+
+```bash
+openclaw gateway start
 ```
 
 ---
 
-**⭐ Star this repository if you found it helpful for learning modern web development and AI collaboration techniques!**
+## ⚙️ System Architecture (How The Pieces Fit)
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+                            THERION SYSTEM
+
+   ┌───────────────┐      ┌───────────────┐      ┌───────────────┐
+   │   VS CODE     │      │   OPENCLAW    │      │    OLLAMA     │
+   │               │      │    GATEWAY    │      │               │
+   │  Setup &      │◀────▶│               │◀────▶│   Local AI    │
+   │  Configure    │      │  Routes msgs  │      │   Inference   │
+   │  Debug        │      │  Runs tools   │      │               │
+   │  Customize    │      │  Manages mem  │      │   qwen3:4b    │
+   └───────────────┘      └───────┬───────┘      └───────────────┘
+                                  │
+                                  │
+                         ┌────────▼────────┐
+                         │    MESSAGING    │
+                         │                 │
+                         │   Telegram      │
+                         │   Discord       │
+                         │   WhatsApp      │
+                         │   Web UI        │
+                         └─────────────────┘
+
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+### What Each Component Does
+
+**VS CODE (Optional Development Environment)**
+
+- Edit THERION's personality and behavior
+- Add new capabilities (tools)
+- Debug issues and view logs
+- Not required for basic use!
+
+**OPENCLAW (The Gateway)**
+
+- Receives messages from Telegram/Discord/etc.
+- Sends them to the AI (Ollama)
+- Executes commands safely (web search, file operations, etc.)
+- Stores conversation memory
+
+**OLLAMA (The AI Engine)**
+
+- Runs the language model on your computer
+- Processes requests and generates responses
+- Works completely offline
+- Free and open source
+
+**MESSAGING PLATFORM (Your Interface)**
+
+- Where you chat with THERION
+- Use from phone or computer
+- Available 24/7
+- Pick any platform you like
+
+### Everything is Replaceable
+
+| Component       | Default        | Alternative Options                       |
+| --------------- | -------------- | ----------------------------------------- |
+| **AI Engine**   | Ollama (local) | Claude API, OpenAI API, llama.cpp, vLLM   |
+| **Gateway**     | OpenClaw       | LangChain, custom server, direct API      |
+| **Model**       | Qwen3 4B       | Any Ollama model, commercial APIs         |
+| **Interface**   | Telegram       | Discord, Slack, WhatsApp, web UI, CLI     |
+| **Development** | VS Code        | Any text editor, just edit files directly |
 
 ---
 
-*Copyright (c) 2025 EREVUS Collective. Licensed under AGPL-3.0-or-later.*
+## 🖥️ VS Code Setup — Your Development Cockpit
 
-**🎮 EREVUS COLLECTIVE - Building the Future of Web3 Gaming 🚀**
+**This is where the magic happens.** The VS Code integration provides:
+
+- Automated setup and configuration
+- Debugging and log analysis
+- Capability extension
+- Prompt engineering workspace
+
+### Required Extensions
+
+| Extension              | Purpose                   | Install                   |
+| ---------------------- | ------------------------- | ------------------------- |
+| **GitHub Copilot**     | AI assistance for setup   | `github.copilot`          |
+| **Copilot Chat**       | Interactive AI chat       | `github.copilot-chat`     |
+| **Claude for VS Code** | Alternative AI (optional) | `anthropic.claude-vscode` |
+| **Python**             | Script execution          | `ms-python.python`        |
+| **Markdown Preview**   | Documentation viewing     | Built-in                  |
+
+### Installation Commands
+
+```bash
+# Required AI extensions
+code --install-extension github.copilot
+code --install-extension github.copilot-chat
+code --install-extension anthropic.claude-vscode  # Optional alternative
+
+# Development tools
+code --install-extension ms-python.python
+```
+
+### AI Assistant Instructions
+
+The `.github/copilot-instructions.md` file configures VS Code Copilot (and Claude) as THERION specialists. When you open this workspace:
+
+- AI understands the system architecture
+- AI can debug OpenClaw configuration issues
+- AI can extend capabilities by creating new tools
+- AI knows the file structure and conventions
+
+**One-prompt operations:**
+
+```
+"Set up THERION for Telegram"
+"Debug why web search isn't working"
+"Add a tool for controlling Philips Hue lights"
+"Change the personality to be more formal"
+```
+
+---
+
+## 📁 File Structure
+
+```
+TherionSystem/
+├── SOUL.md                 # Agent personality and behavior rules
+├── USER.md                 # User preferences and context
+├── MEMORY.md               # Long-term curated memory
+├── AGENTS.md               # Operating protocol documentation
+├── TOOLS.md                # Available tools reference
+│
+├── memory/                 # Daily conversation logs
+│   └── YYYY-MM-DD.md
+│
+├── skills/                 # Cognitive skill modules
+│   ├── web-research/       # Search and synthesis patterns
+│   ├── memory-management/  # Memory operations
+│   ├── system-ops/         # System administration
+│   └── therion-coding/     # Code generation patterns
+│
+├── scripts/                # Tool scripts
+│   ├── websearch.sh
+│   ├── webfetch.sh
+│   └── telegram-upload
+│
+├── config/                 # Configuration templates
+│   └── openclaw.template.json
+│
+├── docs/                   # Extended documentation
+│   ├── setup/
+│   ├── architecture/
+│   └── OPENCLAW-KNOWLEDGE-BASE.md
+│
+├── documents/              # Guides and references
+│   └── prompt-engineering-guide.md
+│
+├── mcp-therion-tools/      # MCP tool server
+│
+└── .github/
+    └── copilot-instructions.md  # VS Code Copilot configuration
+```
+
+---
+
+## ⚙️ Configuration Reference
+
+### Main Config: `~/.openclaw/openclaw.json`
+
+```json
+{
+  "agents": {
+    "default": {
+      "model": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "baseUrl": "http://localhost:11434",
+        "temperature": 0.3,
+        "maxTokens": 4096
+      },
+      "systemPrompt": "${workspace}/SOUL.md",
+      "thinkingDefault": "high",
+      "timeoutSeconds": 300
+    }
+  },
+  "tools": {
+    "allow": ["exec", "read", "write", "web_search", "web_fetch"],
+    "deny": [],
+    "exec": {
+      "safeBins": [
+        "ddgr",
+        "curl",
+        "wget",
+        "jq",
+        "w3m",
+        "cat",
+        "ls",
+        "grep",
+        "find",
+        "head",
+        "tail",
+        "python3",
+        "node",
+        "git",
+        "code"
+      ]
+    }
+  },
+  "channels": {
+    "telegram": {
+      "token": "<bot-token-from-botfather>",
+      "allowedUsers": ["<your-telegram-user-id>"]
+    }
+  },
+  "workspace": {
+    "path": "/path/to/TherionSystem"
+  }
+}
+```
+
+### Key Settings
+
+| Setting           | Values                          | Purpose                 |
+| ----------------- | ------------------------------- | ----------------------- |
+| `thinkingDefault` | off, minimal, low, medium, high | Reasoning depth         |
+| `temperature`     | 0.0-1.0                         | Response randomness     |
+| `maxTokens`       | 1024-8192                       | Maximum response length |
+| `timeoutSeconds`  | 60-600                          | Tool execution timeout  |
+
+---
+
+## 🔧 Tool System
+
+THERION's capabilities come from tools. The system ships with:
+
+| Tool         | Function              | Example                                  |
+| ------------ | --------------------- | ---------------------------------------- |
+| `exec`       | Run shell commands    | `exec({ command: "ls -la" })`            |
+| `read`       | Read files            | `read({ path: "/home/user/file.txt" })`  |
+| `write`      | Create/modify files   | `write({ path: "...", content: "..." })` |
+| `web_search` | Search via DuckDuckGo | `ddgr --json -n 5 "query"`               |
+| `web_fetch`  | Retrieve web pages    | `curl -s "url"`                          |
+
+### Adding Custom Tools
+
+1. Create a script in `scripts/`:
+
+```bash
+#!/bin/bash
+# scripts/my-tool.sh
+curl -s "https://api.example.com/$1"
+```
+
+2. Add to safeBins in config:
+
+```json
+"safeBins": ["my-tool.sh"]
+```
+
+3. Document in SOUL.md:
+
+```markdown
+## my-tool
+
+When user asks about X, use: exec my-tool.sh [arg]
+```
+
+4. Restart gateway:
+
+```bash
+openclaw gateway restart
+```
+
+---
+
+## 📱 Messaging Platform Setup
+
+### Quick Platform Selection
+
+| Platform     | Difficulty      | Time   | Best For                    |
+| ------------ | --------------- | ------ | --------------------------- |
+| **Telegram** | ⭐ Easy         | 5 min  | Personal use, mobile access |
+| **Discord**  | ⭐⭐ Medium     | 10 min | Communities, gaming         |
+| **WhatsApp** | ⭐⭐⭐ Advanced | 20 min | Family, informal groups     |
+| **Slack**    | ⭐⭐ Medium     | 15 min | Work teams                  |
+| **Custom**   | ⭐⭐⭐ Advanced | Varies | Any platform with webhooks  |
+
+### Complete Setup Guides
+
+**📚 Detailed platform configuration:** [docs/PLATFORM-SETUP-INDEX.md](docs/PLATFORM-SETUP-INDEX.md)
+
+Each guide includes:
+
+- Step-by-step instructions with screenshots
+- Where to get API keys/tokens
+- Exact configuration examples
+- Troubleshooting for common issues
+- Platform-specific tips
+
+### Quick Telegram Setup (Most Popular)
+
+1. Message [@BotFather](https://t.me/BotFather) on Telegram
+2. Send `/newbot` and follow prompts
+3. Copy the token to your config: `~/.openclaw/openclaw.json`
+4. Get your user ID from [@userinfobot](https://t.me/userinfobot)
+5. Add to `allowedUsers` in config
+6. Start gateway: `openclaw gateway start`
+
+**Need other platforms?** See [docs/PLATFORM-SETUP-INDEX.md](docs/PLATFORM-SETUP-INDEX.md) for complete guides.
+
+---
+
+## ⚠️ Troubleshooting — When Things Go Wrong
+
+**Something broken? Don't panic.** 90% of issues are solved below.
+
+### Quick Diagnostics
+
+**First, check if everything is running:**
+
+```bash
+# Is Ollama running?
+systemctl status ollama
+# OR
+curl http://localhost:11434/api/tags
+
+# Is OpenClaw gateway running?
+ps aux | grep openclaw-gateway
+
+# Check logs for errors
+tail -f /tmp/openclaw/openclaw.log
+```
+
+### Common Problems & Solutions
+
+#### ▸ "Model not found" Error
+
+**Problem:** The AI model isn't downloaded.
+
+**Solution:**
+
+```bash
+# Check what models you have
+ollama list
+
+# Download the model
+ollama pull qwen3:4b
+```
+
+#### ▸ "Connection refused" Error
+
+**Problem:** Ollama service isn't running.
+
+**Solution:**
+
+```bash
+# Linux with systemd
+systemctl start ollama
+
+# Manual start
+ollama serve &
+```
+
+#### ▸ Bot Doesn't Respond
+
+**Problem:** Gateway crashed or config issue.
+
+**Solution:**
+
+```bash
+# Restart gateway
+pkill -f openclaw-gateway
+openclaw gateway start
+
+# Check config is valid
+cat ~/.openclaw/openclaw.json | jq '.'
+```
+
+#### ▸ "Out of memory" Error
+
+**Problem:** Model too large for your hardware.
+
+**Solution:**
+
+```bash
+# Use a smaller model
+ollama pull qwen3:4b  # Instead of larger models
+
+# Check what's using memory
+nvidia-smi  # For GPU
+free -h     # For system RAM
+```
+
+#### ▸ Slow Responses
+
+**Problem:** Model too large or CPU-only mode.
+
+**Solutions:**
+
+- Use smaller model (qwen3:4b instead of 14b)
+- Check GPU is being used: `nvidia-smi`
+- Close other GPU-intensive applications
+- Lower `maxTokens` in config
+
+### Log Analysis Commands
+
+```bash
+# Find recent errors
+grep -E "error|failed|exception" /tmp/openclaw/openclaw.log | tail -20
+
+# Watch tool execution in real-time
+tail -f /tmp/openclaw/openclaw.log | grep tool_call
+
+# Check AI thinking mode
+grep "thinking=" /tmp/openclaw/openclaw.log | tail -5
+
+# See full conversation flow
+tail -100 /tmp/openclaw/openclaw.log
+```
+
+### Still Stuck?
+
+1. **Check documentation:** [docs/](docs/) folder has detailed guides
+2. **Review config:** Compare your config to [config/openclaw.template.json](config/openclaw.template.json)
+3. **GitHub Issues:** Search existing issues or create new one
+4. **Email support:** Contact erevus.ai@proton.me with:
+   - Your hardware specs
+   - Error messages from logs
+   - Steps to reproduce the problem
+
+---
+
+## 🗺️ Roadmap — What's Coming
+
+**THERION is just getting started.** Planned features:
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   🖼️  Local image generation (Stable Diffusion)     → Q2 2026
+   🔊  Text-to-speech output                         → Q2 2026
+   🎤  Voice input processing                        → Q3 2026
+   🤖  Multi-agent coordination                      → Q3 2026
+   🌐  Web UI dashboard                              → Q4 2026
+   📱  Mobile companion app                          → 2027
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+**Want to help build the future?** See [Contributing](#-contributing-to-therion) below.
+
+---
+
+## 📚 Documentation Index
+
+| Document                                                          | Purpose                                            |
+| ----------------------------------------------------------------- | -------------------------------------------------- |
+| [AGENTS.md](AGENTS.md)                                            | Operating protocol and cognitive architecture      |
+| [TOOLS.md](TOOLS.md)                                              | Complete tool reference                            |
+| [SOUL.md](SOUL.md)                                                | Agent personality template                         |
+| [DEPENDENCIES_FULL.md](DEPENDENCIES_FULL.md)                      | **Complete package inventory and install scripts** |
+| [requirements.txt](requirements.txt)                              | Python package requirements                        |
+| [Verified Models Guide](docs/VERIFIED-MODELS.md)                  | **Tool-calling models with context verification**  |
+| [Prompt Engineering Guide](documents/prompt-engineering-guide.md) | Comprehensive prompting reference                  |
+| [OpenClaw Knowledge Base](docs/OPENCLAW-KNOWLEDGE-BASE.md)        | Configuration troubleshooting                      |
+| [Local LLM Setup](docs/setup/LOCAL_LLM_SETUP.md)                  | Hardware-specific optimization                     |
+
+---
+
+## 🤝 Contributing to THERION
+
+**Want to help build the future of local AI?** This project is personally curated to maintain quality.
+
+### How to Contribute
+
+**All contributions require prior approval.** Email your proposal to:
+
+**📧 erevus.ai@proton.me**
+
+Include:
+
+- What you want to add/improve
+- Why it would benefit THERION users
+- Your relevant experience
+
+**Areas where we need help:**
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+   ▸ New skill modules (cognitive patterns)
+   ▸ Tool scripts (add capabilities)
+   ▸ Documentation improvements
+   ▸ Translation to other languages
+   ▸ Testing on different hardware
+   ▸ Platform integrations (Discord, Slack, etc.)
+   ▸ Example configurations and use cases
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+---
+
+## 📜 License
+
+GPL v3 — Free to use, modify, and distribute. Keep it open.
+
+---
+
+## 🏴 About EREVUS
+
+**EREVUS** is a technology collective building tools for digital sovereignty.
+
+We believe the future belongs to individuals who control their own infrastructure. We create software that gives YOU capabilities previously requiring corporate data centers, expensive subscriptions, and armies of engineers.
+
+**Our mission:** Make powerful technology accessible to everyone who values privacy, ownership, and independence.
+
+[erevus.space](https://erevus.space) | [GitHub](https://github.com/erevusobolus) | [Contact](mailto:erevus.ai@proton.me)
+
+---
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+                         ⚔️ DEUS VULT ⚔️
+                  Your AI. Your Data. Your Rules.
+                      THERION PROTOCOL v2.0
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>

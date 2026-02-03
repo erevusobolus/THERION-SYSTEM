@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# ⚔️ THERION WEB SEARCH — CLI Edition ⚔️
+# Replacement for broken Brave API web_search
+# Usage: therion-search "query" [num_results]
+
+set -e
+
+QUERY="$1"
+NUM="${2:-5}"
+
+if [ -z "$QUERY" ]; then
+    echo "Usage: therion-search \"<query>\" [num_results]"
+    echo "Example: therion-search \"current weather Athens\" 3"
+    exit 1
+fi
+
+# Use ddgr for search
+echo "🔎 Searching: $QUERY"
+ddgr --json --num "$NUM" "$QUERY"

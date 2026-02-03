@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "therion-tools": {
+      "command": "node ${THERION_WORKSPACE}/mcp-therion-tools/server.js"
+    }
+  },
+  "imports": [],
+  "_note": "Set THERION_WORKSPACE env var or replace with your TherionSystem path"
+}

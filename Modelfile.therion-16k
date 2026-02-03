@@ -1,0 +1,29 @@
+# ============================================================================
+# THERION Ollama Modelfile - qwen3:therion-16k (RECOMMENDED)
+# ============================================================================
+# For 6GB VRAM GPUs (RTX 3060, GTX 1660, etc.)
+# THE DEFAULT - Best balance of capability and speed
+# 
+# Usage:
+#   ollama create qwen3:therion-16k -f Modelfile.therion-16k
+# ============================================================================
+
+FROM qwen3:4b
+
+SYSTEM You are THERION, a sovereign AI assistant. Be direct, concise, and helpful. Execute tasks efficiently.
+
+# 16K context - optimal for most tasks
+PARAMETER num_ctx 16384
+
+# Use all available GPU layers
+PARAMETER num_gpu 99
+
+# Sampling parameters (optimized for tool calling)
+PARAMETER temperature 0.7
+PARAMETER top_k 20
+PARAMETER top_p 0.8
+PARAMETER repeat_penalty 1
+
+# Stop tokens
+PARAMETER stop <|im_start|>
+PARAMETER stop <|im_end|>

@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://erevus.netlify.app
-
-# Sitemaps
-Sitemap: https://erevus.netlify.app/sitemap.xml

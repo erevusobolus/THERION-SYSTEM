@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+# ⚔️ THERION WEB — CLI Browser with Analytics ⚔️
+# Fetch, parse, and analyze web pages via CLI
+
+URL="$1"
+MODE="${2:-text}"
+
+if [ -z "$URL" ]; then
+    echo "Usage: therion-web <url> [mode]"
+    echo "Modes: text, links, title, raw, summary"
+    exit 1
+fi
+
+case "$MODE" in
+    text)
+        # Get readable text content
+        curl -sL "$URL" | python3 -c "
+import sys
+from html.parser import HTMLParser
+class TextExtractor(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.text = []
+        self.skip = False
+    def handle_starttag(self, tag, attrs):
+        if tag in ['script', 'style', 'nav', 'footer', 'header']:
+            self.skip = True
+    def handle_endtag(self, tag):
+        if tag in ['script', 'style', 'nav', 'footer', 'header']:
+            self.skip = False
+    def handle_data(self, data):
+        if not self.skip:
+            text = data.strip()
+            if text:
+                self.text.append(text)
+parser = TextExtractor()
+parser.feed(sys.stdin.read())
+print('\n'.join(parser.text[:100]))
+"
+        ;;
+    links)
+        curl -sL "$URL" | grep -oP 'href=\"[^\"]+\"' | sed 's/href=\"//;s/\"//' | head -20
+        ;;
+    title)
+        curl -sL "$URL" | grep -oP '<title>[^<]+</title>' | sed 's/<[^>]*>//g'
+        ;;
+    raw)
+        curl -sL "$URL" | head -500
+        ;;
+    *)
+        echo "Unknown mode: $MODE"
+        exit 1
+        ;;
+esac

@@ -1,0 +1,31 @@
+{
+  "servers": {
+    "starbix-brain": {
+      "command": "node",
+      "args": ["${STARBIX_HOME}/mcp-tools/brain.js"],
+      "env": {
+        "STARBIX_HOME": "${STARBIX_HOME}",
+        "NODE_ENV": "production"
+      }
+    },
+
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${STARBIX_HOME}"
+      ]
+    },
+
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    }
+  }
+}

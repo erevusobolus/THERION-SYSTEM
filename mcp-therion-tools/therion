@@ -1,0 +1,328 @@
+#!/usr/bin/env node
+/**
+ * ⚔️ THERION BRAIN CLI ⚔️
+ * Direct command-line interface to the THERION BRAIN
+ * Usage: therion <action> [params as JSON]
+ *
+ * Examples:
+ *   therion help
+ *   therion weather '{"location":"Athens"}'
+ *   therion crypto_top '{"limit":5}'
+ *   therion linux_fix '{"problem":"wifi not working"}'
+ */
+
+import { execSync, spawn } from "child_process";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DATA_DIR = path.join(__dirname, "data");
+
+// Ensure data directory exists
+if (!fs.existsSync(DATA_DIR)) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+
+// ============================================================================
+// SYSTEM INFO
+// ============================================================================
+
+const SYSTEM_INFO = {
+  os: "Ubuntu",
+  version: "22.04",
+  codename: "jammy",
+};
+
+// ============================================================================
+// THERION PERSONALITY
+// ============================================================================
+
+const THERION_SUCCESS = "✅";
+const THERION_ERROR = "⚠️";
+const THERION_THINKING = "🧠";
+
+// ============================================================================
+// MEMORY SYSTEM
+// ============================================================================
+
+const MEMORY_FILE = path.join(DATA_DIR, "memory.json");
+
+function loadMemory() {
+  try {
+    if (fs.existsSync(MEMORY_FILE)) {
+      return JSON.parse(fs.readFileSync(MEMORY_FILE, "utf-8"));
+    }
+  } catch (e) {}
+  return { facts: [], conversations: [], learned: [] };
+}
+
+function saveMemory(memory) {
+  fs.writeFileSync(MEMORY_FILE, JSON.stringify(memory, null, 2));
+}
+
+// ============================================================================
+// UTILITIES
+// ============================================================================
+
+function escapeShell(str) {
+  return str.replace(/(["\s'$`\\])/g, "\\$1");
+}
+
+function exec(cmd, timeout = 30000) {
+  try {
+    return execSync(cmd, {
+      encoding: "utf-8",
+      timeout,
+      maxBuffer: 5 * 1024 * 1024,
+    }).trim();
+  } catch (e) {
+    return `Error: ${e.message}`;
+  }
+}
+
+// ============================================================================
+// ACTIONS
+// ============================================================================
+
+const ACTIONS = {
+  // WEB
+  web_search: async ({ query, num_results = 5 }) => {
+    const result = exec(
+      `ddgr -n ${num_results} --json "${escapeShell(query)}"`,
+    );
+    try {
+      const data = JSON.parse(result);
+      let out = `🔍 **Search: "${query}"**\n\n`;
+      data.forEach((item, i) => {
+        out += `${i + 1}. **${item.title}**\n   ${item.abstract}\n   🔗 ${item.url}\n\n`;
+      });
+      return out;
+    } catch {
+      return result;
+    }
+  },
+
+  weather: async ({ location }) => {
+    const loc = escapeShell(location.replace(/ /g, "+"));
+    return `🌤️ ${exec(`curl -s "wttr.in/${loc}?format=%l:+%C+%t+Humidity:%h+Wind:%w"`)}`;
+  },
+
+  weather_forecast: async ({ location }) => {
+    const loc = escapeShell(location.replace(/ /g, "+"));
+    return exec(`curl -s "wttr.in/${loc}?format=v2&days=3" | head -40`);
+  },
+
+  // CRYPTO
+  crypto_price: async ({ coins }) => {
+    const coinList = coins.toLowerCase().replace(/ /g, "");
+    const result = exec(
+      `curl -s "https://api.coingecko.com/api/v3/simple/price?ids=${coinList}&vs_currencies=usd&include_24hr_change=true"`,
+    );
+    try {
+      const data = JSON.parse(result);
+      let out = "💰 **Crypto Prices:**\n\n";
+      for (const [coin, info] of Object.entries(data)) {
+        const change = info.usd_24h_change?.toFixed(2) || "N/A";
+        const arrow = parseFloat(change) >= 0 ? "📈" : "📉";
+        out += `• **${coin.toUpperCase()}**: $${info.usd.toLocaleString()} ${arrow} ${change}%\n`;
+      }
+      return out;
+    } catch {
+      return result;
+    }
+  },
+
+  crypto_top: async ({ limit = 10 }) => {
+    const result = exec(
+      `curl -s "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=${limit}&page=1"`,
+    );
+    try {
+      const data = JSON.parse(result);
+      let out = `📊 **Top ${limit} Cryptocurrencies:**\n\n`;
+      data.forEach((coin, i) => {
+        const change = coin.price_change_percentage_24h?.toFixed(2) || "N/A";
+        const arrow = parseFloat(change) >= 0 ? "📈" : "📉";
+        out += `${i + 1}. **${coin.symbol.toUpperCase()}** - $${coin.current_price.toLocaleString()} ${arrow} ${change}%\n`;
+      });
+      return out;
+    } catch {
+      return result;
+    }
+  },
+
+  // SYSTEM
+  system_info: async () => {
+    const uptime = exec("uptime -p");
+    const disk = exec(
+      'df -h / | tail -1 | awk \'{print $3"/"$2" ("$5" used)"}\'',
+    );
+    const mem = exec("free -h | grep Mem | awk '{print $3\"/\"$2}'");
+    const kernel = exec("uname -r");
+
+    return `🖥️ **System:**\n• OS: Ubuntu ${SYSTEM_INFO.version}\n• Kernel: ${kernel}\n• Uptime: ${uptime}\n• Memory: ${mem}\n• Disk: ${disk}`;
+  },
+
+  linux_fix: async ({ problem }) => {
+    const query = `Ubuntu ${SYSTEM_INFO.version} ${problem} fix solution`;
+    return ACTIONS.web_search({ query, num_results: 5 });
+  },
+
+  package_search: async ({ query }) => {
+    return `📦 **Packages for "${query}":**\n\n\`\`\`\n${exec(`apt-cache search "${escapeShell(query)}" | head -15`)}\n\`\`\``;
+  },
+
+  service_status: async ({ service }) => {
+    return `🔧 **Service: ${service}**\n\n\`\`\`\n${exec(`systemctl status "${escapeShell(service)}" 2>&1 | head -15`)}\n\`\`\``;
+  },
+
+  process_list: async ({ sort_by = "cpu" }) => {
+    const sort = sort_by === "mem" ? "-%mem" : "-%cpu";
+    return `📊 **Top by ${sort_by}:**\n\n\`\`\`\n${exec(`ps aux --sort=${sort} | head -12`)}\n\`\`\``;
+  },
+
+  network_info: async () => {
+    const ip = exec("hostname -I | awk '{print $1}'");
+    const gateway = exec("ip route | grep default | awk '{print $3}'");
+    return `🌐 **Network:**\n• IP: ${ip}\n• Gateway: ${gateway}`;
+  },
+
+  // MEMORY
+  memory_store: async ({ key, value, category = "general" }) => {
+    const memory = loadMemory();
+    memory.facts.push({
+      key,
+      value,
+      category,
+      timestamp: new Date().toISOString(),
+    });
+    if (memory.facts.length > 100) memory.facts = memory.facts.slice(-100);
+    saveMemory(memory);
+    return `💾 Stored: **${key}** = ${value}`;
+  },
+
+  memory_recall: async ({ query, category }) => {
+    const memory = loadMemory();
+    let facts = category
+      ? memory.facts.filter((f) => f.category === category)
+      : memory.facts;
+    const matches = facts.filter(
+      (f) =>
+        f.key.toLowerCase().includes(query.toLowerCase()) ||
+        f.value.toLowerCase().includes(query.toLowerCase()),
+    );
+    if (!matches.length) return "🔍 No memories found.";
+    return (
+      `🧠 **Recall "${query}":**\n` +
+      matches
+        .slice(-10)
+        .map((m) => `• **${m.key}:** ${m.value}`)
+        .join("\n")
+    );
+  },
+
+  memory_list: async ({ limit = 20 }) => {
+    const memory = loadMemory();
+    if (!memory.facts.length) return "🧠 Memory is empty.";
+    return (
+      `🧠 **Memory (${memory.facts.length}):**\n` +
+      memory.facts
+        .slice(-limit)
+        .map((m) => `• **${m.key}:** ${m.value.substring(0, 50)}`)
+        .join("\n")
+    );
+  },
+
+  // DEV
+  git_status: async ({ path: p = "." }) => {
+    const branch = exec(
+      `cd "${escapeShell(p)}" && git branch --show-current 2>/dev/null`,
+    );
+    const status = exec(`cd "${escapeShell(p)}" && git status -s 2>&1`);
+    return `📁 **Git (${branch || "?"}):**\n\`\`\`\n${status || "Clean"}\n\`\`\``;
+  },
+
+  code_search: async ({ pattern, path: p = ".", extension }) => {
+    let cmd = `grep -rn "${escapeShell(pattern)}" "${escapeShell(p)}"`;
+    if (extension) cmd += ` --include="*.${extension}"`;
+    return `🔍 **"${pattern}":**\n\`\`\`\n${exec(cmd + " 2>/dev/null | head -20") || "No matches"}\n\`\`\``;
+  },
+
+  // AI
+  ollama_list: async () => {
+    return `🤖 **Models:**\n\`\`\`\n${exec("ollama list 2>&1")}\n\`\`\``;
+  },
+
+  // UTILS
+  datetime: async ({ timezone }) => {
+    const cmd = timezone
+      ? `TZ="${escapeShell(timezone)}" date "+%Y-%m-%d %H:%M:%S %Z (%A)"`
+      : 'date "+%Y-%m-%d %H:%M:%S %Z (%A)"';
+    return `🕐 ${exec(cmd)}`;
+  },
+
+  calculate: async ({ expression }) => {
+    const safe = expression.replace(/[^0-9+\-*/().sqrt,pow\s]/g, "");
+    return `🔢 ${expression} = ${exec(`python3 -c "from math import *; print(${safe})"`)}`;
+  },
+
+  // META
+  help: async () => {
+    return `⚔️ **THERION BRAIN v2.0**
+
+**WEB:** web_search, weather, weather_forecast
+**CRYPTO:** crypto_price, crypto_top
+**SYSTEM:** system_info, linux_fix, package_search, service_status, process_list, network_info
+**MEMORY:** memory_store, memory_recall, memory_list
+**DEV:** git_status, code_search, ollama_list
+**UTILS:** datetime, calculate
+
+**Usage:** therion <action> '{"param":"value"}'
+**Example:** therion weather '{"location":"Athens"}'`;
+  },
+
+  therion_status: async () => {
+    const memory = loadMemory();
+    return `⚔️ **THERION BRAIN v2.0**
+• OS: Ubuntu ${SYSTEM_INFO.version}
+• Memory: ${memory.facts.length} facts
+• Actions: ${Object.keys(ACTIONS).length}
+• Status: ONLINE ⚔️`;
+  },
+};
+
+// ============================================================================
+// MAIN
+// ============================================================================
+
+async function main() {
+  const action = process.argv[2] || "help";
+  let params = {};
+
+  if (process.argv[3]) {
+    try {
+      params = JSON.parse(process.argv[3]);
+    } catch (e) {
+      console.error(`Invalid JSON params: ${process.argv[3]}`);
+      process.exit(1);
+    }
+  }
+
+  const handler = ACTIONS[action];
+  if (!handler) {
+    console.log(
+      `Unknown action: ${action}\nAvailable: ${Object.keys(ACTIONS).join(", ")}`,
+    );
+    process.exit(1);
+  }
+
+  try {
+    const result = await handler(params);
+    console.log(result);
+  } catch (e) {
+    console.error(`${THERION_ERROR} Error: ${e.message}`);
+    process.exit(1);
+  }
+}
+
+main();

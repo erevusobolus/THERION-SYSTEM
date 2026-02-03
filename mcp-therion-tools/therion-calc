@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# ⚔️ THERION CALC — Calculator & Unit Converter ⚔️
+
+EXPR="$*"
+
+if [ -z "$EXPR" ]; then
+    echo "Usage: therion-calc <expression>"
+    echo "Examples:"
+    echo "  therion-calc 2+2"
+    echo "  therion-calc 'sqrt(144)'"
+    echo "  therion-calc '100 USD to EUR'"
+    exit 1
+fi
+
+# Try bc for math
+if echo "$EXPR" | grep -qE '^[0-9\+\-\*\/\.\(\)\s\^]+$'; then
+    echo "scale=4; $EXPR" | bc -l 2>/dev/null && exit 0
+fi
+
+# Try Python for complex math
+python3 -c "from math import *; print(eval('$EXPR'))" 2>/dev/null && exit 0
+
+# Fallback to units for conversions
+echo "$EXPR" | grep -qi "to" && units "$EXPR" 2>/dev/null && exit 0
+
+echo "Could not evaluate: $EXPR"

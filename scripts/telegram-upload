@@ -1,0 +1,71 @@
+#!/bin/bash
+# telegram-upload: Send a file to the current Telegram chat
+# Usage: telegram-upload <file_path> [caption]
+
+set -e
+
+FILE_PATH="$1"
+CAPTION="${2:-}"
+# Read from env vars or OpenClaw config
+BOT_TOKEN="${TELEGRAM_BOT_TOKEN:-$(jq -r '.channels.telegram.botToken // empty' ~/.openclaw/openclaw.json 2>/dev/null)}"
+CHAT_ID="${TELEGRAM_CHAT_ID:-YOUR_CHAT_ID}"  # Set TELEGRAM_CHAT_ID env var
+
+if [ -z "$FILE_PATH" ]; then
+    echo "Usage: telegram-upload <file_path> [caption]"
+    exit 1
+fi
+
+if [ ! -f "$FILE_PATH" ]; then
+    echo "Error: File not found: $FILE_PATH"
+    exit 1
+fi
+
+# Get file extension to determine type
+EXT="${FILE_PATH##*.}"
+EXT_LOWER=$(echo "$EXT" | tr '[:upper:]' '[:lower:]')
+
+# Determine endpoint based on file type
+case "$EXT_LOWER" in
+    jpg|jpeg|png|gif|webp)
+        ENDPOINT="sendPhoto"
+        FIELD="photo"
+        ;;
+    mp4|avi|mov|mkv|webm)
+        ENDPOINT="sendVideo"
+        FIELD="video"
+        ;;
+    mp3|ogg|wav|flac|m4a)
+        ENDPOINT="sendAudio"
+        FIELD="audio"
+        ;;
+    opus)
+        ENDPOINT="sendVoice"
+        FIELD="voice"
+        ;;
+    *)
+        ENDPOINT="sendDocument"
+        FIELD="document"
+        ;;
+esac
+
+# Send the file
+if [ -n "$CAPTION" ]; then
+    RESPONSE=$(curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/${ENDPOINT}" \
+        -F "${FIELD}=@${FILE_PATH}" \
+        -F "chat_id=${CHAT_ID}" \
+        -F "caption=${CAPTION}")
+else
+    RESPONSE=$(curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/${ENDPOINT}" \
+        -F "${FIELD}=@${FILE_PATH}" \
+        -F "chat_id=${CHAT_ID}")
+fi
+
+# Check response
+if echo "$RESPONSE" | jq -e '.ok == true' > /dev/null 2>&1; then
+    echo "✅ File sent successfully"
+    echo "$RESPONSE" | jq -r '.result.message_id // "unknown"' | xargs -I {} echo "Message ID: {}"
+else
+    echo "❌ Failed to send file"
+    echo "$RESPONSE" | jq -r '.description // "Unknown error"'
+    exit 1
+fi

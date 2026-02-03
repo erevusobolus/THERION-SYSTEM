@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+# ⚔️ THERION WEATHER — FREE via Open-Meteo ⚔️
+
+CITY="${1:-Athens}"
+
+# City coordinates (add more as needed)
+case "$CITY" in
+    Athens|athens) LAT=37.98; LON=23.73 ;;
+    London|london) LAT=51.51; LON=-0.13 ;;
+    "New York"|"new york"|NYC|nyc) LAT=40.71; LON=-74.01 ;;
+    Paris|paris) LAT=48.86; LON=2.35 ;;
+    Tokyo|tokyo) LAT=35.68; LON=139.69 ;;
+    Berlin|berlin) LAT=52.52; LON=13.41 ;;
+    Sydney|sydney) LAT=-33.87; LON=151.21 ;;
+    Moscow|moscow) LAT=55.76; LON=37.62 ;;
+    *) 
+        # Try geocoding via nominatim
+        GEO=$(curl -s "https://nominatim.openstreetmap.org/search?q=${CITY}&format=json&limit=1" 2>/dev/null)
+        LAT=$(echo "$GEO" | jq -r '.[0].lat // empty')
+        LON=$(echo "$GEO" | jq -r '.[0].lon // empty')
+        if [ -z "$LAT" ]; then
+            echo "Could not find coordinates for: $CITY"
+            exit 1
+        fi
+        ;;
+esac
+
+# Get weather from Open-Meteo (FREE, no API key)
+curl -s "https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}&current_weather=true&timezone=auto" | jq '{
+    city: "'"$CITY"'",
+    temperature_c: .current_weather.temperature,
+    windspeed_kmh: .current_weather.windspeed,
+    wind_direction: .current_weather.winddirection,
+    is_day: .current_weather.is_day,
+    weather_code: .current_weather.weathercode,
+    time: .current_weather.time
+}'

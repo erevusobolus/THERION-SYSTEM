@@ -1,0 +1,10 @@
+#!/bin/bash
+# ⚔️ THERION BRAIN CLI Wrapper ⚔️
+# Simple bash wrapper that calls node with the therion script
+# This ensures the command works from any location
+
+# Auto-detect script directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Run node with the therion script
+exec node "$SCRIPT_DIR/therion" "$@"

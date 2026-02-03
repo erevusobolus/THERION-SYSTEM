@@ -1,0 +1,12 @@
+{
+  "facts": [
+    {
+      "key": "test",
+      "value": "Memory system working!",
+      "category": "general",
+      "timestamp": "2026-02-02T23:40:00.756Z"
+    }
+  ],
+  "conversations": [],
+  "learned": []
+}

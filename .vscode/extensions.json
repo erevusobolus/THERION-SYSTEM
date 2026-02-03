@@ -1,44 +1,75 @@
 {
-    "recommendations": [
-        // === CORE DEVELOPMENT STACK ===
-        "ms-python.python",
-        "ms-python.black-formatter",
-        "ms-python.flake8",
-        "ms-python.pylint",
-        // === GITHUB COPILOT SUPREMACY ===
-        "github.copilot",
-        "github.copilot-chat",
-        // === WEB DEVELOPMENT MASTERY ===
-        "esbenp.prettier-vscode",
-        "bradlc.vscode-tailwindcss",
-        "ms-vscode.vscode-typescript-next",
-        "ms-vscode.vscode-json",
-        // === PRODUCTIVITY ENHANCEMENT ===
-        "yzhang.markdown-all-in-one",
-        "ms-azuretools.vscode-docker",
-        "ms-vscode-remote.remote-containers",
-        "ms-vscode.remote-repositories",
-        // === CODE QUALITY ===
-        "streetsidesoftware.code-spell-checker",
-        "usernamehw.errorlens",
-        "oderwat.indent-rainbow",
-        "formulahendry.auto-rename-tag",
-        "formulahendry.auto-close-tag",
-        // === GIT AND VERSION CONTROL ===
-        "eamodio.gitlens",
-        "mhutchie.git-graph",
-        // === ADDITIONAL TOOLS ===
-        "ms-vscode.hexeditor",
-        "ms-vscode.live-server",
-        "rangav.vscode-thunder-client",
-        // === THERION ENHANCEMENT ===
-        "ms-vscode.powershell",
-        "njpwerner.autodocstring",
-        "ms-toolsai.jupyter",
-        "ms-python.vscode-pylance"
-    ],
-    "unwantedRecommendations": [
-        "ms-python.mypy-type-checker",
-        "ms-vscode.vscode-eslint"
-    ]
+  // ╔══════════════════════════════════════════════════════════════════════════════╗
+  // ║ ⚔️ THERION PROTOCOL - OPTIMIZED EXTENSION RECOMMENDATIONS                   ║
+  // ║ 📅 Updated: December 2024 - Modern AI-First Development                     ║
+  // ╚══════════════════════════════════════════════════════════════════════════════╝
+
+  "recommendations": [
+    // === CORE AI DEVELOPMENT (Essential) ===
+    "github.copilot",
+    "github.copilot-chat",
+    "anthropic.claude-vscode",
+
+    // === MCP (Model Context Protocol) - Modern AI Integration ===
+    "automatalabs.copilot-mcp",
+    "semanticworkbenchteam.mcp-server-vscode",
+    "zebradev.mcp-server-runner",
+
+    // === PYTHON DEVELOPMENT ===
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",
+    "ms-toolsai.jupyter",
+
+    // === WEB DEVELOPMENT (React/Next.js/TypeScript) ===
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "ms-vscode.vscode-typescript-next",
+    "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets",
+
+    // === THREE.JS / WEBGL / SHADER DEVELOPMENT ===
+    "raczzalan.webgl-glsl-editor",
+    "slevesque.shader",
+
+    // === CODE QUALITY & PRODUCTIVITY ===
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    "oderwat.indent-rainbow",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "christian-kohler.path-intellisense",
+
+    // === GIT & VERSION CONTROL ===
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "github.vscode-pull-request-github",
+
+    // === DOCKER & DEVOPS ===
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+
+    // === DOCUMENTATION & MARKDOWN ===
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-mermaid",
+
+    // === UTILITIES ===
+    "ms-vscode.live-server",
+    "rangav.vscode-thunder-client",
+    "gruntfuggly.todo-tree",
+
+    // === C# / UNITY (For Game Development) ===
+    "ms-dotnettools.csharp",
+    "ms-dotnettools.csdevkit"
+  ],
+
+  "unwantedRecommendations": [
+    // Deprecated Python linting (replaced by Ruff)
+    "ms-python.flake8",
+    "ms-python.black-formatter",
+    "ms-python.pylint",
+
+    // Redundant/conflicting extensions
+    "ms-python.mypy-type-checker"
+  ]
 }

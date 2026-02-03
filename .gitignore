@@ -1,0 +1,98 @@
+# ============================================================================
+# THERION SYSTEM - GIT IGNORE
+# ============================================================================
+# This file protects sensitive data from being committed
+# ============================================================================
+
+# === PERSONAL CONFIGURATION (CRITICAL - NEVER COMMIT) ===
+private/
+.env.local
+.env.*.local
+
+# Personal files (use templates instead)
+USER.md
+MEMORY.md
+IDENTITY.md
+memory/*
+!memory/.gitkeep
+
+# Archive with personal data
+archive/
+
+# VS Code personal settings
+.vscode/settings.json
+.vscode/*.backup.*
+.vscode/therion-status.sh
+
+# === SECRETS & CREDENTIALS ===
+*.env
+.env.*
+!.env.example
+secrets/
+credentials/
+**/token*
+**/*password*
+**/*secret*
+*-backup-*.json
+
+# === OPENCLAW LOCAL STATE ===
+openclaw-local/
+config/openclaw-local/
+.openclaw/
+~/.openclaw/
+current-openclaw-config.json
+
+# === CONFIG FILES WITH PERSONAL DATA ===
+openclaw-config-*.json
+!openclaw-config-template.json
+!config/openclaw.template.json
+
+# === NODE MODULES ===
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+# === PYTHON VIRTUAL ENVIRONMENTS ===
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# === OS FILES ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# === BUILD OUTPUTS ===
+dist/
+build/
+.next/
+out/
+*.log
+
+# === IDE ===
+.idea/
+*.sublime-*
+
+# === TEMP FILES ===
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# === OLD PROJECTS (not part of THERION) ===
+EREBUS-Website/
+KINESIS-V2/
+KINESIS-V2-STANDALONE/
+KINESIS-Website/
+KINESISNOW-NETLIFY-DEPLOY/
+complete-web-development-guide/
+
+# VS Code generated files with personal data
+.vscode/THERION-COMPLETE.md
+.vscode/THERION-INSTALLATION-GUIDE.md
+.vscode/therion-status.sh

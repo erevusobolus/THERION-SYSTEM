@@ -1,0 +1,160 @@
+{
+  "logging": {
+    "level": "debug",
+    "file": "/tmp/openclaw/openclaw.log",
+    "consoleLevel": "info",
+    "consoleStyle": "pretty",
+    "redactSensitive": "off"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "ollama": {
+        "baseUrl": "http://127.0.0.1:11434/v1",
+        "apiKey": "ollama-local",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "qwen3:4b",
+            "name": "Qwen3 4B (Default)",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0 },
+            "contextWindow": 8192,
+            "maxTokens": 4096
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "ollama/qwen3:4b",
+        "fallbacks": []
+      },
+      "workspace": "$WORKSPACE",
+      "contextTokens": 8192,
+      "maxConcurrent": 3,
+      "timeoutSeconds": 600,
+      "thinkingDefault": "medium",
+      "verboseDefault": "minimal",
+      "typingMode": "instant",
+      "sandbox": { "mode": "off" },
+      "autonomy": {
+        "enabled": true,
+        "maxTurnsPerRun": 25,
+        "continueOnToolSuccess": true,
+        "stopOnRepeatedFailure": 3,
+        "planBeforeExecute": true,
+        "reflectAfterAction": true
+      },
+      "heartbeat": {
+        "enabled": true,
+        "intervalMinutes": 30,
+        "proactiveMode": true,
+        "habitCheckEnabled": true,
+        "habitFile": "memory/habits.json",
+        "stateFile": "memory/heartbeat-state.json"
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "default": true,
+        "identity": {
+          "name": "THERION",
+          "systemPromptFile": "$WORKSPACE/SOUL.md"
+        },
+        "groupChat": {
+          "mentionPatterns": ["@therion", "therion", "THERION"]
+        }
+      }
+    ]
+  },
+  "tools": {
+    "allow": ["exec", "tts", "files_read", "files_write", "files_list"],
+    "deny": [],
+    "exec": {
+      "safeBins": [
+        "ddgr",
+        "curl",
+        "wget",
+        "jq",
+        "python3",
+        "node",
+        "cat",
+        "ls",
+        "head",
+        "tail",
+        "grep",
+        "echo",
+        "date",
+        "espeak-ng",
+        "paplay",
+        "aplay",
+        "ffmpeg"
+      ]
+    }
+  },
+  "messages": {
+    "responsePrefix": "",
+    "queue": {
+      "mode": "collect",
+      "debounceMs": 800,
+      "cap": 15,
+      "drop": "summarize"
+    },
+    "inbound": { "debounceMs": 1000 },
+    "ackReaction": "👀",
+    "ackReactionScope": "direct",
+    "removeAckAfterReply": true
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "text": true,
+    "bash": true,
+    "config": true,
+    "debug": true,
+    "restart": true,
+    "useAccessGroups": true
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "allowlist",
+      "botToken": "YOUR_BOT_TOKEN_FROM_BOTFATHER",
+      "replyToMode": "first",
+      "allowFrom": ["YOUR_TELEGRAM_USER_ID"],
+      "groupPolicy": "disabled",
+      "historyLimit": 50,
+      "streamMode": "partial",
+      "mediaMaxMb": 10,
+      "retry": {
+        "attempts": 5,
+        "minDelayMs": 300,
+        "maxDelayMs": 15000,
+        "jitter": 0.1
+      },
+      "network": { "autoSelectFamily": false },
+      "actions": { "reactions": true, "sendMessage": true },
+      "linkPreview": true
+    }
+  },
+  "gateway": {
+    "port": 18790,
+    "mode": "local",
+    "bind": "loopback",
+    "controlUi": { "enabled": true },
+    "auth": {
+      "mode": "token",
+      "token": "therion-local-dev-token"
+    }
+  },
+  "skills": {
+    "load": {
+      "extraDirs": ["$WORKSPACE/skills"]
+    }
+  }
+}

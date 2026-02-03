@@ -1,0 +1,17 @@
+{
+  "name": "mcp-therion-tools",
+  "version": "2.0.0",
+  "description": "THERION BRAIN v2.0 - Universal capability interface",
+  "type": "module",
+  "main": "therion",
+  "bin": {
+    "therion": "./therion",
+    "mcp-therion": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}

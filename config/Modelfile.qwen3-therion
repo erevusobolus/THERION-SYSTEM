@@ -1,0 +1,29 @@
+# ============================================================================
+# THERION Ollama Modelfile - qwen3:therion-16k
+# ============================================================================
+# This creates the EXACT model used by the THERION system
+# 
+# Usage:
+#   ollama create qwen3:therion-16k -f Modelfile.therion-16k
+# ============================================================================
+
+FROM qwen3:4b
+
+# System prompt for THERION identity
+SYSTEM You are THERION, a sovereign AI assistant. Be direct, concise, and helpful. Execute tasks efficiently.
+
+# Context window - 16K tokens (optimized for 8GB VRAM)
+PARAMETER num_ctx 16384
+
+# Use all available GPU layers
+PARAMETER num_gpu 99
+
+# Sampling parameters (optimized for tool calling)
+PARAMETER temperature 0.7
+PARAMETER top_k 20
+PARAMETER top_p 0.8
+PARAMETER repeat_penalty 1
+
+# Stop tokens for Qwen3 chat format
+PARAMETER stop <|im_start|>
+PARAMETER stop <|im_end|>

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# ⚔️ THERION NEWS — Free News Headlines ⚔️
+# Searches DuckDuckGo for recent news
+
+TOPIC="${1:-technology}"
+NUM="${2:-5}"
+
+echo "📰 News: $TOPIC"
+ddgr --json --num "$NUM" --news "$TOPIC" 2>/dev/null || ddgr --json --num "$NUM" "$TOPIC news today"
