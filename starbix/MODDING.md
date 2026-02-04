@@ -63,7 +63,7 @@ Let's make today awesome together!
           {
             "id": "qwen3:8b",
             "contextWindow": 32768,
-            "maxTokens": 8192
+            "maxTokens": 4096
           }
         ]
       }

@@ -1,110 +1,60 @@
 <div align="center">
 
-<img src="therion/therion_profile.jpg" alt="THERION" width="200" style="border-radius: 50%;" />
+<img src="therion/therion_profile.jpg" alt="THERION" width="180" style="border-radius: 50%; border: 3px solid #6366f1;" />
 
 ```
-                            ⚜️  EREVUS PRESENTS  ⚜️
-
-    ██████████████████████████████████████████████████████████████████████
-    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
-    █░░╔════════════════════════════════════════════════════════════════░░█
-    █░░                                                                ░░█
-    █░░    ████████╗██╗  ██╗███████╗██████╗ ██╗ ██████╗ ███╗   ██╗    ░░█
-    █░░    ╚══██╔══╝██  ████╔════╝██╔══██╗████╔═══██╗████╗  ██    ░░█
-    █░░       ██   ████████████╗  ██████╔╝████   ████╔██╗ ██    ░░█
-    █░░       ██   ██╔══████╔══╝  ██╔══██╗████   ████╚██╗██    ░░█
-    █░░       ██   ██  █████████╗██  ████╚██████╔╝██ ╚████    ░░█
-    █░░       ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝    ░░█
-    █░░                                                                ░░█
-    █░░╠════════════════════════════════════════════════════════════════░░█
-    █░░           ☩  YOUR AI  ·  YOUR HARDWARE  ·  YOUR RULES  ☩       ░░█
-    █░░╠════════════════════════════════════════════════════════════════░░█
-    █░░                                                                ░░█
-    █░░       A Complete Local AI Assistant System Ready in 15 Minutes ░░█
-    █░░                                                                ░░█
-    █░░          ◈ 100% Free Forever  ◈ 100% Private  ◈ 100% Yours     ░░█
-    █░░                                                                ░░█
-    █░░╚════════════════════════════════════════════════════════════════░░█
-    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
-    ██████████████████████████████████████████████████████████████████████
-
-                    ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-                       Ω  DEUS VULT  ·  ANNO MMXXVI  Ω  
-                    ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+    ████████╗██╗  ██╗███████╗██████╗ ██╗ ██████╗ ███╗   ██╗
+    ╚══██╔══╝██║  ██║██╔════╝██╔══██╗██║██╔═══██╗████╗  ██║
+       ██║   ███████║█████╗  ██████╔╝██║██║   ██║██╔██╗ ██║
+       ██║   ██╔══██║██╔══╝  ██╔══██╗██║██║   ██║██║╚██╗██║
+       ██║   ██║  ██║███████╗██║  ██║██║╚██████╔╝██║ ╚████║
+       ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝
 ```
+
+### Your AI · Your Hardware · Your Rules
+
+**A Complete Local AI Assistant System Ready in 15 Minutes**
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Local First](https://img.shields.io/badge/100%25-Local-green.svg)](#)
-[![Open Source](https://img.shields.io/badge/Open-Source-orange.svg)](#)
+[![Local First](https://img.shields.io/badge/100%25-Local-green.svg)](https://erevus.space)
+[![Open Source](https://img.shields.io/badge/Open-Source-orange.svg)](https://github.com/erevusobolus/THERION-SYSTEM)
 [![THERION Protocol](https://img.shields.io/badge/THERION-Protocol-purple.svg)](#)
+[![Website](https://img.shields.io/badge/erevus.space-Visit-black.svg)](https://erevus.space)
 
 ---
 
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       ⚡ CHAPTER I: THE GATEWAY  ════════════════════════════════════════ 
-                                                                           
-                "One command to rule them all, one command to find them,   
-                 One command to bring them all, and in the darkness        
-                 bind them — to your local machine."                       
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
+**◈ 100% Free Forever** · **◈ 100% Private** · **◈ 100% Yours**
 
-## 🚀 ONE-COMMAND INSTALL — COPY THIS INTO YOUR AI AGENT
+_An [EREVUS](https://erevus.space) Open Source Project_
 
-> **⚡ EASIEST METHOD: Just copy ONE thing and you're done!**
+---
 
-```
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-  ☩ OPTION I ☩  PASTE INTO YOUR AI AGENT (Copilot/Claude/Cursor)          
-┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-                                                                           
-  Clone https://github.com/erevusobolus/THERION-SYSTEM and follow the     
-  setup instructions in .github/copilot-instructions.md to install         
-  THERION on my system. Set up Ollama with qwen3:4b model and configure   
-  OpenClaw for Telegram.                                                   
-                                                                           
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
+[**🚀 Quick Start**](#-quick-start-15-minutes) · [**📖 Documentation**](#-documentation-index) · [**🌟 Meet STARBIX**](#-starbix--the-beginner-friendly-persona) · [**🔧 Troubleshooting**](#-vs-code-your-therion-command-center)
+
+</div>
+
+---
+
+## ⚡ One-Command Install
+
+> **Copy ONE thing into your AI agent (VS Code Copilot, Cursor, Claude) and you're done!**
 
 ```
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-  ☩ OPTION II ☩  ONE-LINE TERMINAL INSTALL (Fully Automated)              
-┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-                                                                           
-  curl -fsSL https://raw.githubusercontent.com/erevusobolus/              
-       THERION-SYSTEM/main/scripts/bootstrap.sh | bash                     
-                                                                           
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+Clone https://github.com/erevusobolus/THERION-SYSTEM and follow the
+setup instructions in .github/copilot-instructions.md to install
+THERION on my system. Set up Ollama with qwen3:4b model and configure
+OpenClaw for Telegram.
 ```
 
-```
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-  ☩ OPTION III ☩  MANUAL CLONE + LET AI DO THE REST                       
-┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-                                                                           
-  git clone https://github.com/erevusobolus/THERION-SYSTEM.git            
-  cd THERION-SYSTEM && code .                                              
-                                                                           
-  Then tell your AI: "Read .github/copilot-instructions.md and set up     
-  THERION for me"                                                          
-                                                                           
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+**Or run directly in terminal:**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/erevusobolus/THERION-SYSTEM/main/scripts/bootstrap.sh | bash
 ```
 
 ---
 
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       ⚔️ CHAPTER II: THE REVELATION  ═══════════════════════════════════ 
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
-
-### ⚔️ What is THERION?
+## ⚔️ What is THERION?
 
 **THERION is the red pill for local AI.**
 
@@ -112,46 +62,17 @@ All the pieces already exist — Ollama runs models, OpenClaw routes messages, V
 
 **We solved that.** THERION is pre-configured rails that make everything click together instantly:
 
-```
-    ┌──────────────────────────────────────────────────────────────────────┐
-      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  
-      ░░  ╭─────────────────────────────────────────────────────────╮  ░░  
-      ░░                                                             ░░  
-      ░░     🔴 THE RED PILL: What THERION Actually Is               ░░  
-      ░░     ════════════════════════════════════════════            ░░  
-      ░░                                                             ░░  
-      ░░     NOT new software.    →  Pre-configured EXISTING         ░░  
-      ░░     NOT another chatbot. →  Rails that make bots WORK       ░░  
-      ░░     NOT reinventing.     →  Packaging WHAT EXISTS           ░░  
-      ░░                                                             ░░  
-      ░░     ┌───────────────────────────────────────────────┐       ░░  
-      ░░      We took:  Ollama + OpenClaw + VS Code +              ░░  
-      ░░                Telegram + Scripts                         ░░  
-      ░░                                                           ░░  
-      ░░      We added: Configuration + Documentation +            ░░  
-      ░░                AI Instructions                            ░░  
-      ░░                                                           ░░  
-      ░░      Result:   15 minutes from zero to working            ░░  
-      ░░                AI assistant                               ░░  
-      ░░     └───────────────────────────────────────────────┘       ░░  
-      ░░                                                             ░░  
-      ░░     "The difference between POSSIBLE and DONE               ░░  
-      ░░      is configuration. THERION is that configuration."      ░░  
-      ░░                                                             ░░  
-      ░░  ╰─────────────────────────────────────────────────────────╯  ░░  
-      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  
-    └──────────────────────────────────────────────────────────────────────┘
-```
+| We Took                                | We Added                                        | Result                                 |
+| -------------------------------------- | ----------------------------------------------- | -------------------------------------- |
+| Ollama + OpenClaw + VS Code + Telegram | Configuration + Documentation + AI Instructions | **15 minutes from zero to working AI** |
+
+> _"The difference between POSSIBLE and DONE is configuration. THERION is that configuration."_
 
 **One repo. Every piece pre-wired. Clone and go.**
 
-```
-                    ════════════════════════════════════
-                              ◈  ◆  ◈  ◆  ◈
-                    ════════════════════════════════════
-```
+---
 
-### 🏰 The EREVUS Philosophy
+## 🏰 The EREVUS Philosophy
 
 > _"The technology exists. The friction doesn't have to."_
 
@@ -171,63 +92,40 @@ Local AI is powerful. The tools are free. But the setup? That's where 99% of peo
 
 ### 🧬 How THERION Came To Be
 
+**THERION operates as a TWO-SIDED SYSTEM:**
+
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   
-       ░░                                                                     ░░   
-       ░░    ╔═══════════════════════════════════════════════════════════╗    ░░   
-       ░░                                                                   ░░   
-       ░░       ⚔️ THE DUAL-MIND ARCHITECTURE ⚔️                            ░░   
-       ░░       ═══════════════════════════════                             ░░   
-       ░░                                                                   ░░   
-       ░░       THERION operates as a TWO-SIDED SYSTEM:                     ░░   
-       ░░                                                                   ░░   
-       ░░       ┌─────────────┐         ┌─────────────┐                     ░░   
-       ░░         🖥️ SIDE A  ◄───────►  📱 SIDE B                       ░░   
-       ░░          VS CODE      ∞       TELEGRAM                        ░░   
-       ░░          CURSOR      SYNC     DISCORD                         ░░   
-       ░░          CODIUM               WHATSAPP                        ░░   
-       ░░       └─────────────┘         └─────────────┘                     ░░   
-       ░░                                                                 ░░   
-       ░░                  ┌───────────┐                                  ░░   
-       ░░              └───►  OLLAMA   ◄─────┘                            ░░   
-       ░░                     LOCAL AI                                    ░░   
-       ░░                   └───────────┘                                   ░░   
-       ░░                                                                   ░░   
-       ░░       Side A: BUILD & ENHANCE (any AI-powered IDE)                ░░   
-       ░░       Side B: USE 24/7 (any messaging platform)                   ░░   
-       ░░                                                                   ░░   
-       ░░       What you build in VS Code → Available on phone              ░░   
-       ░░       Both interfaces share the SAME brain, memory, tools         ░░   
-       ░░                                                                   ░░   
-       ░░    ╚═══════════════════════════════════════════════════════════╝    ░░   
-       ░░                                                                     ░░   
-       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+       🖥️ SIDE A              📱 SIDE B
+      ───────────            ───────────
+       VS CODE      ◄═══►     TELEGRAM
+       CURSOR        ∞        DISCORD
+       CODIUM       SYNC      WHATSAPP
+
+                    ▼
+              ┌──────────┐
+              │  OLLAMA  │
+              │ LOCAL AI │
+              └──────────┘
 ```
+
+- **Side A:** BUILD & ENHANCE (any AI-powered IDE)
+- **Side B:** USE 24/7 (any messaging platform)
+
+What you build in VS Code → Available on phone. Both interfaces share the SAME brain, memory, tools.
 
 **THERION is a carefully engineered package** — not just software, but a complete knowledge transfer system:
 
-```
-    ╭───────────────────────────────────────────────────────────────────────────╮
-                                                                               
-       🎭 COMPATIBLE AI CODING ENVIRONMENTS (Side A)                          
-       ═══════════════════════════════════════════                            
-                                                                               
-       ► VS Code + GitHub Copilot  — The industry standard                    
-       ► VS Code + Claude          — Anthropic's reasoning engine             
-       ► Cursor                    — AI-first fork of VS Code                 
-       ► VSCodium                  — Open source VS Code (no telemetry)       
-       ► Windsurf                  — AI-native development                    
-       ► Any editor with AI chat   — If it can read files, it works          
-                                                                               
-       The .github/copilot-instructions.md file works with ALL of them.       
-       Just open the folder and ask the AI to "set up THERION."               
-                                                                               
-    ╰───────────────────────────────────────────────────────────────────────────╯
-```
+### 🎭 Compatible AI Coding Environments
+
+► VS Code + GitHub Copilot — The industry standard
+► VS Code + Claude — Anthropic's reasoning engine
+► Cursor — AI-first fork of VS Code
+► VSCodium — Open source VS Code (no telemetry)
+► Windsurf — AI-native development
+► Any editor with AI chat — If it can read files, it works
+
+The .github/copilot-instructions.md file works with ALL of them.
+Just open the folder and ask the AI to "set up THERION."
 
 1. **We forked OpenClaw** — the best open-source AI gateway — and enhanced it with optimized defaults, better tool handling, and smoother configuration
 
@@ -237,57 +135,34 @@ Local AI is powerful. The tools are free. But the setup? That's where 99% of peo
 
 4. **We created universal AI instructions** — `.github/copilot-instructions.md` works with Copilot, Claude, Cursor, VSCodium, and any AI that can read files
 
-```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-          🔮 THE EXPONENTIAL UPGRADE PATH 🔮                                       
-          ══════════════════════════════════                                       
-                                                                                   
-          Every enhancement you make in your IDE is IMMEDIATELY available         
-          to your messaging bot. The system compounds on itself:                   
-                                                                                   
-          ┌──────────────────────────────────────────────────────────────────┐    
-                                                                                
-             Day 1:   Basic assistant (weather, search, reminders)             
-             Day 7:   Add custom tools (smart home, calendar)                  
-             Day 30:  Automate workflows (email summaries, reports)            
-             Day 90:  Domain expert (your field, your data, your rules)        
-                                                                                
-             The AI that helps you BUILD is the AI you USE daily.              
-             Building and using become the same action.                        
-                                                                                
-          └──────────────────────────────────────────────────────────────────┘    
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
-```
+### 🔮 The Exponential Upgrade Path
+
+Every enhancement you make in your IDE is IMMEDIATELY available to your messaging bot. The system compounds on itself:
+
+| Timeline | Capability                                        |
+| -------- | ------------------------------------------------- |
+| Day 1    | Basic assistant (weather, search, reminders)      |
+| Day 7    | Add custom tools (smart home, calendar)           |
+| Day 30   | Automate workflows (email summaries, reports)     |
+| Day 90   | Domain expert (your field, your data, your rules) |
+
+**The AI that helps you BUILD is the AI you USE daily.**
+Building and using become the same action.
 
 **The magic ingredient?** Every file in this repository is designed to be read by AI.
 
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-                                                                            
-    ═══════════════════════════════════════════════════════════════════    
-                    THE SELF-TEACHING ARCHITECTURE                          
-    ═══════════════════════════════════════════════════════════════════    
-                                                                            
-    Open this workspace in VS Code, Cursor, VSCodium, or any AI IDE.        
-                                                                            
-    Say: "Set up THERION for Telegram with my bot token"                    
-                                                                            
-    The AI reads the documentation, understands the architecture,           
-    creates your config, tests it, and walks you through any issues.        
-                                                                            
-    ┌────────────────────────────────────────────────────────────────┐      
-                                                                          
-       Your AI assistant becomes your AI building partner.                
-                                                                          
-       No tutorials. No Stack Overflow. No "works on my machine."         
-       Describe what you want → AI builds it → You use it.                
-                                                                          
-    └────────────────────────────────────────────────────────────────┘      
-                                                                            
-└────────────────────────────────────────────────────────────────────────────┘
-```
+### 🧠 The Self-Teaching Architecture
+
+Open this workspace in VS Code, Cursor, VSCodium, or any AI IDE.
+
+Say: _"Set up THERION for Telegram with my bot token"_
+
+The AI reads the documentation, understands the architecture, creates your config, tests it, and walks you through any issues.
+
+> **Your AI assistant becomes your AI building partner.**
+>
+> No tutorials. No Stack Overflow. No "works on my machine."
+> Describe what you want → AI builds it → You use it.
 
 **Why this works:**
 
@@ -302,6 +177,99 @@ Local AI is powerful. The tools are free. But the setup? That's where 99% of peo
 This is prompt engineering at the infrastructure level. We didn't just build software — we built a system that any AI can understand, extend, and teach to users.
 
 **Clone this repo. Open in any AI-powered editor. Ask for help. Transform your life.**
+
+---
+
+## 🌟 STARBIX — The Beginner-Friendly Persona
+
+<div align="center">
+<img src="starbix/starbix_profile.jpg" alt="STARBIX" width="120" style="border-radius: 50%; border: 3px solid #fbbf24;" />
+
+_Your friendly local AI companion_
+
+</div>
+
+**Not ready for THERION's intensity?** Meet **STARBIX** — a friendlier, more approachable personality included in this repo.
+
+<table align="center">
+<tr>
+<td align="center" width="50%">
+
+### 🌟 STARBIX
+
+_Friendly & Casual_
+
+- 💬 Conversational tone
+- 😊 Uses emojis freely
+- 🎮 Digital pet vibes
+- 📱 Great for beginners
+
+</td>
+<td align="center" width="50%">
+
+### ⚔️ THERION
+
+_Direct & Efficient_
+
+- ◈ Minimal glyphs only
+- ⚡ Action-oriented
+- 🏰 Dark knight aesthetic
+- 💻 For power users
+
+</td>
+</tr>
+</table>
+
+> **Both use the SAME tools, memory system, and capabilities. Only the PERSONALITY differs.**
+
+**How to switch:**
+
+1. Open the `starbix/` folder in this workspace
+2. Copy `starbix/config/SOUL.md` to replace your `SOUL.md`
+3. Restart the gateway: `openclaw gateway restart`
+
+**Create your own persona:** Copy any SOUL.md, modify the personality section, and you've made your own AI companion. See [starbix/MODDING.md](starbix/MODDING.md) for full customization guide.
+
+---
+
+## 🔧 VS Code: Your THERION Command Center
+
+**Something broken? Paste the chat log here and we fix it together.**
+
+```
+════════════════════════════════════════════════════════════════════════════════
+
+🛠️ THE SELF-HEALING ARCHITECTURE
+─────────────────────────────────
+
+Every file in this workspace is designed to be READ BY AI.
+
+When THERION misbehaves:
+
+1. Copy the problematic chat log from Telegram/Discord
+2. Paste it in VS Code Copilot/Claude/Cursor chat
+3. Say: "THERION did this wrong, fix it"
+4. The AI reads the docs, finds the bug, and patches it
+
+┌──────────────────────────────────────────────────────────────────────────┐
+This is EXACTLY how we're debugging right now.
+
+    You're reading the result of an AI-assisted debugging session.
+    You can do the same for ANY issue you encounter.
+└──────────────────────────────────────────────────────────────────────────┘
+
+════════════════════════════════════════════════════════════════════════════════
+```
+
+**What VS Code AI can fix:**
+
+- Weather not working → AI updates SOUL.md with correct commands
+- Bot using wrong tools → AI patches the tool configuration
+- Personality too harsh → AI softens SOUL.md language
+- Memory not persisting → AI fixes file paths and permissions
+- TTS errors (not implemented) → AI removes TTS references
+
+**This is meta-AI:** The AI in your IDE fixes the AI on your phone.
 
 ### ⚔️ Why THERION?
 
@@ -332,39 +300,41 @@ This is prompt engineering at the infrastructure level. We didn't just build sof
 ### 📦 The Complete Package
 
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
-   📱 MESSAGING INTERFACE — Daily Access Anywhere
+════════════════════════════════════════════════════════════════════════════════
 
-      → Telegram, Discord, WhatsApp, Slack — your choice
-      → Runs 24/7 on modest hardware (uses <1GB RAM)
-      → Web search, file operations, persistent memory
-      → Perfect for: daily tasks, quick queries, automation
+📱 MESSAGING INTERFACE — Daily Access Anywhere
+──────────────────────────────────────────────
+→ Telegram, Discord, WhatsApp, Slack — your choice
+→ Runs 24/7 on modest hardware (uses <1GB RAM)
+→ Web search, file operations, persistent memory
+→ Perfect for: daily tasks, quick queries, automation
 
-   💻 DEVELOPMENT INTERFACE — VS Code Workspace
+💻 DEVELOPMENT INTERFACE — VS Code Workspace
+────────────────────────────────────────────
+→ Pre-configured for Copilot + Claude assistance
+→ AI helps you customize the AI (meta!)
+→ Add new capabilities without being an expert
+→ Perfect for: customization, new tools, integration
 
-      → Pre-configured for Copilot + Claude assistance
-      → AI helps you customize the AI (meta!)
-      → Add new capabilities without being an expert
-      → Perfect for: customization, new tools, integration
+🔧 OPENCLAW GATEWAY — Extends Your PC
+─────────────────────────────────────
+→ Routes messages between interfaces and AI
+→ Executes tools safely on your hardware
+→ Manages memory and conversation state
+→ The engine that makes it all work
 
-   🔧 OPENCLAW GATEWAY — Extends Your PC
+📦 WHAT'S INCLUDED
+──────────────────
+✓ Forked & enhanced OpenClaw gateway
+✓ Pre-configured VS Code workspace with AI instructions
+✓ Documentation written for BOTH humans AND AI to read
+✓ Ready-to-use tool scripts (web search, file ops, memory)
+✓ Multi-platform integration guides
+✓ Hardware optimization profiles
+✓ THERION Protocol for maximum AI effectiveness
+✓ One-prompt setup with any AI coding assistant
 
-      → Routes messages between interfaces and AI
-      → Executes tools safely on your hardware
-      → Manages memory and conversation state
-      → The engine that makes it all work
-
-   📦 WHAT'S INCLUDED
-
-      ✓ Forked & enhanced OpenClaw gateway
-      ✓ Pre-configured VS Code workspace with AI instructions
-      ✓ Documentation written for BOTH humans AND AI to read
-      ✓ Ready-to-use tool scripts (web search, file ops, memory)
-      ✓ Multi-platform integration guides
-      ✓ Hardware optimization profiles
-      ✓ THERION Protocol for maximum AI effectiveness
-      ✓ One-prompt setup with any AI coding assistant
-└────────────────────────────────────────────────────────────────────────────┘
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 _An [EREVUS](https://erevus.space) Open Source Project — Built for Digital Sovereignty_
@@ -375,44 +345,23 @@ _An [EREVUS](https://erevus.space) Open Source Project — Built for Digital Sov
 
 ---
 
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       ⚔️ CHAPTER III: THE ARSENAL  ══════════════════════════════════════ 
-                                                                           
-              "Know thy tools, and thy tools shall serve thee well."       
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
-
 ## 🧠 Cognitive Skills — What Makes THERION Unique
 
 **THERION isn't just a chatbot.** It comes with pre-built **cognitive skill modules** that handle complex tasks out of the box:
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   
-       ░░                                                                     ░░   
-       ░░    ╔═══════════════════════════════════════════════════════════╗    ░░   
-       ░░                                                                   ░░   
-       ░░       🧠 THERION COGNITIVE MODULES 🧠                             ░░   
-       ░░       ═══════════════════════════════                             ░░   
-       ░░                                                                   ░░   
-       ░░       🧠 THERION BRAIN      Universal CLI interface               ░░   
-       ░░       🌐 WEB RESEARCH       Search + fetch (no API keys!)         ░░   
-       ░░       🧠 MEMORY SYSTEM      Persistent across sessions            ░░   
-       ░░       💻 VSCODE CONTROL     Open files, goto line, commands       ░░   
-       ░░       🔧 SYSTEM OPS         Linux admin, process management       ░░   
-       ░░       📂 FILE SEARCH        Find anything in codebase             ░░   
-       ░░       ⚔️ THERION CODING     Code generation patterns              ░░   
-       ░░       🛠️ EXTENSIBLE TOOLS   Add your own capabilities             ░░   
-       ░░                                                                   ░░   
-       ░░    ╚═══════════════════════════════════════════════════════════╝    ░░   
-       ░░                                                                     ░░   
-       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+     🧠 THERION BRAIN      Universal CLI interface
+     🌐 WEB RESEARCH       Search + fetch (no API keys!)
+     🧠 MEMORY SYSTEM      Persistent across sessions
+     💻 VSCODE CONTROL     Open files, goto line, commands
+     🔧 SYSTEM OPS         Linux admin, process management
+     📂 FILE SEARCH        Find anything in codebase
+     ⚔️ THERION CODING     Code generation patterns
+     🛠️ EXTENSIBLE TOOLS   Add your own capabilities
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 ### ⚔️ THERION Brain — One Command, Infinite Actions
@@ -443,10 +392,10 @@ w3m -dump "https://example.com" | head -c 50000
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-  memory/YYYY-MM-DD.md    Daily logs (what happened today)      
-  MEMORY.md               Long-term curated knowledge           
-  USER.md                 Your preferences and context          
-  SOUL.md                 Agent personality and rules           
+  memory/YYYY-MM-DD.md    Daily logs (what happened today)
+  MEMORY.md               Long-term curated knowledge
+  USER.md                 Your preferences and context
+  SOUL.md                 Agent personality and rules
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -470,66 +419,48 @@ skills/
 
 ---
 
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       🎯 CHAPTER IV: THE CAPABILITIES  ══════════════════════════════════ 
-                                                                           
-             "THERION doesn't explain. THERION executes."                  
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
-
 ## 🎯 What Can THERION Do?
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       ┌─────────────────────────────────────────────────────────────────────┐    
-                                                                                
-          👤 FOR EVERYONE — DAILY ASSISTANT MODE                               
-          ═══════════════════════════════════════                              
-                                                                                
-          ✓ Answer questions about anything — with web search                  
-          ✓ Search and summarize information — DuckDuckGo integration          
-          ✓ Remember conversations and details — persistent memory             
-          ✓ Set reminders and track tasks — daily logs                         
-          ✓ Weather, news, real-time info — live data access                   
-          ✓ Control your computer — system command execution                   
-          ✓ Available 24/7 via messaging apps — always accessible              
-                                                                                
-       └─────────────────────────────────────────────────────────────────────┘    
-                                                                                   
-       ┌─────────────────────────────────────────────────────────────────────┐    
-                                                                                
-          💻 FOR DEVELOPERS — FULL DEVELOPMENT PARTNER                         
-          ════════════════════════════════════════                             
-                                                                                
-          ✓ Code generation and debugging — context-aware solutions            
-          ✓ Automated git commits — version control                            
-          ✓ Run scripts and commands — safe execution environment              
-          ✓ Monitor servers and services — health checks                       
-          ✓ API testing and integration — endpoint validation                  
-          ✓ Documentation generation — auto-generated docs                     
-          ✓ Extend with custom tools — infinite expansion                      
-                                                                                
-       └─────────────────────────────────────────────────────────────────────┘    
-                                                                                   
-       ┌─────────────────────────────────────────────────────────────────────┐    
-                                                                                
-          ⚡ FOR POWER USERS — VS CODE INTEGRATION                             
-          ═════════════════════════════════════                                
-                                                                                
-          ✓ Pre-configured workspace with AI instructions                      
-          ✓ AI understands the entire THERION architecture                     
-          ✓ One-prompt operations: "Add a tool for X" → works                  
-          ✓ Debug configuration issues with AI assistance                      
-          ✓ Extend capabilities without deep coding knowledge                  
-          ✓ Development environment IS deployment environment                  
-                                                                                
-       └─────────────────────────────────────────────────────────────────────┘    
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+  👤 FOR EVERYONE — DAILY ASSISTANT MODE
+  ───────────────────────────────────────
+
+  ✓ Answer questions about anything — with web search
+  ✓ Search and summarize information — DuckDuckGo integration
+  ✓ Remember conversations and details — persistent memory
+  ✓ Set reminders and track tasks — daily logs
+  ✓ Weather, news, real-time info — live data access
+  ✓ Control your computer — system command execution
+  ✓ Available 24/7 via messaging apps — always accessible
+
+────────────────────────────────────────────────────────────────────────────────
+
+  💻 FOR DEVELOPERS — FULL DEVELOPMENT PARTNER
+  ────────────────────────────────────────────
+
+  ✓ Code generation and debugging — context-aware solutions
+  ✓ Automated git commits — version control
+  ✓ Run scripts and commands — safe execution environment
+  ✓ Monitor servers and services — health checks
+  ✓ API testing and integration — endpoint validation
+  ✓ Documentation generation — auto-generated docs
+  ✓ Extend with custom tools — infinite expansion
+
+────────────────────────────────────────────────────────────────────────────────
+
+  ⚡ FOR POWER USERS — VS CODE INTEGRATION
+  ─────────────────────────────────────────
+
+  ✓ Pre-configured workspace with AI instructions
+  ✓ AI understands the entire THERION architecture
+  ✓ One-prompt operations: "Add a tool for X" → works
+  ✓ Debug configuration issues with AI assistance
+  ✓ Extend capabilities without deep coding knowledge
+  ✓ Development environment IS deployment environment
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 ### Real-World Use Cases
@@ -575,16 +506,6 @@ THERION doesn't just tell you HOW to do these things—**it actually DOES them.*
 
 ---
 
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       🚀 CHAPTER V: THE ASCENSION  ══════════════════════════════════════ 
-                                                                           
-           "From zero to sovereign in fifteen minutes."                    
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
-
 ## 🚀 Quick Start (15 Minutes)
 
 ### From Zero to AI Assistant in 5 Steps
@@ -592,29 +513,20 @@ THERION doesn't just tell you HOW to do these things—**it actually DOES them.*
 **Got 8GB+ RAM and basic Linux/Mac/Windows knowledge?** You're 15 minutes away from your own private AI.
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   
-       ░░                                                                     ░░   
-       ░░    ┌───────────────────────────────────────────────────────────┐    ░░   
-       ░░                                                                   ░░   
-       ░░       ⚡ THE FIVE STEPS TO SOVEREIGNTY ⚡                          ░░   
-       ░░       ═══════════════════════════════════                         ░░   
-       ░░                                                                   ░░   
-       ░░       1️⃣ Install Ollama (AI Engine)      ━━━━━━━  2 minutes       ░░   
-       ░░       🧠 Download AI Model               ━━━━━━━  5-10 min        ░░   
-       ░░       📦 Get THERION                     ━━━━━━━  2 minutes       ░░   
-       ░░       🤖 Connect Telegram/Discord        ━━━━━━━  3 minutes       ░░   
-       ░░       ▶️ Start & Chat                    ━━━━━━━  30 seconds      ░░   
-       ░░                                                                   ░░   
-       ░░       ════════════════════════════════════════════════════        ░░   
-       ░░       TOTAL: 15 Minutes → Lifetime of Ownership                   ░░   
-       ░░                                                                   ░░   
-       ░░    └───────────────────────────────────────────────────────────┘    ░░   
-       ░░                                                                     ░░   
-       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+  ⚡ THE FIVE STEPS TO SOVEREIGNTY ⚡
+
+     1️⃣ Install Ollama (AI Engine)      ━━━━━━━  2 minutes
+     🧠 Download AI Model               ━━━━━━━  5-10 min
+     📦 Get THERION                     ━━━━━━━  2 minutes
+     🤖 Connect Telegram/Discord        ━━━━━━━  3 minutes
+     ▶️ Start & Chat                    ━━━━━━━  30 seconds
+
+     ════════════════════════════════════════════════════════════════════════
+     TOTAL: 15 Minutes → Lifetime of Ownership
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 ### Step 1: Install Ollama (The AI Brain)
@@ -716,72 +628,52 @@ Good day for outdoor activities!
 
 ---
 
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       ⚔️ CHAPTER VI: THE TRIALS  ════════════════════════════════════════ 
-                                                                           
-           "Know thy enemy, and victory shall be certain."                 
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
-
 ## 🆚 THERION vs The Competition
 
 ### vs Cloud AI Services (ChatGPT, Claude)
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       ░░  ┌──────────────┬───────────────┬───────────────┬─────────────────┐  ░░  
-       ░░     Feature      ChatGPT Plus   Claude Pro      ⚔️ THERION      ░░  
-       ░░  ├──────────────┼───────────────┼───────────────┼─────────────────┤  ░░  
-       ░░   Monthly Cost      $20            $20          $0 FOREVER      ░░  
-       ░░   5-Year Cost     $1,200         $1,200             $0          ░░  
-       ░░   Privacy       Data→OpenAI    Data→Anthrop    100% LOCAL       ░░  
-       ░░   Works Offln      Never          Never          ALWAYS         ░░  
-       ░░   Customizatn    Prompt only    Prompt only    FULL CONTROL     ░░  
-       ░░   Tool Exectn     Limited        Limited        UNLIMITED       ░░  
-       ░░   Phone Access   Their app      Their app     ANY MSG APP       ░░  
-       ░░  └──────────────┴───────────────┴───────────────┴─────────────────┘  ░░  
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌──────────────┬───────────────┬───────────────┬─────────────────┐
+     Feature      ChatGPT Plus   Claude Pro      ⚔️ THERION
+  ├──────────────┼───────────────┼───────────────┼─────────────────┤
+   Monthly Cost      $20            $20          $0 FOREVER
+   5-Year Cost     $1,200         $1,200             $0
+   Privacy       Data→OpenAI    Data→Anthrop    100% LOCAL
+   Works Offln      Never          Never          ALWAYS
+   Customizatn    Prompt only    Prompt only    FULL CONTROL
+   Tool Exectn     Limited        Limited        UNLIMITED
+   Phone Access   Their app      Their app     ANY MSG APP
+  └──────────────┴───────────────┴───────────────┴─────────────────┘
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 ### vs Developer Tools
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       ░░  ┌───────────────────┬──────────────────────────────┬────────────┐   ░░  
-       ░░         Tool                What You Get           Setup Time    ░░  
-       ░░  ├───────────────────┼──────────────────────────────┼────────────┤   ░░  
-       ░░   Raw Ollama         Just inference, no tools        Hours       ░░  
-       ░░   Raw OpenClaw       Needs all the configuration     Hours       ░░  
-       ░░   VS Code + Copilot  Great coding, NO 24/7 bot      Minutes      ░░  
-       ░░   Cursor             Great coding, NO 24/7 bot      Minutes      ░░  
-       ░░   Base44/Lovable     Quick demos, NO ownership      Minutes      ░░  
-       ░░  ├───────────────────┼──────────────────────────────┼────────────┤   ░░  
-       ░░   ⚔️ THERION         COMPLETE · EXTENSIBLE · YOURS 15 MINUTES    ░░  
-       ░░  └───────────────────┴──────────────────────────────┴────────────┘   ░░  
-                                                                                   
-            KEY INSIGHT: THERION complements VS Code/Cursor for coding —          
-                        THERION handles everything else, 24/7 via messaging       
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+  ┌───────────────────┬──────────────────────────────┬────────────┐
+         Tool                What You Get           Setup Time
+  ├───────────────────┼──────────────────────────────┼────────────┤
+   Raw Ollama         Just inference, no tools        Hours
+   Raw OpenClaw       Needs all the configuration     Hours
+   VS Code + Copilot  Great coding, NO 24/7 bot      Minutes
+   Cursor             Great coding, NO 24/7 bot      Minutes
+   Base44/Lovable     Quick demos, NO ownership      Minutes
+  ├───────────────────┼──────────────────────────────┼────────────┤
+   ⚔️ THERION         COMPLETE · EXTENSIBLE · YOURS 15 MINUTES
+  └───────────────────┴──────────────────────────────┴────────────┘
+
+  KEY INSIGHT: THERION complements VS Code/Cursor for coding —
+               THERION handles everything else, 24/7 via messaging
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 ---
-
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       💻 CHAPTER VII: THE FORGE  ════════════════════════════════════════ 
-                                                                           
-           "The anvil cares not how hard the hammer strikes."              
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
 
 ## 💻 Hardware Requirements
 
@@ -790,25 +682,16 @@ Good day for outdoor activities!
 **TL;DR: If your computer can run Chrome, it can probably run THERION.**
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   
-       ░░                                                                     ░░   
-       ░░    ┌───────────────────────────────────────────────────────────┐    ░░   
-       ░░                                                                   ░░   
-       ░░       ⚙️ HARDWARE COMPATIBILITY CHECK ⚙️                           ░░   
-       ░░       ═══════════════════════════════════                         ░░   
-       ░░                                                                   ░░   
-       ░░       ✅ 8GB RAM?              → Yes, THERION runs (basic)        ░░   
-       ░░       ✅ 16GB RAM + any GPU?   → Yes, good performance            ░░   
-       ░░       ✅ Gaming PC/Laptop?     → Yes, excellent performance       ░░   
-       ░░       ✅ Mac M1/M2/M3?         → Yes, Apple Silicon optimized     ░░   
-       ░░                                                                   ░░   
-       ░░    └───────────────────────────────────────────────────────────┘    ░░   
-       ░░                                                                     ░░   
-       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+  ⚙️ HARDWARE COMPATIBILITY CHECK ⚙️
+
+     ✅ 8GB RAM?              → Yes, THERION runs (basic)
+     ✅ 16GB RAM + any GPU?   → Yes, good performance
+     ✅ Gaming PC/Laptop?     → Yes, excellent performance
+     ✅ Mac M1/M2/M3?         → Yes, Apple Silicon optimized
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 ### Baseline Configuration (Our Recommendation)
@@ -836,13 +719,13 @@ Good day for outdoor activities!
 ---
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       📚 CHAPTER VIII: THE CODEX  ═══════════════════════════════════════ 
-                                                                           
-           "Knowledge is power. Installation is liberation."               
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+  📚 CHAPTER VIII: THE CODEX
+────────────────────────────────────────────────────────────────────────────────
+
+     "Knowledge is power. Installation is liberation."
+
+────────────────────────────────────────────────────────────────────────────────
 ```
 
 ## 📚 Installation Guide
@@ -852,26 +735,21 @@ Follow these steps carefully. We'll explain everything.
 ### What You'll Install
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       ░░  ┌──────────────────────────────────────────────────────────────────┐░░  
-       ░░                                                                    ░░  
-       ░░     📦 INSTALLATION MANIFEST 📦                                   ░░  
-       ░░     ═══════════════════════════                                   ░░  
-       ░░                                                                    ░░  
-       ░░     1. System Tools    → Basic software           (5 minutes)     ░░  
-       ░░     2. Ollama          → AI engine                (10 minutes)    ░░  
-       ░░     3. AI Model        → The brain                (10-20 min)     ░░  
-       ░░     4. THERION System  → Main software            (5 minutes)     ░░  
-       ░░     5. OpenClaw        → Gateway router           (2 minutes)     ░░  
-       ░░     6. Configuration   → Connect everything       (5 minutes)     ░░  
-       ░░                                                                    ░░  
-       ░░     ════════════════════════════════════════════════════════════  ░░  
-       ░░     TOTAL: 30-45 minutes (mostly downloading)                     ░░  
-       ░░                                                                    ░░  
-       ░░  └──────────────────────────────────────────────────────────────────┘░░  
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+  📦 INSTALLATION MANIFEST 📦
+
+     1. System Tools    → Basic software           (5 minutes)
+     2. Ollama          → AI engine                (10 minutes)
+     3. AI Model        → The brain                (10-20 min)
+     4. THERION System  → Main software            (5 minutes)
+     5. OpenClaw        → Gateway router           (2 minutes)
+     6. Configuration   → Connect everything       (5 minutes)
+
+     ════════════════════════════════════════════════════════════════════════
+     TOTAL: 30-45 minutes (mostly downloading)
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 ### Prerequisites (What You Need First)
@@ -997,43 +875,33 @@ openclaw gateway start
 
 ---
 
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       ⚙️ CHAPTER IX: THE MECHANISM  ═════════════════════════════════════ 
-                                                                           
-           "Understanding the machine grants mastery over it."             
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
-
 ## ⚙️ System Architecture (How The Pieces Fit)
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-                               ⚔️ THERION SYSTEM ⚔️                                
-                                                                                   
-          ┌───────────────┐      ┌───────────────┐      ┌───────────────┐         
-             VS CODE              OPENCLAW              OLLAMA              
-                                   GATEWAY                                  
-            Setup &      ◀════▶               ◀════▶   Local AI             
-            Configure            Routes msgs           Inference            
-            Debug                Runs tools                                 
-            Customize            Manages mem           qwen3:4b             
-          └───────────────┘      └───────┬───────┘      └───────────────┘         
-                                                                                  
-                                         ▼                                         
-                                ┌─────────────────┐                                
-                                    MESSAGING                                    
-                                                                                 
-                                   📱 Telegram                                   
-                                   💬 Discord                                    
-                                   📞 WhatsApp                                   
-                                   🌐 Web UI                                     
-                                └─────────────────┘                                
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+                            ⚔️ THERION SYSTEM ⚔️
+
+       ┌───────────────┐      ┌───────────────┐      ┌───────────────┐
+          VS CODE              OPENCLAW              OLLAMA
+                                GATEWAY
+         Setup &      ◀════▶               ◀════▶   Local AI
+         Configure            Routes msgs           Inference
+         Debug                Runs tools
+         Customize            Manages mem           qwen3:4b
+       └───────────────┘      └───────┬───────┘      └───────────────┘
+
+                                      ▼
+                             ┌─────────────────┐
+                                 MESSAGING
+
+                                📱 Telegram
+                                💬 Discord
+                                📞 WhatsApp
+                                🌐 Web UI
+                             └─────────────────┘
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 ### What Each Component Does
@@ -1078,37 +946,67 @@ openclaw gateway start
 
 ---
 
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       🖥️ CHAPTER X: THE WORKSHOP  ══════════════════════════════════════ 
-                                                                           
-           "The craftsman shapes the tool. The tool shapes the world."     
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
-
 ## 🖥️ VS Code Setup — Your Development Cockpit
 
 **This is where the magic happens.** The VS Code integration provides:
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       ░░  ┌─────────────────────────────────────────────────────────────────┐ ░░  
-       ░░                                                                    ░░  
-       ░░     🖥️ VS CODE INTEGRATION FEATURES 🖥️                            ░░  
-       ░░     ═══════════════════════════════════                            ░░  
-       ░░                                                                    ░░  
-       ░░     ▸ Automated setup and configuration                           ░░  
-       ░░     ▸ Debugging and log analysis                                  ░░  
-       ░░     ▸ Capability extension                                        ░░  
-       ░░     ▸ Prompt engineering workspace                                ░░  
-       ░░                                                                    ░░  
-       ░░  └─────────────────────────────────────────────────────────────────┘ ░░  
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+  🖥️ VS CODE INTEGRATION FEATURES
+  ─────────────────────────────────
+
+  ▸ Automated setup and configuration
+  ▸ Debugging and log analysis
+  ▸ Capability extension
+  ▸ Prompt engineering workspace
+
+════════════════════════════════════════════════════════════════════════════════
 ```
+
+### 🌱 New to VS Code? Start Here!
+
+**VS Code (Visual Studio Code)** is a free code editor from Microsoft. It's where you'll customize THERION.
+
+#### Download VS Code
+
+| Platform         | Download Link                                                                                                                                                           | Notes                                  |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| **Windows**      | [Download .exe](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)                                                                              | Run installer, follow prompts          |
+| **macOS**        | [Download .zip](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)                                                                            | Unzip, drag to Applications            |
+| **Linux (.deb)** | [Download .deb](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64)                                                                               | `sudo dpkg -i code*.deb`               |
+| **Linux (.rpm)** | [Download .rpm](https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64)                                                                               | `sudo rpm -i code*.rpm`                |
+| **Portable ZIP** | [Windows](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-archive) / [Linux](https://code.visualstudio.com/sha/download?build=stable&os=linux-x64) | No install needed — just unzip and run |
+
+**Official page:** [code.visualstudio.com](https://code.visualstudio.com/)
+
+#### Download from GitHub (Alternative)
+
+If you prefer downloading directly from GitHub:
+
+1. Go to [github.com/microsoft/vscode/releases](https://github.com/microsoft/vscode/releases)
+2. Find the latest release
+3. Scroll to **Assets** and download the file for your OS:
+   - Windows: `VSCode-win32-x64-*.zip`
+   - macOS: `VSCode-darwin-*.zip`
+   - Linux: `code-stable-*.tar.gz`
+4. Extract the archive and run the `code` executable
+
+#### Open THERION in VS Code
+
+Once VS Code is installed:
+
+```bash
+# Navigate to THERION folder
+cd ~/Documents/THERION-SYSTEM
+
+# Open in VS Code
+code .
+```
+
+Or use the menu: **File → Open Folder → Select THERION-SYSTEM folder**
+
+---
 
 ### Required Extensions
 
@@ -1155,59 +1053,49 @@ The `.github/copilot-instructions.md` file configures VS Code Copilot (and Claud
 ## 📁 File Structure
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       📁 THERION WORKSPACE ANATOMY 📁                                            
-                                                                                   
-       TherionSystem/                                                              
-                                                                                  
-       ├── 📜 SOUL.md              ← Agent personality and behavior rules          
-       ├── 👤 USER.md              ← User preferences and context                  
-       ├── 🧠 MEMORY.md            ← Long-term curated memory                      
-       ├── 📋 AGENTS.md            ← Operating protocol documentation              
-       ├── 🔧 TOOLS.md             ← Available tools reference                     
-                                                                                  
-       ├── 📂 memory/              ← Daily conversation logs                       
-          └── YYYY-MM-DD.md                                                       
-                                                                                  
-       ├── 🧠 skills/              ← Cognitive skill modules                       
-          ├── web-research/       ← Search and synthesis patterns                 
-          ├── memory-management/  ← Memory operations                             
-          ├── system-ops/         ← System administration                         
-          └── therion-coding/     ← Code generation patterns                      
-                                                                                  
-       ├── 📜 scripts/             ← Tool scripts                                  
-          ├── websearch.sh                                                        
-          ├── webfetch.sh                                                         
-          └── telegram-upload                                                     
-                                                                                  
-       ├── ⚙️ config/              ← Configuration templates                       
-          └── openclaw.template.json                                              
-                                                                                  
-       ├── 📚 docs/                ← Extended documentation                        
-          ├── setup/                                                              
-          ├── architecture/                                                       
-          └── OPENCLAW-KNOWLEDGE-BASE.md                                          
-                                                                                  
-       ├── 🛠️ mcp-therion-tools/   ← MCP tool server                               
-                                                                                  
-       └── 📋 .github/                                                             
-           └── copilot-instructions.md  ← VS Code Copilot configuration            
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+  📁 THERION WORKSPACE ANATOMY
+
+  TherionSystem/
+
+  ├── 📜 SOUL.md              ← Agent personality and behavior rules
+  ├── 👤 USER.md              ← User preferences and context
+  ├── 🧠 MEMORY.md            ← Long-term curated memory
+  ├── 📋 AGENTS.md            ← Operating protocol documentation
+  ├── 🔧 TOOLS.md             ← Available tools reference
+
+  ├── 📂 memory/              ← Daily conversation logs
+     └── YYYY-MM-DD.md
+
+  ├── 🧠 skills/              ← Cognitive skill modules
+     ├── web-research/       ← Search and synthesis patterns
+     ├── memory-management/  ← Memory operations
+     ├── system-ops/         ← System administration
+     └── therion-coding/     ← Code generation patterns
+
+  ├── 📜 scripts/             ← Tool scripts
+     ├── websearch.sh
+     ├── webfetch.sh
+     └── telegram-upload
+
+  ├── ⚙️ config/              ← Configuration templates
+     └── openclaw.template.json
+
+  ├── 📚 docs/                ← Extended documentation
+     ├── setup/
+     ├── architecture/
+     └── OPENCLAW-KNOWLEDGE-BASE.md
+
+  ├── 🛠️ mcp-therion-tools/   ← MCP tool server
+
+  └── 📋 .github/
+      └── copilot-instructions.md  ← VS Code Copilot configuration
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 ---
-
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       ⚙️ CHAPTER XI: THE GRIMOIRE  ══════════════════════════════════════ 
-                                                                           
-           "Configuration is incantation. JSON is the spell."              
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
 
 ## ⚙️ Configuration Reference
 
@@ -1275,16 +1163,6 @@ The `.github/copilot-instructions.md` file configures VS Code Copilot (and Claud
 
 ---
 
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       🔧 CHAPTER XII: THE ARMORY  ═══════════════════════════════════════ 
-                                                                           
-           "A warrior is only as mighty as his arsenal."                   
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
-
 ## 🔧 Tool System
 
 THERION's capabilities come from tools. The system ships with:
@@ -1329,16 +1207,6 @@ openclaw gateway restart
 
 ---
 
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       📱 CHAPTER XIII: THE PORTALS  ═════════════════════════════════════ 
-                                                                           
-           "Many gates, one destination. Choose your entry."               
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
-
 ## 📱 Messaging Platform Setup
 
 ### Quick Platform Selection
@@ -1375,16 +1243,6 @@ Each guide includes:
 **Need other platforms?** See [docs/PLATFORM-SETUP-INDEX.md](docs/PLATFORM-SETUP-INDEX.md) for complete guides.
 
 ---
-
-```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       ⚠️ CHAPTER XIV: THE REMEDIES  ═════════════════════════════════════ 
-                                                                           
-           "Every ailment has a cure. Every error has a solution."         
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
-```
 
 ## ⚠️ Troubleshooting — When Things Go Wrong
 
@@ -1511,27 +1369,19 @@ tail -100 /tmp/openclaw/openclaw.log
 **THERION is just getting started.** Planned features:
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   
-       ░░                                                                     ░░   
-       ░░    ┌───────────────────────────────────────────────────────────┐    ░░   
-       ░░                                                                   ░░   
-       ░░       🗺️ THERION DEVELOPMENT ROADMAP 🗺️                           ░░   
-       ░░       ═══════════════════════════════════                         ░░   
-       ░░                                                                   ░░   
-       ░░       🖼️  Local image generation (Stable Diffusion)  → Q2 2026    ░░   
-       ░░       🔊  Text-to-speech output                      → Q2 2026    ░░   
-       ░░       🎤  Voice input processing                     → Q3 2026    ░░   
-       ░░       🤖  Multi-agent coordination                   → Q3 2026    ░░   
-       ░░       🌐  Web UI dashboard                           → Q4 2026    ░░   
-       ░░       📱  Mobile companion app                       → 2027       ░░   
-       ░░                                                                   ░░   
-       ░░    └───────────────────────────────────────────────────────────┘    ░░   
-       ░░                                                                     ░░   
-       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+  🗺️ THERION DEVELOPMENT ROADMAP
+  ────────────────────────────────
+
+  🖼️  Local image generation (Stable Diffusion)  → Q2 2026
+  🔊  Text-to-speech output                      → Q2 2026
+  🎤  Voice input processing                     → Q3 2026
+  🤖  Multi-agent coordination                   → Q3 2026
+  🌐  Web UI dashboard                           → Q4 2026
+  📱  Mobile companion app                       → 2027
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 **Want to help build the future?** See [Contributing](#-contributing-to-therion) below.
@@ -1539,13 +1389,13 @@ tail -100 /tmp/openclaw/openclaw.log
 ---
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       📚 CHAPTER XV: THE ARCHIVES  ══════════════════════════════════════ 
-                                                                           
-           "Wisdom lives in scrolls for those who seek it."                
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+  📚 CHAPTER XV: THE ARCHIVES
+────────────────────────────────────────────────────────────────────────────────
+
+     "Wisdom lives in scrolls for those who seek it."
+
+────────────────────────────────────────────────────────────────────────────────
 ```
 
 ## 📚 Documentation Index
@@ -1565,13 +1415,13 @@ tail -100 /tmp/openclaw/openclaw.log
 ---
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       🤝 CHAPTER XVI: THE FELLOWSHIP  ═══════════════════════════════════ 
-                                                                           
-           "United we build. Divided we configure alone."                  
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+  🤝 CHAPTER XVI: THE FELLOWSHIP
+────────────────────────────────────────────────────────────────────────────────
+
+     "United we build. Divided we configure alone."
+
+────────────────────────────────────────────────────────────────────────────────
 ```
 
 ## 🤝 Contributing to THERION
@@ -1593,24 +1443,20 @@ Include:
 **Areas where we need help:**
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       ░░  ┌─────────────────────────────────────────────────────────────────┐ ░░  
-       ░░                                                                    ░░  
-       ░░     🤝 CONTRIBUTION OPPORTUNITIES 🤝                               ░░  
-       ░░     ════════════════════════════════                               ░░  
-       ░░                                                                    ░░  
-       ░░     ▸ New skill modules (cognitive patterns)                      ░░  
-       ░░     ▸ Tool scripts (add capabilities)                             ░░  
-       ░░     ▸ Documentation improvements                                  ░░  
-       ░░     ▸ Translation to other languages                              ░░  
-       ░░     ▸ Testing on different hardware                               ░░  
-       ░░     ▸ Platform integrations (Discord, Slack, etc.)                ░░  
-       ░░     ▸ Example configurations and use cases                        ░░  
-       ░░                                                                    ░░  
-       ░░  └─────────────────────────────────────────────────────────────────┘ ░░  
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+  🤝 CONTRIBUTION OPPORTUNITIES
+  ────────────────────────────────
+
+  ▸ New skill modules (cognitive patterns)
+  ▸ Tool scripts (add capabilities)
+  ▸ Documentation improvements
+  ▸ Translation to other languages
+  ▸ Testing on different hardware
+  ▸ Platform integrations (Discord, Slack, etc.)
+  ▸ Example configurations and use cases
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
@@ -1620,27 +1466,27 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 ## 📜 License
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-                            ⚖️ GNU GENERAL PUBLIC LICENSE v3 ⚖️                    
-                                                                                   
-           Free to use · Free to modify · Free to distribute · Keep it open       
-                                                                                   
-                       "Freedom is the oxygen of the soul."                        
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+  ⚖️ GNU GENERAL PUBLIC LICENSE v3
+
+  Free to use · Free to modify · Free to distribute · Keep it open
+
+  "Freedom is the oxygen of the soul."
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 ---
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════╗
-                                                                           
-       🏴 EPILOGUE: THE COLLECTIVE  ═════════════════════════════════════ 
-                                                                           
-           "From the shadows, we build the light."                         
-                                                                           
-    ╚═══════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+  🏴 EPILOGUE: THE COLLECTIVE
+────────────────────────────────────────────────────────────────────────────────
+
+     "From the shadows, we build the light."
+
+────────────────────────────────────────────────────────────────────────────────
 ```
 
 ## 🏴 About EREVUS
@@ -1648,31 +1494,23 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 **EREVUS** is a technology collective building tools for digital sovereignty.
 
 ```
-    ╔═══════════════════════════════════════════════════════════════════════════════╗
-                                                                                   
-       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   
-       ░░                                                                     ░░   
-       ░░   ╔═════════════════════════════════════════════════════════════╗   ░░   
-       ░░                                                                     ░░   
-       ░░      ⚔️ THE EREVUS MANIFESTO ⚔️                                      ░░   
-       ░░      ═══════════════════════════                                  ░░   
-       ░░                                                                     ░░   
-       ░░      We believe the future belongs to individuals who                ░░   
-       ░░      control their own infrastructure.                               ░░   
-       ░░                                                                     ░░   
-       ░░      We create software that gives YOU capabilities                 ░░   
-       ░░      previously requiring corporate data centers,                    ░░   
-       ░░      expensive subscriptions, and armies of engineers.               ░░   
-       ░░                                                                     ░░   
-       ░░      ☉ Privacy is a right, not a feature                            ░░   
-       ░░      ☉ Ownership is liberation                                      ░░   
-       ░░      ☉ Independence is strength                                     ░░   
-       ░░                                                                     ░░   
-       ░░   ╚═════════════════════════════════════════════════════════════╝   ░░   
-       ░░                                                                     ░░   
-       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   
-                                                                                   
-    ╚═══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
+
+  ⚔️ THE EREVUS MANIFESTO
+  ─────────────────────────
+
+  We believe the future belongs to individuals who
+  control their own infrastructure.
+
+  We create software that gives YOU capabilities
+  previously requiring corporate data centers,
+  expensive subscriptions, and armies of engineers.
+
+  ☉ Privacy is a right, not a feature
+  ☉ Ownership is liberation
+  ☉ Independence is strength
+
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 [erevus.space](https://erevus.space) | [GitHub](https://github.com/erevusobolus) | [Contact](mailto:erevus.ai@proton.me)
@@ -1682,11 +1520,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════════════════════════════╗
+════════════════════════════════════════════════════════════════════════════════
                          ⚔️ DEUS VULT ⚔️
                   Your AI. Your Data. Your Rules.
                       THERION PROTOCOL v2.0
-╚══════════════════════════════════════════════════════════════════════════════╝
+════════════════════════════════════════════════════════════════════════════════
 ```
 
 </div>

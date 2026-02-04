@@ -20,7 +20,7 @@
             "reasoning": false,
             "input": ["text"],
             "cost": { "input": 0, "output": 0 },
-            "contextWindow": 8192,
+            "contextWindow": 16384,
             "maxTokens": 4096
           }
         ]
@@ -34,7 +34,7 @@
         "fallbacks": []
       },
       "workspace": "$WORKSPACE",
-      "contextTokens": 8192,
+      "contextTokens": 16384,
       "maxConcurrent": 3,
       "timeoutSeconds": 600,
       "thinkingDefault": "medium",
@@ -73,7 +73,7 @@
     ]
   },
   "tools": {
-    "allow": ["exec", "tts", "files_read", "files_write", "files_list"],
+    "allow": ["exec", "files_read", "files_write", "files_list"],
     "deny": [],
     "exec": {
       "safeBins": [
@@ -108,7 +108,8 @@
     "inbound": { "debounceMs": 1000 },
     "ackReaction": "👀",
     "ackReactionScope": "direct",
-    "removeAckAfterReply": true
+    "removeAckAfterReply": true,
+    "userReactionsAsContext": true
   },
   "commands": {
     "native": "auto",

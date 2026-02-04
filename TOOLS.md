@@ -486,8 +486,10 @@ Approved executables for the exec tool:
 ### THERION Tools
 
 ```
-therion, therion-tts, therion-weather, therion-web, therion-search, therion-news
+therion, therion-weather, therion-web, therion-search, therion-news
 ```
+
+**Note:** `therion-tts` (text-to-speech) is planned for Q2 2026 but not yet available.
 
 ### File Operations
 

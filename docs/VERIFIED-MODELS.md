@@ -280,7 +280,7 @@ ollama create qwen3:therion-32k -f Modelfile.therion-32k
           {
             "id": "qwen3:4b",
             "name": "Qwen3 4B",
-            "contextWindow": 8192,
+            "contextWindow": 16384,
             "maxTokens": 4096
           }
         ]

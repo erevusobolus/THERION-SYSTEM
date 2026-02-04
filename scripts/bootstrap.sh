@@ -204,7 +204,7 @@ if [ -n "$BOT_TOKEN" ] && [ -n "$USER_ID" ]; then
           {
             "id": "qwen3:4b",
             "name": "Qwen3 4B",
-            "contextWindow": 8192,
+            "contextWindow": 16384,
             "maxTokens": 4096
           }
         ]
@@ -217,7 +217,7 @@ if [ -n "$BOT_TOKEN" ] && [ -n "$USER_ID" ]; then
         "primary": "ollama/qwen3:4b"
       },
       "workspace": "$INSTALL_DIR",
-      "contextTokens": 8192,
+      "contextTokens": 16384,
       "timeoutSeconds": 300,
       "thinkingDefault": "high"
     },

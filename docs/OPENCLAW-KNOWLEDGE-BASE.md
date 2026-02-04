@@ -22,7 +22,7 @@
 
 - **Default:** `ollama/qwen3:4b` (2.5GB - downloads automatically)
 - **Upgrades:** `ollama/qwen2.5-coder:7b`, `ollama/qwen3:14b`
-- **Context:** 8192 tokens (default)
+- **Context:** 16384 tokens (default)
 - **Tools Profile:** `coding`
 
 **System Prompt v3 Features:**
@@ -300,7 +300,7 @@ When OpenClaw is "broken":
 
 **Default Model:** `ollama/qwen3:4b` (auto-downloads, works on 4GB+ VRAM)  
 **Upgrade Models:** See [VERIFIED-MODELS.md](VERIFIED-MODELS.md) for hardware-specific options  
-**Context Window:** 8192 tokens (default), up to 16384+ with upgrades  
+**Context Window:** 16384 tokens (default), up to 32768+ with upgrades  
 **Workspace:** `$WORKSPACE` (your TherionSystem directory)  
 **Bot Username:** `@YOUR_BOT_USERNAME` (from BotFather)  
 **Telegram Channel:** Primary interface

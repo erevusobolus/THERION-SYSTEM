@@ -8,7 +8,28 @@ This workspace contains THERION, a pre-configured local AI assistant system.
 
 ---
 
-## 🚀 ONE-PROMPT INSTALL SYSTEM
+## � TROUBLESHOOTING MODE — FIX ANY ISSUE
+
+**When user pastes a CHAT LOG from Telegram/Discord showing THERION misbehaving:**
+
+1. **Analyze the chat log** — What did THERION do wrong?
+2. **Identify the root cause** — Check SOUL.md, config files, TOOLS.md
+3. **Fix the issue** — Edit the relevant file(s)
+4. **Tell user to restart** — `openclaw gateway restart`
+
+**Common Issues This AI Can Fix:**
+- ❌ Weather not working → Update SOUL.md with correct `curl wttr.in` command
+- ❌ Bot using API calls → Remove API references, enforce local tools
+- ❌ TTS errors → Remove TTS references (not implemented yet)
+- ❌ Bot quits early → Add stronger agentic loop instructions to SOUL.md
+- ❌ Wrong personality → Edit SOUL.md personality section
+- ❌ Memory not persisting → Fix file paths in config
+
+**This is meta-AI debugging:** Users can paste any THERION misbehavior here and YOU fix it.
+
+---
+
+## �🚀 ONE-PROMPT INSTALL SYSTEM
 
 **When user says "install THERION", "set this up", "configure everything", or similar — follow this EXACT sequence:**
 
@@ -108,7 +129,7 @@ cat > ~/.openclaw/openclaw.json << EOF
           {
             "id": "qwen3:4b",
             "name": "Qwen3 4B",
-            "contextWindow": 8192,
+            "contextWindow": 16384,
             "maxTokens": 4096
           }
         ]
@@ -121,7 +142,7 @@ cat > ~/.openclaw/openclaw.json << EOF
         "primary": "ollama/qwen3:4b"
       },
       "workspace": "$WORKSPACE_PATH",
-      "contextTokens": 8192,
+      "contextTokens": 16384,
       "timeoutSeconds": 300,
       "thinkingDefault": "medium"
     },
@@ -507,7 +528,7 @@ Once working, the user can:
 
 ```json
 {
-  "contextTokens": 8192,
+  "contextTokens": 16384,
   "thinkingDefault": "medium",
   "timeoutSeconds": 300
 }

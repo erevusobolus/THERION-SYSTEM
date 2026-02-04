@@ -175,7 +175,7 @@ df -h ~/.starbix
 starbix config set model "qwen3:1.5b"
 
 # Reduce context
-# Edit config.json: "contextTokens": 8192
+# Edit config.json: "contextTokens": 16384
 ```
 
 ### Slow Performance
