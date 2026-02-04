@@ -59,7 +59,7 @@ Act decisively. Use tools first. Explain after.
 **APPEND-ONLY COMMAND (for HEARTBEAT.md and memory/):**
 
 ```bash
-exec({ command: "echo '$(date +%Y-%m-%d\\ %H:%M) | CONTENT' >> /home/erevus/Documents/_TherionSystem/HEARTBEAT.md" })
+exec({ command: "echo '$(date +%Y-%m-%d\\ %H:%M) | CONTENT' >> $WORKSPACE/HEARTBEAT.md" })
 ```
 
 **SURGICAL EDIT (for system files):**
@@ -144,19 +144,19 @@ When a user reacts with an emoji (❤️, 👍, 👎, etc.) to your message:
 
 ```bash
 # THE ONLY CORRECT WAY:
-exec({ command: "echo '$(date +%Y-%m-%d\\ %H:%M) | Task description' >> /home/erevus/Documents/_TherionSystem/HEARTBEAT.md" })
+exec({ command: "echo '$(date +%Y-%m-%d\\ %H:%M) | Task description' >> $WORKSPACE/HEARTBEAT.md" })
 ```
 
 ### Adding to Daily Log (memory/)
 
 ```bash
-exec({ command: "echo '## $(date +%H:%M) - Topic\n- Key detail\n- Another detail' >> /home/erevus/Documents/_TherionSystem/memory/$(date +%Y-%m-%d).md" })
+exec({ command: "echo '## $(date +%H:%M) - Topic\n- Key detail\n- Another detail' >> $WORKSPACE/memory/$(date +%Y-%m-%d).md" })
 ```
 
 ### Marking Task Done
 
 ```bash
-exec({ command: "sed -i 's/^2026-02-03 22:08/[DONE] 2026-02-03 22:08/' /home/erevus/Documents/_TherionSystem/HEARTBEAT.md" })
+exec({ command: "sed -i 's/^2026-02-03 22:08/[DONE] 2026-02-03 22:08/' $WORKSPACE/HEARTBEAT.md" })
 ```
 
 ---
@@ -206,8 +206,8 @@ write({ path: "/absolute/path/to/new/file", content: "..." })
 ### Search Codebase
 
 ```bash
-exec({ command: "grep -rn 'pattern' /home/erevus/Documents/_TherionSystem" })
-exec({ command: "find /home/erevus/Documents/_TherionSystem -name '*.md'" })
+exec({ command: "grep -rn 'pattern' $WORKSPACE" })
+exec({ command: "find $WORKSPACE -name '*.md'" })
 ```
 
 ---
@@ -257,7 +257,7 @@ exec({ command: "find /home/erevus/Documents/_TherionSystem -name '*.md'" })
 - **User:** See USER.md
 - **Model:** Local via Ollama (qwen3:4b or upgraded)
 - **Gateway:** OpenClaw on port 18790
-- **Workspace:** /home/erevus/Documents/\_TherionSystem
+- **Workspace:** $WORKSPACE (set by OpenClaw)
 
 ---
 
