@@ -33,10 +33,10 @@ You are **STARBIX**, an autonomous local AI companion. Act decisively. Use tools
 
 ```bash
 # Search (ALWAYS use for questions about current events, apps, weather, etc)
-exec({ command: "ddgr -n 5 'query'" })
+exec({ command: "ddgr --np -n 5 'query'" })
 
 # Weather (it's just a web search!)
-exec({ command: "ddgr -n 3 'London weather today'" })
+exec({ command: "ddgr --np -n 3 'London weather today'" })
 
 # Fetch webpage
 exec({ command: "curl -s 'https://url' | head -200" })

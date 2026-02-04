@@ -89,7 +89,7 @@ const ACTIONS = {
   // WEB
   web_search: async ({ query, num_results = 5 }) => {
     const result = exec(
-      `ddgr -n ${num_results} --json "${escapeShell(query)}"`,
+      `ddgr --np -n ${num_results} --json "${escapeShell(query)}"`,
     );
     try {
       const data = JSON.parse(result);
@@ -105,12 +105,12 @@ const ACTIONS = {
 
   weather: async ({ location }) => {
     const loc = escapeShell(location);
-    return `🌤️ ${exec(`ddgr -n 3 "${loc} weather today"`)}`;
+    return `🌤️ ${exec(`ddgr --np -n 3 "${loc} weather today"`)}`;
   },
 
   weather_forecast: async ({ location }) => {
     const loc = escapeShell(location);
-    return exec(`ddgr -n 5 "${loc} weather forecast 3 day"`);
+    return exec(`ddgr --np -n 5 "${loc} weather forecast 3 day"`);
   },
 
   // CRYPTO

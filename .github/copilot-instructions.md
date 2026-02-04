@@ -19,7 +19,7 @@ This workspace contains THERION, a pre-configured local AI assistant system.
 
 **Common Issues This AI Can Fix:**
 
-- ❌ Weather not working → Update SOUL.md to use `ddgr -n 3 'City weather today'`
+- ❌ Weather not working → Update SOUL.md to use `ddgr --np -n 3 'City weather today'`
 - ❌ Bot using API calls → Remove API references, enforce ddgr for ALL searches
 - ❌ TTS errors → Remove TTS references (not implemented yet)
 - ❌ Bot quits early → Add stronger agentic loop instructions to SOUL.md

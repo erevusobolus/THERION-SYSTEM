@@ -380,7 +380,7 @@ therion linux_help '{"task":"install docker"}'
 
 ```bash
 # Search (DuckDuckGo via ddgr)
-ddgr -n 5 --json "your search query"
+ddgr --np -n 5 --json "your search query"
 
 # Fetch webpage content (w3m)
 w3m -dump "https://example.com" | head -c 50000

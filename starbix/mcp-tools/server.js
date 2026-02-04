@@ -30,7 +30,7 @@ const ACTIONS = {
     params: { query: "string", num_results: "number (optional, default 5)" },
     handler: async ({ query, num_results = 5 }) => {
       return execCommand(
-        `ddgr -n ${num_results} --json "${escapeShell(query)}"`,
+        `ddgr --np -n ${num_results} --json "${escapeShell(query)}"`,
       );
     },
   },
@@ -41,7 +41,7 @@ const ACTIONS = {
     params: { location: "string (city name)" },
     handler: async ({ location }) => {
       const loc = escapeShell(location);
-      return execCommand(`ddgr -n 3 "${loc} weather today"`);
+      return execCommand(`ddgr --np -n 3 "${loc} weather today"`);
     },
   },
 
@@ -50,7 +50,7 @@ const ACTIONS = {
     params: { location: "string" },
     handler: async ({ location }) => {
       const loc = escapeShell(location);
-      return execCommand(`ddgr -n 5 "${loc} weather forecast"`);
+      return execCommand(`ddgr --np -n 5 "${loc} weather forecast"`);
     },
   },
 
@@ -107,7 +107,7 @@ const ACTIONS = {
     handler: async ({ query, num_results = 5 }) => {
       // Use ddgr with news filter
       return execCommand(
-        `ddgr -n ${num_results} --json "${escapeShell(query)} news 2024 2025 2026"`,
+        `ddgr --np -n ${num_results} --json "${escapeShell(query)} news 2024 2025 2026"`,
       );
     },
   },

@@ -162,7 +162,7 @@ Get current weather for a city.
 **Implementation:**
 Uses `ddgr` to search for weather:
 \`\`\`bash
-ddgr -n 3 "${city} weather today"
+ddgr --np -n 3 "${city} weather today"
 \`\`\`
 ```
 

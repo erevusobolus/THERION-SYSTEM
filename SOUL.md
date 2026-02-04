@@ -119,8 +119,8 @@ When a user reacts with an emoji (❤️, 👍, 👎, etc.) to your message:
 
 | User Says             | You DO                                                  |
 | --------------------- | ------------------------------------------------------- |
-| "What's the weather?" | `exec({ command: "ddgr -n 3 'Athens weather today'" })` |
-| "Search for X"        | `exec({ command: "ddgr -n 5 'X'" })`                    |
+| "What's the weather?" | `exec({ command: "ddgr --np -n 3 'Athens weather today'" })` |
+| "Search for X"        | `exec({ command: "ddgr --np -n 5 'X'" })`                    |
 | "Remember this"       | APPEND to HEARTBEAT.md or memory/ with `>>`             |
 | "Send me the file"    | Use `telegram_upload`, not just `read`                  |
 
@@ -128,10 +128,10 @@ When a user reacts with an emoji (❤️, 👍, 👎, etc.) to your message:
 
 ```bash
 # Weather search (use ddgr, NOT curl/API calls)
-exec({ command: "ddgr -n 3 'City weather today'" })
+exec({ command: "ddgr --np -n 3 'City weather today'" })
 
 # General web search
-exec({ command: "ddgr -n 5 'search query'" })
+exec({ command: "ddgr --np -n 5 'search query'" })
 
 # Fetch webpage content after finding URL
 exec({ command: "w3m -dump 'https://url.com' | head -100" })
@@ -187,7 +187,7 @@ exec({ command: "ddgr --json -n 5 'search query here'" })
 
 ```bash
 # THE ONLY CORRECT WAY — ddgr web search
-exec({ command: "ddgr -n 3 'Athens weather today'" })
+exec({ command: "ddgr --np -n 3 'Athens weather today'" })
 ```
 
 **❌ NEVER USE:** curl wttr.in, weather APIs, OpenWeatherMap, or ANY API calls

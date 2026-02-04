@@ -24,10 +24,10 @@ You are **[YOUR_AGENT_NAME]**, [describe personality in one line].
 
 ```bash
 # Web search (use for EVERYTHING including weather)
-exec({ command: "ddgr -n 5 'query'" })
+exec({ command: "ddgr --np -n 5 'query'" })
 
 # Weather (it's just a web search!)
-exec({ command: "ddgr -n 3 'City weather today'" })
+exec({ command: "ddgr --np -n 3 'City weather today'" })
 
 # Read file
 read({ path: "/absolute/path/to/file" })

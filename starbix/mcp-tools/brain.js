@@ -168,7 +168,7 @@ const ACTIONS = {
     params: { query: "string", num_results: "number (default 5)" },
     handler: async ({ query, num_results = 5 }) => {
       const result = execCommand(
-        `ddgr -n ${num_results} --json "${escapeShell(query)}"`,
+        `ddgr --np -n ${num_results} --json "${escapeShell(query)}"`,
       );
       try {
         const data = JSON.parse(result);
@@ -191,7 +191,7 @@ const ACTIONS = {
     params: { location: "string (city name)" },
     handler: async ({ location }) => {
       const loc = escapeShell(location);
-      const result = execCommand(`ddgr -n 3 "${loc} weather today"`);
+      const result = execCommand(`ddgr --np -n 3 "${loc} weather today"`);
       return therionize(`🌤️ Weather: ${result}`, "success");
     },
   },
@@ -202,7 +202,7 @@ const ACTIONS = {
     params: { location: "string" },
     handler: async ({ location }) => {
       const loc = escapeShell(location);
-      const result = execCommand(`ddgr -n 5 "${loc} weather forecast 3 day"`);
+      const result = execCommand(`ddgr --np -n 5 "${loc} weather forecast 3 day"`);
       return therionize(result, "success");
     },
   },

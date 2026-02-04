@@ -47,10 +47,10 @@ ollama rm modelname
 
 ```bash
 # Search (use for EVERYTHING including weather)
-ddgr -n 5 "search query"
+ddgr --np -n 5 "search query"
 
 # Weather (it's just a web search!)
-ddgr -n 3 "London weather today"
+ddgr --np -n 3 "London weather today"
 
 # Fetch page
 w3m -dump "https://url.com" | head -100

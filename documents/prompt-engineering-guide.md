@@ -424,7 +424,7 @@ Provide examples to establish patterns:
 
 ```
 User: What's the weather in London?
-Action: exec({ command: "ddgr -n 3 'London weather today'" })
+Action: exec({ command: "ddgr --np -n 3 'London weather today'" })
 Response: [Search results with current weather]
 
 Now handle the user's request following this pattern.
@@ -458,10 +458,10 @@ After each response, verify:
 
 ```bash
 # Web search (use for EVERYTHING including weather)
-exec({ command: "ddgr -n 5 'search query'" })
+exec({ command: "ddgr --np -n 5 'search query'" })
 
 # Weather (it's just a web search!)
-exec({ command: "ddgr -n 3 'City weather today'" })
+exec({ command: "ddgr --np -n 3 'City weather today'" })
 
 # Read file
 read({ path: "/absolute/path/to/file" })

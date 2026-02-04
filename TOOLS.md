@@ -86,10 +86,10 @@ exec({ command: "string" })
 
 ```bash
 # Search the web
-exec({ command: "ddgr -n 5 'search query'" })
+exec({ command: "ddgr --np -n 5 'search query'" })
 
 # Get weather (use ddgr - it's a web search)
-exec({ command: "ddgr -n 3 'London weather today'" })
+exec({ command: "ddgr --np -n 3 'London weather today'" })
 
 # List directory
 exec({ command: "ls -la /home/user/Documents" })
@@ -148,17 +148,17 @@ Search the web without API keys.
 
 ```bash
 # JSON output for parsing
-ddgr -n 5 --json "search query"
+ddgr --np -n 5 --json "search query"
 
 # Human-readable output
-ddgr -n 5 "search query"
+ddgr --np -n 5 "search query"
 
 # Site-specific search
-ddgr -n 5 --json "site:github.com topic"
+ddgr --np -n 5 --json "site:github.com topic"
 
 # Time-limited results
-ddgr -n 5 --json --time y "news topic"  # Past year
-ddgr -n 5 --json --time m "recent news"  # Past month
+ddgr --np -n 5 --json --time y "news topic"  # Past year
+ddgr --np -n 5 --json --time m "recent news"  # Past month
 ```
 
 ### Web Page Extraction (w3m)
@@ -193,7 +193,7 @@ curl -s -X POST "https://api.example.com/endpoint" \
 curl -s -H "Authorization: Bearer TOKEN" "https://api.example.com/data"
 ```
 
-**⚠️ FOR WEATHER:** Use `ddgr -n 3 'City weather today'` — NOT curl/APIs!
+**⚠️ FOR WEATHER:** Use `ddgr --np -n 3 'City weather today'` — NOT curl/APIs!
 
 ````
 

@@ -11,7 +11,7 @@
 
 **What's Working Now:**
 
-- ✅ Weather queries via `ddgr -n 3 'City weather today'`
+- ✅ Weather queries via `ddgr --np -n 3 'City weather today'`
 - ✅ Web search via `ddgr`
 - ✅ News search via `ddgr`
 - ✅ File operations (create, read, write)

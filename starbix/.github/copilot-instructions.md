@@ -78,8 +78,8 @@ touch skills/my-skill/SKILL.md
 ### `exec` tool — Execute shell commands
 
 ```typescript
-exec({ command: "ddgr -n 5 'weather today'" });
-exec({ command: "ddgr -n 3 'London weather today'" });
+exec({ command: "ddgr --np -n 5 'weather today'" });
+exec({ command: "ddgr --np -n 3 'London weather today'" });
 ```
 
 **safeBins**: Only whitelisted commands are allowed. Configure in `tools.exec.safeBins`.
