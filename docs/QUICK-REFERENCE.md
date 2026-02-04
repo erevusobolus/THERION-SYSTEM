@@ -46,11 +46,11 @@ ollama rm modelname
 ## Web Tools
 
 ```bash
-# Search
-ddgr --json -n 5 "search query"
+# Search (use for EVERYTHING including weather)
+ddgr -n 5 "search query"
 
-# Weather
-curl -s "wttr.in/London?format=3"
+# Weather (it's just a web search!)
+ddgr -n 3 "London weather today"
 
 # Fetch page
 w3m -dump "https://url.com" | head -100

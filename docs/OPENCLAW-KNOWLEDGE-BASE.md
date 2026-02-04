@@ -11,9 +11,9 @@
 
 **What's Working Now:**
 
-- ✅ Weather queries via `therion-weather` and `curl wttr.in`
-- ✅ Web search via `therion-search` and `ddgr`
-- ✅ News search via `therion-news`
+- ✅ Weather queries via `ddgr -n 3 'City weather today'`
+- ✅ Web search via `ddgr`
+- ✅ News search via `ddgr`
 - ✅ File operations (create, read, write)
 - ✅ Desktop control (gsettings for wallpaper, notify-send)
 - ✅ VS Code CLI integration (`code -g file:line`)

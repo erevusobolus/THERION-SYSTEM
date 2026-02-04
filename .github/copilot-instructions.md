@@ -18,8 +18,9 @@ This workspace contains THERION, a pre-configured local AI assistant system.
 4. **Tell user to restart** — `openclaw gateway restart`
 
 **Common Issues This AI Can Fix:**
-- ❌ Weather not working → Update SOUL.md with correct `curl wttr.in` command
-- ❌ Bot using API calls → Remove API references, enforce local tools
+
+- ❌ Weather not working → Update SOUL.md to use `ddgr -n 3 'City weather today'`
+- ❌ Bot using API calls → Remove API references, enforce ddgr for ALL searches
 - ❌ TTS errors → Remove TTS references (not implemented yet)
 - ❌ Bot quits early → Add stronger agentic loop instructions to SOUL.md
 - ❌ Wrong personality → Edit SOUL.md personality section

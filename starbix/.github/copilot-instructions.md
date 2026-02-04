@@ -3,8 +3,8 @@ applyTo: "**"
 ---
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║ 🌟 STARBIX MODDING KIT — AI COMPANION DEVELOPMENT ENVIRONMENT 🌟             ║
-║ 🦞 Powered by OpenClaw | Claude-Compatible | Local-First AI                  ║
+║ 🌟 STARBIX MODDING KIT — AI COMPANION DEVELOPMENT ENVIRONMENT 🌟 ║
+║ 🦞 Powered by OpenClaw | Claude-Compatible | Local-First AI ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 ---
@@ -15,21 +15,21 @@ This is the **STARBIX development workspace** — a modding kit for building and
 
 ### 📍 Key Directories
 
-| Path | Purpose |
-|------|---------|
-| `starbix/` | **Distribution package** — The clean installer for end users |
-| `mcp-therion-tools/` | **MCP Tools** — Brain.js and cognitive tool servers |
-| `skills/` | **Skill modules** — Custom capabilities and commands |
-| `scripts/` | **Helper scripts** — Web search, fetch, automation |
-| `config/` | **Configuration templates** — Ready-to-customize configs |
+| Path                 | Purpose                                                      |
+| -------------------- | ------------------------------------------------------------ |
+| `starbix/`           | **Distribution package** — The clean installer for end users |
+| `mcp-therion-tools/` | **MCP Tools** — Brain.js and cognitive tool servers          |
+| `skills/`            | **Skill modules** — Custom capabilities and commands         |
+| `scripts/`           | **Helper scripts** — Web search, fetch, automation           |
+| `config/`            | **Configuration templates** — Ready-to-customize configs     |
 
 ### 🔧 Configuration Paths (Runtime)
 
-| File | Purpose |
-|------|---------|
-| `~/.starbix/config.json` | **Main config** — All agent, tool, and channel settings |
-| `~/.starbix/soul.md` | **Personality** — System prompt defining AI behavior |
-| `/tmp/starbix/starbix.log` | **Logs** — Runtime logs for debugging |
+| File                       | Purpose                                                 |
+| -------------------------- | ------------------------------------------------------- |
+| `~/.starbix/config.json`   | **Main config** — All agent, tool, and channel settings |
+| `~/.starbix/soul.md`       | **Personality** — System prompt defining AI behavior    |
+| `/tmp/starbix/starbix.log` | **Logs** — Runtime logs for debugging                   |
 
 ---
 
@@ -78,8 +78,8 @@ touch skills/my-skill/SKILL.md
 ### `exec` tool — Execute shell commands
 
 ```typescript
-exec({ command: "ddgr --json --num 5 'weather today'" })
-exec({ command: "curl -s 'wttr.in/London?format=j1'" })
+exec({ command: "ddgr -n 5 'weather today'" });
+exec({ command: "ddgr -n 3 'London weather today'" });
 ```
 
 **safeBins**: Only whitelisted commands are allowed. Configure in `tools.exec.safeBins`.
@@ -87,8 +87,8 @@ exec({ command: "curl -s 'wttr.in/London?format=j1'" })
 ### `gateway` tool — Control the gateway
 
 ```typescript
-gateway({ action: "restart", reason: "Config update" })
-gateway({ action: "config.get" })
+gateway({ action: "restart", reason: "Config update" });
+gateway({ action: "config.get" });
 ```
 
 **Required**: The `action` parameter is mandatory.
@@ -96,7 +96,7 @@ gateway({ action: "config.get" })
 ### `sessions_history` tool — Get conversation history
 
 ```typescript
-sessions_history({ sessionKey: "telegram:dm:USER_ID", limit: 10 })
+sessions_history({ sessionKey: "telegram:dm:USER_ID", limit: 10 });
 ```
 
 **Note**: Use actual runtime session keys, not placeholders.
@@ -107,14 +107,14 @@ sessions_history({ sessionKey: "telegram:dm:USER_ID", limit: 10 })
 
 When creating configs for distribution, use these placeholders:
 
-| Variable | Description | Example |
-|----------|-------------|---------|
-| `${STARBIX_HOME}` | User's STARBIX directory | `~/.starbix` |
-| `${HOME}` | User's home directory | `/home/user` |
-| `${TELEGRAM_BOT_TOKEN}` | Telegram bot API token | From @BotFather |
-| `${TELEGRAM_USER_ID}` | User's Telegram ID | From @userinfobot |
-| `${GATEWAY_TOKEN}` | Random auth token | Generated on install |
-| `${INSTALL_MODEL}` | Selected AI model | `qwen3:4b` |
+| Variable                | Description              | Example              |
+| ----------------------- | ------------------------ | -------------------- |
+| `${STARBIX_HOME}`       | User's STARBIX directory | `~/.starbix`         |
+| `${HOME}`               | User's home directory    | `/home/user`         |
+| `${TELEGRAM_BOT_TOKEN}` | Telegram bot API token   | From @BotFather      |
+| `${TELEGRAM_USER_ID}`   | User's Telegram ID       | From @userinfobot    |
+| `${GATEWAY_TOKEN}`      | Random auth token        | Generated on install |
+| `${INSTALL_MODEL}`      | Selected AI model        | `qwen3:4b`           |
 
 ---
 
@@ -140,8 +140,8 @@ const ACTIONS = {
     handler: async ({ input }) => {
       // Your implementation
       return `Result: ${input}`;
-    }
-  }
+    },
+  },
 };
 ```
 
@@ -168,6 +168,7 @@ node brain.js 2>&1 | head -20
    - Absolute paths with usernames
 
 2. **Always use variables**:
+
    ```json
    "botToken": "${TELEGRAM_BOT_TOKEN}"  // ✅ Good
    "botToken": "123456:ABC..."          // ❌ Never!
@@ -188,10 +189,19 @@ Only allow necessary executables:
 {
   "exec": {
     "safeBins": [
-      "ddgr", "curl", "wget", "jq",
-      "python3", "node",
-      "cat", "ls", "head", "tail", "grep",
-      "echo", "date"
+      "ddgr",
+      "curl",
+      "wget",
+      "jq",
+      "python3",
+      "node",
+      "cat",
+      "ls",
+      "head",
+      "tail",
+      "grep",
+      "echo",
+      "date"
     ]
   }
 }
@@ -230,12 +240,12 @@ cd /tmp && tar -xzf starbix-v1.0.0.tar.gz && cd starbix && ./install.sh
 
 ### Common Errors
 
-| Error | Cause | Fix |
-|-------|-------|-----|
-| `Validation failed` | Wrong tool parameters | Check schema in source |
-| `Model not found` | Ollama model missing | `ollama pull qwen3:4b` |
-| `Connection refused` | Gateway not running | `starbix start` |
-| `Permission denied` | Missing safeBin | Add to `exec.safeBins` |
+| Error                | Cause                 | Fix                    |
+| -------------------- | --------------------- | ---------------------- |
+| `Validation failed`  | Wrong tool parameters | Check schema in source |
+| `Model not found`    | Ollama model missing  | `ollama pull qwen3:4b` |
+| `Connection refused` | Gateway not running   | `starbix start`        |
+| `Permission denied`  | Missing safeBin       | Add to `exec.safeBins` |
 
 ### Diagnostic Commands
 
@@ -287,5 +297,5 @@ cat ~/.starbix/config.json | jq '.models'
 ---
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║ 🌟 Build amazing AI companions! Happy modding! 🌟                            ║
+║ 🌟 Build amazing AI companions! Happy modding! 🌟 ║
 ╚══════════════════════════════════════════════════════════════════════════════╝

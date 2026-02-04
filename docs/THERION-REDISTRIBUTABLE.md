@@ -13,8 +13,7 @@
 
 ### Local Tools (No API Keys Required)
 
-- `ddgr` - DuckDuckGo search from terminal
-- `wttr.in` - Weather via curl
+- `ddgr` - DuckDuckGo search from terminal (use for ALL searches including weather)
 - `coingecko` - Crypto prices (free API)
 - `playwright` - Web automation
 - Standard Unix tools: curl, jq, grep, etc.

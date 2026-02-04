@@ -190,10 +190,8 @@ const ACTIONS = {
     description: "Get current weather for a location",
     params: { location: "string (city name)" },
     handler: async ({ location }) => {
-      const loc = escapeShell(location.replace(/ /g, "+"));
-      const result = execCommand(
-        `curl -s "wttr.in/${loc}?format=%l:+%C+%t+Humidity:%h+Wind:%w"`,
-      );
+      const loc = escapeShell(location);
+      const result = execCommand(`ddgr -n 3 "${loc} weather today"`);
       return therionize(`🌤️ Weather: ${result}`, "success");
     },
   },
@@ -203,10 +201,8 @@ const ACTIONS = {
     description: "Get 3-day weather forecast",
     params: { location: "string" },
     handler: async ({ location }) => {
-      const loc = escapeShell(location.replace(/ /g, "+"));
-      const result = execCommand(
-        `curl -s "wttr.in/${loc}?format=v2&days=3" | head -40`,
-      );
+      const loc = escapeShell(location);
+      const result = execCommand(`ddgr -n 5 "${loc} weather forecast 3 day"`);
       return therionize(result, "success");
     },
   },

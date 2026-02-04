@@ -35,14 +35,14 @@ const ACTIONS = {
     },
   },
 
-  // === WEATHER (wttr.in - no API key!) ===
+  // === WEATHER (ddgr web search - no API key!) ===
   weather: {
     description: "Get current weather for a location",
     params: { location: "string (city name)" },
     handler: async ({ location }) => {
-      const loc = escapeShell(location.replace(/ /g, "+"));
+      const loc = escapeShell(location);
       return execCommand(
-        `curl -s "wttr.in/${loc}?format=%l:+%C+%t+Humidity:%h+Wind:%w"`,
+        `ddgr -n 3 "${loc} weather today"`,
       );
     },
   },
@@ -51,8 +51,8 @@ const ACTIONS = {
     description: "Get detailed weather forecast",
     params: { location: "string" },
     handler: async ({ location }) => {
-      const loc = escapeShell(location.replace(/ /g, "+"));
-      return execCommand(`curl -s "wttr.in/${loc}?format=3"`);
+      const loc = escapeShell(location);
+      return execCommand(`ddgr -n 5 "${loc} weather forecast"`);
     },
   },
 

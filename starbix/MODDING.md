@@ -160,9 +160,9 @@ Description of command.
 Get current weather for a city.
 
 **Implementation:**
-Uses `curl` to fetch from wttr.in:
+Uses `ddgr` to search for weather:
 \`\`\`bash
-curl -s "wttr.in/${city}?format=3"
+ddgr -n 3 "${city} weather today"
 \`\`\`
 ```
 

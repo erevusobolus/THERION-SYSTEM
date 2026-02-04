@@ -104,13 +104,13 @@ const ACTIONS = {
   },
 
   weather: async ({ location }) => {
-    const loc = escapeShell(location.replace(/ /g, "+"));
-    return `🌤️ ${exec(`curl -s "wttr.in/${loc}?format=%l:+%C+%t+Humidity:%h+Wind:%w"`)}`;
+    const loc = escapeShell(location);
+    return `🌤️ ${exec(`ddgr -n 3 "${loc} weather today"`)}`;
   },
 
   weather_forecast: async ({ location }) => {
-    const loc = escapeShell(location.replace(/ /g, "+"));
-    return exec(`curl -s "wttr.in/${loc}?format=v2&days=3" | head -40`);
+    const loc = escapeShell(location);
+    return exec(`ddgr -n 5 "${loc} weather forecast 3 day"`);
   },
 
   // CRYPTO

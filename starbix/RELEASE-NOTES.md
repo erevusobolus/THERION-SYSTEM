@@ -68,7 +68,7 @@ starbix/
 
 - `brain.js` - Full cognitive toolkit
   - Web search (DuckDuckGo)
-  - Weather (wttr.in)
+  - Weather (via ddgr web search)
   - Crypto prices (CoinGecko)
   - System commands
   - Memory persistence

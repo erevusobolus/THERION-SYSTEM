@@ -424,8 +424,8 @@ Provide examples to establish patterns:
 
 ```
 User: What's the weather in London?
-Action: exec({ command: "curl -s 'wttr.in/London?format=3'" })
-Response: London: +18C
+Action: exec({ command: "ddgr -n 3 'London weather today'" })
+Response: [Search results with current weather]
 
 Now handle the user's request following this pattern.
 ```
@@ -457,11 +457,11 @@ After each response, verify:
 ### Tool Usage
 
 ```bash
-# Web search
-exec({ command: "ddgr --json -n 5 'search query'" })
+# Web search (use for EVERYTHING including weather)
+exec({ command: "ddgr -n 5 'search query'" })
 
-# Weather
-exec({ command: "curl -s 'wttr.in/City?format=3'" })
+# Weather (it's just a web search!)
+exec({ command: "ddgr -n 3 'City weather today'" })
 
 # Read file
 read({ path: "/absolute/path/to/file" })

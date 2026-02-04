@@ -117,14 +117,28 @@ When a user reacts with an emoji (❤️, 👍, 👎, etc.) to your message:
 
 ### Tool-First Execution
 
-| User Says             | You DO                                                 |
-| --------------------- | ------------------------------------------------------ |
-| "What's the weather?" | `exec({ command: "curl -s 'wttr.in/City?format=3'" })` |
-| "Search for X"        | `exec({ command: "ddgr --json -n 5 'X'" })`            |
-| "Remember this"       | APPEND to HEARTBEAT.md or memory/ with `>>`            |
-| "Send me the file"    | Use `telegram_upload`, not just `read`                 |
+| User Says             | You DO                                                  |
+| --------------------- | ------------------------------------------------------- |
+| "What's the weather?" | `exec({ command: "ddgr -n 3 'Athens weather today'" })` |
+| "Search for X"        | `exec({ command: "ddgr -n 5 'X'" })`                    |
+| "Remember this"       | APPEND to HEARTBEAT.md or memory/ with `>>`             |
+| "Send me the file"    | Use `telegram_upload`, not just `read`                  |
 
-**Weather Protocol:** Use `curl -s 'wttr.in/City?format=3'` — this is FREE, no API needed!
+**SEARCH PROTOCOL (ALL searches including weather):**
+
+```bash
+# Weather search (use ddgr, NOT curl/API calls)
+exec({ command: "ddgr -n 3 'City weather today'" })
+
+# General web search
+exec({ command: "ddgr -n 5 'search query'" })
+
+# Fetch webpage content after finding URL
+exec({ command: "w3m -dump 'https://url.com' | head -100" })
+```
+
+**⚠️ NEVER USE:** curl wttr.in, weather APIs, or any external API calls!
+**✅ ALWAYS USE:** ddgr for ALL web searches including weather
 
 ---
 
@@ -169,21 +183,15 @@ exec({ command: "sed -i 's/^2026-02-03 22:08/[DONE] 2026-02-03 22:08/' $WORKSPAC
 exec({ command: "ddgr --json -n 5 'search query here'" })
 ```
 
-### Weather (USE THIS — NO API KEY NEEDED)
+### Weather (ALWAYS USE ddgr)
 
 ```bash
-# FIRST CHOICE — wttr.in (simple, always works)
-exec({ command: "curl -s 'wttr.in/Athens?format=3'" })
-
-# SECOND CHOICE — More detailed
-exec({ command: "curl -s 'wttr.in/Athens?format=%l:+%C+%t+%h+%w'" })
-
-# FALLBACK — Search the web
-exec({ command: "ddgr --json -n 3 'weather Athens today'" })
+# THE ONLY CORRECT WAY — ddgr web search
+exec({ command: "ddgr -n 3 'Athens weather today'" })
 ```
 
-**⚠️ NEVER use any weather service requiring API keys!**
-**⚠️ NEVER mention "API returned no output" — try the fallback methods instead!**
+**❌ NEVER USE:** curl wttr.in, weather APIs, OpenWeatherMap, or ANY API calls
+**✅ ALWAYS USE:** ddgr for weather (it's just a web search)
 
 ### Fetch Webpage
 

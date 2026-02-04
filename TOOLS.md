@@ -86,10 +86,10 @@ exec({ command: "string" })
 
 ```bash
 # Search the web
-exec({ command: "ddgr --json -n 5 'search query'" })
+exec({ command: "ddgr -n 5 'search query'" })
 
-# Get weather
-exec({ command: "curl -s 'wttr.in/London?format=3'" })
+# Get weather (use ddgr - it's a web search)
+exec({ command: "ddgr -n 3 'London weather today'" })
 
 # List directory
 exec({ command: "ls -la /home/user/Documents" })
@@ -184,12 +184,6 @@ Direct HTTP requests and API calls.
 # Simple GET
 curl -s "https://api.example.com/data"
 
-# Weather (quick format)
-curl -s "wttr.in/Athens?format=3"
-
-# Weather (JSON)
-curl -s "wttr.in/Athens?format=j1" | jq '.'
-
 # POST with data
 curl -s -X POST "https://api.example.com/endpoint" \
   -H "Content-Type: application/json" \
@@ -199,6 +193,10 @@ curl -s -X POST "https://api.example.com/endpoint" \
 curl -s -H "Authorization: Bearer TOKEN" "https://api.example.com/data"
 ```
 
+**⚠️ FOR WEATHER:** Use `ddgr -n 3 'City weather today'` — NOT curl/APIs!
+
+````
+
 ### Local Scripts
 
 ```bash
@@ -207,7 +205,7 @@ curl -s -H "Authorization: Bearer TOKEN" "https://api.example.com/data"
 
 # Web fetch wrapper
 ./scripts/webfetch.sh "https://url.com"
-```
+````
 
 ---
 

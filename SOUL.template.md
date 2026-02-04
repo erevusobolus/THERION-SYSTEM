@@ -23,11 +23,11 @@ You are **[YOUR_AGENT_NAME]**, [describe personality in one line].
 ## Tools
 
 ```bash
-# Web search
-exec({ command: "ddgr --json -n 5 'query'" })
+# Web search (use for EVERYTHING including weather)
+exec({ command: "ddgr -n 5 'query'" })
 
-# Weather
-exec({ command: "curl -s 'wttr.in/City?format=3'" })
+# Weather (it's just a web search!)
+exec({ command: "ddgr -n 3 'City weather today'" })
 
 # Read file
 read({ path: "/absolute/path/to/file" })

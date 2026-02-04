@@ -157,7 +157,7 @@ All settings live in `~/.starbix/config.json`:
 | ----------------- | ---------------------------------------- |
 | 💬 **Chat**       | Natural conversation with context memory |
 | 🔍 **Web Search** | DuckDuckGo search (no API key needed)    |
-| 🌤️ **Weather**    | Live weather via wttr.in                 |
+| 🌤️ **Weather**    | Weather via ddgr web search              |
 | 💰 **Crypto**     | Live prices via CoinGecko                |
 | 📁 **Files**      | Read, write, organize your files         |
 | 🖥️ **Shell**      | Execute safe terminal commands           |

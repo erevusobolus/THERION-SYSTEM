@@ -73,8 +73,8 @@ mcporter call therion-tools.execute action=news_search params='{"query":"AI news
 
 ## Important Notes
 
-- All data comes from FREE public APIs (no API keys needed)
-- Weather: wttr.in
+- All data comes from FREE public sources (no API keys needed)
+- Weather: Use ddgr web search (e.g., `ddgr -n 3 'City weather today'`)
 - Crypto: CoinGecko
 - Search: DuckDuckGo (via ddgr)
 - Always use mcporter call for these capabilities
