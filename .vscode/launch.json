@@ -1,24 +1,39 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "THERION Quantum Consciousness Debug",
-            "type": "python",
-            "request": "launch",
-            "program": "${workspaceFolder}/tools/therion_quantum_trainer.py",
-            "console": "integratedTerminal",
-            "cwd": "${workspaceFolder}",
-            "env": {
-                "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/tools:${workspaceFolder}/AGENT_ZERO_RESEARCH/python"
-            }
-        },
-        {
-            "name": "Agent Zero Debug",
-            "type": "python",
-            "request": "launch",
-            "program": "${workspaceFolder}/AGENT_ZERO_RESEARCH/agent.py",
-            "console": "integratedTerminal",
-            "cwd": "${workspaceFolder}/AGENT_ZERO_RESEARCH"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "THERION: Python Script",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    },
+    {
+      "name": "THERION: Python Module",
+      "type": "python",
+      "request": "launch",
+      "module": "${input:moduleName}",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "THERION: Node.js Current File",
+      "type": "node",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "moduleName",
+      "type": "promptString",
+      "description": "Python module to run (e.g. myapp.main)"
+    }
+  ]
 }

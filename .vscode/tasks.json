@@ -1,215 +1,107 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "🚀 THERION: Start Development Server",
-            "type": "shell",
-            "command": "npm",
-            "args": [
-                "run",
-                "dev"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}/EREBUS-Website"
-            },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": true,
-                "clear": false
-            },
-            "isBackground": true,
-            "problemMatcher": "$tsc-watch"
-        },
-        {
-            "label": "⚡ THERION: Build Production",
-            "type": "shell",
-            "command": "npm",
-            "args": [
-                "run",
-                "build"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}/EREBUS-Website"
-            },
-            "group": "build",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared"
-            },
-            "problemMatcher": "$tsc"
-        },
-        {
-            "label": "🔍 THERION: Type Check",
-            "type": "shell",
-            "command": "npx",
-            "args": [
-                "tsc",
-                "--noEmit"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}/EREBUS-Website"
-            },
-            "group": "test",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared"
-            },
-            "problemMatcher": "$tsc"
-        },
-        {
-            "label": "🧹 THERION: Lint Code",
-            "type": "shell",
-            "command": "npx",
-            "args": [
-                "eslint",
-                ".",
-                "--ext",
-                ".ts,.tsx,.js,.jsx",
-                "--fix"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}/EREBUS-Website"
-            },
-            "group": "test",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared"
-            },
-            "problemMatcher": "$eslint-stylish"
-        },
-        {
-            "label": "💎 THERION: Format Code",
-            "type": "shell",
-            "command": "npx",
-            "args": [
-                "prettier",
-                "--write",
-                "."
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}/EREBUS-Website"
-            },
-            "group": "test",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared"
-            }
-        },
-        {
-            "label": "📦 THERION: Install Dependencies",
-            "type": "shell",
-            "command": "npm",
-            "args": [
-                "install"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}/EREBUS-Website"
-            },
-            "group": "build",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared"
-            }
-        },
-        {
-            "label": "🔄 THERION: Clean and Reinstall",
-            "type": "shell",
-            "command": "rm",
-            "args": [
-                "-rf",
-                "node_modules",
-                "package-lock.json",
-                "&&",
-                "npm",
-                "install"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}/EREBUS-Website"
-            },
-            "group": "build",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared"
-            }
-        },
-        {
-            "label": "🐍 THERION: Python Virtual Environment",
-            "type": "shell",
-            "command": "python3",
-            "args": [
-                "-m",
-                "venv",
-                "venv"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}"
-            },
-            "group": "build",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared"
-            }
-        },
-        {
-            "label": "🧪 THERION: Run Python Tests",
-            "type": "shell",
-            "command": "python3",
-            "args": [
-                "-m",
-                "pytest",
-                "-v"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}",
-                "env": {
-                    "PYTHONPATH": "${workspaceFolder}"
-                }
-            },
-            "group": "test",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared"
-            },
-            "problemMatcher": "$python"
-        },
-        {
-            "label": "⚔️ THERION: System Information",
-            "type": "shell",
-            "command": "system_profiler",
-            "args": [
-                "SPHardwareDataType",
-                "SPSoftwareDataType"
-            ],
-            "group": "build",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared"
-            }
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "THERION: Python Venv Setup",
+      "type": "shell",
+      "command": "python",
+      "args": ["-m", "venv", ".venv"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "THERION: Install Python Dependencies",
+      "type": "shell",
+      "command": "pip",
+      "args": ["install", "-r", "requirements.txt"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "THERION: Run Python Tests",
+      "type": "shell",
+      "command": "python",
+      "args": ["-m", "pytest", "-v"],
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "PYTHONPATH": "${workspaceFolder}"
         }
-    ]
+      },
+      "group": "test",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "THERION: Type Check (TypeScript)",
+      "type": "shell",
+      "command": "npx",
+      "args": ["tsc", "--noEmit"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "test",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": "$tsc"
+    },
+    {
+      "label": "THERION: Lint (ESLint)",
+      "type": "shell",
+      "command": "npx",
+      "args": ["eslint", ".", "--ext", ".ts,.tsx,.js,.jsx", "--fix"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "test",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": "$eslint-stylish"
+    },
+    {
+      "label": "THERION: Format (Prettier)",
+      "type": "shell",
+      "command": "npx",
+      "args": ["prettier", "--write", "."],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": "test",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    }
+  ]
 }

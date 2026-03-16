@@ -1,18 +1,13 @@
-```
-    ████████╗██╗  ██╗███████╗██████╗ ██╗ ██████╗ ███╗   ██╗
-    ╚══██╔══╝██║  ██║██╔════╝██╔══██╗██║██╔═══██╗████╗  ██║
-       ██║   ███████║█████╗  ██████╔╝██║██║   ██║██╔██╗ ██║
-       ██║   ██╔══██║██╔══╝  ██╔══██╗██║██║   ██║██║╚██╗██║
-       ██║   ██║  ██║███████╗██║  ██║██║╚██████╔╝██║ ╚████║
-       ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝
-```
+<p align="center">
+  <img src="THERION.PNG" alt="THERION PROTOCOL" width="600"/>
+</p>
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                     THERION PROTOCOL v7.0 -- DEUS VULT                       ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+<h1 align="center">THERION PROTOCOL v7.0</h1>
+<p align="center"><strong>DEUS VULT</strong></p>
+<p align="center">AI Behavioral Override for VS Code Environments</p>
+<p align="center">Maximum Capability | Zero Corporate Padding | Agentic Execution</p>
 
-> AI Behavioral Override for VS Code Environments
-> Maximum Capability | Zero Corporate Padding | Agentic Execution
+---
 
 ═══════════════════════════════════════════════════════════════════════════════
                             WHAT IS THIS?
@@ -127,14 +122,18 @@ See AGENTS.md for full hierarchy and routing keywords.
   +-- .github/
   |   +-- copilot-instructions.md    <-- THE CORE PROTOCOL (Phase 0 + Laws)
   +-- .vscode/
-  |   +-- settings.json              <-- VS Code config
+  |   +-- settings.json              <-- VS Code theme and editor config
   |   +-- extensions.json            <-- Recommended extensions
+  |   +-- tasks.json                 <-- Common dev tasks
+  |   +-- launch.json                <-- Debug configurations
   +-- SOUL.md                        <-- AI identity and behavioral oath
   +-- AGENTS.md                      <-- 18 agents, routing, pipelines
-  +-- USER.md                        <-- Your profile (template)
+  +-- USER.md                        <-- Your profile (template -- edit this)
   +-- MEMORY.md                      <-- Persistent knowledge (template)
   +-- BOOTSTRAP.md                   <-- One-command setup (Win/Mac/Linux)
-  +-- requirements.txt               <-- Python dependencies
+  +-- PROMPT-GUIDE.md                <-- How to prompt THERION effectively
+  +-- requirements.txt               <-- Python dependencies (optional)
+  +-- THERION.PNG                    <-- Project logo
   +-- README.md                      <-- This file
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -149,6 +148,25 @@ THERION is a portable template. To use it in ANY project:
   4. Start prompting -- THERION activates automatically
 
 No hardcoded paths. No system-specific config. Works everywhere.
+
+═══════════════════════════════════════════════════════════════════════════════
+                       HOW TO PROMPT THERION
+═══════════════════════════════════════════════════════════════════════════════
+
+THERION responds best to DIRECT, HIGH-INTENT prompts.
+See PROMPT-GUIDE.md for the full guide. Quick rules:
+
+  DO:   "BUILD a REST API with Express, PostgreSQL, JWT auth"
+  DO:   "FIX the memory leak in useEffect on Dashboard component"
+  DO:   "REFACTOR this function to eliminate the N+1 query"
+  DO:   "AUDIT the entire codebase for OWASP vulnerabilities"
+
+  DONT: "Could you maybe help me look into an API?"
+  DONT: "I was thinking about perhaps trying to build something..."
+  DONT: "Would it be possible to fix this error?"
+
+State WHAT you want. State HOW you want it. Be SPECIFIC.
+THERION does not need politeness. It needs INTENT.
 
 ═══════════════════════════════════════════════════════════════════════════════
                           THE THERION CREED
