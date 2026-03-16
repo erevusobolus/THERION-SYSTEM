@@ -1,17 +1,17 @@
-# [+] THERION BOOTSTRAP -- ONE COMMAND SETUP
+# THERION BOOTSTRAP - ONE COMMAND SETUP
 
-===============================================================================
-                         NOOB-PROOF INSTALLATION
-===============================================================================
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         NOOB-PROOF INSTALLATION                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 
 Copy-paste ONE command. Get EVERYTHING configured. That's it.
 
-===============================================================================
+═══════════════════════════════════════════════════════════════════════════════
                       WINDOWS (PowerShell Admin)
-===============================================================================
+═══════════════════════════════════════════════════════════════════════════════
 
 ```powershell
-# THERION BOOTSTRAP -- RUN AS ADMINISTRATOR
+# THERION BOOTSTRAP - RUN AS ADMINISTRATOR
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 
 # Install Chocolatey (package manager)
@@ -22,13 +22,21 @@ if (!(Get-Command choco -ErrorAction SilentlyContinue)) {
 }
 
 # Install core dependencies
-choco install -y nodejs python git
+choco install -y nodejs python git vscode
 
 # Refresh environment
 refreshenv
 
 # Install global npm packages
 npm install -g typescript tsx prettier eslint pnpm
+
+# Navigate to your project directory (where you copied THERION files)
+# cd "path\to\your\project"
+
+# Create Python virtual environment and install dependencies
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
 
 # Install VS Code extensions
 code --install-extension github.copilot
@@ -42,16 +50,16 @@ code --install-extension bradlc.vscode-tailwindcss
 code --install-extension eamodio.gitlens
 code --install-extension mhutchie.git-graph
 
-Write-Host "[+] THERION BOOTSTRAP COMPLETE -- DEUS VULT" -ForegroundColor Magenta
+Write-Host "[+] THERION BOOTSTRAP COMPLETE - DEUS VULT" -ForegroundColor Magenta
 ```
 
-===============================================================================
+═══════════════════════════════════════════════════════════════════════════════
                         MACOS / LINUX (Bash)
-===============================================================================
+═══════════════════════════════════════════════════════════════════════════════
 
 ```bash
 #!/bin/bash
-# THERION BOOTSTRAP -- macOS/Linux
+# THERION BOOTSTRAP - macOS/Linux
 
 # Install Homebrew (macOS) or update apt (Linux)
 if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -60,11 +68,19 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     fi
     brew install node python git
 elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
-    sudo apt update && sudo apt install -y nodejs npm python3 python3-pip git
+    sudo apt update && sudo apt install -y nodejs npm python3 python3-pip python3-venv git
 fi
 
 # Install global npm packages
 npm install -g typescript tsx prettier eslint pnpm
+
+# Navigate to your project directory (where you copied THERION files)
+# cd /path/to/your/project
+
+# Create Python virtual environment and install dependencies
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 
 # Install VS Code extensions
 code --install-extension github.copilot
@@ -78,12 +94,29 @@ code --install-extension bradlc.vscode-tailwindcss
 code --install-extension eamodio.gitlens
 code --install-extension mhutchie.git-graph
 
-echo "[+] THERION BOOTSTRAP COMPLETE -- DEUS VULT"
+echo "[+] THERION BOOTSTRAP COMPLETE - DEUS VULT"
 ```
 
-===============================================================================
+═══════════════════════════════════════════════════════════════════════════════
+                     PYTHON VENV SETUP (Quick Reference)
+═══════════════════════════════════════════════════════════════════════════════
+
+WINDOWS (run from project root):
+  python -m venv .venv
+  .\.venv\Scripts\Activate.ps1
+  pip install -r requirements.txt
+
+MACOS/LINUX (run from project root):
+  python3 -m venv .venv
+  source .venv/bin/activate
+  pip install -r requirements.txt
+
+DEACTIVATE:
+  deactivate
+
+═══════════════════════════════════════════════════════════════════════════════
                      MANUAL INSTALLATION (Fallback)
-===============================================================================
+═══════════════════════════════════════════════════════════════════════════════
 
 If automated scripts fail:
 
