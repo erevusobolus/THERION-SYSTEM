@@ -1,46 +1,35 @@
 {
   // ==========================================================================
-  // [+] THERION PROTOCOL v7.0 -- CRITICAL EXTENSIONS ONLY
+  // THERION PROTOCOL v7.0 -- RECOMMENDED EXTENSIONS
   // ==========================================================================
   // No bloat. No corporate surveillance. Only what you need.
   // ==========================================================================
 
   "recommendations": [
-    // -------------------------------------------------------------------------
-    // TIER 1: AI ASSISTANT (Pick ONE)
-    // -------------------------------------------------------------------------
-    "github.copilot", // GitHub Copilot (default)
-    "github.copilot-chat", // Copilot Chat interface
+    // --- AI ASSISTANT ---
+    "github.copilot",
+    "github.copilot-chat",
 
-    // -------------------------------------------------------------------------
-    // TIER 2: LANGUAGE SUPPORT (Essential)
-    // -------------------------------------------------------------------------
-    "ms-python.python", // Python language support
-    "ms-python.vscode-pylance", // Python IntelliSense
-    "ms-vscode.vscode-typescript-next", // TypeScript language features
+    // --- LANGUAGE SUPPORT ---
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.black-formatter",
+    "charliermarsh.ruff",
 
-    // -------------------------------------------------------------------------
-    // TIER 3: CODE QUALITY (Essential)
-    // -------------------------------------------------------------------------
-    "esbenp.prettier-vscode", // Code formatting
-    "dbaeumer.vscode-eslint", // JavaScript/TypeScript linting
-    "usernamehw.errorlens", // Inline error highlighting
+    // --- CODE QUALITY ---
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "usernamehw.errorlens",
 
-    // -------------------------------------------------------------------------
-    // TIER 4: WEB DEVELOPMENT (If applicable)
-    // -------------------------------------------------------------------------
-    "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+    // --- WEB DEVELOPMENT ---
+    "bradlc.vscode-tailwindcss",
 
-    // -------------------------------------------------------------------------
-    // TIER 5: GIT (Essential)
-    // -------------------------------------------------------------------------
-    "eamodio.gitlens", // Git supercharged
-    "mhutchie.git-graph" // Visual git history
-  ],
+    // --- GIT ---
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
 
-  // Extensions to AVOID (corporate bloat, telemetry, unnecessary)
-  "unwantedRecommendations": [
-    "ms-azuretools.vscode-azure*", // Azure bloat
-    "ms-vscode.azure*" // More Azure bloat
+    // --- UTILITIES ---
+    "EditorConfig.EditorConfig",
+    "redhat.vscode-yaml"
   ]
 }
