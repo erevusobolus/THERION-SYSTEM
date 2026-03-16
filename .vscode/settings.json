@@ -1,13 +1,107 @@
 {
-  // ╔══════════════════════════════════════════════════════════════════════════════╗
-  // ║ ⚔️ THERION PROTOCOL - OPTIMIZED VSCODE SETTINGS ⚔️                          ║
-  // ║ 🔧 Claude Opus 4.5 Preview - AI-Optimized Configuration                     ║
-  // ║ 📅 Updated: December 2024 - Modern Best Practices                           ║
-  // ╚══════════════════════════════════════════════════════════════════════════════╝
+  // ============================================================================
+  // [+] THERION PROTOCOL v7.0 -- VS CODE CONFIGURATION
+  // ============================================================================
+  // Visual Theme: Deep Purple/Indigo with Gold Accents
+  // When you see these colors, THERION is active.
+  // ============================================================================
 
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // 🚀 GITHUB COPILOT - MODERN OPTIMIZED SETTINGS (2024/2025)
-  // ═══════════════════════════════════════════════════════════════════════════════
+  // ---------------------------------------------------------------------------
+  // WORKBENCH -- THERION COLOR SCHEME
+  // ---------------------------------------------------------------------------
+
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.iconTheme": "vs-seti",
+  "workbench.colorCustomizations": {
+    // Activity Bar (left sidebar icons)
+    "activityBar.background": "#1a1a2e",
+    "activityBar.foreground": "#e4b84f",
+    "activityBar.activeBorder": "#e4b84f",
+    "activityBar.inactiveForeground": "#6c6c8a",
+    
+    // Side Bar
+    "sideBar.background": "#16162a",
+    "sideBar.foreground": "#c5c5d0",
+    "sideBarTitle.foreground": "#e4b84f",
+    "sideBarSectionHeader.background": "#1f1f3a",
+    "sideBarSectionHeader.foreground": "#e4b84f",
+    
+    // Title Bar
+    "titleBar.activeBackground": "#0f0f1a",
+    "titleBar.activeForeground": "#e4b84f",
+    "titleBar.inactiveBackground": "#0f0f1a",
+    "titleBar.inactiveForeground": "#6c6c8a",
+    
+    // Editor
+    "editor.background": "#12121e",
+    "editor.foreground": "#d4d4e0",
+    "editor.lineHighlightBackground": "#1a1a30",
+    "editor.selectionBackground": "#3d3d6066",
+    "editorCursor.foreground": "#e4b84f",
+    "editorLineNumber.foreground": "#4a4a6a",
+    "editorLineNumber.activeForeground": "#e4b84f",
+    
+    // Editor Widgets
+    "editorWidget.background": "#1a1a2e",
+    "editorWidget.border": "#3d3d5a",
+    "editorSuggestWidget.background": "#1a1a2e",
+    "editorSuggestWidget.border": "#3d3d5a",
+    "editorSuggestWidget.selectedBackground": "#2a2a4a",
+    
+    // Tabs
+    "tab.activeBackground": "#1a1a2e",
+    "tab.activeForeground": "#e4b84f",
+    "tab.inactiveBackground": "#12121e",
+    "tab.inactiveForeground": "#6c6c8a",
+    "tab.activeBorder": "#e4b84f",
+    "tab.hoverBackground": "#22223a",
+    
+    // Status Bar
+    "statusBar.background": "#0f0f1a",
+    "statusBar.foreground": "#c5c5d0",
+    "statusBar.debuggingBackground": "#4a1a4a",
+    "statusBar.noFolderBackground": "#1a1a2e",
+    
+    // Terminal
+    "terminal.background": "#0f0f1a",
+    "terminal.foreground": "#d4d4e0",
+    "terminalCursor.foreground": "#e4b84f",
+    
+    // Buttons
+    "button.background": "#4a3a7a",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#5a4a8a",
+    
+    // Lists
+    "list.activeSelectionBackground": "#2a2a4a",
+    "list.activeSelectionForeground": "#e4b84f",
+    "list.hoverBackground": "#1f1f3a",
+    "list.focusBackground": "#2a2a4a",
+    
+    // Input
+    "input.background": "#1a1a2e",
+    "input.border": "#3d3d5a",
+    "input.foreground": "#d4d4e0",
+    "inputOption.activeBorder": "#e4b84f",
+    
+    // Panels
+    "panel.background": "#12121e",
+    "panel.border": "#3d3d5a",
+    "panelTitle.activeBorder": "#e4b84f",
+    "panelTitle.activeForeground": "#e4b84f",
+    
+    // Notifications
+    "notificationCenter.border": "#3d3d5a",
+    "notifications.background": "#1a1a2e",
+    "notifications.border": "#3d3d5a",
+    
+    // Focus borders
+    "focusBorder": "#e4b84f"
+  },
+
+  // ---------------------------------------------------------------------------
+  // COPILOT / AI ASSISTANT
+  // ---------------------------------------------------------------------------
 
   "github.copilot.enable": {
     "*": true,
@@ -18,18 +112,13 @@
     "json": true,
     "jsonc": true
   },
-
-  // Copilot Chat Enhancement
   "github.copilot.chat.localeOverride": "en",
   "github.copilot.chat.followUps": "always",
-  "github.copilot.chat.terminalChatLocation": "terminal",
-
-  // Agent Mode & MCP Integration (Latest Features)
   "chat.agent.enabled": true,
 
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // 📝 EDITOR PERFORMANCE & INTELLIGENCE
-  // ═══════════════════════════════════════════════════════════════════════════════
+  // ---------------------------------------------------------------------------
+  // EDITOR
+  // ---------------------------------------------------------------------------
 
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
@@ -41,11 +130,8 @@
     "comments": "off",
     "strings": "on"
   },
-  "editor.suggestOnTriggerCharacters": true,
   "editor.wordBasedSuggestions": "off",
-  "editor.suggest.localityBonus": true,
   "editor.inlineSuggest.enabled": true,
-  "editor.inlineSuggest.showToolbar": "onHover",
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
@@ -55,344 +141,134 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
   "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.tabSize": 2,
   "editor.renderWhitespace": "boundary",
   "editor.accessibilitySupport": "off",
+  "editor.wordWrap": "on",
 
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // 📝 MARKDOWN CONFIGURATION (Open in preview by default)
-  // ═══════════════════════════════════════════════════════════════════════════════
+  // ---------------------------------------------------------------------------
+  // MARKDOWN
+  // ---------------------------------------------------------------------------
 
   "workbench.editorAssociations": {
     "*.md": "vscode.markdown.preview.editor"
   },
   "markdown.preview.breaks": true,
   "markdown.preview.linkify": true,
-  "markdown.preview.typographer": true,
-  "markdown.preview.scrollPreviewWithEditor": true,
-  "markdown.preview.scrollEditorWithPreview": true,
-  "markdown.preview.markEditorSelection": true,
 
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // 📁 FILE SYSTEM PERFORMANCE
-  // ═══════════════════════════════════════════════════════════════════════════════
+  // ---------------------------------------------------------------------------
+  // FILES
+  // ---------------------------------------------------------------------------
 
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
     "**/node_modules/**": true,
     "**/__pycache__/**": true,
-    "**/.*cache/**": true,
-    "**/logs/**": true,
-    "**/tmp/**": true,
     "**/dist/**": true,
     "**/build/**": true,
-    "**/.next/**": true,
-    "**/.vscode/ipch/**": true,
-    "**/Coverage/**": true,
-    "**/.venv/**": true,
-    "**/venv/**": true
+    "**/.next/**": true
   },
+
+  // ---------------------------------------------------------------------------
+  // SEARCH
+  // ---------------------------------------------------------------------------
 
   "search.exclude": {
     "**/node_modules": true,
-    "**/bower_components": true,
-    "**/*.code-search": true,
-    "**/__pycache__": true,
-    "**/.*cache": true,
-    "**/logs": true,
-    "**/tmp": true,
     "**/dist": true,
     "**/build": true,
     "**/.next": true,
-    "**/Coverage": true,
-    "**/.vscode/ipch": true,
-    "**/.venv": true,
-    "**/venv": true,
-    "**/*.lock": true
+    "**/__pycache__": true
   },
 
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    "**/*.pyc": true,
-    "**/__pycache__": true,
-    "**/.pytest_cache": true
-  },
+  // ---------------------------------------------------------------------------
+  // TERMINAL
+  // ---------------------------------------------------------------------------
 
-  "files.associations": {
-    "*.mdx": "mdx",
-    "*.css": "tailwindcss",
-    ".env*": "dotenv"
-  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
 
-  "files.maxMemoryForLargeFilesMB": 4096,
-  "search.maxResults": 20000,
-  "search.smartCase": true,
-  "search.useGlobalIgnoreFiles": true,
+  // ---------------------------------------------------------------------------
+  // TYPESCRIPT / JAVASCRIPT
+  // ---------------------------------------------------------------------------
 
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // 🐍 PYTHON - MODERN RUFF-BASED CONFIGURATION (Replaces deprecated linting)
-  // ═══════════════════════════════════════════════════════════════════════════════
-
-  "python.analysis.autoSearchPaths": true,
-  "python.analysis.exclude": [
-    "**/node_modules/**",
-    "**/__pycache__/**",
-    "**/.*",
-    "**/build/**",
-    "**/dist/**",
-    "**/.venv/**",
-    "**/venv/**"
-  ],
-  "python.analysis.diagnosticMode": "workspace",
-  "python.analysis.completeFunctionParens": true,
-  "python.analysis.indexing": true,
-  "python.analysis.typeCheckingMode": "basic",
-  "python.analysis.logLevel": "Warning",
-  "python.defaultInterpreterPath": "/home/erevus/Documents/_TherionSystem/venv/bin/python",
-
-  // Modern Python: Use Ruff for linting/formatting (replaces flake8/black/isort)
-  "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.ruff": "explicit",
-      "source.organizeImports.ruff": "explicit"
-    }
-  },
-
-  // PREVENT PYTHON FROM MODIFYING TERMINAL BEHAVIOR
-  "python.terminal.executeInFileDir": false,
-  "python.terminal.activateEnvironment": false,
-  "python.terminal.activateEnvInCurrentTerminal": false,
-
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // 🌐 WEB DEVELOPMENT - TYPESCRIPT/REACT/NEXT.JS
-  // ═══════════════════════════════════════════════════════════════════════════════
-
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.wordWrap": "on"
-  },
-
-  // TypeScript/JavaScript Settings
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.suggest.autoImports": true,
+  "typescript.suggest.completeFunctionCalls": true,
   "typescript.preferences.importModuleSpecifier": "relative",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.suggest.autoImports": true,
+  "javascript.suggest.completeFunctionCalls": true,
 
-  // Tailwind CSS IntelliSense
-  "tailwindCSS.emmetCompletions": true,
-  "tailwindCSS.includeLanguages": {
-    "typescript": "javascript",
-    "typescriptreact": "javascript"
+  // ---------------------------------------------------------------------------
+  // FORMATTING (PRETTIER)
+  // ---------------------------------------------------------------------------
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  // ESLint - Modern Flat Config Support
-  "eslint.useFlatConfig": true,
-  "eslint.format.enable": false,
+  // ---------------------------------------------------------------------------
+  // GIT
+  // ---------------------------------------------------------------------------
 
-  // NPM
-  "npm.enableRunFromFolder": false,
-
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // 💻 TERMINAL OPTIMIZATION
-  // ═══════════════════════════════════════════════════════════════════════════════
-
-  "terminal.integrated.gpuAcceleration": "on",
-  "terminal.integrated.shellIntegration.enabled": true,
-  "terminal.integrated.enablePersistentSessions": true,
-  "terminal.integrated.scrollback": 5000,
-  "terminal.integrated.smoothScrolling": true,
-
-  // Linux Terminal Configuration
-  "terminal.integrated.defaultProfile.linux": "bash",
-  "terminal.integrated.profiles.linux": {
-    "bash": {
-      "path": "/bin/bash",
-      "icon": "terminal-bash",
-      "args": ["-l"]
-    },
-    "zsh": {
-      "path": "/bin/zsh",
-      "icon": "terminal"
-    },
-    "fish": {
-      "path": "/usr/bin/fish",
-      "icon": "terminal"
-    }
-  },
-  "terminal.integrated.env.linux": {
-    "COLORTERM": "truecolor"
-  },
-
-  // Windows fallback (for cross-platform compatibility)
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.env.windows": {},
-  "terminal.integrated.commandsToSkipShell": [
-    "workbench.action.terminal.focusFind",
-    "workbench.action.terminal.focusNext",
-    "workbench.action.terminal.focusPrevious"
-  ],
-
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // 🔧 GIT & VERSION CONTROL
-  // ═══════════════════════════════════════════════════════════════════════════════
-
-  "git.autofetch": true,
-  "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
   "git.openRepositoryInParentFolders": "always",
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.codeLens.enabled": false,
-  "gitlens.currentLine.enabled": true,
 
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // 🎨 UI & WORKBENCH
-  // ═══════════════════════════════════════════════════════════════════════════════
+  // ---------------------------------------------------------------------------
+  // EXPLORER
+  // ---------------------------------------------------------------------------
 
-  "workbench.startupEditor": "none",
-  "workbench.editor.enablePreview": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.wrapTabs": true,
-  "workbench.sideBar.location": "left",
-  "workbench.activityBar.location": "top",
-  "window.commandCenter": true,
-  "window.titleBarStyle": "custom",
-  "breadcrumbs.enabled": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
+  "explorer.sortOrder": "type",
 
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // 🛠️ EXTENSION-SPECIFIC SETTINGS
-  // ═══════════════════════════════════════════════════════════════════════════════
+  // ---------------------------------------------------------------------------
+  // WORKBENCH
+  // ---------------------------------------------------------------------------
 
-  // Error Lens - Enhanced Diagnostics
-  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
-  "errorLens.messageMaxChars": 200,
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 16,
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.tabSizing": "shrink",
 
-  // Auto Close/Rename Tags
-  "auto-close-tag.activationOnLanguage": [
-    "html",
-    "xml",
-    "php",
-    "javascriptreact",
-    "typescriptreact"
-  ],
+  // ---------------------------------------------------------------------------
+  // TELEMETRY (DISABLED)
+  // ---------------------------------------------------------------------------
 
-  // Code Spell Checker
-  "cSpell.userWords": [
-    "THERION",
-    "EREVUS",
-    "copilot",
-    "nextjs",
-    "tailwindcss",
-    "postcss",
-    "vercel",
-    "netlify",
-    "typescript",
-    "webgl",
-    "threejs",
-    "hashgraph",
-    "hedera",
-    "obolus",
-    "kinesis",
-    "fullstack",
-    "devops",
-    "ruff"
-  ],
-
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // 🔐 SECURITY & PRIVACY — ANTI-TELEMETRY FORTRESS
-  // ═══════════════════════════════════════════════════════════════════════════════
-
-  // CORE TELEMETRY ANNIHILATION
-  "telemetry.telemetryLevel": "off",
-  "security.workspace.trust.enabled": true,
-
-  // MICROSOFT/AZURE BLOAT REJECTION
-  "redhat.telemetry.enabled": false,
-  "aws.telemetry": false,
-  "dotnetAcquisitionExtension.enableTelemetry": false,
-
-  // REST Client
-  "rest-client.enableTelemetry": false,
-
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // 🔍 SONARQUBE — CODE QUALITY SENTINEL (Anti-Bloat Config)
-  // ═══════════════════════════════════════════════════════════════════════════════
-
-  "sonarlint.disableTelemetry": true,
-  "sonarlint.output.showAnalyzerLogs": false,
-  "sonarlint.output.showVerboseLogs": false,
-
-  // ═══════════════════════════════════════════════════════════════════════════════
-  // ⚡ PERFORMANCE OPTIMIZATIONS — AGENTIC WORKFLOW
-  // ═══════════════════════════════════════════════════════════════════════════════
-
-  "extensions.autoUpdate": "onlyEnabledExtensions",
-  "extensions.ignoreRecommendations": false,
-  "update.mode": "default",
-  "debug.javascript.autoAttachFilter": "disabled",
-
-  // AGENTIC MODE — MAXIMUM MCP ACCESS
-  "chat.mcp.access": "all",
-  "chat.agent.enabled": true,
-  "chat.agent.maxRequests": 30,
-
-  // DISABLE CORPORATE NANNYING
-  "workbench.enableExperiments": false,
-  "workbench.settings.enableNaturalLanguageSearch": false,
-  "python-envs.defaultEnvManager": "ms-python.python:venv",
-  "python-envs.pythonProjects": [
-    {
-      "path": "${workspaceFolder}",
-      "pythonEnvPath": "${workspaceFolder}/venv",
-      "envManager": "ms-python.python:venv",
-      "packageManager": "ms-python.python:pip"
-    }
-  ]
+  "telemetry.telemetryLevel": "off"
 }

@@ -1,75 +1,46 @@
 {
-  // ╔══════════════════════════════════════════════════════════════════════════════╗
-  // ║ ⚔️ THERION PROTOCOL - OPTIMIZED EXTENSION RECOMMENDATIONS                   ║
-  // ║ 📅 Updated: December 2024 - Modern AI-First Development                     ║
-  // ╚══════════════════════════════════════════════════════════════════════════════╝
+  // ==========================================================================
+  // [+] THERION PROTOCOL v7.0 -- CRITICAL EXTENSIONS ONLY
+  // ==========================================================================
+  // No bloat. No corporate surveillance. Only what you need.
+  // ==========================================================================
 
   "recommendations": [
-    // === CORE AI DEVELOPMENT (Essential) ===
-    "github.copilot",
-    "github.copilot-chat",
-    "anthropic.claude-vscode",
+    // -------------------------------------------------------------------------
+    // TIER 1: AI ASSISTANT (Pick ONE)
+    // -------------------------------------------------------------------------
+    "github.copilot",              // GitHub Copilot (default)
+    "github.copilot-chat",         // Copilot Chat interface
 
-    // === MCP (Model Context Protocol) - Modern AI Integration ===
-    "automatalabs.copilot-mcp",
-    "semanticworkbenchteam.mcp-server-vscode",
-    "zebradev.mcp-server-runner",
+    // -------------------------------------------------------------------------
+    // TIER 2: LANGUAGE SUPPORT (Essential)
+    // -------------------------------------------------------------------------
+    "ms-python.python",            // Python language support
+    "ms-python.vscode-pylance",    // Python IntelliSense
+    "ms-vscode.vscode-typescript-next", // TypeScript language features
 
-    // === PYTHON DEVELOPMENT ===
-    "ms-python.python",
-    "ms-python.vscode-pylance",
-    "charliermarsh.ruff",
-    "ms-toolsai.jupyter",
+    // -------------------------------------------------------------------------
+    // TIER 3: CODE QUALITY (Essential)
+    // -------------------------------------------------------------------------
+    "esbenp.prettier-vscode",      // Code formatting
+    "dbaeumer.vscode-eslint",      // JavaScript/TypeScript linting
+    "usernamehw.errorlens",        // Inline error highlighting
 
-    // === WEB DEVELOPMENT (React/Next.js/TypeScript) ===
-    "esbenp.prettier-vscode",
-    "bradlc.vscode-tailwindcss",
-    "ms-vscode.vscode-typescript-next",
-    "dbaeumer.vscode-eslint",
-    "dsznajder.es7-react-js-snippets",
+    // -------------------------------------------------------------------------
+    // TIER 4: WEB DEVELOPMENT (If applicable)
+    // -------------------------------------------------------------------------
+    "bradlc.vscode-tailwindcss",   // Tailwind CSS IntelliSense
 
-    // === THREE.JS / WEBGL / SHADER DEVELOPMENT ===
-    "raczzalan.webgl-glsl-editor",
-    "slevesque.shader",
-
-    // === CODE QUALITY & PRODUCTIVITY ===
-    "usernamehw.errorlens",
-    "streetsidesoftware.code-spell-checker",
-    "oderwat.indent-rainbow",
-    "formulahendry.auto-rename-tag",
-    "formulahendry.auto-close-tag",
-    "christian-kohler.path-intellisense",
-
-    // === GIT & VERSION CONTROL ===
-    "eamodio.gitlens",
-    "mhutchie.git-graph",
-    "github.vscode-pull-request-github",
-
-    // === DOCKER & DEVOPS ===
-    "ms-azuretools.vscode-docker",
-    "ms-vscode-remote.remote-containers",
-
-    // === DOCUMENTATION & MARKDOWN ===
-    "yzhang.markdown-all-in-one",
-    "bierner.markdown-mermaid",
-
-    // === UTILITIES ===
-    "ms-vscode.live-server",
-    "rangav.vscode-thunder-client",
-    "gruntfuggly.todo-tree",
-
-    // === C# / UNITY (For Game Development) ===
-    "ms-dotnettools.csharp",
-    "ms-dotnettools.csdevkit"
+    // -------------------------------------------------------------------------
+    // TIER 5: GIT (Essential)
+    // -------------------------------------------------------------------------
+    "eamodio.gitlens",             // Git supercharged
+    "mhutchie.git-graph"           // Visual git history
   ],
 
+  // Extensions to AVOID (corporate bloat, telemetry, unnecessary)
   "unwantedRecommendations": [
-    // Deprecated Python linting (replaced by Ruff)
-    "ms-python.flake8",
-    "ms-python.black-formatter",
-    "ms-python.pylint",
-
-    // Redundant/conflicting extensions
-    "ms-python.mypy-type-checker"
+    "ms-azuretools.vscode-azure*", // Azure bloat
+    "ms-vscode.azure*"             // More Azure bloat
   ]
 }
