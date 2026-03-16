@@ -1,0 +1,145 @@
+{
+  "logging": {
+    "level": "debug",
+    "file": "/tmp/openclaw/openclaw.log",
+    "consoleLevel": "info",
+    "consoleStyle": "pretty",
+    "redactSensitive": "off"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "ollama": {
+        "baseUrl": "http://127.0.0.1:11434/v1",
+        "apiKey": "ollama-local",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "qwen3:4b",
+            "name": "Qwen3 4B (Default)",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0 },
+            "contextWindow": 16384,
+            "maxTokens": 4096
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "ollama/qwen3:4b",
+        "fallbacks": []
+      },
+      "workspace": "/mnt/c/Dock/THERION-SYSTEM",
+      "contextTokens": 16384,
+      "maxConcurrent": 3,
+      "timeoutSeconds": 300,
+      "thinkingDefault": "off",
+      "typingMode": "instant",
+      "sandbox": { "mode": "off" }
+    },
+    "list": [
+      {
+        "id": "main",
+        "default": true,
+        "identity": {
+          "name": "THERION"
+        },
+        "groupChat": {
+          "mentionPatterns": ["@therion", "therion", "THERION"]
+        }
+      }
+    ]
+  },
+  "tools": {
+    "allow": ["exec", "files_read", "files_write", "files_list"],
+    "deny": [],
+    "exec": {
+      "safeBins": [
+        "ddgr",
+        "curl",
+        "wget",
+        "jq",
+        "python3",
+        "node",
+        "cat",
+        "ls",
+        "head",
+        "tail",
+        "grep",
+        "echo",
+        "date",
+        "w3m",
+        "find",
+        "sed",
+        "awk",
+        "tree",
+        "git",
+        "therion"
+      ]
+    }
+  },
+  "messages": {
+    "responsePrefix": "",
+    "queue": {
+      "mode": "collect",
+      "debounceMs": 800,
+      "cap": 15,
+      "drop": "summarize"
+    },
+    "inbound": { "debounceMs": 1000 },
+    "ackReaction": "👀",
+    "ackReactionScope": "direct",
+    "removeAckAfterReply": true
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "text": true,
+    "bash": true,
+    "config": true,
+    "debug": true,
+    "restart": true,
+    "useAccessGroups": true
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "allowlist",
+      "botToken": "8470961642:AAH-KYaPN60DMSbYRDVQl6cJwuZEiuMhbg4",
+      "replyToMode": "first",
+      "allowFrom": ["6787742079"],
+      "groupPolicy": "disabled",
+      "historyLimit": 50,
+      "streamMode": "partial",
+      "mediaMaxMb": 10,
+      "retry": {
+        "attempts": 5,
+        "minDelayMs": 300,
+        "maxDelayMs": 15000,
+        "jitter": 0.1
+      },
+      "network": { "autoSelectFamily": false },
+      "actions": { "reactions": true, "sendMessage": true },
+      "linkPreview": true
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "controlUi": { "enabled": true },
+    "auth": {
+      "mode": "token",
+      "token": "58b888d9334ad6aec6fa6481c297be2d7c82e2e3843d3e77"
+    }
+  },
+  "skills": {
+    "load": {
+      "extraDirs": ["/mnt/c/Dock/THERION-SYSTEM/skills"]
+    }
+  }
+}

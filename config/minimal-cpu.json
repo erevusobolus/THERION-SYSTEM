@@ -1,0 +1,73 @@
+{
+  "logging": {
+    "level": "info",
+    "file": "/tmp/openclaw/openclaw.log"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "ollama": {
+        "baseUrl": "http://127.0.0.1:11434/v1",
+        "apiKey": "ollama-local",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "qwen3:1.7b",
+            "name": "Qwen3 1.7B CPU",
+            "reasoning": false,
+            "input": ["text"],
+            "contextWindow": 4096,
+            "maxTokens": 512
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "ollama/qwen3:1.7b"
+      },
+      "workspace": "/mnt/c/Dock/THERION-SYSTEM",
+      "contextTokens": 4096,
+      "thinkingDefault": "off",
+      "timeoutSeconds": 180,
+      "typingMode": "instant"
+    },
+    "list": [
+      {
+        "id": "main",
+        "default": true,
+        "identity": { "name": "THERION" }
+      }
+    ]
+  },
+  "tools": {
+    "allow": [],
+    "deny": ["*"]
+  },
+  "messages": {
+    "ackReaction": "👀",
+    "ackReactionScope": "direct",
+    "removeAckAfterReply": true
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "allowlist",
+      "botToken": "8470961642:AAH-KYaPN60DMSbYRDVQl6cJwuZEiuMhbg4",
+      "allowFrom": ["6787742079"],
+      "historyLimit": 5,
+      "actions": { "reactions": true, "sendMessage": true }
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "58b888d9334ad6aec6fa6481c297be2d7c82e2e3843d3e77"
+    }
+  }
+}
