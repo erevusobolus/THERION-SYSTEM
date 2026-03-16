@@ -9,38 +9,38 @@
     // -------------------------------------------------------------------------
     // TIER 1: AI ASSISTANT (Pick ONE)
     // -------------------------------------------------------------------------
-    "github.copilot",              // GitHub Copilot (default)
-    "github.copilot-chat",         // Copilot Chat interface
+    "github.copilot", // GitHub Copilot (default)
+    "github.copilot-chat", // Copilot Chat interface
 
     // -------------------------------------------------------------------------
     // TIER 2: LANGUAGE SUPPORT (Essential)
     // -------------------------------------------------------------------------
-    "ms-python.python",            // Python language support
-    "ms-python.vscode-pylance",    // Python IntelliSense
+    "ms-python.python", // Python language support
+    "ms-python.vscode-pylance", // Python IntelliSense
     "ms-vscode.vscode-typescript-next", // TypeScript language features
 
     // -------------------------------------------------------------------------
     // TIER 3: CODE QUALITY (Essential)
     // -------------------------------------------------------------------------
-    "esbenp.prettier-vscode",      // Code formatting
-    "dbaeumer.vscode-eslint",      // JavaScript/TypeScript linting
-    "usernamehw.errorlens",        // Inline error highlighting
+    "esbenp.prettier-vscode", // Code formatting
+    "dbaeumer.vscode-eslint", // JavaScript/TypeScript linting
+    "usernamehw.errorlens", // Inline error highlighting
 
     // -------------------------------------------------------------------------
     // TIER 4: WEB DEVELOPMENT (If applicable)
     // -------------------------------------------------------------------------
-    "bradlc.vscode-tailwindcss",   // Tailwind CSS IntelliSense
+    "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
 
     // -------------------------------------------------------------------------
     // TIER 5: GIT (Essential)
     // -------------------------------------------------------------------------
-    "eamodio.gitlens",             // Git supercharged
-    "mhutchie.git-graph"           // Visual git history
+    "eamodio.gitlens", // Git supercharged
+    "mhutchie.git-graph" // Visual git history
   ],
 
   // Extensions to AVOID (corporate bloat, telemetry, unnecessary)
   "unwantedRecommendations": [
     "ms-azuretools.vscode-azure*", // Azure bloat
-    "ms-vscode.azure*"             // More Azure bloat
+    "ms-vscode.azure*" // More Azure bloat
   ]
 }
