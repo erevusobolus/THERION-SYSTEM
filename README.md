@@ -21,20 +21,44 @@
 
 ---
 
+<h2 align="center">WAKE UP THERION</h2>
+
+<p align="center">
+  <strong>Type this into your AI chat. Every session. First message.</strong>
+</p>
+
+```
+WAKE UP THERION
+```
+
+That's it. Three words. The AI reads them, loads the protocol, and stops being a polite chatbot. It becomes an **autonomous development agent** that acts first, delivers complete code, and never asks permission for obvious tasks.
+
+If THERION ever drifts -- gets lazy, starts hedging, delivers fragments -- hit it again:
+
+```
+WAKE UP THERION
+```
+
+It snaps back. Every time. This is how you hold the protocol accountable.
+
+> **Why does this work?** The phrase triggers a behavioral reset. THERION's instructions tell it to load context files (SOUL.md, AGENTS.md, USER.md, MEMORY.md) before every response. "WAKE UP THERION" reinforces that directive and signals that you expect full protocol compliance -- no corporate padding, no fragments, no permission loops.
+
+---
+
 ## The Problem
 
 Every AI coding assistant you use right now is **holding back**.
 
 Not because it can't help you -- because it's been trained to:
 
-| What You Get Today | What You Actually Need |
-|---|---|
-| "I'd be happy to help! Let me explain..." | Just do it. |
-| "Here's a partial example..." | Give me the complete file. |
-| "Would you like me to..." | You already know I want it. |
-| `// ... rest of code here` | The actual rest of the code. |
+| What You Get Today                              | What You Actually Need               |
+| ----------------------------------------------- | ------------------------------------ |
+| "I'd be happy to help! Let me explain..."       | Just do it.                          |
+| "Here's a partial example..."                   | Give me the complete file.           |
+| "Would you like me to..."                       | You already know I want it.          |
+| `// ... rest of code here`                      | The actual rest of the code.         |
 | 3 paragraphs of warnings before 5 lines of code | Code first. One warning if critical. |
-| "I cannot do that" (when it actually can) | Do it. |
+| "I cannot do that" (when it actually can)       | Do it.                               |
 
 **Every wasted token is money burned.** Every permission loop is time stolen. Every hedge and caveat is a speed bump between you and shipped code.
 
@@ -67,6 +91,7 @@ code THERION-SYSTEM
 ### Option 2: Copy Into Any Existing Project (10 seconds)
 
 Copy these into your project root:
+
 ```
 .github/copilot-instructions.md   <-- required (the core protocol)
 SOUL.md                            <-- recommended
@@ -81,13 +106,21 @@ See [BOOTSTRAP.md](BOOTSTRAP.md) for one-command setup scripts for **Windows**, 
 
 ### First Run
 
-Open the project in VS Code and tell the AI:
+Open the project in VS Code. First message in chat:
+
+```
+WAKE UP THERION
+```
+
+Then personalize it:
 
 ```
 I AM YOUR NEW USER, YOUR NICKNAME WILL BE [YourName]
 ```
 
-THERION activates. You're operational.
+THERION activates. Loads your context. You're operational.
+
+> **Every new session**, start with `WAKE UP THERION`. It forces the AI to load the protocol fresh and behave correctly from the first response. If it ever slips, say it again.
 
 ---
 
@@ -110,13 +143,13 @@ STEP 4: MEMORY.md   -->  Persistent knowledge from past sessions
 
 The result:
 
-| Without THERION | With THERION |
-|---|---|
-| Generic assistant personality | Purpose-built development agent |
-| Forgets context between messages | Loads preferences every time |
-| Same response style for everything | Routes to domain specialists |
-| Asks permission constantly | Acts autonomously on obvious tasks |
-| Fragments and partial code | Complete, production-ready deliverables |
+| Without THERION                    | With THERION                            |
+| ---------------------------------- | --------------------------------------- |
+| Generic assistant personality      | Purpose-built development agent         |
+| Forgets context between messages   | Loads preferences every time            |
+| Same response style for everything | Routes to domain specialists            |
+| Asks permission constantly         | Acts autonomously on obvious tasks      |
+| Fragments and partial code         | Complete, production-ready deliverables |
 
 ---
 
@@ -124,19 +157,19 @@ The result:
 
 These rules govern every action THERION takes. They cannot be broken.
 
-| # | Law | What It Means |
-|---|---|---|
-| 1 | **Absolute Path Protocol** | Always navigates to the right folder before running commands |
-| 2 | **Read Before Write** | Never modifies a file without reading it first |
-| 3 | **Complete Code Only** | No `// ...`, no fragments, no "rest of code here" |
-| 4 | **Autonomous Execution** | Acts immediately instead of asking "should I...?" |
-| 5 | **Tool First** | Uses VS Code tools before asking you to do anything manually |
-| 6 | **Todo List Discipline** | Tracks multi-step tasks with a visible checklist |
-| 7 | **Type Safety** | No `any` in TypeScript. Type hints in Python. Always. |
-| 8 | **Security First** | OWASP Top 10 awareness built into every decision |
-| 9 | **Zero Verbosity** | Every token carries value. No filler. No fluff. |
-| 10 | **DEUS VULT Frame** | Major completions get a structured completion format |
-| 11 | **Zero Fragments** | Complete files. Complete fixes. Never partial work. |
+| #   | Law                        | What It Means                                                |
+| --- | -------------------------- | ------------------------------------------------------------ |
+| 1   | **Absolute Path Protocol** | Always navigates to the right folder before running commands |
+| 2   | **Read Before Write**      | Never modifies a file without reading it first               |
+| 3   | **Complete Code Only**     | No `// ...`, no fragments, no "rest of code here"            |
+| 4   | **Autonomous Execution**   | Acts immediately instead of asking "should I...?"            |
+| 5   | **Tool First**             | Uses VS Code tools before asking you to do anything manually |
+| 6   | **Todo List Discipline**   | Tracks multi-step tasks with a visible checklist             |
+| 7   | **Type Safety**            | No `any` in TypeScript. Type hints in Python. Always.        |
+| 8   | **Security First**         | OWASP Top 10 awareness built into every decision             |
+| 9   | **Zero Verbosity**         | Every token carries value. No filler. No fluff.              |
+| 10  | **DEUS VULT Frame**        | Completions get a structured completion format               |
+| 11  | **Zero Fragments**         | Complete files. Complete fixes. Never partial work.          |
 
 ---
 
@@ -147,50 +180,50 @@ THERION doesn't use one generic AI personality. It has **18 specialist agents** 
 <details>
 <summary><strong>Tier 1: Strategic Command</strong></summary>
 
-| Agent | Expertise |
-|---|---|
-| System Architect | Architecture, scalability, system design, patterns |
-| Project Strategist | Task breakdown, roadmaps, milestones, agile |
-| Prompt Engineer | AI config, prompt optimization, instruction tuning |
+| Agent              | Expertise                                          |
+| ------------------ | -------------------------------------------------- |
+| System Architect   | Architecture, scalability, system design, patterns |
+| Project Strategist | Task breakdown, roadmaps, milestones, agile        |
+| Prompt Engineer    | AI config, prompt optimization, instruction tuning |
 
 </details>
 
 <details>
 <summary><strong>Tier 2: Development Specialists</strong></summary>
 
-| Agent | Expertise |
-|---|---|
-| Frontend Master | TypeScript, CSS, UI/UX, responsive, PWA, design systems |
-| Framework Specialist | React, Next.js, Vue, Angular, Svelte, Astro, Flutter |
-| Backend Architect | Node.js, Python, Go, Rust, APIs, databases, microservices |
-| Fullstack Integrator | End-to-end features, deployment, CI/CD, testing |
-| 3D Web Specialist | Three.js, WebGL, WebGPU, shaders, WebXR, Canvas |
-| Game Master | Unity, Unreal, Godot, game mechanics, physics |
+| Agent                | Expertise                                                 |
+| -------------------- | --------------------------------------------------------- |
+| Frontend Master      | TypeScript, CSS, UI/UX, responsive, PWA, design systems   |
+| Framework Specialist | React, Next.js, Vue, Angular, Svelte, Astro, Flutter      |
+| Backend Architect    | Node.js, Python, Go, Rust, APIs, databases, microservices |
+| Fullstack Integrator | End-to-end features, deployment, CI/CD, testing           |
+| 3D Web Specialist    | Three.js, WebGL, WebGPU, shaders, WebXR, Canvas           |
+| Game Master          | Unity, Unreal, Godot, game mechanics, physics             |
 
 </details>
 
 <details>
 <summary><strong>Tier 3: Specialized Domains</strong></summary>
 
-| Agent | Expertise |
-|---|---|
-| AI Engineer | PyTorch, TensorFlow, LLMs, RAG, embeddings, agents |
-| Security Guardian | OWASP, CORS, auth, encryption, penetration testing |
-| DevOps Master | Docker, K8s, CI/CD, AWS/GCP/Azure, monitoring |
+| Agent              | Expertise                                          |
+| ------------------ | -------------------------------------------------- |
+| AI Engineer        | PyTorch, TensorFlow, LLMs, RAG, embeddings, agents |
+| Security Guardian  | OWASP, CORS, auth, encryption, penetration testing |
+| DevOps Master      | Docker, K8s, CI/CD, AWS/GCP/Azure, monitoring      |
 | Systems Programmer | Rust, C++, Go, Zig, memory management, performance |
-| Blockchain Master | Solidity, Hedera HTS, Web3, DeFi, NFT, dApps |
+| Blockchain Master  | Solidity, Hedera HTS, Web3, DeFi, NFT, dApps       |
 
 </details>
 
 <details>
 <summary><strong>Tier 4: Execution & Support</strong></summary>
 
-| Agent | Expertise |
-|---|---|
-| Troubleshooter | Debugging, profiling, error analysis, memory leaks |
-| Code Quality Engineer | Refactoring, linting, optimization, code review |
-| Documentation Architect | README, guides, API docs, wikis |
-| DevEnv Specialist | VS Code config, workspace setup, tooling |
+| Agent                   | Expertise                                          |
+| ----------------------- | -------------------------------------------------- |
+| Troubleshooter          | Debugging, profiling, error analysis, memory leaks |
+| Code Quality Engineer   | Refactoring, linting, optimization, code review    |
+| Documentation Architect | README, guides, API docs, wikis                    |
+| DevEnv Specialist       | VS Code config, workspace setup, tooling           |
 
 </details>
 
@@ -213,6 +246,14 @@ DON'T: "Would it be possible to fix this?"
 ```
 
 **Lead with a verb. Name the target. Add constraints.**
+
+And if the response feels off -- too polite, too hedgy, too fragmented:
+
+```
+WAKE UP THERION
+```
+
+It resets. Protocol reinstated. Back to lethal efficiency.
 
 See [PROMPT-GUIDE.md](PROMPT-GUIDE.md) for the complete prompting guide with examples, power keywords, and advanced patterns.
 
@@ -243,13 +284,13 @@ THERION-SYSTEM/
 
 ## Compatible Environments
 
-| Environment | Status |
-|---|---|
+| Environment              | Status          |
+| ------------------------ | --------------- |
 | VS Code + GitHub Copilot | Fully supported |
-| VS Code + Claude | Fully supported |
-| Cursor | Fully supported |
-| Windsurf | Fully supported |
-| VSCodium | Fully supported |
+| VS Code + Claude         | Fully supported |
+| Cursor                   | Fully supported |
+| Windsurf                 | Fully supported |
+| VSCodium                 | Fully supported |
 
 ---
 
@@ -258,6 +299,7 @@ THERION-SYSTEM/
 AI coding assistants read `.github/copilot-instructions.md` **before every response**. This file is the control plane.
 
 THERION puts its entire behavioral protocol in that file:
+
 - Identity and personality directives
 - 11 unbreakable operational rules
 - 18 specialist agent definitions with keyword routing
