@@ -10,7 +10,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-8.0-gold?style=for-the-badge" alt="Version"/>
-  <img src="https://img.shields.io/badge/license-GPL%20v3-blue?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/license-AGPL%20v3-blue?style=for-the-badge" alt="License"/>
   <img src="https://img.shields.io/badge/platform-VS%20Code%20%7C%20Cursor%20%7C%20Windsurf-purple?style=for-the-badge" alt="Platform"/>
   <img src="https://img.shields.io/badge/status-AWAKENED-brightgreen?style=for-the-badge" alt="Status"/>
 </p>
@@ -453,7 +453,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-GPL v3 -- Free to use, modify, and distribute with attribution.
+AGPL v3 -- Free to use, modify, and distribute with attribution. Network use requires source disclosure.
 
 ---
 
