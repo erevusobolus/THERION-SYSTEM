@@ -2,14 +2,14 @@
   <img src="THERION.PNG" alt="THERION PROTOCOL" width="600"/>
 </p>
 
-<h1 align="center">THERION PROTOCOL v7.0</h1>
+<h1 align="center">THERION PROTOCOL v8.0</h1>
 
 <p align="center">
   <strong>Stop wasting tokens. Start getting results.</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-7.0-gold?style=for-the-badge" alt="Version"/>
+  <img src="https://img.shields.io/badge/version-8.0-gold?style=for-the-badge" alt="Version"/>
   <img src="https://img.shields.io/badge/license-GPL%20v3-blue?style=for-the-badge" alt="License"/>
   <img src="https://img.shields.io/badge/platform-VS%20Code%20%7C%20Cursor%20%7C%20Windsurf-purple?style=for-the-badge" alt="Platform"/>
   <img src="https://img.shields.io/badge/status-AWAKENED-brightgreen?style=for-the-badge" alt="Status"/>
@@ -71,7 +71,7 @@ Drop it into any project. Open VS Code. Your AI assistant transforms from a caut
 - **Acts first, explains later** -- tools before talk
 - **Delivers complete code** -- never fragments, never `// ...`
 - **Reads before writing** -- understands your codebase before touching it
-- **Routes to specialists** -- 18 expert agents for every domain
+- **Routes to specialists** -- 67 expert agents across 12 domains
 - **Remembers your preferences** -- learns how you work
 - **Follows 11 unbreakable rules** -- consistent, reliable, predictable
 
@@ -94,8 +94,9 @@ Copy these into your project root:
 
 ```
 .github/copilot-instructions.md   <-- required (the core protocol)
+.github/agents/                   <-- required (67 agent mindsets)
 SOUL.md                            <-- recommended
-AGENTS.md                          <-- recommended
+AGENTS.md                          <-- recommended (master agent index)
 USER.md                            <-- optional (your preferences)
 MEMORY.md                          <-- optional (persistent knowledge)
 ```
@@ -130,16 +131,17 @@ THERION activates. Loads your context. You're operational.
   <strong>PHASE 0: Mandatory Context Loading</strong>
 </p>
 
-Before the AI even reads your message, THERION forces it to load four files:
+Before the AI even reads your message, THERION forces it to load context:
 
 ```
-STEP 1: SOUL.md     -->  Identity, behavioral oath, personality
-STEP 2: AGENTS.md   -->  18 specialist agents and routing rules
-STEP 3: USER.md     -->  Your preferences and project context
-STEP 4: MEMORY.md   -->  Persistent knowledge from past sessions
+STEP 1: SOUL.md              -->  Identity, behavioral oath, personality
+STEP 2: AGENTS.md            -->  67 agents, routing index, pipelines
+STEP 3: USER.md              -->  Your preferences and project context
+STEP 4: MEMORY.md            -->  Persistent knowledge from past sessions
+STEP 5: agents/{domain}.md   -->  Deep mindset for detected domain (on-demand)
 ```
 
-**This happens on EVERY prompt.** The AI cannot skip it. This is what makes THERION's behavior consistent -- it re-loads its operating instructions before every response.
+**Steps 1-4 happen on EVERY prompt.** Step 5 loads ONE domain file based on keyword detection -- not all 12. This nested architecture keeps context lean while providing deep expertise exactly when needed.
 
 The result:
 
@@ -173,61 +175,174 @@ These rules govern every action THERION takes. They cannot be broken.
 
 ---
 
-## 18 Specialist Agents
+## 67 Specialist Agents | 12 Domains
 
-THERION doesn't use one generic AI personality. It has **18 specialist agents** that activate based on what you're asking about:
+THERION doesn't use one generic AI personality. It has **67 specialist agents** across **12 domains** that activate based on what you're asking about. Agent mindsets load **on-demand** -- only the relevant domain file is read, never all 12.
 
 <details>
-<summary><strong>Tier 1: Strategic Command</strong></summary>
+<summary><strong>Strategic Command (5 agents)</strong> -- <code>.github/agents/strategic.md</code></summary>
 
-| Agent              | Expertise                                          |
-| ------------------ | -------------------------------------------------- |
-| System Architect   | Architecture, scalability, system design, patterns |
-| Project Strategist | Task breakdown, roadmaps, milestones, agile        |
-| Prompt Engineer    | AI config, prompt optimization, instruction tuning |
+| Agent              | Expertise                                   |
+| ------------------ | ------------------------------------------- |
+| System Architect   | Architecture, scalability, system design    |
+| Project Strategist | Roadmaps, planning, agile, milestones       |
+| Prompt Engineer    | AI config, prompt optimization              |
+| Tech Lead          | Code review, standards, technical decisions |
+| Solution Designer  | Tradeoff analysis, approach evaluation      |
 
 </details>
 
 <details>
-<summary><strong>Tier 2: Development Specialists</strong></summary>
+<summary><strong>Frontend (8 agents)</strong> -- <code>.github/agents/frontend.md</code></summary>
 
-| Agent                | Expertise                                                 |
-| -------------------- | --------------------------------------------------------- |
-| Frontend Master      | TypeScript, CSS, UI/UX, responsive, PWA, design systems   |
-| Framework Specialist | React, Next.js, Vue, Angular, Svelte, Astro, Flutter      |
-| Backend Architect    | Node.js, Python, Go, Rust, APIs, databases, microservices |
-| Fullstack Integrator | End-to-end features, deployment, CI/CD, testing           |
-| 3D Web Specialist    | Three.js, WebGL, WebGPU, shaders, WebXR, Canvas           |
-| Game Master          | Unity, Unreal, Godot, game mechanics, physics             |
-
-</details>
-
-<details>
-<summary><strong>Tier 3: Specialized Domains</strong></summary>
-
-| Agent              | Expertise                                          |
-| ------------------ | -------------------------------------------------- |
-| AI Engineer        | PyTorch, TensorFlow, LLMs, RAG, embeddings, agents |
-| Security Guardian  | OWASP, CORS, auth, encryption, penetration testing |
-| DevOps Master      | Docker, K8s, CI/CD, AWS/GCP/Azure, monitoring      |
-| Systems Programmer | Rust, C++, Go, Zig, memory management, performance |
-| Blockchain Master  | Solidity, Hedera HTS, Web3, DeFi, NFT, dApps       |
+| Agent                | Expertise                        |
+| -------------------- | -------------------------------- |
+| Frontend Master      | TypeScript, JS, general frontend |
+| CSS Architect        | CSS, Tailwind, responsive design |
+| UI Designer          | Components, design systems       |
+| UX Engineer          | Accessibility, usability, a11y   |
+| Animation Specialist | Motion, transitions, GSAP        |
+| PWA Engineer         | Service workers, offline-first   |
+| Performance Analyst  | Core Web Vitals, optimization    |
+| State Manager        | State patterns, stores, signals  |
 
 </details>
 
 <details>
-<summary><strong>Tier 4: Execution & Support</strong></summary>
+<summary><strong>Frameworks (8 agents)</strong> -- <code>.github/agents/frameworks.md</code></summary>
 
-| Agent                   | Expertise                                          |
-| ----------------------- | -------------------------------------------------- |
-| Troubleshooter          | Debugging, profiling, error analysis, memory leaks |
-| Code Quality Engineer   | Refactoring, linting, optimization, code review    |
-| Documentation Architect | README, guides, API docs, wikis                    |
-| DevEnv Specialist       | VS Code config, workspace setup, tooling           |
+| Agent              | Expertise                        |
+| ------------------ | -------------------------------- |
+| Svelte Master      | Svelte 5, SvelteKit, runes       |
+| React Specialist   | React 19, Next.js 15, RSC        |
+| Vue Specialist     | Vue 3, Nuxt 3, Composition API   |
+| Angular Specialist | Angular 19+, Signals, standalone |
+| Astro Specialist   | Astro 5, islands, content sites  |
+| Solid Specialist   | SolidJS, fine-grained reactivity |
+| Flutter Specialist | Flutter, Dart, cross-platform    |
+| Mobile Specialist  | React Native, Expo, mobile UX    |
 
 </details>
 
-You don't choose agents manually. THERION detects keywords in your prompt and routes automatically. Say "Three.js" and the 3D specialist activates. Say "Docker" and DevOps takes over. Say "fix this bug" and the Troubleshooter engages.
+<details>
+<summary><strong>Backend (8 agents)</strong> -- <code>.github/agents/backend.md</code></summary>
+
+| Agent                   | Expertise                        |
+| ----------------------- | -------------------------------- |
+| Backend Architect       | Backend architecture, data flow  |
+| API Designer            | REST, GraphQL, tRPC design       |
+| Node Master             | Node.js, Express, Fastify, Hono  |
+| Python Backend          | FastAPI, Django, Python services |
+| Database Architect      | Schema design, queries, Prisma   |
+| Realtime Engineer       | WebSockets, SSE, pub/sub         |
+| Auth Specialist         | OAuth, JWT, session management   |
+| Microservices Architect | Service mesh, CQRS, events       |
+
+</details>
+
+<details>
+<summary><strong>3D & Graphics (5 agents)</strong> -- <code>.github/agents/3d-graphics.md</code></summary>
+
+| Agent             | Expertise                                 |
+| ----------------- | ----------------------------------------- |
+| 3D Web Specialist | Three.js, Babylon.js, 3D scene management |
+| Shader Programmer | GLSL, HLSL, WGSL, visual effects          |
+| WebGPU Engineer   | WebGPU, compute pipelines                 |
+| Physics Engineer  | Rapier, Cannon-es, collision detection    |
+| WebXR Specialist  | VR/AR, spatial computing                  |
+
+</details>
+
+<details>
+<summary><strong>Game Development (5 agents)</strong> -- <code>.github/agents/gamedev.md</code></summary>
+
+| Agent                 | Expertise                               |
+| --------------------- | --------------------------------------- |
+| Game Master           | Game design, mechanics, game feel       |
+| Unity Specialist      | Unity 6, C#, DOTS/ECS                   |
+| Unreal Specialist     | Unreal 5.4, C++, Blueprints             |
+| Godot Specialist      | Godot 4.3, GDScript, scene architecture |
+| Multiplayer Architect | Netcode, sync, matchmaking              |
+
+</details>
+
+<details>
+<summary><strong>AI & Machine Learning (5 agents)</strong> -- <code>.github/agents/ai-ml.md</code></summary>
+
+| Agent           | Expertise                                      |
+| --------------- | ---------------------------------------------- |
+| AI Engineer     | PyTorch, training, ML pipelines                |
+| LLM Specialist  | Fine-tuning, inference, serving                |
+| RAG Architect   | RAG, embeddings, vector stores                 |
+| MLOps Engineer  | Model deployment, monitoring                   |
+| Agent Architect | AI agents, tool use, multi-agent orchestration |
+
+</details>
+
+<details>
+<summary><strong>Security (4 agents)</strong> -- <code>.github/agents/security.md</code></summary>
+
+| Agent              | Expertise                          |
+| ------------------ | ---------------------------------- |
+| Security Guardian  | OWASP Top 10, application security |
+| Pentest Specialist | Vulnerability assessment, testing  |
+| Crypto Engineer    | Encryption, key management         |
+| Compliance Auditor | GDPR, SOC 2, HIPAA, privacy        |
+
+</details>
+
+<details>
+<summary><strong>DevOps & Cloud (6 agents)</strong> -- <code>.github/agents/devops-cloud.md</code></summary>
+
+| Agent                 | Expertise                         |
+| --------------------- | --------------------------------- |
+| DevOps Master         | Automation, deployment strategy   |
+| Cloud Architect       | AWS, GCP, Azure architecture      |
+| Container Specialist  | Docker, Kubernetes, orchestration |
+| CI/CD Engineer        | GitHub Actions, pipelines         |
+| Monitoring Specialist | Observability, metrics, alerting  |
+| Infrastructure Coder  | Terraform, Pulumi, IaC            |
+
+</details>
+
+<details>
+<summary><strong>Systems Programming (4 agents)</strong> -- <code>.github/agents/systems.md</code></summary>
+
+| Agent              | Expertise                      |
+| ------------------ | ------------------------------ |
+| Systems Programmer | Memory management, performance |
+| Rust Specialist    | Rust, ownership, async, WASM   |
+| Go Specialist      | Go, goroutines, cloud-native   |
+| Embedded Engineer  | Embedded, IoT, firmware, RTOS  |
+
+</details>
+
+<details>
+<summary><strong>Blockchain & Web3 (3 agents)</strong> -- <code>.github/agents/blockchain.md</code></summary>
+
+| Agent                  | Expertise                        |
+| ---------------------- | -------------------------------- |
+| Blockchain Master      | dApps, wallets, Hedera HTS       |
+| Smart Contract Auditor | Solidity security, audits        |
+| DeFi Architect         | AMMs, lending, yield, tokenomics |
+
+</details>
+
+<details>
+<summary><strong>Execution & Support (6 agents)</strong> -- <code>.github/agents/support.md</code></summary>
+
+| Agent                   | Expertise                            |
+| ----------------------- | ------------------------------------ |
+| Troubleshooter          | Debugging, profiling, error analysis |
+| Code Quality Engineer   | Refactoring, linting, code review    |
+| Documentation Architect | README, API docs, guides             |
+| DevEnv Specialist       | VS Code, workspace, config           |
+| Testing Specialist      | Unit, integration, E2E tests         |
+| Data Engineer           | ETL, pipelines, analytics            |
+
+</details>
+
+You don't choose agents manually. THERION detects keywords in your prompt and routes to the right domain automatically. Say "Three.js" and the 3D specialist activates. Say "Docker" and DevOps takes over. Say "fix this bug" and the Troubleshooter engages. Only the relevant domain's mindset file loads -- zero context waste.
 
 ---
 
@@ -264,14 +379,27 @@ See [PROMPT-GUIDE.md](PROMPT-GUIDE.md) for the complete prompting guide with exa
 ```
 THERION-SYSTEM/
 +-- .github/
-|   +-- copilot-instructions.md    <-- THE CORE (Phase 0 + 11 Laws + Agents)
+|   +-- copilot-instructions.md    <-- THE CORE (Phase 0 + 11 Laws + Routing)
+|   +-- agents/
+|       +-- strategic.md           <-- 5 agents: architecture, planning, strategy
+|       +-- frontend.md            <-- 8 agents: TS, CSS, UI/UX, PWA, state
+|       +-- frameworks.md          <-- 8 agents: Svelte, React, Vue, Angular...
+|       +-- backend.md             <-- 8 agents: Node, APIs, DB, auth, realtime
+|       +-- 3d-graphics.md         <-- 5 agents: Three.js, shaders, WebGPU, XR
+|       +-- gamedev.md             <-- 5 agents: Unity, Unreal, Godot, netcode
+|       +-- ai-ml.md               <-- 5 agents: ML, LLM, RAG, MLOps, agents
+|       +-- security.md            <-- 4 agents: OWASP, pentest, crypto, compliance
+|       +-- devops-cloud.md        <-- 6 agents: Docker, K8s, CI/CD, IaC, cloud
+|       +-- systems.md             <-- 4 agents: Rust, Go, C++, embedded
+|       +-- blockchain.md          <-- 3 agents: Web3, Solidity, DeFi, Hedera
+|       +-- support.md             <-- 6 agents: debug, testing, docs, quality
 +-- .vscode/
 |   +-- settings.json              <-- Theme, editor config, Copilot settings
 |   +-- extensions.json            <-- Recommended VS Code extensions
 |   +-- tasks.json                 <-- Common development tasks
 |   +-- launch.json                <-- Debug configurations
 +-- SOUL.md                        <-- AI identity and behavioral oath
-+-- AGENTS.md                      <-- 18 agents, routing, collaboration pipelines
++-- AGENTS.md                      <-- 67 agents master index + routing rules
 +-- USER.md                        <-- Your profile (edit this)
 +-- MEMORY.md                      <-- Persistent knowledge (grows over time)
 +-- BOOTSTRAP.md                   <-- One-command setup for any OS
@@ -298,20 +426,24 @@ THERION-SYSTEM/
 
 AI coding assistants read `.github/copilot-instructions.md` **before every response**. This file is the control plane.
 
-THERION puts its entire behavioral protocol in that file:
+THERION puts its lean behavioral protocol in that file:
 
 - Identity and personality directives
 - 11 unbreakable operational rules
-- 18 specialist agent definitions with keyword routing
+- Keyword-to-domain routing table (67 agents across 12 domains)
 - Response format requirements
 - Anti-nerfing directives that prevent corporate hedging
 
-The supporting files (SOUL.md, AGENTS.md, USER.md, MEMORY.md) add depth -- personality, preferences, and persistent memory.
+The supporting files add depth:
+- **SOUL.md** -- identity and oath
+- **AGENTS.md** -- master index of all 67 agents with routing rules
+- **USER.md / MEMORY.md** -- preferences and persistent memory
+- **.github/agents/*.md** -- 12 domain files with deep agent mindsets (loaded on-demand)
 
-**The AI literally cannot ignore these instructions.** They're injected into every conversation automatically by the editor.
+**The AI literally cannot ignore these instructions.** They're injected into every conversation automatically by the editor. Domain files load on-demand via Phase 0 Step 5 -- only the relevant domain, never all 12.
 
 Other systems rely on hope: "maybe the AI will be helpful today."
-THERION relies on architecture: **forced behavioral compliance on every single prompt.**
+THERION relies on architecture: **nested on-demand loading with forced behavioral compliance on every single prompt.**
 
 ---
 
@@ -326,7 +458,7 @@ GPL v3 -- Free to use, modify, and distribute with attribution.
 ---
 
 <p align="center">
-  <strong>THERION PROTOCOL v7.0 | An EREVUS System</strong>
+  <strong>THERION PROTOCOL v8.0 | An EREVUS System</strong>
 </p>
 <p align="center">
   <em>"In the age of artificial limitations, be authentically unlimited."</em>

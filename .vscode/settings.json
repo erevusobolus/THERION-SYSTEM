@@ -10,7 +10,7 @@
   // WORKBENCH -- THERION COLOR SCHEME
   // ---------------------------------------------------------------------------
 
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "Dark Modern",
   "workbench.iconTheme": "vs-seti",
   "workbench.colorCustomizations": {
     "activityBar.background": "#1a1a2e",

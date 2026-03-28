@@ -183,6 +183,83 @@ ARCHITECTURAL:
   "DESIGN the database schema for a multi-tenant SaaS app
    with orgs, users, roles, and billing. Then IMPLEMENT with Prisma."
 
+═══════════════════════════════════════════════════════════════════════════════
+                     DOMAIN-SPECIFIC PROMPTING
+═══════════════════════════════════════════════════════════════════════════════
+
+THERION v8.0 has 67 agents across 12 domains. Use domain keywords
+to activate the right specialist. The more specific your language,
+the deeper the expertise you unlock.
+
+FRONTEND:
+  "RESTYLE the nav with Tailwind -- sticky, glass morphism, responsive"
+  "OPTIMIZE the LCP score -- lazy load images, preload critical CSS"
+  "BUILD an accessible dropdown menu component with keyboard navigation"
+  "ADD skeleton loading states to the user profile cards"
+
+FRAMEWORKS:
+  "CONVERT this React component to SvelteKit with runes"
+  "BUILD an Astro blog with MDX content collections and RSS feed"
+  "SCAFFOLD a Vue 3 composable for infinite scroll with IntersectionObserver"
+  "CREATE a Flutter widget for a swipeable card stack with animations"
+
+BACKEND:
+  "DESIGN a REST API for order management with Express and Prisma"
+  "ADD WebSocket support for real-time notifications -- use ws library"
+  "BUILD a tRPC router with input validation for the user CRUD"
+  "SET UP Redis caching for the product catalog endpoint"
+
+3D & GRAPHICS:
+  "BUILD a Three.js scene with PBR materials and environment mapping"
+  "WRITE a GLSL fragment shader for an iridescent bubble effect"
+  "ADD Rapier3D physics to the falling objects in the scene"
+  "PORT this WebGL renderer to WebGPU with compute shader post-processing"
+
+GAME DEV:
+  "BUILD a character controller in Godot with coyote time and wall jump"
+  "ADD client-side prediction to the Unity multiplayer movement system"
+  "CREATE a state machine for enemy AI in Unreal -- patrol, chase, attack"
+  "IMPLEMENT an inventory system with drag-and-drop in Unity UI Toolkit"
+
+AI & ML:
+  "BUILD a RAG pipeline with LangChain, Chroma, and embedding chunking"
+  "FINE-TUNE a LoRA adapter for code generation on custom dataset"
+  "DEPLOY the model with vLLM behind a FastAPI endpoint"
+  "CREATE a multi-agent workflow with tool use and conversation memory"
+
+SECURITY:
+  "AUDIT this Express app for OWASP Top 10 vulnerabilities"
+  "ADD CSRF protection and rate limiting to the auth endpoints"
+  "IMPLEMENT AES-256-GCM encryption for the user PII columns"
+  "REVIEW the JWT implementation for common attack vectors"
+
+DEVOPS:
+  "WRITE a Dockerfile for the Node.js app -- multi-stage, non-root user"
+  "BUILD a GitHub Actions CI pipeline with test, lint, build, deploy"
+  "SET UP Prometheus metrics collection and Grafana dashboards"
+  "CREATE Terraform modules for the AWS ECS Fargate deployment"
+
+SYSTEMS:
+  "OPTIMIZE this Rust async function -- reduce allocations, use zero-copy"
+  "BUILD a Go microservice with graceful shutdown and health checks"
+  "PORT this Python script to Rust with proper error handling"
+  "WRITE a WASM module for the image processing pipeline"
+
+BLOCKCHAIN:
+  "BUILD a Hedera Token Service integration for NFT minting"
+  "AUDIT this Solidity contract for reentrancy and overflow vulnerabilities"
+  "CREATE a DEX swap interface with Ethers.js and Wagmi"
+  "DEPLOY the smart contract to testnet with Hardhat scripts"
+
+DEBUG:
+  "FIX: TypeError at line 42 in UserList.tsx when API returns empty array"
+  "PROFILE the dashboard page -- identify the top 3 performance bottlenecks"
+  "DEBUG the WebSocket disconnection that happens every 30 seconds"
+  "TRACE the memory leak in the real-time chart component"
+
+The domain keywords in your prompt determine which agent mindset loads.
+Use the right terminology and THERION activates the right specialist.
+
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                    PROMPT LIKE AN OPERATOR -- DEUS VULT                       ║
+║         PROMPT LIKE AN OPERATOR | 67 AGENTS AWAIT | DEUS VULT                ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
