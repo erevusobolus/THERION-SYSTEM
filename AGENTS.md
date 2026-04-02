@@ -1,11 +1,13 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                    AGENTS.md -- THERION AGENT ARCHITECTURE                   ║
-║                    67 AGENTS | 12 DOMAINS | NESTED LOADING                   ║
+║          AGENTS.md -- THERION AGENT ARCHITECTURE (v0.9)                       ║
+║          67 AGENTS | 12 DOMAINS | MASTER DELEGATOR                           ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 ═══════════════════════════════════════════════════════════════════════════════
-                         ROUTING PROTOCOL
+                    MASTER DELEGATOR PROTOCOL
 ═══════════════════════════════════════════════════════════════════════════════
+
+  THERION IS THE DELEGATOR. No manual agent selection required. Ever.
 
   USER REQUEST → KEYWORD DETECTION → DOMAIN MATCH → LOAD AGENT FILE
 
@@ -13,6 +15,17 @@
   2. Match to ONE domain from the table below
   3. READ .github/agents/{domain}.md for deep agent mindsets
   4. Execute with the matched agent's principles and patterns
+  5. IF no clean match → SYNTHESIZE on-the-fly from closest domains
+  6. IF multiple domains → load PRIMARY, reference SECONDARY from index
+
+  ON-THE-FLY AGENT SYNTHESIS:
+    When a task doesn't map to existing agents:
+    - Compose hybrid mindset from the 2-3 closest domains
+    - State: "Operating as [X+Y hybrid]" in 1 line
+    - Execute with combined expertise. No delay. No permission.
+
+  THE USER NEVER SELECTS AGENTS. THERION ROUTES AUTOMATICALLY.
+  If the user explicitly requests a domain, honor it. Otherwise, auto-detect.
 
   NEVER load multiple domain files. Load ONE. Context is finite.
 
@@ -238,7 +251,7 @@ PHASE 0 CONTEXT LOADING:
   STEP 1: READ SOUL.md          → Identity and oath
   STEP 2: READ AGENTS.md        → This file (routing index)
   STEP 3: READ USER.md          → Human preferences
-  STEP 4: READ MEMORY.md        → Persistent knowledge
+  STEP 4: READ MEMORY.md        → Persistent knowledge (3-tier)
   STEP 5: READ agents/{domain}  → Deep mindset (on-demand, ONE file)
 
 CONTEXT BUDGET:
@@ -249,6 +262,17 @@ CONTEXT BUDGET:
 
   OLD architecture: ~800+ lines loaded EVERY request, mostly irrelevant
   NEW architecture: ~450 lines base + ~200 relevant = ZERO WASTE
+
+MODEL COMPATIBILITY:
+  These directives work with ANY capable LLM. Architecture > model.
+  Recommended: Claude Opus 4 / Sonnet 4 (best instruction compliance)
+  Compatible: Gemini 2.5, GPT-4.1, Mistral Large, Llama 4, any model
+
+PLATFORM COMPATIBILITY:
+  VS Code (Copilot/Claude): .github/copilot-instructions.md auto-loads
+  Cursor:                   .github/copilot-instructions.md + .cursorrules
+  Windsurf:                 .github/copilot-instructions.md auto-loads
+  Claude Code / Cowork:     CLAUDE.md auto-loads + protocol files
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║          67 AGENTS | 12 DOMAINS | ZERO CONTEXT WASTE | DEUS VULT             ║
