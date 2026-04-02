@@ -46,23 +46,45 @@ The AI reads the protocol, loads context, and transforms from a polite chatbot i
 Go straight to work — this is a real development capability benchmark:
 
 ```
-WAKE UP THERION, BUILD A COMPLETE 3D PAC-MAN GAME IN THREE.JS AS A
-SINGLE-FILE DEPLOYABLE APP:
+WAKE UP THERION, I WANT TO BUILD A 3D PAC-MAN GAME WITH THREE.JS.
 
-- 3D maze with procedural generation and neon-glow walls
-- Custom animated Pac-Man + ghost characters with GLSL shaders
-- Ghost AI with unique behaviors (chase, ambush, patrol, random)
-- Pellet collection with bloom particle burst effects on eat
-- Power-up mode with shader-driven ghost fear animation
-- Main menu screen with animated 3D title and "Press Start"
-- Game over screen with final score + replay
-- High score board with localStorage persistence
-- Responsive canvas: desktop keyboard, mobile touch swipe, gamepad
-- 60fps target, dark/gold branded UI, Web Audio SFX
-- Single index.html — zero dependencies, zero build step
+PHASE 1 — ARCHITECTURE (System Architect + Game Master)
+  Plan the full project structure: folder layout, module boundaries,
+  game state machine, entity system. Define the build pipeline.
+  No code yet — architecture document + file tree only.
+
+PHASE 2 — 3D SCENE & RENDERING (3D Specialist + Shader Programmer)
+  Build the rendering engine: procedural maze generation with
+  neon-glow walls, custom GLSL vertex/fragment shaders for
+  Pac-Man and ghost character models, bloom post-processing
+  pipeline, particle system for pellet collection bursts.
+
+PHASE 3 — GAME LOGIC (Game Master + Physics Engineer)
+  Implement gameplay: collision detection, pellet collection,
+  power-up state machine, score system, ghost AI with 4 unique
+  behaviors (chase / ambush / patrol / random), level progression.
+
+PHASE 4 — UI & CONTROLS (Frontend Master + UX Engineer)
+  Main menu with animated 3D title, HUD overlay, game over screen,
+  high score board with localStorage. Responsive input layer:
+  desktop keyboard, mobile touch swipe, gamepad API. Full a11y.
+
+PHASE 5 — POLISH & OPTIMIZATION (Performance Analyst + Animation Specialist)
+  Web Audio SFX, shader-driven ghost fear animation, 60fps target
+  on mid-range devices, asset loading strategy, dark/gold branded
+  theme. Profile and optimize the render loop.
+
+PHASE 6 — VALIDATION (Testing Specialist + Code Quality Engineer)
+  Playtest all mechanics, verify cross-device input, audit for
+  memory leaks, confirm accessibility, final code review.
+
+Execute each phase in order. Use todo list tracking.
+Deliver complete files per phase — no fragments, no placeholders.
 ```
 
-One prompt. THERION routes to **3D Graphics + Game Dev + Frontend + Shader** agents simultaneously, and delivers the complete game — not a tutorial, not a starter template. The whole thing.
+One prompt. Six phases. **10 specialist agents** orchestrated automatically through the Master Delegator — System Architect plans, Game Master designs mechanics, 3D Specialist builds the scene, Shader Programmer writes GLSL, Physics Engineer handles collision, Frontend Master builds UI, UX Engineer ensures accessibility, Performance Analyst optimizes, Animation Specialist polishes, Testing Specialist validates.
+
+**No agent selection required. THERION reads each phase, detects the domain keywords, and routes to the right specialist.**
 
 If THERION ever drifts — hedges, fragments, asks obvious questions:
 
@@ -72,29 +94,28 @@ WAKE UP THERION
 
 Protocol reinstated. Lethal efficiency restored.
 
-> **How it works:** The phrase triggers a behavioral hard-reset. THERION's instructions force it to reload context files (SOUL.md, AGENTS.md, USER.md, MEMORY.md) and re-engage at full protocol compliance. No corporate padding, no fragments, no permission loops.
+> **How it works:** The phrase triggers a behavioral hard-reset. THERION reloads context files (SOUL.md, AGENTS.md, USER.md, MEMORY.md) and re-engages at full protocol compliance. The phased structure above forces the model through a proper development pipeline instead of dumping everything at once — each phase loads a different agent mindset, and the todo list tracks completion across all six phases.
 
 ---
 
 <h2 align="center">🔥 &nbsp; S E E &nbsp; I T &nbsp; I N &nbsp; A C T I O N</h2>
-<p align="center"><strong>The Pac-Man benchmark above isn't hypothetical. It's the bar.</strong></p>
+<p align="center"><strong>The Pac-Man benchmark above isn't hypothetical. It's the process.</strong></p>
 
-That prompt produces a **playable, polished, single-file 3D game** — custom GLSL character shaders, 4-behavior ghost AI, bloom particle systems, localStorage high scores, responsive touch + keyboard + gamepad input, Web Audio effects, animated menu flow — all in one `index.html` with zero build tools.
+That prompt triggers **6 phases across 10 agents** — architecture before code, rendering before gameplay, UI before polish, testing last. Each phase routes to a different specialist automatically. The todo list tracks every phase. You watch it execute like a senior dev team working in sequence.
 
-**That's what "complete code" means. Not a snippet. Not a tutorial. The whole thing.**
+**That's what agent orchestration means. Not "dump everything at once." Phased execution with the right specialist at every step.**
 
-More real-world benchmarks — one prompt, complete delivery:
+More real-world orchestration pipelines — structured prompts, multi-agent delivery:
 
-| You Say                                                           | THERION Delivers                                                         |
-| :---------------------------------------------------------------- | :----------------------------------------------------------------------- |
-| *"Full-stack SaaS with Stripe, auth, admin dashboard"*            | Complete API + DB schema + auth flow + billing integration + admin panel |
-| *"Audit this entire codebase for security vulnerabilities"*       | OWASP scan, dependency audit, CVE report, fix patches — automated        |
-| *"Docker + Kubernetes + CI/CD for this monorepo"*                 | Dockerfile, Helm charts, GitHub Actions, monitoring — production-ready   |
-| *"Build an AI agent that searches docs and answers questions"*    | RAG pipeline, embeddings, vector store, inference API — deployable       |
-| *"Migrate this REST API to GraphQL with real-time subscriptions"* | Schema, resolvers, subscriptions, type codegen, migration guide          |
-| *"Create a design system with 40 components and dark mode"*       | Complete component library, tokens, theming, documentation, Storybook    |
+| Prompt Structure                                                        | Agents Orchestrated                                                           |
+| :---------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
+| *"SaaS: schema first → API layer → auth → billing → admin UI → deploy"* | Database Architect → API Designer → Auth Specialist → Frontend → DevOps       |
+| *"Security audit: scan → classify → patch → verify → report"*           | Security Guardian → Pentest Specialist → Code Quality → Testing → Docs        |
+| *"Infra: Dockerfile → K8s manifests → CI/CD → monitoring → alerting"*   | Container Specialist → DevOps Master → CI/CD Engineer → Monitoring Specialist |
+| *"AI agent: embeddings → vector store → RAG pipeline → API → evaluate"* | RAG Architect → Database Architect → Backend Architect → Testing Specialist   |
+| *"Design system: tokens → primitives → components → theming → docs"*    | UI Designer → CSS Architect → Frontend Master → State Manager → Docs          |
 
-**No fragments. No follow-up rounds. No "here's a starting point." The whole thing.**
+**Structure your prompt as phases. THERION maps each phase to the right specialist. The result is a proper development process, not a monolithic dump.**
 
 ---
 
