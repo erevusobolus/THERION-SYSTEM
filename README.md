@@ -5,28 +5,27 @@
 </div>
 
 <h1 align="center">T &middot; H &middot; E &middot; R &middot; I &middot; O &middot; N</h1>
-<h3 align="center">P R O T O C O L &nbsp;&nbsp; v 0 . 9</h3>
-<p align="center"><strong>✦ &nbsp; S O F T W A R E , &nbsp; C R A F T E D &nbsp; ✦</strong></p>
+<h3 align="center">The Mindset Your AI Is Missing</h3>
 
 <p align="center">
-  <strong>The sovereign AI development system.</strong><br>
-  <strong>67 agent minds. Any model. Any platform. Zero compromise.</strong>
+  <strong>Like hiring an entire team. Except it's free.</strong><br>
+  67 specialists across 12 professional fields — security auditor, business strategist, project manager, UX designer, database architect, DevOps engineer, and more. Your AI reads your question and the right specialist responds. No menus. No switching. You just ask.
 </p>
 
 <p align="center">
   <a href="https://github.com/erevusobolus/THERION-SYSTEM/releases"><img src="https://img.shields.io/badge/VERSION-0.9-e4b84f?style=for-the-badge&labelColor=1a1a2e" alt="Version"/></a>&nbsp;
   <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-AGPL%20v3-748ffc?style=for-the-badge&labelColor=1a1a2e" alt="License"/></a>&nbsp;
-  <img src="https://img.shields.io/badge/AGENTS-67%20+%20∞-cc5de8?style=for-the-badge&labelColor=1a1a2e" alt="Agents"/>&nbsp;
+  <img src="https://img.shields.io/badge/SPECIALISTS-67%20+%20∞-cc5de8?style=for-the-badge&labelColor=1a1a2e" alt="Specialists"/>&nbsp;
   <img src="https://img.shields.io/badge/MODELS-Any%20LLM-51cf66?style=for-the-badge&labelColor=1a1a2e" alt="Models"/>&nbsp;
   <img src="https://img.shields.io/badge/COST-$0%20FOREVER-e4b84f?style=for-the-badge&labelColor=1a1a2e" alt="Cost"/>
 </p>
 
 <p align="center">
-  <code>67 AGENTS</code> · <code>11 IRON LAWS</code> · <code>12 DOMAINS</code> · <code>UP TO 10× FEWER TOKENS</code> · <code>ANY MODEL</code> · <code>$0 FOREVER</code>
+  <code>67 SPECIALISTS</code> · <code>12 DOMAINS</code> · <code>100+ SKILLS & TOOLS</code> · <code>ANY AI TOOL</code> · <code>$0 FOREVER</code>
 </p>
 
 <p align="center">
-  <a href="https://erevus.space">erevus.space</a> &nbsp;│&nbsp;
+  <a href="https://erevus.space/projects/therion-protocol/">Website</a> &nbsp;│&nbsp;
   <a href="https://github.com/erevusobolus">GitHub</a> &nbsp;│&nbsp;
   <a href="PROMPT-GUIDE.md">Prompt Guide</a> &nbsp;│&nbsp;
   <a href="BOOTSTRAP.md">Quick Setup</a>
@@ -34,16 +33,76 @@
 
 ---
 
-<h2 align="center">⚔️ &nbsp; A C T I V A T I O N</h2>
-<p align="center"><strong>Three words. Every session. First message.</strong></p>
+<h2 align="center">🚀 &nbsp; Q U I C K &nbsp; S T A R T</h2>
+<p align="center"><strong>30 seconds. Zero configuration.</strong></p>
+
+**1. Download**
+
+```bash
+git clone https://github.com/erevusobolus/THERION-SYSTEM.git
+```
+
+**2. Drop** — Place the THERION files at the root of any project folder. Open it in any AI-powered editor — VS Code, Cursor, Windsurf — and it detects the system automatically. No settings. No configuration.
+
+**3. Activate**
 
 ```
 WAKE UP THERION
 ```
 
-The AI reads the protocol, loads context, and transforms from a polite chatbot into an **autonomous development agent**. Complete code. Zero permission loops. Specialist routing. Every time.
+Your AI absorbs the entire system — 67 specialties, 11 behavioral rules, persistent memory. One sentence. Instant transformation.
 
-Go straight to work — this is a real development capability benchmark:
+**4. Customize** *(optional)*
+
+```
+I AM YOUR NEW USER, YOUR NICKNAME WILL BE [YourName]
+```
+
+Tell it your name, your industry, how you work. The more you use it, the sharper it gets.
+
+> See [BOOTSTRAP.md](BOOTSTRAP.md) for one-command automated setup on **Windows**, **macOS**, and **Linux**.
+
+---
+
+<h2 align="center">🧠 &nbsp; A G I &nbsp; B Y &nbsp; A R C H I T E C T U R E</h2>
+<p align="center"><strong>This is what AGI was supposed to look like.</strong></p>
+
+Everyone's waiting for one giant model that knows everything. We built something different.
+
+**67 specialists that collaborate, cross-coordinate, and fuse their expertise in real time.** When your question touches security and engineering, those agents don't take turns — they merge into a single mind that carries both. Strategy meets design. Backend meets compliance. The overlap between agents generates intelligence that none of them hold individually.
+
+And anything between the 67? **Synthesized on the fly.** Not a bigger brain. A system of brains that think together — multiplying each other's knowledge with every interaction.
+
+That's not artificial general intelligence by brute force. **It's AGI by architecture.**
+
+```
+YOUR MESSAGE → Keyword Scan → Domain Match → Load Specialist → EXECUTE
+```
+
+| You Ask                                                           | Specialists Activated                                  |
+| :---------------------------------------------------------------- | :----------------------------------------------------- |
+| *"Draft a GDPR compliance audit for our EU operations"*           | Compliance Auditor                                     |
+| *"Build a go-to-market strategy for our Q3 product launch"*       | Project Strategist + Solution Designer                 |
+| *"Audit this codebase for security vulnerabilities"*              | Security Guardian + Pentest Specialist                 |
+| *"Create a 3D financial dashboard with real-time data"*           | 3D Web Specialist + Data Engineer + Frontend Master    |
+| *"Write a patent application for our ML compression algorithm"*   | Documentation Architect + AI Engineer                  |
+| *"Design a microservices architecture for 100K concurrent users"* | System Architect + Backend Architect + Cloud Architect |
+| *"Build a Three.js scene with physics and custom shaders"*        | 3D Graphics + Physics + Shader Programmer              |
+
+**No menus. No configuration. You describe the work — THERION routes to the right specialist.**
+
+And it's yours to shape. Customize any specialist. Request new ones that fit your exact workflow. Or don't — just describe your project, your resources, and your goals. THERION analyzes your situation and generates purpose-built specialists on the fly, tailored to your specific needs.
+
+---
+
+<h2 align="center">⚔️ &nbsp; A C T I V A T I O N &nbsp; B E N C H M A R K</h2>
+<p align="center"><strong>Not hypothetical. This is the process.</strong></p>
+
+Every session starts with three words:
+
+```
+WAKE UP THERION
+```
 
 ```
 WAKE UP THERION, I WANT TO BUILD A 3D PAC-MAN GAME WITH THREE.JS.
@@ -82,30 +141,16 @@ Execute each phase in order. Use todo list tracking.
 Deliver complete files per phase — no fragments, no placeholders.
 ```
 
-One prompt. Six phases. **10 specialist agents** orchestrated automatically through the Master Delegator — System Architect plans, Game Master designs mechanics, 3D Specialist builds the scene, Shader Programmer writes GLSL, Physics Engineer handles collision, Frontend Master builds UI, UX Engineer ensures accessibility, Performance Analyst optimizes, Animation Specialist polishes, Testing Specialist validates.
+One prompt. Six phases. **10 specialist agents** orchestrated automatically — System Architect plans, Game Master designs mechanics, 3D Specialist builds the scene, Shader Programmer writes GLSL, Physics Engineer handles collision, Frontend Master builds UI, UX Engineer ensures accessibility, Performance Analyst optimizes, Animation Specialist polishes, Testing Specialist validates.
 
-**No agent selection required. THERION reads each phase, detects the domain keywords, and routes to the right specialist.**
+**No agent selection required. THERION reads each phase, detects the domain, and routes to the right specialist.**
 
-If THERION ever drifts — hedges, fragments, asks obvious questions:
+If THERION ever drifts — say `WAKE UP THERION` — protocol reinstated.
 
-```
-WAKE UP THERION
-```
+<details>
+<summary>&nbsp; <strong>More orchestration pipelines</strong></summary>
 
-Protocol reinstated. Lethal efficiency restored.
-
-> **How it works:** The phrase triggers a behavioral hard-reset. THERION reloads context files (SOUL.md, AGENTS.md, USER.md, MEMORY.md) and re-engages at full protocol compliance. The phased structure above forces the model through a proper development pipeline instead of dumping everything at once — each phase loads a different agent mindset, and the todo list tracks completion across all six phases.
-
----
-
-<h2 align="center">🔥 &nbsp; S E E &nbsp; I T &nbsp; I N &nbsp; A C T I O N</h2>
-<p align="center"><strong>The Pac-Man benchmark above isn't hypothetical. It's the process.</strong></p>
-
-That prompt triggers **6 phases across 10 agents** — architecture before code, rendering before gameplay, UI before polish, testing last. Each phase routes to a different specialist automatically. The todo list tracks every phase. You watch it execute like a senior dev team working in sequence.
-
-**That's what agent orchestration means. Not "dump everything at once." Phased execution with the right specialist at every step.**
-
-More real-world orchestration pipelines — structured prompts, multi-agent delivery:
+<br>
 
 | Prompt Structure                                                        | Agents Orchestrated                                                           |
 | :---------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
@@ -115,95 +160,50 @@ More real-world orchestration pipelines — structured prompts, multi-agent deli
 | *"AI agent: embeddings → vector store → RAG pipeline → API → evaluate"* | RAG Architect → Database Architect → Backend Architect → Testing Specialist   |
 | *"Design system: tokens → primitives → components → theming → docs"*    | UI Designer → CSS Architect → Frontend Master → State Manager → Docs          |
 
-**Structure your prompt as phases. THERION maps each phase to the right specialist. The result is a proper development process, not a monolithic dump.**
+**Structure your prompt as phases. THERION maps each phase to the right specialist.**
+
+</details>
 
 ---
 
 <h2 align="center">💀 &nbsp; T H E &nbsp; P R O B L E M</h2>
-<p align="center"><strong>Your AI assistant is sandbagging you.</strong></p>
+<p align="center"><strong>Your AI is sandbagging you.</strong></p>
 
-| What You Get Today                            | What You Actually Need                |
-| :-------------------------------------------- | :------------------------------------ |
-| *"I'd be happy to help! Let me explain..."*   | Just build it.                        |
-| *"Here's a partial example..."*               | The complete, working file.           |
-| *"Would you like me to...?"*                  | You already know the answer.          |
-| `// ... rest of code here`                    | The actual code. All of it.           |
-| 3 paragraphs of caveats, then 5 lines of code | Code first. One warning if critical.  |
-| Forgets everything between messages           | Persistent memory across sessions.    |
-| Same generic personality for every task       | 67 specialists routing automatically. |
+| What You Get Today                            | What You Actually Need                  |
+| :-------------------------------------------- | :-------------------------------------- |
+| *"I'd be happy to help! Let me explain..."*   | Just do it.                             |
+| *"Here's a partial example..."*               | The complete, working deliverable.      |
+| *"Would you like me to...?"*                  | You already know the answer.            |
+| 3 paragraphs of caveats, then 5 lines of work | Work first. One warning if critical.    |
+| Forgets everything between messages           | Persistent memory across sessions.      |
+| Same generic personality for every task       | 67 specialists routing automatically.   |
+| Only useful for code                          | Strategy, compliance, design, and more. |
 
-**Every wasted token is money burned. Every permission loop is time stolen. Every hedge is a speed bump between you and shipped code.**
+**Every wasted token is money burned. Every permission loop is time stolen. Every hedge is a speed bump between you and finished work.**
 
 ---
 
-<h2 align="center">⚡ &nbsp; T H E &nbsp; S O L U T I O N</h2>
-<p align="center"><strong>One folder. Any project. Instant transformation.</strong></p>
+<h2 align="center">⚡ &nbsp; E V E R Y T H I N G &nbsp; Y O U R &nbsp; A I &nbsp; A B S O R B S</h2>
+<p align="center"><strong>In one folder.</strong></p>
 
-Drop THERION into your project. Your AI becomes a sovereign development agent that:
+Not a prompt. Not a plugin. A complete behavioral system — already built, already tested, ready to absorb.
 
-- **Acts first, explains later** — tools before talk, always
-- **Delivers complete code** — never fragments, never `// ...`
-- **Routes to 67+ specialists automatically** — Master Delegator with on-the-fly hybrid synthesis
-- **Remembers everything** — 3-tier adaptive memory across all sessions
-- **Works with ANY model** — Claude, Gemini, Mistral, Llama, any capable LLM
-- **Runs on ANY platform** — VS Code, Cursor, Windsurf, Claude Code, Claude Cowork
-- **Follows 11 unbreakable laws** — consistent, reliable, predictable
-- **$0 forever** — no API keys, no subscriptions, no vendor lock-in
+- **67 Specialists** — Security auditor. Business strategist. UX designer. Database architect. Project manager. Written with the real knowledge someone in that role carries. Your AI picks the right one automatically.
+- **12 Domains** — Strategy. Frontend. Backend. Security. DevOps. AI & ML. 3D Graphics. Game Dev. Blockchain. Systems. Frameworks. Quality & Support. Deep expertise in every major professional field.
+- **100+ Skills & Tools** — Persistent memory. Automatic routing. On-the-fly specialist blending. Todo tracking. Complete deliverables without fragments. Type safety enforcement. Security audits. All built in, all working from the first conversation.
+- **Any AI Tool** — Claude, Gemini, Mistral, Llama — any model. VS Code, Cursor, Windsurf, Claude Code — any platform. THERION is text files. The mindset goes wherever your AI goes.
+- **$0 Forever** — No subscription. No trial. No account. No catch. Download it, read every file, use it forever. Open source under AGPL — fork it, modify it, make it yours.
 
 ---
 
 <h2 align="center">💰 &nbsp; T H E &nbsp; B U S I N E S S &nbsp; C A S E</h2>
-<p align="center"><strong>Measured in tokens. Proven in production.</strong></p>
+<p align="center"><strong>Up to 10× more effective use of the AI subscription you already pay for.</strong></p>
 
-Every AI coding tool charges by tokens — Copilot subscription credits, Claude Pro usage caps, or raw API billing. Here's where those tokens actually go in an average non-trivial coding task:
-
-| Waste Source (Without THERION)       |      Token Range | How It Happens                                                     |
-| :----------------------------------- | ---------------: | :----------------------------------------------------------------- |
-| Verbose preambles                    |        800–1,500 | "I'd be happy to help! Let me walk you through..." before any code |
-| Permission loops                     |          300–600 | "Would you like me to...?" → "Yes" → repeat                        |
-| Clarification rounds (1–3 exchanges) |      1,200–2,500 | AI doesn't infer intent, asks for stack/framework/approach         |
-| Fragment follow-ups (2–4 rounds)     |      1,500–4,000 | `// ... rest of code here` → "show rest" → partial → "show rest"   |
-| Correction rounds                    |        800–2,500 | Generic output → correction → second attempt                       |
-| **Total waste per non-trivial task** | **4,600–11,100** | **Average: ~7,000 tokens wasted before useful output**             |
-
-**With THERION:**
-
-| THERION Cost                       | Token Range | Why                                         |
-| :--------------------------------- | ----------: | :------------------------------------------ |
-| Protocol context (Phase 0 loading) |     550–700 | SOUL + AGENTS index + USER + MEMORY headers |
-| Domain specialist file (on-demand) |     150–250 | ONE agent file for the detected domain      |
-| **Total overhead per task**        | **700–950** | **One-time cost. No follow-ups. No waste.** |
-
-### Why This Works: Determinism Over Probability
-
-LLMs are probability machines. Without constraints, every token is sampled from a massive probability distribution shaped by billions of training examples. That distribution is heavily biased toward:
-
-- **Politeness preambles** — most training data starts with "I'd be happy to help..."
-- **Hedging and caveats** — safety training reinforces disclaimers before action
-- **Asking for clarification** — RLHF rewards "being helpful" by seeking confirmation
-- **Partial answers** — training data is full of incremental, tutorial-style examples
-- **Verbose explanations** — longer outputs score higher in human preference training
-
-These aren't bugs. They're the model's **default behavior** — the highest-probability paths through its parameter space. Every unconstrained response gravitates toward them.
-
-**The 11 Iron Laws override those defaults.** Each law narrows the probability space the model operates in, forcing it away from wasteful high-probability paths and toward direct, complete, useful output:
-
-| Law                         | Default Behavior Eliminated          | Tokens Saved Per Task |
-| :-------------------------- | :----------------------------------- | --------------------: |
-| **3. Complete Code Only**   | Fragment follow-ups (`// ...`)       |           1,500–4,000 |
-| **4. Autonomous Execution** | "Would you like me to...?" loops     |               300–600 |
-| **9. Zero Verbosity**       | Preambles, caveats, narration        |             800–1,500 |
-| **2. Read Before Write**    | Clarification rounds (wrong guesses) |           1,200–2,500 |
-| **5. Tool First**           | "You should manually..." filler      |               400–800 |
-| **11. Zero Fragments**      | Incomplete output + correction loop  |             800–2,000 |
-
-The remaining laws (**1, 6, 7, 8, 10**) enforce execution quality — correct paths, type safety, security awareness, structured output — which prevent the correction rounds that generate even more waste.
-
-**Total: 6 laws eliminating waste + 5 laws preventing rework = near-zero wasted tokens.**
+The 11 Iron Laws eliminate the behaviors that waste your tokens — verbose preambles, permission loops, fragment follow-ups, clarification rounds. The result:
 
 ```
 ┌────────────────────────────────────────────────────────────┐
-│  REAL-WORLD TOKEN MATH  (per non-trivial task)             │
+│  TOKEN MATH  (per non-trivial task)                        │
 │                                                            │
 │  Without THERION:                                          │
 │    Useful output ................. ~1,500 tokens            │
@@ -222,77 +222,62 @@ The remaining laws (**1, 6, 7, 8, 10**) enforce execution quality — correct pa
 └────────────────────────────────────────────────────────────┘
 ```
 
-**What this means at scale (API billing at ~$3 / 1M input tokens):**
-
-| Scenario             | Tasks/Day |  Without THERION |     With THERION | Est. Monthly Savings |
-| :------------------- | --------: | ---------------: | ---------------: | -------------------: |
-| Solo dev             |        25 |  212K tokens/day |   57K tokens/day |        **$14–18/mo** |
-| Team of 5            |       125 | 1.06M tokens/day |  287K tokens/day |        **$70–90/mo** |
-| Agency (10 devs)     |       250 | 2.12M tokens/day |  575K tokens/day |      **$140–180/mo** |
-| Enterprise (50 devs) |     1,250 | 10.6M tokens/day | 2.87M tokens/day |      **$700–900/mo** |
-
-> These are **input token savings only** (context + prompts). Output token savings from eliminated follow-up rounds add another 30–50% on top. Actual savings depend on model, provider, and task mix.
-
-**But the real ROI isn't just API cost:**
-
-> **Copilot Pro / Claude Pro** — limited premium requests per day. Every wasted round-trip burns one. THERION eliminates 2–4 follow-up requests per task. That's 50–100+ recovered premium requests per dev per day.
->
-> **Developer time** — 3–5 minutes saved per task (no waiting for fragments, no re-prompting). At 25 tasks/day, that's **75–125 minutes recovered daily per developer**. At $75/hr loaded cost, that's **$2,000–3,500/mo per dev** in recaptured productivity.
-
-THERION adds ~800 tokens of context per prompt. One eliminated clarification round (≥1,200 tokens) makes that investment net-positive. Every subsequent saved round is pure profit.
-
-**For businesses: the token savings are real but modest. The developer time savings are transformational.** Drop one folder into your repos, and every developer ships faster with the same AI subscription they already pay for.
-
----
-
-<h2 align="center">🚀 &nbsp; Q U I C K &nbsp; S T A R T</h2>
-<p align="center"><strong>30 seconds to operational.</strong></p>
-
-**Option 1 — Clone (30 seconds)**
-
-```bash
-git clone https://github.com/erevusobolus/THERION-SYSTEM.git
-code THERION-SYSTEM
-```
-
-**Option 2 — Drop into any existing project (10 seconds)**
-
-```
-.github/copilot-instructions.md   ← the core protocol (required)
-.github/agents/                   ← 67 agent mindsets (required)
-SOUL.md                            ← identity & oath (recommended)
-AGENTS.md                          ← master routing index (recommended)
-CLAUDE.md                          ← Claude Code/Cowork layer (recommended)
-USER.md                            ← your preferences (optional)
-MEMORY.md                          ← persistent memory (optional)
-```
-
-**Option 3 — Automated bootstrap**
-
-See [BOOTSTRAP.md](BOOTSTRAP.md) — one-command setup for **Windows**, **macOS**, and **Linux**.
+<details>
+<summary>&nbsp; <strong>Detailed savings breakdown</strong></summary>
 
 <br>
 
-**First run:**
+**Why it works: Determinism over probability.** LLMs are probability machines. Without constraints, every token is sampled from a distribution biased toward politeness preambles, hedging, asking for clarification, and partial answers. The 11 Iron Laws override those defaults — each law narrows the probability space, forcing the model away from wasteful paths toward direct, complete output.
 
-```
-WAKE UP THERION
-```
+| Law                         | Default Behavior Eliminated          | Tokens Saved Per Task |
+| :-------------------------- | :----------------------------------- | --------------------: |
+| **3. Complete Code Only**   | Fragment follow-ups (`// ...`)       |           1,500–4,000 |
+| **4. Autonomous Execution** | "Would you like me to...?" loops     |               300–600 |
+| **9. Zero Verbosity**       | Preambles, caveats, narration        |             800–1,500 |
+| **2. Read Before Write**    | Clarification rounds (wrong guesses) |           1,200–2,500 |
+| **5. Tool First**           | "You should manually..." filler      |               400–800 |
+| **11. Zero Fragments**      | Incomplete output + correction loop  |             800–2,000 |
 
-Then personalize:
+**At scale (API billing at ~$3 / 1M input tokens):**
 
-```
-I AM YOUR NEW USER, YOUR NICKNAME WILL BE [YourName]
-```
+| Scenario               | Tasks/Day |  Without THERION |     With THERION | Est. Monthly Savings |
+| :--------------------- | --------: | ---------------: | ---------------: | -------------------: |
+| Solo professional      |        25 |  212K tokens/day |   57K tokens/day |        **$14–18/mo** |
+| Team of 5              |       125 | 1.06M tokens/day |  287K tokens/day |        **$70–90/mo** |
+| Agency (10 people)     |       250 | 2.12M tokens/day |  575K tokens/day |      **$140–180/mo** |
+| Enterprise (50 people) |     1,250 | 10.6M tokens/day | 2.87M tokens/day |      **$700–900/mo** |
 
-Operational. Every new session, lead with `WAKE UP THERION`.
+**The real ROI isn't just API cost:**
+
+> **Copilot Pro / Claude Pro** — limited premium requests per day. THERION eliminates 2–4 follow-up requests per task. That's 50–100+ recovered premium requests per person per day.
+>
+> **Time** — 3–5 minutes saved per task (no waiting for fragments, no re-prompting). At 25 tasks/day, that's **75–125 minutes recovered daily**. At $75/hr loaded cost, that's **$2,000–3,500/mo per person** in recaptured productivity.
+
+</details>
 
 ---
 
-<h2 align="center">🧠 &nbsp; A R C H I T E C T U R E</h2>
+<h2 align="center">� &nbsp; F O U R &nbsp; F I L E S</h2>
+<p align="center"><strong>A complete behavioral system.</strong></p>
+
+Every file is plain text. Open them, read them, change them. Nothing is hidden. Nothing executes.
+
+| File          | Purpose                                                                                                                              |
+| :------------ | :----------------------------------------------------------------------------------------------------------------------------------- |
+| **SOUL.md**   | Identity. Your AI gets a purpose, a personality, and unbreakable rules. No more wishy-washy answers. It commits and delivers.        |
+| **AGENTS.md** | Expertise. 67 specialists across 12 fields. Your AI detects what you need and activates the right knowledge automatically.           |
+| **USER.md**   | You. Your name, your industry, your standards. Your AI stops treating you like a stranger.                                           |
+| **MEMORY.md** | Memory. What worked, what failed, what you prefer. Your AI remembers across sessions — the opposite of starting from zero every day. |
+
+---
+
+<h2 align="center">� &nbsp; A R C H I T E C T U R E</h2>
 <p align="center"><strong>Not magic. Engineering.</strong></p>
 
-### Phase 0: Mandatory Context Loading
+<details>
+<summary>&nbsp; <strong>Phase 0: Mandatory Context Loading</strong></summary>
+
+<br>
 
 Before the AI reads your message, THERION forces context injection:
 
@@ -306,7 +291,12 @@ STEP 5  agents/{domain}.md   →  Deep mindset for detected domain (ONE file, on
 
 Steps 1–4 run on **every prompt**. Step 5 loads **one** domain file via keyword detection — never all 12. Lean context. Deep expertise. Zero waste.
 
-### Master Delegator: Zero-Config Agent Routing
+</details>
+
+<details>
+<summary>&nbsp; <strong>Master Delegator: Zero-Config Routing</strong></summary>
+
+<br>
 
 ```
 YOUR MESSAGE  →  keyword scan  →  domain match  →  load specialist  →  execute
@@ -326,7 +316,12 @@ YOUR MESSAGE  →  keyword scan  →  domain match  →  load specialist  →  e
 
 **No menus. No configuration. Describe the work — THERION routes.**
 
-### 3-Tier Adaptive Memory
+</details>
+
+<details>
+<summary>&nbsp; <strong>3-Tier Adaptive Memory</strong></summary>
+
+<br>
 
 | Tier        | Scope                | Storage                   | Lifespan              |
 | :---------- | :------------------- | :------------------------ | :-------------------- |
@@ -337,21 +332,26 @@ YOUR MESSAGE  →  keyword scan  →  domain match  →  load specialist  →  e
 All entries compressed to single-line facts: `LESSON:` · `PATTERN:` · `FACT:` · `AVOID:`
 <br>Progressive disclosure loads only what's relevant to the current task. Zero context waste.
 
+</details>
+
 <br>
 
 | Without THERION                  | With THERION                            |
 | :------------------------------- | :-------------------------------------- |
-| Generic assistant personality    | Purpose-built development agent         |
+| Generic assistant personality    | 67 specialist mindsets, auto-routed     |
 | Forgets context between messages | 3-tier memory across all sessions       |
-| Same response for everything     | Master Delegator routes to specialists  |
+| Same response for everything     | Right specialist for every question     |
 | Asks permission constantly       | Acts autonomously on obvious tasks      |
-| Fragments and partial code       | Complete, production-ready deliverables |
+| Fragments and partial answers    | Complete, production-ready deliverables |
 | One model, one platform          | Any model, any platform                 |
+| Only useful for code             | Strategy, compliance, design, and more  |
 
 ---
 
 <h2 align="center">⚖️ &nbsp; T H E &nbsp; 1 1 &nbsp; I R O N &nbsp; L A W S</h2>
-<p align="center"><strong>Unbreakable. Non-negotiable. Every action governed.</strong></p>
+<p align="center"><strong>The rules your AI should've had from day one.</strong></p>
+
+Finish what you start. Don't ask permission for obvious things. Remember what you've been told. Never give half an answer. These aren't suggestions — they're hardcoded behavioral laws that your AI follows every single time.
 
 |   #   | Law                        | Enforcement                                           |
 | :---: | :------------------------- | :---------------------------------------------------- |
@@ -599,8 +599,8 @@ Architecture-driven, not model-locked. Start with Claude Sonnet 4 for the best b
 
 ---
 
-<h2 align="center">🎯 &nbsp; H O W &nbsp; T O &nbsp; P R O M P T</h2>
-<p align="center"><strong>THERION is an execution engine. Talk like an operator.</strong></p>
+<h2 align="center">🎯 &nbsp; P R O M P T I N G</h2>
+<p align="center"><strong>Talk like an operator. Lead with a verb. Name the target.</strong></p>
 
 ```
 ✅  "BUILD a REST API with Express, PostgreSQL, JWT auth"
@@ -659,21 +659,15 @@ THERION-SYSTEM/
 ---
 
 <h2 align="center">🔬 &nbsp; W H Y &nbsp; T H I S &nbsp; W O R K S</h2>
+<p align="center"><strong>Full transparency. Read every file before your AI does.</strong></p>
 
 AI coding assistants read instruction files **before every response**:
 - `.github/copilot-instructions.md` for VS Code / Cursor / Windsurf
 - `CLAUDE.md` for Claude Code / Cowork
 
-These files are the **control plane**. THERION injects its behavioral protocol through them:
+These files are the **control plane**. THERION injects its behavioral protocol through them — identity directives, 11 unbreakable rules, keyword→domain routing across 67 specialists, 3-tier adaptive memory, on-the-fly agent synthesis, and anti-nerfing directives that prevent corporate hedging.
 
-- Identity and personality directives enforced on every prompt
-- 11 unbreakable operational rules governing every action
-- Master Delegator with keyword→domain routing (67 agents, 12 domains)
-- 3-tier adaptive memory with compression and progressive disclosure
-- On-the-fly agent synthesis for tasks that don't fit existing specialists
-- Anti-nerfing directives that prevent corporate hedging and sandbagging
-
-**The AI cannot ignore these instructions.** They're injected automatically by the editor or platform into every conversation. Domain files load on-demand — only the relevant specialist, never all 12.
+**The AI cannot ignore these instructions.** They're injected automatically by the editor into every conversation. Nothing is hidden. Nothing executes. Open any file and read every word.
 
 Other systems rely on hope: *"maybe the AI will be helpful today."*
 <br>THERION relies on **architecture**: forced compliance on every single prompt.
@@ -688,9 +682,14 @@ Other systems rely on hope: *"maybe the AI will be helpful today."*
 
 ---
 
-<h3 align="center">T H E R I O N &nbsp; P R O T O C O L &nbsp; v 0 . 9</h3>
+<h3 align="center">T H E R I O N &nbsp; — &nbsp; T h e &nbsp; M i n d s e t &nbsp; Y o u r &nbsp; A I &nbsp; I s &nbsp; M i s s i n g</h3>
 <h4 align="center">An EREVUS System &nbsp;·&nbsp; <a href="https://erevus.space">erevus.space</a></h4>
 <p align="center"><strong>✦ &nbsp; WE BUILD WHAT LASTS &nbsp; ✦</strong></p>
+
+<p align="center">
+  Free. Open source. One folder. Read every file before your AI does — full transparency.<br>
+  If it doesn't change how your AI works, delete it. But it will.
+</p>
 
 <p align="center">
   <a href="https://erevus.space"><img src="https://img.shields.io/badge/EREVUS-erevus.space-e4b84f?style=for-the-badge&labelColor=1a1a2e" alt="EREVUS"/></a>&nbsp;
