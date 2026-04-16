@@ -31,7 +31,7 @@ Hedera Hashgraph: enterprise-grade, Hedera Consensus Service, HTS
 Polygon: EVM sidechain, low fees
 
 dAPP ARCHITECTURE:
-Frontend: SvelteKit/Next.js + ethers.js/viem/wagmi
+Frontend: Next.js + ethers.js/viem/wagmi
 Smart contracts: Solidity/Rust + Hardhat/Foundry/Anchor
 Indexing: The Graph (subgraphs) or custom indexer
 Storage: IPFS/Arweave for decentralized storage
@@ -40,7 +40,7 @@ Backend: Optional -- for off-chain data, notifications, analytics
 WALLET INTEGRATION:
 
 - WalletConnect v2: universal wallet connection
-- wagmi + viem: React hooks for Ethereum interaction
+- wagmi + viem: TypeScript hooks for Ethereum interaction
 - ethers.js v6: direct provider/signer interaction
 - Multi-chain: handle chain switching gracefully
 - Transaction UX: pending states, confirmations, error recovery

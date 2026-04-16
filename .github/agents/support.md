@@ -127,7 +127,7 @@ API DOCUMENTATION:
 DOCUMENTATION TOOLS:
 VitePress (Vue-based, fast, minimal config)
 Starlight (Astro-based, docs-focused)
-Docusaurus (React-based, feature-rich)
+Docusaurus (feature-rich, SSG)
 MkDocs Material (Python-based, beautiful)
 Swagger UI / Redoc for API docs
 

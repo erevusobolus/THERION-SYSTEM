@@ -34,7 +34,7 @@ COMPETITOR 1: CLAUDE-MEM
   ├── SQLite + FTS5 full-text search database
   ├── Chroma Vector Database (hybrid semantic + keyword search)
   ├── MCP-based search with 4 streamlined tools
-  ├── Web Viewer UI (React + TypeScript, real-time SSE)
+  ├── Web Viewer UI (TypeScript, real-time SSE)
   ├── "Endless Mode" -- biomimetic memory compression (O(N) vs O(N²))
   ├── Privacy tags for sensitive data handling
   └── mem-search Skill for natural language queries

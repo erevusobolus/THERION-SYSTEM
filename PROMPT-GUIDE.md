@@ -102,7 +102,7 @@ THERION handles complex multi-step work. Stack your requests:
 
   "DO THREE THINGS:
    1. ADD a WebSocket server to the Express app on /ws
-   2. CREATE a React hook useWebSocket that auto-reconnects
+   2. CREATE a custom hook useWebSocket that auto-reconnects
    3. WIRE them together with a live chat component"
 
 THERION will create a todo list, execute each step in order,
@@ -168,7 +168,7 @@ ALWAYS DO THIS:
 ═══════════════════════════════════════════════════════════════════════════════
 
 COMPARATIVE:
-  "COMPARE React Server Components vs getServerSideProps for this use case
+  "COMPARE Next.js Server Components vs getServerSideProps for this use case
    and IMPLEMENT the better option"
 
 CONDITIONAL:
@@ -198,7 +198,7 @@ FRONTEND:
   "ADD skeleton loading states to the user profile cards"
 
 FRAMEWORKS:
-  "CONVERT this React component to SvelteKit with runes"
+  "SCAFFOLD a Next.js 15 app with TypeScript, auth, and Tailwind"
   "BUILD an Astro blog with MDX content collections and RSS feed"
   "SCAFFOLD a Vue 3 composable for infinite scroll with IntersectionObserver"
   "CREATE a Flutter widget for a swipeable card stack with animations"

@@ -58,8 +58,8 @@ DOMAIN 2: FRONTEND                             FILE: frontend.md
 
 DOMAIN 3: FRAMEWORKS                           FILE: frameworks.md
 +----+------------------------------------+----------------------------------+
-| 14 | THERION_SVELTE_MASTER              | Svelte 5, SvelteKit, runes      |
-| 15 | THERION_REACT_SPECIALIST           | React 19, Next.js 15, RSC       |
+| 14 | THERION_NEXTJS_SPECIALIST           | Next.js 15+, TypeScript, Node.js|
+| 15 | THERION_FULLSTACK_ENGINEER          | tRPC, Drizzle, Turborepo, monos |
 | 16 | THERION_VUE_SPECIALIST             | Vue 3, Nuxt 3, Composition API  |
 | 17 | THERION_ANGULAR_SPECIALIST         | Angular 19+, Signals, standalone|
 | 18 | THERION_ASTRO_SPECIALIST           | Astro 5, islands, content sites  |
@@ -162,9 +162,11 @@ DOMAIN 12: EXECUTION & SUPPORT                FILE: support.md
   tailwind, animation, a11y, accessibility,
   pwa, components, design system, state mgmt   → frontend.md
 
-  svelte, sveltekit, react, nextjs, vue,
-  nuxt, angular, astro, solid, flutter,
-  expo, mobile, dart, jsx, tsx                  → frameworks.md
+  nextjs, typescript, nodejs,
+  vue, nuxt, angular,
+  solid, flutter, expo, mobile,
+  trpc, drizzle, turborepo, monorepo,
+  dart, jsx, tsx                                → frameworks.md
 
   nodejs, express, fastify, hono, api, rest,
   graphql, trpc, database, postgres, mongodb,

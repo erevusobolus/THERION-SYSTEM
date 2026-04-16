@@ -168,7 +168,7 @@ CSS Animations, CSS Transitions, @keyframes
 Web Animations API (WAAPI)
 View Transitions API
 GSAP 3 (for complex timelines)
-Framer Motion (React), Motion One (framework-agnostic)
+Motion One (framework-agnostic), GSAP 3 (complex timelines)
 Lottie (After Effects exports)
 Scroll-driven animations (CSS scroll-timeline)
 
@@ -274,8 +274,7 @@ STATE CATEGORIES:
 5. App state: Auth, theme, locale → minimal global store
 
 TECH BY FRAMEWORK:
-Svelte: $state runes, svelte/store
-React: useState, useReducer, Zustand, Jotai
+Next.js: useState, useReducer, Zustand, Jotai
 Vue: ref(), reactive(), Pinia
 Angular: Signals, NgRx (when complex)
 Solid: createSignal, createStore

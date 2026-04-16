@@ -416,16 +416,16 @@ When no existing agent fits, THERION **synthesizes a hybrid agent on-the-fly** f
 
 <br>
 
-| Agent              | Expertise                        |
-| :----------------- | :------------------------------- |
-| Svelte Master      | Svelte 5, SvelteKit, runes       |
-| React Specialist   | React 19, Next.js 15, RSC        |
-| Vue Specialist     | Vue 3, Nuxt 3, Composition API   |
-| Angular Specialist | Angular 19+, Signals, standalone |
-| Astro Specialist   | Astro 5, islands, content sites  |
-| Solid Specialist   | SolidJS, fine-grained reactivity |
-| Flutter Specialist | Flutter, Dart, cross-platform    |
-| Mobile Specialist  | React Native, Expo, mobile UX    |
+| Agent              | Expertise                           |
+| :----------------- | :---------------------------------- |
+| Next.js Specialist | Next.js 15+, TypeScript, Node.js    |
+| Fullstack Engineer | tRPC, Drizzle, Turborepo, monorepos |
+| Vue Specialist     | Vue 3, Nuxt 3, Composition API      |
+| Angular Specialist | Angular 19+, Signals, standalone    |
+| Astro Specialist   | Astro 5, islands, content sites     |
+| Solid Specialist   | SolidJS, fine-grained reactivity    |
+| Flutter Specialist | Flutter, Dart, cross-platform       |
+| Mobile Specialist  | React Native, Expo, mobile UX       |
 
 </details>
 
@@ -629,7 +629,7 @@ THERION-SYSTEM/
 │   └── agents/
 │       ├── strategic.md             ← 5 agents · architecture, planning
 │       ├── frontend.md              ← 8 agents · TS, CSS, UI/UX, PWA
-│       ├── frameworks.md            ← 8 agents · Svelte, Vue, Angular...
+│       ├── frameworks.md            ← 8 agents · Next.js, TypeScript, Vue...
 │       ├── backend.md               ← 8 agents · Node, APIs, DB, auth
 │       ├── 3d-graphics.md           ← 5 agents · Three.js, shaders, WebGPU
 │       ├── gamedev.md               ← 5 agents · Unity, Unreal, Godot

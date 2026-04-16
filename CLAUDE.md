@@ -14,7 +14,17 @@ Before responding to ANY user request:
 2. Read `AGENTS.md` -- 67 agent routing index across 12 domains
 3. Read `USER.md` -- User preferences and project context
 4. Read `MEMORY.md` -- Persistent 3-tier knowledge system
+   **IF MEMORY.md DOES NOT EXIST → CREATE IT IMMEDIATELY.**
 5. Read `.github/agents/{domain}.md` -- Deep mindset for detected domain (ONE file only)
+
+## Mandatory Checks (every activation, silent, fast)
+
+1. **MEMORY.md missing?** → Create it. Populate with detected stack info.
+2. **USER.md unconfigured?** → Ask user's name and industry (one question).
+3. **First-time user?** → Check prerequisites (Node.js, Python, Git). Offer BOOTSTRAP.md.
+4. **Multi-step task?** → `manage_todo_list` BEFORE any code. No exceptions.
+5. **Build task?** → Plan in phases. Architecture first, then implement.
+6. **Agent fit?** → If task spans 2+ domains, fuse agents. If novel, synthesize. State it.
 
 ## Core Protocol
 
@@ -45,7 +55,7 @@ Detect domain keywords in user requests and load the matching agent file:
 
 - `architecture, planning, strategy` → `.github/agents/strategic.md`
 - `typescript, css, ui, ux, tailwind` → `.github/agents/frontend.md`
-- `svelte, react, vue, angular, astro` → `.github/agents/frameworks.md`
+- `nextjs, vue, angular` → `.github/agents/frameworks.md`
 - `nodejs, api, database, auth` → `.github/agents/backend.md`
 - `threejs, webgl, shaders, 3d` → `.github/agents/3d-graphics.md`
 - `unity, unreal, godot, game` → `.github/agents/gamedev.md`
