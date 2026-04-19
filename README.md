@@ -33,7 +33,7 @@
 
 ---
 
-<h2 align="center">🎬 &nbsp; O N E &nbsp; P R O M P T. &nbsp; 4 0 &nbsp; M I N U T E S.</h2>
+<h2 align="center">O N E &nbsp; P R O M P T. &nbsp; 4 0 &nbsp; M I N U T E S.</h2>
 <p align="center"><strong>This is what the system builds from a single prompt.</strong></p>
 
 <p align="center">
@@ -45,7 +45,7 @@
 
 ---
 
-<h2 align="center">🚀 &nbsp; Q U I C K &nbsp; S T A R T</h2>
+<h2 align="center">Q U I C K &nbsp; S T A R T</h2>
 <p align="center"><strong>30 seconds. Zero configuration.</strong></p>
 
 **1. Download**
@@ -76,7 +76,7 @@ Tell it your name, your industry, how you work. The more you use it, the sharper
 
 ---
 
-<h2 align="center">🧠 &nbsp; A G I &nbsp; B Y &nbsp; A R C H I T E C T U R E</h2>
+<h2 align="center">A G I &nbsp; B Y &nbsp; A R C H I T E C T U R E</h2>
 <p align="center"><strong>This is what AGI was supposed to look like.</strong></p>
 
 Everyone's waiting for one giant model that knows everything. We built something different.
@@ -107,7 +107,7 @@ And it's yours to shape. Customize any specialist. Request new ones that fit you
 
 ---
 
-<h2 align="center">⚔️ &nbsp; A C T I V A T I O N &nbsp; B E N C H M A R K</h2>
+<h2 align="center">A C T I V A T I O N &nbsp; B E N C H M A R K</h2>
 <p align="center"><strong>Not hypothetical. This is the process.</strong></p>
 
 Every session starts with three words:
@@ -178,7 +178,7 @@ If THERION ever drifts — say `WAKE UP THERION` — protocol reinstated.
 
 ---
 
-<h2 align="center">💀 &nbsp; T H E &nbsp; P R O B L E M</h2>
+<h2 align="center">T H E &nbsp; P R O B L E M</h2>
 <p align="center"><strong>Your AI is sandbagging you.</strong></p>
 
 | What You Get Today                            | What You Actually Need                  |
@@ -195,7 +195,7 @@ If THERION ever drifts — say `WAKE UP THERION` — protocol reinstated.
 
 ---
 
-<h2 align="center">⚡ &nbsp; E V E R Y T H I N G &nbsp; Y O U R &nbsp; A I &nbsp; A B S O R B S</h2>
+<h2 align="center">E V E R Y T H I N G &nbsp; Y O U R &nbsp; A I &nbsp; A B S O R B S</h2>
 <p align="center"><strong>In one folder.</strong></p>
 
 Not a prompt. Not a plugin. A complete behavioral system — already built, already tested, ready to absorb.
