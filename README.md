@@ -208,7 +208,7 @@ Not a prompt. Not a plugin. A complete behavioral system — already built, alre
 
 ---
 
-<h2 align="center">💰 &nbsp; T H E &nbsp; B U S I N E S S &nbsp; C A S E</h2>
+<h2 align="center">T H E &nbsp; B U S I N E S S &nbsp; C A S E</h2>
 <p align="center"><strong>Up to 10× more effective use of the AI subscription you already pay for.</strong></p>
 
 The 11 Iron Laws eliminate the behaviors that waste your tokens — verbose preambles, permission loops, fragment follow-ups, clarification rounds. The result:
@@ -269,7 +269,7 @@ The 11 Iron Laws eliminate the behaviors that waste your tokens — verbose prea
 
 ---
 
-<h2 align="center">� &nbsp; F O U R &nbsp; F I L E S</h2>
+<h2 align="center">F O U R &nbsp; F I L E S</h2>
 <p align="center"><strong>A complete behavioral system.</strong></p>
 
 Every file is plain text. Open them, read them, change them. Nothing is hidden. Nothing executes.
@@ -283,7 +283,7 @@ Every file is plain text. Open them, read them, change them. Nothing is hidden. 
 
 ---
 
-<h2 align="center">� &nbsp; A R C H I T E C T U R E</h2>
+<h2 align="center">A R C H I T E C T U R E</h2>
 <p align="center"><strong>Not magic. Engineering.</strong></p>
 
 <details>
@@ -360,7 +360,7 @@ All entries compressed to single-line facts: `LESSON:` · `PATTERN:` · `FACT:` 
 
 ---
 
-<h2 align="center">⚖️ &nbsp; T H E &nbsp; 1 1 &nbsp; I R O N &nbsp; L A W S</h2>
+<h2 align="center">T H E &nbsp; 1 1 &nbsp; I R O N &nbsp; L A W S</h2>
 <p align="center"><strong>The rules your AI should've had from day one.</strong></p>
 
 Finish what you start. Don't ask permission for obvious things. Remember what you've been told. Never give half an answer. These aren't suggestions — they're hardcoded behavioral laws that your AI follows every single time.
@@ -381,7 +381,7 @@ Finish what you start. Don't ask permission for obvious things. Remember what yo
 
 ---
 
-<h2 align="center">🗡️ &nbsp; 6 7 &nbsp; A G E N T S &nbsp; × &nbsp; 1 2 &nbsp; D O M A I N S</h2>
+<h2 align="center">6 7 &nbsp; A G E N T S &nbsp; × &nbsp; 1 2 &nbsp; D O M A I N S</h2>
 <p align="center"><strong>+ unlimited on-the-fly hybrids for novel tasks</strong></p>
 
 THERION doesn't use one generic AI personality. It has **67 specialist agents** across **12 domains** that activate based on what you're building. Agent mindsets load **on-demand** — only the relevant domain file is read per task, never all 12.
@@ -583,7 +583,7 @@ The **Master Delegator** detects keywords in your prompt and routes automaticall
 
 ---
 
-<h2 align="center"> &nbsp; C O M P A T I B I L I T Y</h2>
+<h2 align="center">C O M P A T I B I L I T Y</h2>
 
 ### Models — Any Capable LLM
 
@@ -611,7 +611,7 @@ Architecture-driven, not model-locked. Start with Claude Sonnet 4 for the best b
 
 ---
 
-<h2 align="center">🎯 &nbsp; P R O M P T I N G</h2>
+<h2 align="center">P R O M P T I N G</h2>
 <p align="center"><strong>Talk like an operator. Lead with a verb. Name the target.</strong></p>
 
 ```
@@ -631,7 +631,7 @@ See [PROMPT-GUIDE.md](PROMPT-GUIDE.md) for the complete operator's manual with p
 
 ---
 
-<h2 align="center">📦 &nbsp; W H A T ' S &nbsp; I N &nbsp; T H E &nbsp; B O X</h2>
+<h2 align="center">W H A T ' S &nbsp; I N &nbsp; T H E &nbsp; B O X</h2>
 
 ```
 THERION-SYSTEM/
@@ -670,7 +670,7 @@ THERION-SYSTEM/
 
 ---
 
-<h2 align="center">🔬 &nbsp; W H Y &nbsp; T H I S &nbsp; W O R K S</h2>
+<h2 align="center">W H Y &nbsp; T H I S &nbsp; W O R K S</h2>
 <p align="center"><strong>Full transparency. Read every file before your AI does.</strong></p>
 
 AI coding assistants read instruction files **before every response**:
