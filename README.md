@@ -33,6 +33,17 @@
 
 ---
 
+<h2 align="center">🎬 &nbsp; O N E &nbsp; P R O M P T. &nbsp; 4 0 &nbsp; M I N U T E S.</h2>
+<p align="center"><strong>This is what the system builds from a single prompt.</strong></p>
+
+<p align="center">
+  <video src="theriondoom.mp4" width="720" controls>
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+---
+
 <h2 align="center">🚀 &nbsp; Q U I C K &nbsp; S T A R T</h2>
 <p align="center"><strong>30 seconds. Zero configuration.</strong></p>
 
