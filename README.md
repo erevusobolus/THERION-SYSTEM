@@ -37,10 +37,11 @@
 <p align="center"><strong>This is what the system builds from a single prompt.</strong></p>
 
 <p align="center">
-  <video src="theriondoom.mp4" width="720" controls>
-    Your browser does not support the video tag.
-  </video>
+  <a href="https://www.youtube.com/watch?v=7si44dALFSM">
+    <img src="https://img.youtube.com/vi/7si44dALFSM/maxresdefault.jpg" alt="AI coding agent builds a full 3D game in 40 minutes from one prompt" width="720">
+  </a>
 </p>
+<p align="center"><em>▶ Click to watch — a full 3D game built from a single prompt in 40 minutes</em></p>
 
 ---
 
